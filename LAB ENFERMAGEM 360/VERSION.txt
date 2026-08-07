@@ -1,0 +1,4 @@
+LABORATÓRIO VIRTUAL DE ENFERMAGEM
+Versão: 0.1.0
+Marco: M0 — Fundação Modular
+Data: 07/08/2026
