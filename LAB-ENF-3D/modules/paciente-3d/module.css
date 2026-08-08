@@ -1,0 +1,9 @@
+.patient-lab{display:grid;grid-template-columns:minmax(0,1fr) 360px;min-height:inherit;background:#07131f}
+.patient-stage{position:relative;min-height:620px;background:radial-gradient(circle at center,rgba(116,192,252,.07),transparent 24rem),#07131f}
+.patient-stage .three-host{position:absolute;inset:0}.patient-badge{position:absolute;z-index:4;left:1rem;top:1rem;padding:.45rem .65rem;border:1px solid var(--border);border-radius:999px;background:rgba(5,16,28,.82);font-size:.72rem}
+.patient-panel{padding:1rem;border-left:1px solid var(--border);background:rgba(9,24,38,.96);overflow:auto}
+.patient-info{min-height:135px;padding:.85rem;border:1px solid var(--border);border-radius:.85rem;background:rgba(255,255,255,.025)}
+.patient-tools{display:grid;grid-template-columns:1fr 1fr;gap:.4rem;margin:.75rem 0}.patient-tool{min-height:42px;padding:.55rem;border:1px solid var(--border);border-radius:.72rem;background:rgba(255,255,255,.035);color:var(--text);cursor:pointer}
+.patient-list{display:grid;gap:.35rem}.patient-row{padding:.48rem .55rem;border:1px solid var(--border);border-radius:.65rem;background:rgba(255,255,255,.02);font-size:.76rem}
+.patient-note{margin-top:.8rem;padding:.7rem;border-left:3px solid var(--accent2);background:rgba(116,192,252,.05);color:var(--muted);font-size:.75rem;line-height:1.5}
+@media(max-width:900px){.patient-lab{grid-template-columns:1fr}.patient-stage{min-height:490px}.patient-panel{border-left:0;border-top:1px solid var(--border)}}

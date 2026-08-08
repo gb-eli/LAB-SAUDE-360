@@ -1,0 +1,34 @@
+{
+  "structures": [
+    {
+      "mesh": "eyeball",
+      "name": "Globo ocular",
+      "description": "Representação esquemática do globo ocular."
+    },
+    {
+      "mesh": "iris",
+      "name": "Íris",
+      "description": "Estrutura anterior representada no olho didático."
+    },
+    {
+      "mesh": "lens",
+      "name": "Cristalino — representação",
+      "description": "Elemento transparente aproximado do olho."
+    },
+    {
+      "mesh": "outer_ear",
+      "name": "Orelha externa",
+      "description": "Representação simplificada da orelha externa."
+    },
+    {
+      "mesh": "ear_canal",
+      "name": "Canal auditivo",
+      "description": "Canal representado de forma esquemática."
+    },
+    {
+      "mesh": "cochlea_proxy",
+      "name": "Cóclea — representação",
+      "description": "Estrutura G3 representada de forma didática e simplificada."
+    }
+  ]
+}

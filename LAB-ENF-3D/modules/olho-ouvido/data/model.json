@@ -1,0 +1,10 @@
+{
+  "id": "olho-ouvido",
+  "generation": "G3",
+  "variants": {
+    "eco": "./assets/models/eye-ear-g3/eye-ear-g3-low.glb",
+    "medium": "./assets/models/eye-ear-g3/eye-ear-g3-medium.glb",
+    "high": "./assets/models/eye-ear-g3/eye-ear-g3-high.glb",
+    "ultra": "./assets/models/eye-ear-g3/eye-ear-g3-high.glb"
+  }
+}
