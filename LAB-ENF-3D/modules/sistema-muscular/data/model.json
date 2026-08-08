@@ -1,0 +1,10 @@
+{
+  "id": "muscular",
+  "variants": {
+    "eco": "./assets/models/muscular-g3/muscular-g3-low.glb",
+    "medium": "./assets/models/muscular-g3/muscular-g3-medium.glb",
+    "high": "./assets/models/muscular-g3/muscular-g3-high.glb",
+    "ultra": "./assets/models/muscular-g3/muscular-g3-high.glb"
+  },
+  "generation": "G3"
+}

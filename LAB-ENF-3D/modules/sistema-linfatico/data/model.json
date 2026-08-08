@@ -1,0 +1,10 @@
+{
+  "id": "sistema-linfatico",
+  "generation": "G3",
+  "variants": {
+    "eco": "./assets/models/lymphatic-g3/lymphatic-g3-low.glb",
+    "medium": "./assets/models/lymphatic-g3/lymphatic-g3-medium.glb",
+    "high": "./assets/models/lymphatic-g3/lymphatic-g3-high.glb",
+    "ultra": "./assets/models/lymphatic-g3/lymphatic-g3-high.glb"
+  }
+}

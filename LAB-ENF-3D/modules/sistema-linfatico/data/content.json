@@ -1,0 +1,29 @@
+{
+  "structures": [
+    {
+      "mesh": "thoracic_duct_proxy",
+      "name": "Ducto torácico — representação",
+      "description": "Eixo linfático central simplificado."
+    },
+    {
+      "mesh": "cervical_node_1",
+      "name": "Linfonodos cervicais",
+      "description": "Exemplo de cadeia de linfonodos na região cervical."
+    },
+    {
+      "mesh": "axillary_left_node_1",
+      "name": "Linfonodos axilares",
+      "description": "Exemplo de cadeia linfonodal axilar."
+    },
+    {
+      "mesh": "inguinal_left_node_1",
+      "name": "Linfonodos inguinais",
+      "description": "Exemplo de cadeia linfonodal inguinal."
+    },
+    {
+      "mesh": "spleen",
+      "name": "Baço",
+      "description": "Representação didática do baço."
+    }
+  ]
+}

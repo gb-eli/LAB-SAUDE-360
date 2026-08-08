@@ -1,0 +1,49 @@
+{
+  "structures": [
+    {
+      "mesh": "left_pectoralis",
+      "name": "Peitoral esquerdo",
+      "description": "Massa muscular anterior representada de forma simplificada."
+    },
+    {
+      "mesh": "left_deltoid",
+      "name": "Deltoide esquerdo",
+      "description": "Representação esquemática da região do ombro."
+    },
+    {
+      "mesh": "left_biceps",
+      "name": "Bíceps esquerdo",
+      "description": "Grupo muscular anterior do braço representado didaticamente."
+    },
+    {
+      "mesh": "left_quadriceps",
+      "name": "Quadríceps esquerdo",
+      "description": "Grupo muscular anterior da coxa em representação simplificada."
+    },
+    {
+      "mesh": "left_calf",
+      "name": "Panturrilha esquerda",
+      "description": "Representação visual dos músculos posteriores da perna."
+    },
+    {
+      "mesh": "rectus_abdominis_proxy",
+      "name": "Região abdominal",
+      "description": "Marcador didático da musculatura anterior do abdome."
+    },
+    {
+      "mesh": "left_triceps_proxy",
+      "name": "Tríceps esquerdo — representação",
+      "description": "Grupo muscular posterior do braço."
+    },
+    {
+      "mesh": "left_achilles_tendon_proxy",
+      "name": "Tendão calcâneo — representação",
+      "description": "Referência tendínea G3."
+    },
+    {
+      "mesh": "left_pectoral_fascia_proxy",
+      "name": "Fáscia peitoral — representação",
+      "description": "Overlay superficial disponível no HIGH."
+    }
+  ]
+}
