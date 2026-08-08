@@ -1,0 +1,37 @@
+{
+  "generatedForVersion": "0.34.0",
+  "categories": [
+    {
+      "id": "structure",
+      "label": "Estrutura",
+      "description": "Identificação direta de uma estrutura anatômica.",
+      "exportColor": "#63e6be",
+      "icon": "●",
+      "configurable": true
+    },
+    {
+      "id": "attention",
+      "label": "Atenção",
+      "description": "Ponto que merece atenção durante a explicação.",
+      "exportColor": "#ffd166",
+      "icon": "⚑",
+      "configurable": true
+    },
+    {
+      "id": "relation",
+      "label": "Relação",
+      "description": "Relação anatômica ou funcional entre elementos.",
+      "exportColor": "#74c0fc",
+      "icon": "↔",
+      "configurable": true
+    },
+    {
+      "id": "question",
+      "label": "Dúvida",
+      "description": "Questão ou ponto para discussão durante a exploração.",
+      "exportColor": "#c0a7ff",
+      "icon": "?",
+      "configurable": true
+    }
+  ]
+}

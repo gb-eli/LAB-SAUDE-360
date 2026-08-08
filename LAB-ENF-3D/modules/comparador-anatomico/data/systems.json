@@ -1,0 +1,1089 @@
+{
+  "generatedForVersion": "0.29.0",
+  "layoutModes": [
+    "side-by-side",
+    "overlay"
+  ],
+  "systems": {
+    "skeleton": {
+      "id": "skeleton",
+      "label": "Esqueleto",
+      "materialSystem": "skeleton",
+      "variants": {
+        "eco": "./assets/models/skeleton-g3/skeleton-g3-low.glb",
+        "medium": "./assets/models/skeleton-g3/skeleton-g3-medium.glb",
+        "high": "./assets/models/skeleton-g3/skeleton-g3-high.glb",
+        "ultra": "./assets/models/skeleton-g3/skeleton-g3-high.glb"
+      },
+      "structures": [
+        {
+          "mesh": "skull",
+          "name": "Crânio",
+          "description": "Estrutura óssea da cabeça."
+        },
+        {
+          "mesh": "spine",
+          "name": "Coluna vertebral",
+          "description": "Eixo ósseo central do tronco."
+        },
+        {
+          "mesh": "sternum",
+          "name": "Esterno",
+          "description": "Osso anterior do tórax."
+        },
+        {
+          "mesh": "rib_cage_cluster",
+          "name": "Grade costal — conjunto",
+          "description": "Conjunto de costelas agrupado para otimização visual."
+        },
+        {
+          "mesh": "left_clavicle",
+          "name": "Clavícula esquerda",
+          "description": "Referência óssea anterior da cintura escapular."
+        },
+        {
+          "mesh": "right_clavicle",
+          "name": "Clavícula direita",
+          "description": "Referência óssea anterior da cintura escapular."
+        },
+        {
+          "mesh": "left_scapula",
+          "name": "Escápula esquerda",
+          "description": "Referência óssea posterior da cintura escapular."
+        },
+        {
+          "mesh": "right_scapula",
+          "name": "Escápula direita",
+          "description": "Referência óssea posterior da cintura escapular."
+        },
+        {
+          "mesh": "left_humerus",
+          "name": "Úmero esquerdo",
+          "description": "Osso longo do braço esquerdo."
+        },
+        {
+          "mesh": "right_humerus",
+          "name": "Úmero direito",
+          "description": "Osso longo do braço direito."
+        },
+        {
+          "mesh": "left_radius",
+          "name": "Rádio esquerdo",
+          "description": "Osso do antebraço esquerdo."
+        },
+        {
+          "mesh": "right_radius",
+          "name": "Rádio direito",
+          "description": "Osso do antebraço direito."
+        },
+        {
+          "mesh": "left_ulna",
+          "name": "Ulna esquerda",
+          "description": "Osso do antebraço esquerdo."
+        },
+        {
+          "mesh": "right_ulna",
+          "name": "Ulna direita",
+          "description": "Osso do antebraço direito."
+        },
+        {
+          "mesh": "pelvis_left",
+          "name": "Pelve esquerda",
+          "description": "Referência óssea pélvica esquerda."
+        },
+        {
+          "mesh": "pelvis_right",
+          "name": "Pelve direita",
+          "description": "Referência óssea pélvica direita."
+        },
+        {
+          "mesh": "left_femur",
+          "name": "Fêmur esquerdo",
+          "description": "Osso longo da coxa esquerda."
+        },
+        {
+          "mesh": "right_femur",
+          "name": "Fêmur direito",
+          "description": "Osso longo da coxa direita."
+        },
+        {
+          "mesh": "left_patella",
+          "name": "Patela esquerda",
+          "description": "Referência óssea anterior do joelho esquerdo."
+        },
+        {
+          "mesh": "right_patella",
+          "name": "Patela direita",
+          "description": "Referência óssea anterior do joelho direito."
+        },
+        {
+          "mesh": "left_tibia",
+          "name": "Tíbia esquerda",
+          "description": "Osso da perna esquerda."
+        },
+        {
+          "mesh": "right_tibia",
+          "name": "Tíbia direita",
+          "description": "Osso da perna direita."
+        },
+        {
+          "mesh": "left_fibula",
+          "name": "Fíbula esquerda",
+          "description": "Osso lateral da perna esquerda."
+        },
+        {
+          "mesh": "right_fibula",
+          "name": "Fíbula direita",
+          "description": "Osso lateral da perna direita."
+        }
+      ],
+      "moduleId": "esqueleto"
+    },
+    "cardiovascular": {
+      "id": "cardiovascular",
+      "label": "Cardiovascular",
+      "materialSystem": "cardiovascular",
+      "variants": {
+        "eco": "./assets/models/cardiovascular-g3/cardiovascular-g3-low.glb",
+        "medium": "./assets/models/cardiovascular-g3/cardiovascular-g3-medium.glb",
+        "high": "./assets/models/cardiovascular-g3/cardiovascular-g3-high.glb",
+        "ultra": "./assets/models/cardiovascular-g3/cardiovascular-g3-high.glb"
+      },
+      "structures": [
+        {
+          "mesh": "left_ventricle",
+          "name": "Ventrículo esquerdo",
+          "description": "Câmara cardíaca representada de forma esquemática."
+        },
+        {
+          "mesh": "right_ventricle",
+          "name": "Ventrículo direito",
+          "description": "Câmara cardíaca representada de forma esquemática."
+        },
+        {
+          "mesh": "left_atrium",
+          "name": "Átrio esquerdo",
+          "description": "Câmara superior esquerda representada de forma didática."
+        },
+        {
+          "mesh": "right_atrium",
+          "name": "Átrio direito",
+          "description": "Câmara superior direita representada de forma didática."
+        },
+        {
+          "mesh": "cardiac_septum_proxy",
+          "name": "Septo cardíaco — representação",
+          "description": "Referência interna simplificada entre câmaras ventriculares."
+        },
+        {
+          "mesh": "aorta",
+          "name": "Aorta",
+          "description": "Grande vaso arterial sistêmico representado no modelo."
+        },
+        {
+          "mesh": "pulmonary_artery",
+          "name": "Artéria pulmonar",
+          "description": "Grande vaso da circulação pulmonar representado de forma esquemática."
+        },
+        {
+          "mesh": "left_pulmonary_vein",
+          "name": "Veia pulmonar esquerda",
+          "description": "Referência venosa pulmonar esquerda."
+        },
+        {
+          "mesh": "right_pulmonary_vein",
+          "name": "Veia pulmonar direita",
+          "description": "Referência venosa pulmonar direita."
+        },
+        {
+          "mesh": "superior_vena_cava",
+          "name": "Veia cava superior",
+          "description": "Grande vaso venoso de retorno superior representado no modelo."
+        },
+        {
+          "mesh": "inferior_vena_cava",
+          "name": "Veia cava inferior",
+          "description": "Grande vaso venoso de retorno inferior representado no modelo."
+        },
+        {
+          "mesh": "left_coronary_artery_proxy",
+          "name": "Coronária esquerda — representação",
+          "description": "Referência arterial superficial didática."
+        },
+        {
+          "mesh": "right_coronary_artery_proxy",
+          "name": "Coronária direita — representação",
+          "description": "Referência arterial superficial didática."
+        }
+      ],
+      "moduleId": "sistema-cardiovascular"
+    },
+    "respiratory": {
+      "id": "respiratory",
+      "label": "Respiratório",
+      "materialSystem": "respiratory",
+      "variants": {
+        "eco": "./assets/models/respiratory-g3/respiratory-g3-low.glb",
+        "medium": "./assets/models/respiratory-g3/respiratory-g3-medium.glb",
+        "high": "./assets/models/respiratory-g3/respiratory-g3-high.glb",
+        "ultra": "./assets/models/respiratory-g3/respiratory-g3-high.glb"
+      },
+      "structures": [
+        {
+          "mesh": "trachea",
+          "name": "Traqueia",
+          "description": "Via aérea que conduz o ar em direção aos brônquios."
+        },
+        {
+          "mesh": "left_main_bronchus",
+          "name": "Brônquio principal esquerdo",
+          "description": "Ramo principal que conduz o ar ao pulmão esquerdo."
+        },
+        {
+          "mesh": "right_main_bronchus",
+          "name": "Brônquio principal direito",
+          "description": "Ramo principal que conduz o ar ao pulmão direito."
+        },
+        {
+          "mesh": "left_lung",
+          "name": "Pulmão esquerdo",
+          "description": "Representação didática do pulmão esquerdo."
+        },
+        {
+          "mesh": "right_lung",
+          "name": "Pulmão direito",
+          "description": "Representação didática do pulmão direito."
+        },
+        {
+          "mesh": "diaphragm",
+          "name": "Diafragma",
+          "description": "Estrutura muscular essencial à mecânica ventilatória, representada aqui de forma simplificada."
+        },
+        {
+          "mesh": "larynx_proxy",
+          "name": "Laringe — representação",
+          "description": "Referência didática simplificada acima da traqueia."
+        },
+        {
+          "mesh": "left_lobar_bronchus_upper",
+          "name": "Brônquio lobar esquerdo — representação",
+          "description": "Ramificação interna acrescentada no perfil G3."
+        },
+        {
+          "mesh": "right_lobar_bronchus_upper",
+          "name": "Brônquio lobar direito superior — representação",
+          "description": "Ramificação interna acrescentada no perfil G3."
+        },
+        {
+          "mesh": "right_alveolar_cluster_proxy_1",
+          "name": "Conjunto alveolar — representação",
+          "description": "Marcador distal de alvéolos disponível no perfil G3 HIGH."
+        }
+      ],
+      "moduleId": "respiratorio"
+    },
+    "urinary": {
+      "id": "urinary",
+      "label": "Urinário",
+      "materialSystem": "urinary",
+      "variants": {
+        "eco": "./assets/models/urinary-g3/urinary-g3-low.glb",
+        "medium": "./assets/models/urinary-g3/urinary-g3-medium.glb",
+        "high": "./assets/models/urinary-g3/urinary-g3-high.glb",
+        "ultra": "./assets/models/urinary-g3/urinary-g3-high.glb"
+      },
+      "structures": [
+        {
+          "mesh": "left_kidney",
+          "name": "Rim esquerdo",
+          "description": "Representação didática do rim esquerdo."
+        },
+        {
+          "mesh": "right_kidney",
+          "name": "Rim direito",
+          "description": "Representação didática do rim direito."
+        },
+        {
+          "mesh": "left_ureter",
+          "name": "Ureter esquerdo",
+          "description": "Conexão visual entre rim e bexiga."
+        },
+        {
+          "mesh": "right_ureter",
+          "name": "Ureter direito",
+          "description": "Conexão visual entre rim e bexiga."
+        },
+        {
+          "mesh": "bladder",
+          "name": "Bexiga",
+          "description": "Representação esquemática da bexiga urinária."
+        },
+        {
+          "mesh": "left_renal_pelvis",
+          "name": "Pelve renal esquerda — representação",
+          "description": "Região coletora interna simplificada."
+        },
+        {
+          "mesh": "left_renal_artery_proxy",
+          "name": "Artéria renal esquerda — representação",
+          "description": "Referência vascular G3."
+        },
+        {
+          "mesh": "left_renal_vein_proxy",
+          "name": "Veia renal esquerda — representação",
+          "description": "Referência vascular G3."
+        },
+        {
+          "mesh": "left_calyx_proxy_1",
+          "name": "Cálice renal — representação",
+          "description": "Marcador interno disponível no HIGH."
+        }
+      ],
+      "moduleId": "sistema-urinario"
+    },
+    "digestive": {
+      "id": "digestive",
+      "label": "Digestório",
+      "materialSystem": "digestive",
+      "variants": {
+        "eco": "./assets/models/digestive-g3/digestive-g3-low.glb",
+        "medium": "./assets/models/digestive-g3/digestive-g3-medium.glb",
+        "high": "./assets/models/digestive-g3/digestive-g3-high.glb",
+        "ultra": "./assets/models/digestive-g3/digestive-g3-high.glb"
+      },
+      "structures": [
+        {
+          "mesh": "esophagus",
+          "name": "Esôfago",
+          "description": "Via representada entre região superior e estômago."
+        },
+        {
+          "mesh": "stomach",
+          "name": "Estômago",
+          "description": "Representação esquemática do estômago."
+        },
+        {
+          "mesh": "liver",
+          "name": "Fígado",
+          "description": "Representação didática do fígado."
+        },
+        {
+          "mesh": "ascending_colon",
+          "name": "Cólon ascendente",
+          "description": "Segmento representado do intestino grosso."
+        },
+        {
+          "mesh": "transverse_colon",
+          "name": "Cólon transverso",
+          "description": "Segmento horizontal representado do intestino grosso."
+        },
+        {
+          "mesh": "pancreas",
+          "name": "Pâncreas",
+          "description": "Representação didática do pâncreas."
+        },
+        {
+          "mesh": "gallbladder_proxy",
+          "name": "Vesícula biliar — representação",
+          "description": "Referência didática junto ao fígado."
+        },
+        {
+          "mesh": "duodenum_proxy",
+          "name": "Duodeno — representação",
+          "description": "Primeiro segmento intestinal representado."
+        },
+        {
+          "mesh": "sigmoid_colon_proxy",
+          "name": "Cólon sigmoide — representação",
+          "description": "Segmento distal simplificado."
+        },
+        {
+          "mesh": "appendix_proxy",
+          "name": "Apêndice — representação",
+          "description": "Marcador disponível no HIGH."
+        }
+      ],
+      "moduleId": "sistema-digestorio"
+    },
+    "nervous": {
+      "id": "nervous",
+      "label": "Nervoso",
+      "materialSystem": "nervous",
+      "variants": {
+        "eco": "./assets/models/nervous-g3/nervous-g3-low.glb",
+        "medium": "./assets/models/nervous-g3/nervous-g3-medium.glb",
+        "high": "./assets/models/nervous-g3/nervous-g3-high.glb",
+        "ultra": "./assets/models/nervous-g3/nervous-g3-high.glb"
+      },
+      "structures": [
+        {
+          "mesh": "cerebellum",
+          "name": "Cerebelo",
+          "description": "Estrutura representada para orientação espacial."
+        },
+        {
+          "mesh": "spinal_cord",
+          "name": "Medula espinal",
+          "description": "Eixo central representado do sistema nervoso."
+        },
+        {
+          "mesh": "left_brachial_nerve",
+          "name": "Nervo periférico superior",
+          "description": "Ramo periférico visual no membro superior."
+        },
+        {
+          "mesh": "left_sciatic_nerve",
+          "name": "Nervo periférico inferior",
+          "description": "Ramo periférico visual no membro inferior."
+        },
+        {
+          "mesh": "left_cerebral_hemisphere",
+          "name": "Hemisfério cerebral esquerdo",
+          "description": "Representação separada para comparação visual."
+        },
+        {
+          "mesh": "right_cerebral_hemisphere",
+          "name": "Hemisfério cerebral direito",
+          "description": "Representação separada para comparação visual."
+        },
+        {
+          "mesh": "brainstem_proxy",
+          "name": "Tronco encefálico — representação",
+          "description": "Eixo entre encéfalo e medula."
+        },
+        {
+          "mesh": "left_frontal_lobe_proxy",
+          "name": "Lobo frontal — representação",
+          "description": "Marcador regional disponível no HIGH."
+        }
+      ],
+      "moduleId": "sistema-nervoso"
+    },
+    "endocrine": {
+      "id": "endocrine",
+      "label": "Sistema Endócrino",
+      "materialSystem": "endocrine",
+      "variants": {
+        "eco": "./assets/models/endocrine-g3/endocrine-g3-low.glb",
+        "medium": "./assets/models/endocrine-g3/endocrine-g3-medium.glb",
+        "high": "./assets/models/endocrine-g3/endocrine-g3-high.glb",
+        "ultra": "./assets/models/endocrine-g3/endocrine-g3-high.glb"
+      },
+      "structures": [
+        {
+          "mesh": "pituitary_proxy",
+          "name": "Hipófise — representação",
+          "description": "Marcador didático aproximado da hipófise."
+        },
+        {
+          "mesh": "thyroid_left",
+          "name": "Tireoide — lobo esquerdo",
+          "description": "Representação esquemática de um lobo da tireoide."
+        },
+        {
+          "mesh": "left_adrenal",
+          "name": "Adrenal esquerda",
+          "description": "Glândula representada sobre a região renal."
+        },
+        {
+          "mesh": "right_adrenal",
+          "name": "Adrenal direita",
+          "description": "Glândula representada sobre a região renal."
+        },
+        {
+          "mesh": "pancreas_proxy",
+          "name": "Pâncreas — representação",
+          "description": "Marcador visual simplificado no conjunto endócrino."
+        },
+        {
+          "mesh": "thymus_proxy",
+          "name": "Timo — representação",
+          "description": "Estrutura G3 representada de forma didática e simplificada."
+        }
+      ],
+      "moduleId": "sistema-endocrino"
+    },
+    "lymphatic": {
+      "id": "lymphatic",
+      "label": "Sistema Linfático",
+      "materialSystem": "lymphatic",
+      "variants": {
+        "eco": "./assets/models/lymphatic-g3/lymphatic-g3-low.glb",
+        "medium": "./assets/models/lymphatic-g3/lymphatic-g3-medium.glb",
+        "high": "./assets/models/lymphatic-g3/lymphatic-g3-high.glb",
+        "ultra": "./assets/models/lymphatic-g3/lymphatic-g3-high.glb"
+      },
+      "structures": [
+        {
+          "mesh": "thoracic_duct_proxy",
+          "name": "Ducto torácico — representação",
+          "description": "Eixo linfático central simplificado."
+        },
+        {
+          "mesh": "cervical_node_1",
+          "name": "Linfonodos cervicais",
+          "description": "Exemplo de cadeia de linfonodos na região cervical."
+        },
+        {
+          "mesh": "axillary_left_node_1",
+          "name": "Linfonodos axilares",
+          "description": "Exemplo de cadeia linfonodal axilar."
+        },
+        {
+          "mesh": "inguinal_left_node_1",
+          "name": "Linfonodos inguinais",
+          "description": "Exemplo de cadeia linfonodal inguinal."
+        },
+        {
+          "mesh": "spleen",
+          "name": "Baço",
+          "description": "Representação didática do baço."
+        }
+      ],
+      "moduleId": "sistema-linfatico"
+    },
+    "muscular": {
+      "id": "muscular",
+      "label": "Sistema Muscular",
+      "materialSystem": "muscular",
+      "variants": {
+        "eco": "./assets/models/muscular-g3/muscular-g3-low.glb",
+        "medium": "./assets/models/muscular-g3/muscular-g3-medium.glb",
+        "high": "./assets/models/muscular-g3/muscular-g3-high.glb",
+        "ultra": "./assets/models/muscular-g3/muscular-g3-high.glb"
+      },
+      "structures": [
+        {
+          "mesh": "left_pectoralis",
+          "name": "Peitoral esquerdo",
+          "description": "Massa muscular anterior representada de forma simplificada."
+        },
+        {
+          "mesh": "left_deltoid",
+          "name": "Deltoide esquerdo",
+          "description": "Representação esquemática da região do ombro."
+        },
+        {
+          "mesh": "left_biceps",
+          "name": "Bíceps esquerdo",
+          "description": "Grupo muscular anterior do braço representado didaticamente."
+        },
+        {
+          "mesh": "left_quadriceps",
+          "name": "Quadríceps esquerdo",
+          "description": "Grupo muscular anterior da coxa em representação simplificada."
+        },
+        {
+          "mesh": "left_calf",
+          "name": "Panturrilha esquerda",
+          "description": "Representação visual dos músculos posteriores da perna."
+        },
+        {
+          "mesh": "rectus_abdominis_proxy",
+          "name": "Região abdominal",
+          "description": "Marcador didático da musculatura anterior do abdome."
+        },
+        {
+          "mesh": "left_triceps_proxy",
+          "name": "Tríceps esquerdo — representação",
+          "description": "Grupo muscular posterior do braço."
+        },
+        {
+          "mesh": "left_achilles_tendon_proxy",
+          "name": "Tendão calcâneo — representação",
+          "description": "Referência tendínea G3."
+        },
+        {
+          "mesh": "left_pectoral_fascia_proxy",
+          "name": "Fáscia peitoral — representação",
+          "description": "Overlay superficial disponível no HIGH."
+        }
+      ],
+      "moduleId": "sistema-muscular"
+    },
+    "reproductiveFemale": {
+      "id": "reproductiveFemale",
+      "label": "Reprodutor feminino",
+      "materialSystem": "reproductiveFemale",
+      "variants": {
+        "eco": "./assets/models/reproductive-g3/female-low.glb",
+        "medium": "./assets/models/reproductive-g3/female-medium.glb",
+        "high": "./assets/models/reproductive-g3/female-high.glb",
+        "ultra": "./assets/models/reproductive-g3/female-high.glb"
+      },
+      "structures": [
+        {
+          "mesh": "uterus",
+          "name": "Útero",
+          "description": "Representação esquemática do útero."
+        },
+        {
+          "mesh": "left_ovary",
+          "name": "Ovário esquerdo",
+          "description": "Representação didática do ovário."
+        },
+        {
+          "mesh": "left_fallopian_tube",
+          "name": "Tuba uterina esquerda",
+          "description": "Estrutura tubular representada de forma simplificada."
+        },
+        {
+          "mesh": "cervix_vaginal_canal_proxy",
+          "name": "Região cervical/canal — representação",
+          "description": "Marcador anatômico simplificado."
+        },
+        {
+          "mesh": "endometrium_proxy",
+          "name": "Endométrio — representação",
+          "description": "Camada interna didática visível nos perfis G3 superiores."
+        },
+        {
+          "mesh": "myometrium_proxy",
+          "name": "Miométrio — representação",
+          "description": "Camada muscular uterina simplificada para comparação visual."
+        },
+        {
+          "mesh": "left_round_ligament_proxy",
+          "name": "Ligamento redondo — representação",
+          "description": "Referência de sustentação disponível nos perfis superiores."
+        },
+        {
+          "mesh": "left_fimbria_proxy_1",
+          "name": "Fímbrias — representação",
+          "description": "Marcadores didáticos adicionais no perfil HIGH."
+        }
+      ],
+      "moduleId": "sistema-reprodutor"
+    },
+    "reproductiveMale": {
+      "id": "reproductiveMale",
+      "label": "Reprodutor masculino",
+      "materialSystem": "reproductiveMale",
+      "variants": {
+        "eco": "./assets/models/reproductive-g3/male-low.glb",
+        "medium": "./assets/models/reproductive-g3/male-medium.glb",
+        "high": "./assets/models/reproductive-g3/male-high.glb",
+        "ultra": "./assets/models/reproductive-g3/male-high.glb"
+      },
+      "structures": [
+        {
+          "mesh": "prostate_proxy",
+          "name": "Próstata — representação",
+          "description": "Marcador didático da próstata."
+        },
+        {
+          "mesh": "left_testis",
+          "name": "Testículo esquerdo",
+          "description": "Representação anatômica simplificada."
+        },
+        {
+          "mesh": "left_vas_deferens_proxy",
+          "name": "Ducto deferente — representação",
+          "description": "Percurso tubular didático."
+        },
+        {
+          "mesh": "left_seminal_vesicle_proxy",
+          "name": "Vesícula seminal — representação",
+          "description": "Marcador visual simplificado."
+        },
+        {
+          "mesh": "left_epididymis_proxy",
+          "name": "Epidídimo — representação",
+          "description": "Estrutura didática adicional nos perfis superiores."
+        },
+        {
+          "mesh": "urethral_path_proxy",
+          "name": "Trajeto uretral — representação",
+          "description": "Percurso simplificado para orientação espacial."
+        },
+        {
+          "mesh": "erectile_tissue_proxy",
+          "name": "Tecido erétil — representação",
+          "description": "Referência anatômica interna simplificada disponível no HIGH."
+        }
+      ],
+      "moduleId": "sistema-reprodutor"
+    },
+    "skinShell": {
+      "id": "skinShell",
+      "label": "Pele externa — casca corporal",
+      "materialSystem": "skin",
+      "variants": {
+        "eco": "./assets/models/human-g3/body/body-g3-low.glb",
+        "medium": "./assets/models/human-g3/body/body-g3-medium.glb",
+        "high": "./assets/models/human-g3/body/body-g3-high.glb",
+        "ultra": "./assets/models/human-g3/body/body-g3-high.glb"
+      },
+      "structures": [],
+      "moduleId": "corpo-humano"
+    },
+    "skinCutaway": {
+      "id": "skinCutaway",
+      "label": "Pele G3 — corte tegumentar",
+      "materialSystem": "skin",
+      "variants": {
+        "eco": "./assets/models/skin-g3/skin-g3-low.glb",
+        "medium": "./assets/models/skin-g3/skin-g3-medium.glb",
+        "high": "./assets/models/skin-g3/skin-g3-high.glb",
+        "ultra": "./assets/models/skin-g3/skin-g3-high.glb"
+      },
+      "structures": [
+        {
+          "mesh": "epidermis",
+          "name": "Epiderme",
+          "description": "Camada superficial representada no corte didático."
+        },
+        {
+          "mesh": "dermis",
+          "name": "Derme",
+          "description": "Camada intermediária representada no modelo."
+        },
+        {
+          "mesh": "hypodermis",
+          "name": "Hipoderme",
+          "description": "Camada profunda representada de forma esquemática."
+        },
+        {
+          "mesh": "hair_1",
+          "name": "Haste/folículo piloso",
+          "description": "Elemento visual de anexo cutâneo."
+        },
+        {
+          "mesh": "gland_1",
+          "name": "Glândula didática",
+          "description": "Representação simplificada de anexo cutâneo nos perfis superiores."
+        },
+        {
+          "mesh": "hair_follicle_1",
+          "name": "Folículo piloso — representação",
+          "description": "Estrutura aprofundada acrescentada nos perfis G3 superiores."
+        },
+        {
+          "mesh": "sweat_duct_proxy_1",
+          "name": "Ducto sudoríparo — representação",
+          "description": "Percurso didático simplificado entre glândula e superfície."
+        },
+        {
+          "mesh": "arterial_vessel_proxy",
+          "name": "Vaso arterial cutâneo — representação",
+          "description": "Referência vascular esquemática na derme/hipoderme."
+        },
+        {
+          "mesh": "venous_vessel_proxy",
+          "name": "Vaso venoso cutâneo — representação",
+          "description": "Referência vascular esquemática para comparação visual."
+        },
+        {
+          "mesh": "cutaneous_nerve_proxy",
+          "name": "Nervo cutâneo — representação",
+          "description": "Referência nervosa disponível no perfil G3 HIGH."
+        }
+      ],
+      "moduleId": "pele"
+    },
+    "headNeck": {
+      "id": "headNeck",
+      "label": "Cabeça e Pescoço",
+      "materialSystem": "headNeck",
+      "variants": {
+        "eco": "./assets/models/head-neck-g3/head-neck-g3-low.glb",
+        "medium": "./assets/models/head-neck-g3/head-neck-g3-medium.glb",
+        "high": "./assets/models/head-neck-g3/head-neck-g3-high.glb",
+        "ultra": "./assets/models/head-neck-g3/head-neck-g3-high.glb"
+      },
+      "structures": [
+        {
+          "mesh": "skull",
+          "name": "Crânio",
+          "description": "Referência óssea da cabeça."
+        },
+        {
+          "mesh": "cervical_spine_proxy",
+          "name": "Coluna cervical — representação",
+          "description": "Eixo cervical simplificado."
+        },
+        {
+          "mesh": "trachea",
+          "name": "Traqueia",
+          "description": "Via aérea representada na região cervical."
+        },
+        {
+          "mesh": "pharynx_proxy",
+          "name": "Faringe — representação",
+          "description": "Referência didática da região faríngea."
+        },
+        {
+          "mesh": "thyroid_left",
+          "name": "Tireoide",
+          "description": "Representação esquemática da tireoide no pescoço."
+        },
+        {
+          "mesh": "left_cervical_node_proxy",
+          "name": "Linfonodo cervical — representação",
+          "description": "Estrutura G3 representada de forma didática e simplificada."
+        }
+      ],
+      "moduleId": "cabeca-pescoco"
+    },
+    "sensory": {
+      "id": "sensory",
+      "label": "Olho e Ouvido",
+      "materialSystem": "sensory",
+      "variants": {
+        "eco": "./assets/models/eye-ear-g3/eye-ear-g3-low.glb",
+        "medium": "./assets/models/eye-ear-g3/eye-ear-g3-medium.glb",
+        "high": "./assets/models/eye-ear-g3/eye-ear-g3-high.glb",
+        "ultra": "./assets/models/eye-ear-g3/eye-ear-g3-high.glb"
+      },
+      "structures": [
+        {
+          "mesh": "eyeball",
+          "name": "Globo ocular",
+          "description": "Representação esquemática do globo ocular."
+        },
+        {
+          "mesh": "iris",
+          "name": "Íris",
+          "description": "Estrutura anterior representada no olho didático."
+        },
+        {
+          "mesh": "lens",
+          "name": "Cristalino — representação",
+          "description": "Elemento transparente aproximado do olho."
+        },
+        {
+          "mesh": "outer_ear",
+          "name": "Orelha externa",
+          "description": "Representação simplificada da orelha externa."
+        },
+        {
+          "mesh": "ear_canal",
+          "name": "Canal auditivo",
+          "description": "Canal representado de forma esquemática."
+        },
+        {
+          "mesh": "cochlea_proxy",
+          "name": "Cóclea — representação",
+          "description": "Estrutura G3 representada de forma didática e simplificada."
+        }
+      ],
+      "moduleId": "olho-ouvido"
+    },
+    "handFoot": {
+      "id": "handFoot",
+      "label": "Mão e Pé",
+      "materialSystem": "handFoot",
+      "moduleId": "mao-pe",
+      "variants": {
+        "eco": "./assets/models/hand-foot-g3/hand-foot-low.glb",
+        "medium": "./assets/models/hand-foot-g3/hand-foot-medium.glb",
+        "high": "./assets/models/hand-foot-g3/hand-foot-high.glb",
+        "ultra": "./assets/models/hand-foot-g3/hand-foot-high.glb"
+      },
+      "structures": [
+        {
+          "mesh": "carpal_1",
+          "name": "Carpo — representação",
+          "description": "Um dos ossos do carpo representados individualmente no modelo G3."
+        },
+        {
+          "mesh": "metacarpal_1",
+          "name": "Metacarpo — representação",
+          "description": "Elemento alongado simplificado da mão."
+        },
+        {
+          "mesh": "hand_finger_1",
+          "name": "Falange da mão — representação",
+          "description": "Elemento digital simplificado."
+        },
+        {
+          "mesh": "tarsal_1",
+          "name": "Tarso — representação",
+          "description": "Um dos ossos do tarso representados individualmente."
+        },
+        {
+          "mesh": "metatarsal_1",
+          "name": "Metatarso — representação",
+          "description": "Elemento alongado simplificado do pé."
+        },
+        {
+          "mesh": "foot_toe_1",
+          "name": "Falange do pé — representação",
+          "description": "Elemento digital simplificado."
+        },
+        {
+          "mesh": "hand_flexor_tendon_proxy",
+          "name": "Tendão flexor da mão — representação",
+          "description": "Referência tendínea G3."
+        },
+        {
+          "mesh": "foot_flexor_tendon_proxy",
+          "name": "Tendão flexor do pé — representação",
+          "description": "Referência tendínea G3."
+        },
+        {
+          "mesh": "hand_nerve_proxy",
+          "name": "Nervo da mão — representação",
+          "description": "Referência nervosa disponível no HIGH."
+        },
+        {
+          "mesh": "foot_nerve_proxy",
+          "name": "Nervo do pé — representação",
+          "description": "Referência nervosa disponível no HIGH."
+        }
+      ]
+    },
+    "shoulderJoint": {
+      "id": "shoulderJoint",
+      "label": "Articulação — Ombro",
+      "materialSystem": "joint",
+      "moduleId": "articulacoes",
+      "variants": {
+        "eco": "./assets/models/joints-g3/shoulder-low.glb",
+        "medium": "./assets/models/joints-g3/shoulder-medium.glb",
+        "high": "./assets/models/joints-g3/shoulder-high.glb",
+        "ultra": "./assets/models/joints-g3/shoulder-high.glb"
+      },
+      "structures": [
+        {
+          "mesh": "humeral_head",
+          "name": "Cabeça do úmero",
+          "description": "Estrutura do modelo didático de ombro."
+        },
+        {
+          "mesh": "scapula_proxy",
+          "name": "Escápula — representação",
+          "description": "Estrutura do modelo didático de ombro."
+        },
+        {
+          "mesh": "shoulder_cartilage_proxy",
+          "name": "Superfície articular — representação",
+          "description": "Estrutura do modelo didático de ombro."
+        },
+        {
+          "mesh": "glenoid_labrum_proxy",
+          "name": "Lábio glenoidal — representação",
+          "description": "Estrutura do modelo didático de ombro."
+        },
+        {
+          "mesh": "shoulder_ligament_proxy",
+          "name": "Ligamento do ombro — representação",
+          "description": "Estrutura do modelo didático de ombro."
+        },
+        {
+          "mesh": "biceps_tendon_proxy",
+          "name": "Tendão do bíceps — representação",
+          "description": "Estrutura do modelo didático de ombro."
+        }
+      ]
+    },
+    "elbowJoint": {
+      "id": "elbowJoint",
+      "label": "Articulação — Cotovelo",
+      "materialSystem": "joint",
+      "moduleId": "articulacoes",
+      "variants": {
+        "eco": "./assets/models/joints-g3/elbow-low.glb",
+        "medium": "./assets/models/joints-g3/elbow-medium.glb",
+        "high": "./assets/models/joints-g3/elbow-high.glb",
+        "ultra": "./assets/models/joints-g3/elbow-high.glb"
+      },
+      "structures": [
+        {
+          "mesh": "humerus_distal",
+          "name": "Úmero distal",
+          "description": "Estrutura do modelo didático de cotovelo."
+        },
+        {
+          "mesh": "ulna",
+          "name": "Ulna",
+          "description": "Estrutura do modelo didático de cotovelo."
+        },
+        {
+          "mesh": "radius",
+          "name": "Rádio",
+          "description": "Estrutura do modelo didático de cotovelo."
+        },
+        {
+          "mesh": "elbow_joint_surface",
+          "name": "Superfície articular — representação",
+          "description": "Estrutura do modelo didático de cotovelo."
+        },
+        {
+          "mesh": "radial_collateral_ligament_proxy",
+          "name": "Ligamento colateral radial — representação",
+          "description": "Estrutura do modelo didático de cotovelo."
+        },
+        {
+          "mesh": "ulnar_collateral_ligament_proxy",
+          "name": "Ligamento colateral ulnar — representação",
+          "description": "Estrutura do modelo didático de cotovelo."
+        },
+        {
+          "mesh": "annular_ligament_proxy",
+          "name": "Ligamento anular — representação",
+          "description": "Estrutura do modelo didático de cotovelo."
+        }
+      ]
+    },
+    "kneeJoint": {
+      "id": "kneeJoint",
+      "label": "Articulação — Joelho",
+      "materialSystem": "joint",
+      "moduleId": "articulacoes",
+      "variants": {
+        "eco": "./assets/models/joints-g3/knee-low.glb",
+        "medium": "./assets/models/joints-g3/knee-medium.glb",
+        "high": "./assets/models/joints-g3/knee-high.glb",
+        "ultra": "./assets/models/joints-g3/knee-high.glb"
+      },
+      "structures": [
+        {
+          "mesh": "femur_distal",
+          "name": "Fêmur distal",
+          "description": "Estrutura do modelo didático de joelho."
+        },
+        {
+          "mesh": "tibia",
+          "name": "Tíbia",
+          "description": "Estrutura do modelo didático de joelho."
+        },
+        {
+          "mesh": "patella",
+          "name": "Patela",
+          "description": "Estrutura do modelo didático de joelho."
+        },
+        {
+          "mesh": "knee_cartilage_proxy",
+          "name": "Cartilagem — representação",
+          "description": "Estrutura do modelo didático de joelho."
+        },
+        {
+          "mesh": "meniscus_proxy",
+          "name": "Menisco — representação",
+          "description": "Estrutura do modelo didático de joelho."
+        },
+        {
+          "mesh": "acl_proxy",
+          "name": "Ligamento cruzado anterior — representação",
+          "description": "Estrutura do modelo didático de joelho."
+        },
+        {
+          "mesh": "pcl_proxy",
+          "name": "Ligamento cruzado posterior — representação",
+          "description": "Estrutura do modelo didático de joelho."
+        },
+        {
+          "mesh": "medial_collateral_ligament_proxy",
+          "name": "Ligamento colateral medial — representação",
+          "description": "Estrutura do modelo didático de joelho."
+        },
+        {
+          "mesh": "lateral_collateral_ligament_proxy",
+          "name": "Ligamento colateral lateral — representação",
+          "description": "Estrutura do modelo didático de joelho."
+        }
+      ]
+    }
+  }
+}

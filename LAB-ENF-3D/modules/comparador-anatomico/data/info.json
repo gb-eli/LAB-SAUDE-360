@@ -1,0 +1,63 @@
+{
+  "id": "comparador-anatomico",
+  "generation": "G3",
+  "version": "0.34.0",
+  "rendererCount": 1,
+  "simultaneousModels": 2,
+  "systemsAvailable": 19,
+  "semanticSync": {
+    "automatic": "equivalent only",
+    "equivalentGroups": 3,
+    "relatedGroups": 12,
+    "multipleSuggestions": true
+  },
+  "markers": {
+    "maxItems": 8,
+    "categories": 4,
+    "editable": true,
+    "repositionable": true,
+    "draggableLabels": true,
+    "automaticLayout": true,
+    "zoomAwareLayout": true,
+    "borderAwareLayout": true,
+    "categoryVisibility": true,
+    "persistentScreenOffset": true,
+    "leaderLinesOptional": true,
+    "configurableCategoryStyles": true
+  },
+  "customPresets": {
+    "enabled": true,
+    "maxItems": 20,
+    "editable": true,
+    "duplicable": true,
+    "tags": true,
+    "maxTags": 8,
+    "search": true,
+    "tagFilter": true,
+    "import": true,
+    "export": true
+  },
+  "workspace": {
+    "schema": "lab-enfermagem-comparison-workspace",
+    "packageVersion": 1,
+    "compatibilityPreview": true,
+    "readOnlyPreviewBeforeApply": true,
+    "compareCurrentVsIncoming": true,
+    "backwardCompatibleWithV032": true,
+    "sessionExtras": [
+      "markerStyles",
+      "customPresets",
+      "presetFilters",
+      "markerVisibility"
+    ]
+  },
+  "export": {
+    "png": true,
+    "htmlReport": true,
+    "historyHtmlReport": true,
+    "customFilename": true,
+    "workspaceJson": true
+  },
+  "performanceProfile": "adaptive-comparison",
+  "diagnosticEvent": "comparison:metrics"
+}

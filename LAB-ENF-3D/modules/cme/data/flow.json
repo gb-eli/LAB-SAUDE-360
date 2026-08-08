@@ -1,0 +1,46 @@
+{
+  "steps": [
+    {
+      "mesh": "receiving_dirty",
+      "order": 1,
+      "name": "Recepção de material contaminado",
+      "zone": "Suja",
+      "description": "Início do fluxo didático, com recebimento em área representada como suja."
+    },
+    {
+      "mesh": "cleaning",
+      "order": 2,
+      "name": "Limpeza",
+      "zone": "Transição",
+      "description": "Etapa didática de limpeza representada sem parâmetros operacionais reais."
+    },
+    {
+      "mesh": "inspection",
+      "order": 3,
+      "name": "Inspeção",
+      "zone": "Limpa",
+      "description": "Etapa de conferência visual do material no fluxo educacional."
+    },
+    {
+      "mesh": "packing",
+      "order": 4,
+      "name": "Preparo e embalagem",
+      "zone": "Limpa",
+      "description": "Etapa didática de preparo/embalagem antes do processamento."
+    },
+    {
+      "mesh": "sterilizer",
+      "order": 5,
+      "name": "Esterilização",
+      "zone": "Processamento",
+      "description": "Representação do equipamento de esterilização, sem parâmetros de ciclo."
+    },
+    {
+      "mesh": "sterile_storage",
+      "order": 6,
+      "name": "Armazenamento estéril",
+      "zone": "Estéril",
+      "description": "Destino final do fluxo educacional representado."
+    }
+  ]
+}

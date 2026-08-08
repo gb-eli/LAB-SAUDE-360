@@ -1,0 +1,34 @@
+{
+  "schema": "lab-enfermagem-custom-comparison-presets",
+  "version": 1,
+  "generatedForVersion": "0.34.0",
+  "maxItems": 20,
+  "presetFields": {
+    "id": "string",
+    "label": "string",
+    "lesson": "string",
+    "competency": "string",
+    "state": {
+      "systemA": "string|null",
+      "structureA": "string|null",
+      "systemB": "string|null",
+      "structureB": "string|null",
+      "mode": "side-by-side|overlay",
+      "opacityA": "number",
+      "opacityB": "number",
+      "semanticSync": "boolean",
+      "markerLines": "boolean"
+    },
+    "tags": "array<string>"
+  },
+  "maxTags": 8,
+  "tagMaxLength": 28,
+  "features": {
+    "edit": true,
+    "duplicate": true,
+    "search": true,
+    "tagFilter": true,
+    "importExport": true,
+    "preserveStateOnMetadataEditByDefault": true
+  }
+}

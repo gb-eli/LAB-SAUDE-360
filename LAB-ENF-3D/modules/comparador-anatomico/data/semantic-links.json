@@ -1,0 +1,279 @@
+{
+  "generatedForVersion": "0.34.0",
+  "autoSyncRelation": "equivalent",
+  "equivalents": [
+    {
+      "id": "eq-skull",
+      "canonical": "skull",
+      "relation": "equivalent",
+      "label": "Crânio",
+      "members": [
+        {
+          "systemId": "skeleton",
+          "structureId": "skull",
+          "name": "Crânio"
+        },
+        {
+          "systemId": "headNeck",
+          "structureId": "skull",
+          "name": "Crânio"
+        }
+      ]
+    },
+    {
+      "id": "eq-thyroid_left",
+      "canonical": "thyroid_left",
+      "relation": "equivalent",
+      "label": "Tireoide — lobo esquerdo",
+      "members": [
+        {
+          "systemId": "endocrine",
+          "structureId": "thyroid_left",
+          "name": "Tireoide — lobo esquerdo"
+        },
+        {
+          "systemId": "headNeck",
+          "structureId": "thyroid_left",
+          "name": "Tireoide"
+        }
+      ]
+    },
+    {
+      "id": "eq-trachea",
+      "canonical": "trachea",
+      "relation": "equivalent",
+      "label": "Traqueia",
+      "members": [
+        {
+          "systemId": "respiratory",
+          "structureId": "trachea",
+          "name": "Traqueia"
+        },
+        {
+          "systemId": "headNeck",
+          "structureId": "trachea",
+          "name": "Traqueia"
+        }
+      ]
+    }
+  ],
+  "related": [
+    {
+      "id": "rel-patella",
+      "canonical": "patella",
+      "relation": "regional-reference",
+      "label": "Patela",
+      "members": [
+        {
+          "systemId": "skeleton",
+          "structureId": "left_patella",
+          "name": "Patela esquerda"
+        },
+        {
+          "systemId": "kneeJoint",
+          "structureId": "patella",
+          "name": "Patela — joelho"
+        }
+      ]
+    },
+    {
+      "id": "rel-humerus-shoulder",
+      "canonical": "humerus-shoulder",
+      "relation": "regional-reference",
+      "label": "Úmero — ombro",
+      "members": [
+        {
+          "systemId": "skeleton",
+          "structureId": "left_humerus",
+          "name": "Úmero esquerdo"
+        },
+        {
+          "systemId": "shoulderJoint",
+          "structureId": "humeral_head",
+          "name": "Cabeça do úmero"
+        }
+      ]
+    },
+    {
+      "id": "rel-humerus-elbow",
+      "canonical": "humerus-elbow",
+      "relation": "regional-reference",
+      "label": "Úmero — cotovelo",
+      "members": [
+        {
+          "systemId": "skeleton",
+          "structureId": "left_humerus",
+          "name": "Úmero esquerdo"
+        },
+        {
+          "systemId": "elbowJoint",
+          "structureId": "humerus_distal",
+          "name": "Úmero distal"
+        }
+      ]
+    },
+    {
+      "id": "rel-scapula-shoulder",
+      "canonical": "scapula-shoulder",
+      "relation": "regional-reference",
+      "label": "Escápula — ombro",
+      "members": [
+        {
+          "systemId": "skeleton",
+          "structureId": "left_scapula",
+          "name": "Escápula esquerda"
+        },
+        {
+          "systemId": "shoulderJoint",
+          "structureId": "scapula_proxy",
+          "name": "Escápula — ombro"
+        }
+      ]
+    },
+    {
+      "id": "rel-radius-elbow",
+      "canonical": "radius-elbow",
+      "relation": "regional-reference",
+      "label": "Rádio — cotovelo",
+      "members": [
+        {
+          "systemId": "skeleton",
+          "structureId": "left_radius",
+          "name": "Rádio esquerdo"
+        },
+        {
+          "systemId": "elbowJoint",
+          "structureId": "radius",
+          "name": "Rádio — cotovelo"
+        }
+      ]
+    },
+    {
+      "id": "rel-ulna-elbow",
+      "canonical": "ulna-elbow",
+      "relation": "regional-reference",
+      "label": "Ulna — cotovelo",
+      "members": [
+        {
+          "systemId": "skeleton",
+          "structureId": "left_ulna",
+          "name": "Ulna esquerda"
+        },
+        {
+          "systemId": "elbowJoint",
+          "structureId": "ulna",
+          "name": "Ulna — cotovelo"
+        }
+      ]
+    },
+    {
+      "id": "rel-femur-knee",
+      "canonical": "femur-knee",
+      "relation": "regional-reference",
+      "label": "Fêmur — joelho",
+      "members": [
+        {
+          "systemId": "skeleton",
+          "structureId": "left_femur",
+          "name": "Fêmur esquerdo"
+        },
+        {
+          "systemId": "kneeJoint",
+          "structureId": "femur_distal",
+          "name": "Fêmur distal"
+        }
+      ]
+    },
+    {
+      "id": "rel-tibia-knee",
+      "canonical": "tibia-knee",
+      "relation": "regional-reference",
+      "label": "Tíbia — joelho",
+      "members": [
+        {
+          "systemId": "skeleton",
+          "structureId": "left_tibia",
+          "name": "Tíbia esquerda"
+        },
+        {
+          "systemId": "kneeJoint",
+          "structureId": "tibia",
+          "name": "Tíbia — joelho"
+        }
+      ]
+    },
+    {
+      "id": "rel-pancreas",
+      "canonical": "pancreas",
+      "relation": "shared-organ-reference",
+      "label": "Pâncreas",
+      "members": [
+        {
+          "systemId": "digestive",
+          "structureId": "pancreas",
+          "name": "Pâncreas — Digestório"
+        },
+        {
+          "systemId": "endocrine",
+          "structureId": "pancreas_proxy",
+          "name": "Pâncreas — Endócrino"
+        }
+      ]
+    },
+    {
+      "id": "rel-cervical-nodes",
+      "canonical": "cervical-lymph-node",
+      "relation": "regional-reference",
+      "label": "Linfonodos cervicais",
+      "members": [
+        {
+          "systemId": "lymphatic",
+          "structureId": "cervical_node_1",
+          "name": "Linfonodos cervicais — Linfático"
+        },
+        {
+          "systemId": "headNeck",
+          "structureId": "left_cervical_node_proxy",
+          "name": "Linfonodo cervical — Cabeça/Pescoço"
+        }
+      ]
+    },
+    {
+      "id": "rel-biceps-tendon",
+      "canonical": "biceps-shoulder",
+      "relation": "functional-reference",
+      "label": "Bíceps e tendão no ombro",
+      "members": [
+        {
+          "systemId": "muscular",
+          "structureId": "left_biceps",
+          "name": "Bíceps esquerdo"
+        },
+        {
+          "systemId": "shoulderJoint",
+          "structureId": "biceps_tendon_proxy",
+          "name": "Tendão do bíceps — Ombro"
+        }
+      ]
+    },
+    {
+      "id": "rel-upper-peripheral-nerve-hand",
+      "canonical": "upper-peripheral-nerve",
+      "relation": "regional-reference",
+      "label": "Nervo periférico superior e mão",
+      "members": [
+        {
+          "systemId": "nervous",
+          "structureId": "left_brachial_nerve",
+          "name": "Nervo periférico superior"
+        },
+        {
+          "systemId": "handFoot",
+          "structureId": "hand_nerve_proxy",
+          "name": "Nervo da mão — referência"
+        }
+      ]
+    }
+  ],
+  "note": "Somente relation=equivalent é sincronizada automaticamente. As demais relações são sugestões explícitas e descrevem referência regional, órgão compartilhado ou relação funcional, sem afirmar equivalência geométrica."
+}

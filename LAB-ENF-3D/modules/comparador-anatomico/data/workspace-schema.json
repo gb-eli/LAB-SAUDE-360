@@ -1,0 +1,39 @@
+{
+  "schema": "lab-enfermagem-comparison-workspace",
+  "packageVersion": 1,
+  "generatedForVersion": "0.34.0",
+  "maxMarkers": 8,
+  "annotationMaxLength": 420,
+  "markerTextMaxLength": 100,
+  "fields": {
+    "annotation": "string",
+    "exportName": "string",
+    "markers": "array",
+    "state": {
+      "systemA": "string|null",
+      "structureA": "string|null",
+      "systemB": "string|null",
+      "structureB": "string|null",
+      "mode": "side-by-side|overlay",
+      "opacityA": "number",
+      "opacityB": "number",
+      "semanticSync": "boolean",
+      "markerLines": "boolean"
+    }
+  },
+  "optionalSessionFields": {
+    "markerStyles": "lab-enfermagem-marker-styles v1",
+    "customPresets": "lab-enfermagem-custom-comparison-presets v1",
+    "presetFilters": {
+      "lesson": "string",
+      "competency": "string"
+    },
+    "markerVisibility": "array<string> com categorias visíveis"
+  },
+  "markerOptionalFields": {
+    "screenOffset": "[number, number]",
+    "category": "structure|attention|relation|question"
+  },
+  "previewBeforeApply": true,
+  "comparisonWithCurrentState": true
+}

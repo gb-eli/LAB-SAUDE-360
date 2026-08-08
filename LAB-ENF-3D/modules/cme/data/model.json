@@ -1,0 +1,11 @@
+{
+  "id": "cme-room",
+  "type": "glb",
+  "variants": {
+    "eco": "./assets/models/cme-g2/cme-room-low.glb",
+    "medium": "./assets/models/cme-g2/cme-room-medium.glb",
+    "high": "./assets/models/cme-g2/cme-room-high.glb",
+    "ultra": "./assets/models/cme-g2/cme-room-high.glb"
+  },
+  "generation": "G2"
+}

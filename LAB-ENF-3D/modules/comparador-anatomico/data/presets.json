@@ -1,0 +1,183 @@
+{
+  "generatedForVersion": "0.34.0",
+  "presets": [
+    {
+      "id": "locomotor-ombro",
+      "label": "Ombro — osso × músculo",
+      "description": "Relaciona úmero e deltoide em comparação visual.",
+      "A": {
+        "systemId": "skeleton",
+        "structureId": "left_humerus"
+      },
+      "B": {
+        "systemId": "muscular",
+        "structureId": "left_deltoid"
+      },
+      "mode": "overlay",
+      "opacityA": 0.72,
+      "opacityB": 0.64,
+      "view": "front",
+      "theme": "locomotor",
+      "lesson": "Sistema locomotor — cintura escapular",
+      "competency": "Relacionar referência óssea e muscular na região do ombro."
+    },
+    {
+      "id": "joelho-articular",
+      "label": "Joelho — osso × articulação",
+      "description": "Compara patela do esqueleto com a patela do modelo articular.",
+      "A": {
+        "systemId": "skeleton",
+        "structureId": "left_patella"
+      },
+      "B": {
+        "systemId": "kneeJoint",
+        "structureId": "patella"
+      },
+      "mode": "side-by-side",
+      "opacityA": 1,
+      "opacityB": 1,
+      "view": "front",
+      "theme": "locomotor",
+      "lesson": "Sistema locomotor — joelho",
+      "competency": "Relacionar osso e estruturas articulares do joelho."
+    },
+    {
+      "id": "tireoide-regional",
+      "label": "Tireoide — sistema × região",
+      "description": "Compara a tireoide do Endócrino com a referência de Cabeça/Pescoço.",
+      "A": {
+        "systemId": "endocrine",
+        "structureId": "thyroid_left"
+      },
+      "B": {
+        "systemId": "headNeck",
+        "structureId": "thyroid_left"
+      },
+      "mode": "side-by-side",
+      "opacityA": 1,
+      "opacityB": 1,
+      "view": "front",
+      "theme": "integracao-regional",
+      "lesson": "Sistema endócrino — tireoide",
+      "competency": "Localizar a tireoide em visão sistêmica e regional."
+    },
+    {
+      "id": "via-aerea",
+      "label": "Traqueia — respiratório × região",
+      "description": "Compara a traqueia no sistema Respiratório e em Cabeça/Pescoço.",
+      "A": {
+        "systemId": "respiratory",
+        "structureId": "trachea"
+      },
+      "B": {
+        "systemId": "headNeck",
+        "structureId": "trachea"
+      },
+      "mode": "side-by-side",
+      "opacityA": 1,
+      "opacityB": 1,
+      "view": "front",
+      "theme": "integracao-regional",
+      "lesson": "Sistema respiratório — via aérea",
+      "competency": "Comparar a traqueia em contexto sistêmico e regional."
+    },
+    {
+      "id": "pele-neurovascular",
+      "label": "Pele — vaso × nervo",
+      "description": "Compara referências arterial e nervosa no corte tegumentar.",
+      "A": {
+        "systemId": "skinCutaway",
+        "structureId": "arterial_vessel_proxy"
+      },
+      "B": {
+        "systemId": "skinCutaway",
+        "structureId": "cutaneous_nerve_proxy"
+      },
+      "mode": "side-by-side",
+      "opacityA": 1,
+      "opacityB": 1,
+      "view": "front",
+      "theme": "tegumentar",
+      "lesson": "Sistema tegumentar — inervação e vascularização",
+      "competency": "Reconhecer referências neurovasculares na pele."
+    },
+    {
+      "id": "mao-pe-nervos",
+      "label": "Mão × Pé — nervos",
+      "description": "Compara as referências nervosas da mão e do pé no mesmo conjunto regional.",
+      "A": {
+        "systemId": "handFoot",
+        "structureId": "hand_nerve_proxy"
+      },
+      "B": {
+        "systemId": "handFoot",
+        "structureId": "foot_nerve_proxy"
+      },
+      "mode": "side-by-side",
+      "opacityA": 1,
+      "opacityB": 1,
+      "view": "top",
+      "theme": "locomotor",
+      "lesson": "Anatomia regional — mão e pé",
+      "competency": "Comparar referências nervosas distais em mão e pé."
+    },
+    {
+      "id": "cranio-regional",
+      "theme": "integracao-regional",
+      "label": "Crânio — esqueleto × região",
+      "description": "Compara o mesmo crânio no Esqueleto e em Cabeça/Pescoço.",
+      "A": {
+        "systemId": "skeleton",
+        "structureId": "skull"
+      },
+      "B": {
+        "systemId": "headNeck",
+        "structureId": "skull"
+      },
+      "mode": "side-by-side",
+      "opacityA": 1,
+      "opacityB": 1,
+      "view": "front",
+      "lesson": "Anatomia regional — cabeça e pescoço",
+      "competency": "Relacionar o crânio do esqueleto ao modelo regional."
+    },
+    {
+      "id": "ventriculos-cardio",
+      "theme": "cardiovascular",
+      "label": "Coração — ventrículo E × D",
+      "description": "Compara os dois ventrículos no mesmo conjunto cardiovascular.",
+      "A": {
+        "systemId": "cardiovascular",
+        "structureId": "left_ventricle"
+      },
+      "B": {
+        "systemId": "cardiovascular",
+        "structureId": "right_ventricle"
+      },
+      "mode": "side-by-side",
+      "opacityA": 1,
+      "opacityB": 1,
+      "view": "front",
+      "lesson": "Sistema cardiovascular — câmaras cardíacas",
+      "competency": "Comparar ventrículos esquerdo e direito."
+    }
+  ],
+  "themes": [
+    {
+      "id": "locomotor",
+      "label": "Locomotor"
+    },
+    {
+      "id": "integracao-regional",
+      "label": "Integração regional"
+    },
+    {
+      "id": "tegumentar",
+      "label": "Tegumentar"
+    },
+    {
+      "id": "cardiovascular",
+      "label": "Cardiovascular"
+    }
+  ]
+}
