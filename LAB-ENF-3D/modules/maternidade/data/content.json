@@ -1,0 +1,34 @@
+{
+  "objects": [
+    {
+      "mesh": "maternity_bed",
+      "name": "Leito",
+      "description": "Leito fictício do cenário de maternidade.",
+      "zone": "Leito materno"
+    },
+    {
+      "mesh": "newborn_bassinet",
+      "name": "Berço do recém-nascido",
+      "description": "Representação visual genérica de berço no ambiente.",
+      "zone": "Recém-nascido"
+    },
+    {
+      "mesh": "handwash_sink",
+      "name": "Higiene das mãos",
+      "description": "Ponto de biossegurança no ambiente.",
+      "zone": "Apoio e biossegurança"
+    },
+    {
+      "mesh": "maternity_cabinet",
+      "name": "Armário de apoio",
+      "description": "Área genérica de armazenamento.",
+      "zone": "Apoio"
+    },
+    {
+      "mesh": "monitor",
+      "name": "Monitor",
+      "description": "Equipamento visual presente nos perfis superiores.",
+      "zone": "Leito materno"
+    }
+  ]
+}

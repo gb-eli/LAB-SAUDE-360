@@ -1,0 +1,10 @@
+{
+  "id": "hand-foot",
+  "variants": {
+    "eco": "./assets/models/hand-foot-g3/hand-foot-low.glb",
+    "medium": "./assets/models/hand-foot-g3/hand-foot-medium.glb",
+    "high": "./assets/models/hand-foot-g3/hand-foot-high.glb",
+    "ultra": "./assets/models/hand-foot-g3/hand-foot-high.glb"
+  },
+  "generation": "G3"
+}

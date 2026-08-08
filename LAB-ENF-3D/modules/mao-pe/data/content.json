@@ -1,0 +1,54 @@
+{
+  "structures": [
+    {
+      "mesh": "carpal_1",
+      "name": "Carpo — representação",
+      "description": "Um dos ossos do carpo representados individualmente no modelo G3."
+    },
+    {
+      "mesh": "metacarpal_1",
+      "name": "Metacarpo — representação",
+      "description": "Elemento alongado simplificado da mão."
+    },
+    {
+      "mesh": "hand_finger_1",
+      "name": "Falange da mão — representação",
+      "description": "Elemento digital simplificado."
+    },
+    {
+      "mesh": "tarsal_1",
+      "name": "Tarso — representação",
+      "description": "Um dos ossos do tarso representados individualmente."
+    },
+    {
+      "mesh": "metatarsal_1",
+      "name": "Metatarso — representação",
+      "description": "Elemento alongado simplificado do pé."
+    },
+    {
+      "mesh": "foot_toe_1",
+      "name": "Falange do pé — representação",
+      "description": "Elemento digital simplificado."
+    },
+    {
+      "mesh": "hand_flexor_tendon_proxy",
+      "name": "Tendão flexor da mão — representação",
+      "description": "Referência tendínea G3."
+    },
+    {
+      "mesh": "foot_flexor_tendon_proxy",
+      "name": "Tendão flexor do pé — representação",
+      "description": "Referência tendínea G3."
+    },
+    {
+      "mesh": "hand_nerve_proxy",
+      "name": "Nervo da mão — representação",
+      "description": "Referência nervosa disponível no HIGH."
+    },
+    {
+      "mesh": "foot_nerve_proxy",
+      "name": "Nervo do pé — representação",
+      "description": "Referência nervosa disponível no HIGH."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "materials": {
+    "surgical-mask": {
+      "label": "Máscara cirúrgica",
+      "description": "Modelo didático para reconhecimento visual.",
+      "prefix": "surgical-mask",
+      "variants": {
+        "eco": "./assets/models/materials-g2/surgical-mask-low.glb",
+        "medium": "./assets/models/materials-g2/surgical-mask-medium.glb",
+        "high": "./assets/models/materials-g2/surgical-mask-high.glb",
+        "ultra": "./assets/models/materials-g2/surgical-mask-high.glb"
+      },
+      "category": "Barreiras",
+      "tags": [
+        "máscara",
+        "barreira",
+        "proteção"
+      ]
+    },
+    "gauze": {
+      "label": "Compressa de gaze",
+      "description": "Conjunto visual de camadas de gaze.",
+      "prefix": "gauze",
+      "variants": {
+        "eco": "./assets/models/materials-g2/gauze-low.glb",
+        "medium": "./assets/models/materials-g2/gauze-medium.glb",
+        "high": "./assets/models/materials-g2/gauze-high.glb",
+        "ultra": "./assets/models/materials-g2/gauze-high.glb"
+      },
+      "category": "Curativos",
+      "tags": [
+        "gaze",
+        "compressa",
+        "curativo"
+      ]
+    },
+    "sharps-container": {
+      "label": "Coletor de perfurocortantes",
+      "description": "Recipiente visual para reconhecimento do descarte específico.",
+      "prefix": "sharps-container",
+      "variants": {
+        "eco": "./assets/models/materials-g2/sharps-container-low.glb",
+        "medium": "./assets/models/materials-g2/sharps-container-medium.glb",
+        "high": "./assets/models/materials-g2/sharps-container-high.glb",
+        "ultra": "./assets/models/materials-g2/sharps-container-high.glb"
+      },
+      "category": "Descarte",
+      "tags": [
+        "coletor",
+        "perfurocortante",
+        "descarte"
+      ]
+    },
+    "tourniquet": {
+      "label": "Garrote/Torniquete de coleta — representação",
+      "description": "Faixa de referência visual para reconhecimento do material.",
+      "prefix": "tourniquet",
+      "variants": {
+        "eco": "./assets/models/materials-g2/tourniquet-low.glb",
+        "medium": "./assets/models/materials-g2/tourniquet-medium.glb",
+        "high": "./assets/models/materials-g2/tourniquet-high.glb",
+        "ultra": "./assets/models/materials-g2/tourniquet-high.glb"
+      },
+      "category": "Coleta",
+      "tags": [
+        "garrote",
+        "torniquete",
+        "coleta"
+      ]
+    },
+    "collection-tube": {
+      "label": "Tubo de coleta",
+      "description": "Recipiente visual genérico de coleta, sem identificação laboratorial real.",
+      "prefix": "collection-tube",
+      "variants": {
+        "eco": "./assets/models/materials-g2/collection-tube-low.glb",
+        "medium": "./assets/models/materials-g2/collection-tube-medium.glb",
+        "high": "./assets/models/materials-g2/collection-tube-high.glb",
+        "ultra": "./assets/models/materials-g2/collection-tube-high.glb"
+      },
+      "category": "Coleta",
+      "tags": [
+        "tubo",
+        "coleta",
+        "recipiente"
+      ]
+    },
+    "iv-bag": {
+      "label": "Bolsa de solução — representação",
+      "description": "Bolsa genérica para reconhecimento visual, sem composição ou indicação clínica.",
+      "prefix": "iv-bag",
+      "variants": {
+        "eco": "./assets/models/materials-g2/iv-bag-low.glb",
+        "medium": "./assets/models/materials-g2/iv-bag-medium.glb",
+        "high": "./assets/models/materials-g2/iv-bag-high.glb",
+        "ultra": "./assets/models/materials-g2/iv-bag-high.glb"
+      },
+      "category": "Infusão",
+      "tags": [
+        "bolsa",
+        "solução",
+        "infusão"
+      ]
+    }
+  },
+  "generation": "G2"
+}

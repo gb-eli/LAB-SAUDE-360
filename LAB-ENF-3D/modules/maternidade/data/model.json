@@ -1,0 +1,10 @@
+{
+  "id": "maternidade",
+  "variants": {
+    "eco": "./assets/models/maternity-g2/maternity-room-low.glb",
+    "medium": "./assets/models/maternity-g2/maternity-room-medium.glb",
+    "high": "./assets/models/maternity-g2/maternity-room-high.glb",
+    "ultra": "./assets/models/maternity-g2/maternity-room-high.glb"
+  },
+  "generation": "G2"
+}
