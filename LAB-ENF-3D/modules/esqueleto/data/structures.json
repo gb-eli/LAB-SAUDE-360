@@ -1,0 +1,148 @@
+{
+  "structures": [
+    {
+      "mesh": "skull",
+      "name": "Crânio",
+      "region": "Axial",
+      "description": "Estrutura óssea da cabeça."
+    },
+    {
+      "mesh": "spine",
+      "name": "Coluna vertebral",
+      "region": "Axial",
+      "description": "Eixo ósseo central do tronco."
+    },
+    {
+      "mesh": "sternum",
+      "name": "Esterno",
+      "region": "Axial",
+      "description": "Osso anterior do tórax."
+    },
+    {
+      "mesh": "rib_cage_cluster",
+      "name": "Grade costal — conjunto",
+      "region": "Axial",
+      "description": "Conjunto de costelas agrupado para otimização visual."
+    },
+    {
+      "mesh": "left_clavicle",
+      "name": "Clavícula esquerda",
+      "region": "Cintura escapular",
+      "description": "Referência óssea anterior da cintura escapular."
+    },
+    {
+      "mesh": "right_clavicle",
+      "name": "Clavícula direita",
+      "region": "Cintura escapular",
+      "description": "Referência óssea anterior da cintura escapular."
+    },
+    {
+      "mesh": "left_scapula",
+      "name": "Escápula esquerda",
+      "region": "Cintura escapular",
+      "description": "Referência óssea posterior da cintura escapular."
+    },
+    {
+      "mesh": "right_scapula",
+      "name": "Escápula direita",
+      "region": "Cintura escapular",
+      "description": "Referência óssea posterior da cintura escapular."
+    },
+    {
+      "mesh": "left_humerus",
+      "name": "Úmero esquerdo",
+      "region": "Membro superior",
+      "description": "Osso longo do braço esquerdo."
+    },
+    {
+      "mesh": "right_humerus",
+      "name": "Úmero direito",
+      "region": "Membro superior",
+      "description": "Osso longo do braço direito."
+    },
+    {
+      "mesh": "left_radius",
+      "name": "Rádio esquerdo",
+      "region": "Membro superior",
+      "description": "Osso do antebraço esquerdo."
+    },
+    {
+      "mesh": "right_radius",
+      "name": "Rádio direito",
+      "region": "Membro superior",
+      "description": "Osso do antebraço direito."
+    },
+    {
+      "mesh": "left_ulna",
+      "name": "Ulna esquerda",
+      "region": "Membro superior",
+      "description": "Osso do antebraço esquerdo."
+    },
+    {
+      "mesh": "right_ulna",
+      "name": "Ulna direita",
+      "region": "Membro superior",
+      "description": "Osso do antebraço direito."
+    },
+    {
+      "mesh": "pelvis_left",
+      "name": "Pelve esquerda",
+      "region": "Cintura pélvica",
+      "description": "Referência óssea pélvica esquerda."
+    },
+    {
+      "mesh": "pelvis_right",
+      "name": "Pelve direita",
+      "region": "Cintura pélvica",
+      "description": "Referência óssea pélvica direita."
+    },
+    {
+      "mesh": "left_femur",
+      "name": "Fêmur esquerdo",
+      "region": "Membro inferior",
+      "description": "Osso longo da coxa esquerda."
+    },
+    {
+      "mesh": "right_femur",
+      "name": "Fêmur direito",
+      "region": "Membro inferior",
+      "description": "Osso longo da coxa direita."
+    },
+    {
+      "mesh": "left_patella",
+      "name": "Patela esquerda",
+      "region": "Membro inferior",
+      "description": "Referência óssea anterior do joelho esquerdo."
+    },
+    {
+      "mesh": "right_patella",
+      "name": "Patela direita",
+      "region": "Membro inferior",
+      "description": "Referência óssea anterior do joelho direito."
+    },
+    {
+      "mesh": "left_tibia",
+      "name": "Tíbia esquerda",
+      "region": "Membro inferior",
+      "description": "Osso da perna esquerda."
+    },
+    {
+      "mesh": "right_tibia",
+      "name": "Tíbia direita",
+      "region": "Membro inferior",
+      "description": "Osso da perna direita."
+    },
+    {
+      "mesh": "left_fibula",
+      "name": "Fíbula esquerda",
+      "region": "Membro inferior",
+      "description": "Osso lateral da perna esquerda."
+    },
+    {
+      "mesh": "right_fibula",
+      "name": "Fíbula direita",
+      "region": "Membro inferior",
+      "description": "Osso lateral da perna direita."
+    }
+  ]
+}

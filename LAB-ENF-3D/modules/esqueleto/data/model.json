@@ -1,0 +1,11 @@
+{
+  "id": "skeleton-lab-model",
+  "type": "glb",
+  "variants": {
+    "eco": "./assets/models/skeleton-g3/skeleton-g3-low.glb",
+    "medium": "./assets/models/skeleton-g3/skeleton-g3-medium.glb",
+    "high": "./assets/models/skeleton-g3/skeleton-g3-high.glb",
+    "ultra": "./assets/models/skeleton-g3/skeleton-g3-high.glb"
+  },
+  "generation": "G3"
+}
