@@ -1,0 +1,72 @@
+.shared-anatomy-lab{
+  min-height:inherit;
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 380px;
+  background:linear-gradient(180deg,#06121e,#081a28)
+}
+.shared-anatomy-stage{
+  position:relative;
+  min-height:640px;
+  overflow:hidden;
+  background:radial-gradient(circle at center,rgba(116,192,252,.06),transparent 24rem),#07131f
+}
+.shared-anatomy-stage .three-host{position:absolute;inset:0}
+.shared-anatomy-badge{
+  position:absolute;left:1rem;top:1rem;z-index:4;
+  padding:.45rem .65rem;border:1px solid rgba(255,255,255,.1);
+  border-radius:999px;background:rgba(6,17,29,.78);font-size:.72rem
+}
+.shared-anatomy-panel{
+  padding:1.05rem;border-left:1px solid var(--border);
+  background:rgba(9,24,38,.95);overflow:auto
+}
+.shared-anatomy-info{
+  min-height:140px;padding:.9rem;border:1px solid var(--border);
+  border-radius:.9rem;background:rgba(255,255,255,.025)
+}
+.shared-anatomy-info p{margin-bottom:0}
+.shared-anatomy-tools{
+  display:grid;grid-template-columns:repeat(2,1fr);
+  gap:.42rem;margin:.75rem 0
+}
+.shared-anatomy-tool{
+  padding:.6rem .68rem;border:1px solid var(--border);
+  border-radius:.72rem;background:rgba(255,255,255,.035);
+  color:var(--text);cursor:pointer
+}
+.shared-anatomy-tool.active{
+  border-color:rgba(99,230,190,.45);
+  background:rgba(99,230,190,.08)
+}
+.shared-cut-control{
+  padding:.7rem;border:1px solid var(--border);
+  border-radius:.78rem;background:rgba(255,255,255,.022)
+}
+.shared-cut-control input{width:100%;margin:.45rem 0 .15rem}
+.shared-cut-control>div{
+  display:flex;justify-content:space-between;
+  color:var(--muted);font-size:.68rem
+}
+.shared-anatomy-list{display:grid;gap:.36rem;margin:.75rem 0}
+.shared-anatomy-row{
+  width:100%;padding:.5rem .6rem;border:1px solid var(--border);
+  border-radius:.68rem;background:rgba(255,255,255,.024);
+  color:var(--text);text-align:left;cursor:pointer;font-size:.78rem
+}
+.shared-anatomy-row.active{
+  border-color:rgba(99,230,190,.45);
+  background:rgba(99,230,190,.08)
+}
+.shared-anatomy-note{
+  margin-top:.8rem;padding:.72rem;border-left:3px solid var(--accent2);
+  background:rgba(116,192,252,.05);color:var(--muted);
+  font-size:.76rem;line-height:1.55
+}
+@media(max-width:900px){
+  .shared-anatomy-lab{grid-template-columns:1fr}
+  .shared-anatomy-panel{border-left:0;border-top:1px solid var(--border)}
+  .shared-anatomy-stage{min-height:500px}
+}
+@media(max-width:520px){
+  .shared-anatomy-tools{grid-template-columns:1fr 1fr}
+}
