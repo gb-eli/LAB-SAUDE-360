@@ -1,0 +1,111 @@
+{
+  "positions": {
+    "dorsal": {
+      "label": "Posição dorsal",
+      "description": "Representação visual de corpo apoiado com a face voltada para cima.",
+      "variants": {
+        "eco": "./assets/models/positioning-g3/dorsal-low.glb",
+        "medium": "./assets/models/positioning-g3/dorsal-medium.glb",
+        "high": "./assets/models/positioning-g3/dorsal-high.glb",
+        "ultra": "./assets/models/positioning-g3/dorsal-high.glb"
+      },
+      "points": [
+        {
+          "mesh": "occipital_contact_proxy",
+          "name": "Referência posterior da cabeça",
+          "description": "Ponto de contato visual para comparação postural, sem orientação de técnica clínica."
+        },
+        {
+          "mesh": "left_scapular_contact_proxy",
+          "name": "Referência escapular esquerda",
+          "description": "Ponto de contato visual para comparação postural, sem orientação de técnica clínica."
+        },
+        {
+          "mesh": "right_scapular_contact_proxy",
+          "name": "Referência escapular direita",
+          "description": "Ponto de contato visual para comparação postural, sem orientação de técnica clínica."
+        },
+        {
+          "mesh": "sacral_contact_proxy",
+          "name": "Referência sacral",
+          "description": "Ponto de contato visual para comparação postural, sem orientação de técnica clínica."
+        },
+        {
+          "mesh": "left_heel_contact_proxy",
+          "name": "Referência do calcâneo esquerdo",
+          "description": "Ponto de contato visual para comparação postural, sem orientação de técnica clínica."
+        },
+        {
+          "mesh": "right_heel_contact_proxy",
+          "name": "Referência do calcâneo direito",
+          "description": "Ponto de contato visual para comparação postural, sem orientação de técnica clínica."
+        }
+      ]
+    },
+    "lateral": {
+      "label": "Posição lateral",
+      "description": "Representação visual de corpo apoiado lateralmente.",
+      "variants": {
+        "eco": "./assets/models/positioning-g3/lateral-low.glb",
+        "medium": "./assets/models/positioning-g3/lateral-medium.glb",
+        "high": "./assets/models/positioning-g3/lateral-high.glb",
+        "ultra": "./assets/models/positioning-g3/lateral-high.glb"
+      },
+      "points": [
+        {
+          "mesh": "head_contact_proxy",
+          "name": "Referência lateral da cabeça",
+          "description": "Ponto de contato visual para comparação postural, sem orientação de técnica clínica."
+        },
+        {
+          "mesh": "shoulder_contact_proxy",
+          "name": "Referência do ombro",
+          "description": "Ponto de contato visual para comparação postural, sem orientação de técnica clínica."
+        },
+        {
+          "mesh": "hip_contact_proxy",
+          "name": "Referência do quadril",
+          "description": "Ponto de contato visual para comparação postural, sem orientação de técnica clínica."
+        },
+        {
+          "mesh": "knee_contact_proxy",
+          "name": "Referência do joelho",
+          "description": "Ponto de contato visual para comparação postural, sem orientação de técnica clínica."
+        }
+      ]
+    },
+    "semi-seated": {
+      "label": "Posição semi-sentada",
+      "description": "Representação visual com tronco inclinado em relação à superfície.",
+      "variants": {
+        "eco": "./assets/models/positioning-g3/semi-seated-low.glb",
+        "medium": "./assets/models/positioning-g3/semi-seated-medium.glb",
+        "high": "./assets/models/positioning-g3/semi-seated-high.glb",
+        "ultra": "./assets/models/positioning-g3/semi-seated-high.glb"
+      },
+      "points": [
+        {
+          "mesh": "upper_back_contact_proxy",
+          "name": "Referência do dorso superior",
+          "description": "Ponto de contato visual para comparação postural, sem orientação de técnica clínica."
+        },
+        {
+          "mesh": "sacral_contact_proxy",
+          "name": "Referência sacral",
+          "description": "Ponto de contato visual para comparação postural, sem orientação de técnica clínica."
+        },
+        {
+          "mesh": "left_heel_contact_proxy",
+          "name": "Referência do calcâneo esquerdo",
+          "description": "Ponto de contato visual para comparação postural, sem orientação de técnica clínica."
+        },
+        {
+          "mesh": "right_heel_contact_proxy",
+          "name": "Referência do calcâneo direito",
+          "description": "Ponto de contato visual para comparação postural, sem orientação de técnica clínica."
+        }
+      ]
+    }
+  },
+  "generation": "G3"
+}
