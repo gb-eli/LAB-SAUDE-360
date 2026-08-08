@@ -1,0 +1,367 @@
+{
+  "version": "0.38.0",
+  "coordinateSystem": "Shared educational coordinate system: Z vertical, X left/right, Y depth.",
+  "shared": {
+    "skeleton": {
+      "consumers": [
+        "esqueleto",
+        "corpo-humano",
+        "comparador-anatomico"
+      ],
+      "variants": {
+        "eco": "./assets/models/skeleton-g3/skeleton-g3-low.glb",
+        "medium": "./assets/models/skeleton-g3/skeleton-g3-medium.glb",
+        "high": "./assets/models/skeleton-g3/skeleton-g3-high.glb",
+        "ultra": "./assets/models/skeleton-g3/skeleton-g3-high.glb"
+      },
+      "label": "Esqueleto",
+      "materialSystem": "skeleton"
+    },
+    "cardiovascular": {
+      "consumers": [
+        "sistema-cardiovascular",
+        "corpo-humano",
+        "comparador-anatomico"
+      ],
+      "variants": {
+        "eco": "./assets/models/cardiovascular-g3/cardiovascular-g3-low.glb",
+        "medium": "./assets/models/cardiovascular-g3/cardiovascular-g3-medium.glb",
+        "high": "./assets/models/cardiovascular-g3/cardiovascular-g3-high.glb",
+        "ultra": "./assets/models/cardiovascular-g3/cardiovascular-g3-high.glb"
+      },
+      "label": "Cardiovascular",
+      "materialSystem": "cardiovascular"
+    },
+    "body": {
+      "consumers": [
+        "corpo-humano"
+      ],
+      "variants": {
+        "eco": "./assets/models/human-g3/body/body-g3-low.glb",
+        "medium": "./assets/models/human-g3/body/body-g3-medium.glb",
+        "high": "./assets/models/human-g3/body/body-g3-high.glb",
+        "ultra": "./assets/models/human-g3/body/body-g3-high.glb"
+      },
+      "label": "Corpo externo",
+      "materialSystem": "skin"
+    },
+    "respiratory": {
+      "consumers": [
+        "respiratorio",
+        "corpo-humano",
+        "comparador-anatomico"
+      ],
+      "variants": {
+        "eco": "./assets/models/respiratory-g3/respiratory-g3-low.glb",
+        "medium": "./assets/models/respiratory-g3/respiratory-g3-medium.glb",
+        "high": "./assets/models/respiratory-g3/respiratory-g3-high.glb",
+        "ultra": "./assets/models/respiratory-g3/respiratory-g3-high.glb"
+      },
+      "label": "Respiratório",
+      "materialSystem": "respiratory"
+    },
+    "organs": {
+      "consumers": [
+        "corpo-humano"
+      ],
+      "variants": {
+        "eco": "./assets/models/human-g3/organs/organs-g3-low.glb",
+        "medium": "./assets/models/human-g3/organs/organs-g3-medium.glb",
+        "high": "./assets/models/human-g3/organs/organs-g3-high.glb",
+        "ultra": "./assets/models/human-g3/organs/organs-g3-high.glb"
+      },
+      "label": "Órgãos gerais",
+      "materialSystem": "digestive"
+    },
+    "urinary": {
+      "consumers": [
+        "sistema-urinario",
+        "corpo-humano",
+        "comparador-anatomico"
+      ],
+      "variants": {
+        "eco": "./assets/models/urinary-g3/urinary-g3-low.glb",
+        "medium": "./assets/models/urinary-g3/urinary-g3-medium.glb",
+        "high": "./assets/models/urinary-g3/urinary-g3-high.glb",
+        "ultra": "./assets/models/urinary-g3/urinary-g3-high.glb"
+      },
+      "label": "Urinário",
+      "materialSystem": "urinary"
+    },
+    "digestive": {
+      "consumers": [
+        "sistema-digestorio",
+        "corpo-humano",
+        "comparador-anatomico"
+      ],
+      "variants": {
+        "eco": "./assets/models/digestive-g3/digestive-g3-low.glb",
+        "medium": "./assets/models/digestive-g3/digestive-g3-medium.glb",
+        "high": "./assets/models/digestive-g3/digestive-g3-high.glb",
+        "ultra": "./assets/models/digestive-g3/digestive-g3-high.glb"
+      },
+      "label": "Digestório",
+      "materialSystem": "digestive"
+    },
+    "nervous": {
+      "consumers": [
+        "sistema-nervoso",
+        "corpo-humano",
+        "comparador-anatomico"
+      ],
+      "variants": {
+        "eco": "./assets/models/nervous-g3/nervous-g3-low.glb",
+        "medium": "./assets/models/nervous-g3/nervous-g3-medium.glb",
+        "high": "./assets/models/nervous-g3/nervous-g3-high.glb",
+        "ultra": "./assets/models/nervous-g3/nervous-g3-high.glb"
+      },
+      "label": "Nervoso",
+      "materialSystem": "nervous"
+    },
+    "endocrine": {
+      "label": "Sistema Endócrino",
+      "materialSystem": "endocrine",
+      "consumers": [
+        "sistema-endocrino",
+        "corpo-humano",
+        "comparador-anatomico"
+      ],
+      "variants": {
+        "eco": "./assets/models/endocrine-g3/endocrine-g3-low.glb",
+        "medium": "./assets/models/endocrine-g3/endocrine-g3-medium.glb",
+        "high": "./assets/models/endocrine-g3/endocrine-g3-high.glb",
+        "ultra": "./assets/models/endocrine-g3/endocrine-g3-high.glb"
+      }
+    },
+    "lymphatic": {
+      "label": "Sistema Linfático",
+      "materialSystem": "lymphatic",
+      "consumers": [
+        "sistema-linfatico",
+        "corpo-humano",
+        "comparador-anatomico"
+      ],
+      "variants": {
+        "eco": "./assets/models/lymphatic-g3/lymphatic-g3-low.glb",
+        "medium": "./assets/models/lymphatic-g3/lymphatic-g3-medium.glb",
+        "high": "./assets/models/lymphatic-g3/lymphatic-g3-high.glb",
+        "ultra": "./assets/models/lymphatic-g3/lymphatic-g3-high.glb"
+      }
+    },
+    "muscular": {
+      "label": "Sistema Muscular",
+      "materialSystem": "muscular",
+      "consumers": [
+        "sistema-muscular",
+        "corpo-humano",
+        "comparador-anatomico"
+      ],
+      "variants": {
+        "eco": "./assets/models/muscular-g3/muscular-g3-low.glb",
+        "medium": "./assets/models/muscular-g3/muscular-g3-medium.glb",
+        "high": "./assets/models/muscular-g3/muscular-g3-high.glb",
+        "ultra": "./assets/models/muscular-g3/muscular-g3-high.glb"
+      }
+    },
+    "reproductiveFemale": {
+      "label": "Reprodutor feminino",
+      "materialSystem": "reproductiveFemale",
+      "consumers": [
+        "sistema-reprodutor",
+        "corpo-humano",
+        "comparador-anatomico"
+      ],
+      "variants": {
+        "eco": "./assets/models/reproductive-g3/female-low.glb",
+        "medium": "./assets/models/reproductive-g3/female-medium.glb",
+        "high": "./assets/models/reproductive-g3/female-high.glb",
+        "ultra": "./assets/models/reproductive-g3/female-high.glb"
+      }
+    },
+    "reproductiveMale": {
+      "label": "Reprodutor masculino",
+      "materialSystem": "reproductiveMale",
+      "consumers": [
+        "sistema-reprodutor",
+        "corpo-humano",
+        "comparador-anatomico"
+      ],
+      "variants": {
+        "eco": "./assets/models/reproductive-g3/male-low.glb",
+        "medium": "./assets/models/reproductive-g3/male-medium.glb",
+        "high": "./assets/models/reproductive-g3/male-high.glb",
+        "ultra": "./assets/models/reproductive-g3/male-high.glb"
+      }
+    },
+    "skinShell": {
+      "label": "Pele externa — casca corporal",
+      "materialSystem": "skin",
+      "consumers": [
+        "corpo-humano",
+        "comparador-anatomico"
+      ],
+      "variants": {
+        "eco": "./assets/models/human-g3/body/body-g3-low.glb",
+        "medium": "./assets/models/human-g3/body/body-g3-medium.glb",
+        "high": "./assets/models/human-g3/body/body-g3-high.glb",
+        "ultra": "./assets/models/human-g3/body/body-g3-high.glb"
+      },
+      "note": "Reutiliza a geometria corporal externa; é diferente do corte tegumentar detalhado."
+    },
+    "skinCutaway": {
+      "label": "Pele G3 — corte tegumentar",
+      "materialSystem": "skin",
+      "consumers": [
+        "pele",
+        "comparador-anatomico"
+      ],
+      "variants": {
+        "eco": "./assets/models/skin-g3/skin-g3-low.glb",
+        "medium": "./assets/models/skin-g3/skin-g3-medium.glb",
+        "high": "./assets/models/skin-g3/skin-g3-high.glb",
+        "ultra": "./assets/models/skin-g3/skin-g3-high.glb"
+      },
+      "note": "Corte didático local, não alinhado como casca corporal."
+    },
+    "headNeck": {
+      "label": "Cabeça e Pescoço",
+      "materialSystem": "headNeck",
+      "consumers": [
+        "cabeca-pescoco",
+        "comparador-anatomico"
+      ],
+      "variants": {
+        "eco": "./assets/models/head-neck-g3/head-neck-g3-low.glb",
+        "medium": "./assets/models/head-neck-g3/head-neck-g3-medium.glb",
+        "high": "./assets/models/head-neck-g3/head-neck-g3-high.glb",
+        "ultra": "./assets/models/head-neck-g3/head-neck-g3-high.glb"
+      },
+      "note": "Asset regional; não é camada corporal global."
+    },
+    "sensory": {
+      "label": "Olho e Ouvido",
+      "materialSystem": "sensory",
+      "consumers": [
+        "olho-ouvido",
+        "comparador-anatomico"
+      ],
+      "variants": {
+        "eco": "./assets/models/eye-ear-g3/eye-ear-g3-low.glb",
+        "medium": "./assets/models/eye-ear-g3/eye-ear-g3-medium.glb",
+        "high": "./assets/models/eye-ear-g3/eye-ear-g3-high.glb",
+        "ultra": "./assets/models/eye-ear-g3/eye-ear-g3-high.glb"
+      },
+      "note": "Asset regional comparativo; não é camada corporal global."
+    },
+    "handFoot": {
+      "label": "Mão e Pé",
+      "materialSystem": "handFoot",
+      "consumers": [
+        "mao-pe",
+        "comparador-anatomico"
+      ],
+      "variants": {
+        "eco": "./assets/models/hand-foot-g3/hand-foot-low.glb",
+        "medium": "./assets/models/hand-foot-g3/hand-foot-medium.glb",
+        "high": "./assets/models/hand-foot-g3/hand-foot-high.glb",
+        "ultra": "./assets/models/hand-foot-g3/hand-foot-high.glb"
+      },
+      "note": "Asset regional comparativo de mão e pé."
+    },
+    "shoulderJoint": {
+      "label": "Articulação — Ombro",
+      "materialSystem": "joint",
+      "consumers": [
+        "articulacoes",
+        "comparador-anatomico"
+      ],
+      "variants": {
+        "eco": "./assets/models/joints-g3/shoulder-low.glb",
+        "medium": "./assets/models/joints-g3/shoulder-medium.glb",
+        "high": "./assets/models/joints-g3/shoulder-high.glb",
+        "ultra": "./assets/models/joints-g3/shoulder-high.glb"
+      },
+      "note": "Asset articular regional, não uma camada corporal global."
+    },
+    "elbowJoint": {
+      "label": "Articulação — Cotovelo",
+      "materialSystem": "joint",
+      "consumers": [
+        "articulacoes",
+        "comparador-anatomico"
+      ],
+      "variants": {
+        "eco": "./assets/models/joints-g3/elbow-low.glb",
+        "medium": "./assets/models/joints-g3/elbow-medium.glb",
+        "high": "./assets/models/joints-g3/elbow-high.glb",
+        "ultra": "./assets/models/joints-g3/elbow-high.glb"
+      },
+      "note": "Asset articular regional, não uma camada corporal global."
+    },
+    "kneeJoint": {
+      "label": "Articulação — Joelho",
+      "materialSystem": "joint",
+      "consumers": [
+        "articulacoes",
+        "comparador-anatomico"
+      ],
+      "variants": {
+        "eco": "./assets/models/joints-g3/knee-low.glb",
+        "medium": "./assets/models/joints-g3/knee-medium.glb",
+        "high": "./assets/models/joints-g3/knee-high.glb",
+        "ultra": "./assets/models/joints-g3/knee-high.glb"
+      },
+      "note": "Asset articular regional, não uma camada corporal global."
+    }
+  },
+  "sharedTools": [
+    "AnatomyPresentationPreset",
+    "AnatomyMaterialPreset",
+    "AnatomyIsolationManager",
+    "AnatomyFallbackRenderer",
+    "SharedAnatomySystemModule",
+    "ComparisonPerformanceManager",
+    "CatalogSearchManager",
+    "comparador-anatomico",
+    "AnatomyHighlightManager",
+    "ComparisonHistoryManager",
+    "ComparisonSemanticSyncManager",
+    "ComparisonAnnotationManager",
+    "CatalogCollections",
+    "ComparisonMarkerManager",
+    "ComparisonReportManager",
+    "CollectionLibrary",
+    "ComparisonWorkspacePackageManager",
+    "EditableComparisonMarkers",
+    "PresetLessonCompetencyFilters",
+    "ComparisonMarkerStyleManager",
+    "CustomComparisonPresetManager",
+    "ComparisonPackageCompatibilityManager",
+    "ComparisonPackageHistoryManager",
+    "AutomaticMarkerLayout",
+    "ComparisonSessionPreviewManager",
+    "CustomPresetTagLibrary",
+    "MarkerCategoryVisibility",
+    "ZoomAwareMarkerLayout",
+    "ImmersiveExperienceManager",
+    "SceneFocusManager",
+    "CinemaMode",
+    "GuidedExperience",
+    "ClinicalMaterialManager",
+    "ClinicalOverlayManager",
+    "ClinicalMiniMap",
+    "ClinicalHotspots",
+    "AnatomySurfaceProfiles",
+    "ClinicalTourManager",
+    "HotspotCluster",
+    "ZoneNavigation",
+    "OrderedMiniMapTrail",
+    "AnatomyStructureFocus",
+    "SmartTourPause",
+    "RadialHotspotCluster",
+    "LiveMiniMapCamera",
+    "ActiveZoneHighlight",
+    "DemonstrationManager",
+    "SmoothFocusRoute"
+  ]
+}

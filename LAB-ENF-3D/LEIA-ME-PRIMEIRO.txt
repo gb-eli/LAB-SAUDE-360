@@ -1,0 +1,29 @@
+LABORATÓRIO VIRTUAL DE ENFERMAGEM — v0.38.0
+
+GITHUB PAGES
+- envie a pasta completa;
+- use index.html.
+
+ABRIR DIRETAMENTE
+- use index-standalone.html;
+- abra no Chrome ou Edge;
+- mantenha acesso ao CDN do Three.js para os laboratórios WebGL.
+
+NOVIDADES
+- Tour pausa quando você gira/toca a cena;
+- botão Retomar;
+- Anterior/Próximo;
+- câmera com rota mais suave;
+- clusters abrem radialmente;
+- mini mapa mostra zona ativa;
+- mini mapa mostra o foco aproximado da câmera;
+- novo botão Demonstração;
+- Tour Clínico automático;
+- Anatomia Essencial automática;
+- Materno-Infantil automático;
+- Cinema opcional durante demonstração;
+- interface melhor em celular deitado.
+
+ARQUIVOS
+- index.html = GitHub Pages
+- index-standalone.html = abertura direta

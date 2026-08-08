@@ -1,0 +1,84 @@
+{
+  "generatedForVersion": "0.38.0",
+  "smartTour": {
+    "pauseOnPointer": true,
+    "pauseOnWheel": true,
+    "pauseOnKeyboard": true,
+    "pauseOnOrbitControlsStart": true,
+    "resumeLabel": true,
+    "previous": true,
+    "projectorIntervalFloorMs": 5600
+  },
+  "smoothRoute": {
+    "sceneFocusArc": true,
+    "defaultDurationMs": 620,
+    "maxArcLift": 0.55
+  },
+  "liveMiniMap": {
+    "cameraMarker": true,
+    "usesControlsTarget": true,
+    "activeZone": true,
+    "zoneNavigation": true,
+    "orderedTrail": true
+  },
+  "clusters": {
+    "radialExpansion": true,
+    "clusterDistancePx": 48,
+    "selectedItemExcluded": true
+  },
+  "demonstration": {
+    "manager": "DemonstrationManager",
+    "sequences": 3,
+    "automaticAdvance": true,
+    "pauseResume": true,
+    "previousNext": true,
+    "cinemaOption": true,
+    "clinicalSequenceModules": 6,
+    "anatomySequenceModules": 6,
+    "maternalSequenceModules": 4
+  },
+  "assetsChanged": false,
+  "glbCount": 246,
+  "faces": 399712,
+  "standalone": {
+    "entry": "index-standalone.html",
+    "embeddedJsModules": 92,
+    "embeddedCssFiles": 37,
+    "embeddedResources": 347,
+    "sizeMiB": 8.36
+  },
+  "browserSmoke": {
+    "app": {
+      "catalogModules": 36,
+      "featuredExperiences": 6,
+      "demonstrationButton": true,
+      "demonstrationPanelOpen": true,
+      "demonstrationSequences": 3,
+      "firstSequence": "Tour Clínico"
+    },
+    "smartTour": {
+      "started": true,
+      "pauseOnPointer": true,
+      "next": true,
+      "previous": true,
+      "pauseOnOrbitControlsStart": true
+    },
+    "overlay": {
+      "clusterCreated": true,
+      "radialMembers": 2,
+      "radialSelection": true,
+      "cameraMarkerPositioned": true,
+      "activeZone": true
+    },
+    "demonstration": {
+      "firstModule": true,
+      "pause": true,
+      "next": true,
+      "previous": true,
+      "cinemaToggle": true,
+      "stop": true
+    },
+    "pageErrors": 0,
+    "consoleErrors": 0
+  }
+}

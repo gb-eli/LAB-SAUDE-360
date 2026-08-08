@@ -1,0 +1,107 @@
+{
+  "generatedForVersion": "0.38.0",
+  "defaultDwellMs": 22000,
+  "sequences": [
+    {
+      "id": "clinico",
+      "title": "Tour Clínico",
+      "description": "Percurso de apresentação pelos principais ambientes de Enfermagem.",
+      "modules": [
+        {
+          "moduleId": "hospital-360",
+          "label": "Hospital 3D",
+          "dwellMs": 24000
+        },
+        {
+          "moduleId": "upa",
+          "label": "UPA",
+          "dwellMs": 22000
+        },
+        {
+          "moduleId": "ubs",
+          "label": "UBS",
+          "dwellMs": 22000
+        },
+        {
+          "moduleId": "maternidade",
+          "label": "Maternidade",
+          "dwellMs": 22000
+        },
+        {
+          "moduleId": "biosseguranca",
+          "label": "Biossegurança",
+          "dwellMs": 22000
+        },
+        {
+          "moduleId": "cme",
+          "label": "CME",
+          "dwellMs": 26000
+        }
+      ]
+    },
+    {
+      "id": "anatomia",
+      "title": "Anatomia Essencial",
+      "description": "Sequência para apresentação visual de anatomia por sistemas.",
+      "modules": [
+        {
+          "moduleId": "corpo-humano",
+          "label": "Corpo Humano",
+          "dwellMs": 26000
+        },
+        {
+          "moduleId": "sistema-cardiovascular",
+          "label": "Cardiovascular",
+          "dwellMs": 24000
+        },
+        {
+          "moduleId": "respiratorio",
+          "label": "Respiratório",
+          "dwellMs": 24000
+        },
+        {
+          "moduleId": "sistema-urinario",
+          "label": "Urinário",
+          "dwellMs": 22000
+        },
+        {
+          "moduleId": "sistema-digestorio",
+          "label": "Digestório",
+          "dwellMs": 22000
+        },
+        {
+          "moduleId": "sistema-nervoso",
+          "label": "Nervoso",
+          "dwellMs": 22000
+        }
+      ]
+    },
+    {
+      "id": "materno",
+      "title": "Materno-Infantil",
+      "description": "Demonstração focada no ciclo materno-infantil.",
+      "modules": [
+        {
+          "moduleId": "materno-infantil",
+          "label": "Gestação G3",
+          "dwellMs": 24000
+        },
+        {
+          "moduleId": "maternidade",
+          "label": "Maternidade",
+          "dwellMs": 24000
+        },
+        {
+          "moduleId": "recem-nascido",
+          "label": "Recém-nascido",
+          "dwellMs": 24000
+        },
+        {
+          "moduleId": "ciclo-vida",
+          "label": "Ciclo de Vida",
+          "dwellMs": 22000
+        }
+      ]
+    }
+  ]
+}

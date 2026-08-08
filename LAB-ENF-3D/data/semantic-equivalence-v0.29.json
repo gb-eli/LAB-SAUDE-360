@@ -1,0 +1,128 @@
+{
+  "generatedForVersion": "0.29.0",
+  "systems": {
+    "mao-pe": {
+      "low": {
+        "required": 10,
+        "present": 10,
+        "added": [
+          "foot_flexor_tendon_proxy",
+          "foot_nerve_proxy",
+          "hand_flexor_tendon_proxy",
+          "hand_nerve_proxy"
+        ],
+        "geometries": 33,
+        "faces": 1840
+      },
+      "medium": {
+        "required": 10,
+        "present": 10,
+        "added": [
+          "foot_nerve_proxy",
+          "hand_nerve_proxy"
+        ],
+        "geometries": 39,
+        "faces": 4928
+      },
+      "high": {
+        "required": 10,
+        "present": 10,
+        "added": [],
+        "geometries": 39,
+        "faces": 5664
+      }
+    },
+    "articulacoes": {
+      "shoulder": {
+        "low": {
+          "required": 6,
+          "present": 6,
+          "added": [
+            "biceps_tendon_proxy",
+            "glenoid_labrum_proxy",
+            "shoulder_ligament_proxy"
+          ],
+          "geometries": 7,
+          "faces": 528
+        },
+        "medium": {
+          "required": 6,
+          "present": 6,
+          "added": [
+            "biceps_tendon_proxy"
+          ],
+          "geometries": 7,
+          "faces": 1440
+        },
+        "high": {
+          "required": 6,
+          "present": 6,
+          "added": [],
+          "geometries": 7,
+          "faces": 4440
+        }
+      },
+      "elbow": {
+        "low": {
+          "required": 7,
+          "present": 7,
+          "added": [
+            "annular_ligament_proxy",
+            "radial_collateral_ligament_proxy",
+            "ulnar_collateral_ligament_proxy"
+          ],
+          "geometries": 7,
+          "faces": 464
+        },
+        "medium": {
+          "required": 7,
+          "present": 7,
+          "added": [
+            "annular_ligament_proxy"
+          ],
+          "geometries": 7,
+          "faces": 800
+        },
+        "high": {
+          "required": 7,
+          "present": 7,
+          "added": [],
+          "geometries": 7,
+          "faces": 3080
+        }
+      },
+      "knee": {
+        "low": {
+          "required": 9,
+          "present": 9,
+          "added": [
+            "acl_proxy",
+            "lateral_collateral_ligament_proxy",
+            "medial_collateral_ligament_proxy",
+            "meniscus_proxy",
+            "pcl_proxy"
+          ],
+          "geometries": 9,
+          "faces": 656
+        },
+        "medium": {
+          "required": 9,
+          "present": 9,
+          "added": [
+            "lateral_collateral_ligament_proxy",
+            "medial_collateral_ligament_proxy"
+          ],
+          "geometries": 9,
+          "faces": 1600
+        },
+        "high": {
+          "required": 9,
+          "present": 9,
+          "added": [],
+          "geometries": 9,
+          "faces": 4480
+        }
+      }
+    }
+  }
+}

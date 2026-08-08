@@ -1,0 +1,28 @@
+{
+  "generatedForVersion": "0.26.0",
+  "sharedSystems": [
+    "skeleton",
+    "cardiovascular",
+    "respiratory",
+    "urinary",
+    "digestive",
+    "nervous"
+  ],
+  "semanticEquivalence": {
+    "respiratorio": "10/10 LOW/MEDIUM/HIGH",
+    "sistema-urinario": "9/9 LOW/MEDIUM/HIGH",
+    "sistema-digestorio": "10/10 LOW/MEDIUM/HIGH",
+    "sistema-nervoso": "8/8 LOW/MEDIUM/HIGH"
+  },
+  "legacyGlbsRemoved": 15,
+  "cutAndIsolation": {
+    "manager": "engines/AnatomyIsolationManager.js",
+    "modes": [
+      "none",
+      "sagittal",
+      "transverse"
+    ],
+    "isolation": "structureId"
+  },
+  "fallback": "services/AnatomyFallbackRenderer.js"
+}

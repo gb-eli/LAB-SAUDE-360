@@ -1,0 +1,111 @@
+{
+  "generatedForVersion": "0.38.0",
+  "collections": [
+    {
+      "id": "anatomia-g3",
+      "label": "Anatomia G3",
+      "description": "Corpo, sistemas e regiões com experiências G3.",
+      "moduleIds": [
+        "mao-pe",
+        "articulacoes",
+        "sistema-reprodutor",
+        "sistema-muscular",
+        "olho-ouvido",
+        "cabeca-pescoco",
+        "sistema-linfatico",
+        "sistema-endocrino",
+        "sistema-cardiovascular",
+        "pele",
+        "sistema-nervoso",
+        "sistema-digestorio",
+        "sistema-urinario",
+        "esqueleto",
+        "respiratorio",
+        "corpo-humano",
+        "anatomia",
+        "paciente-3d",
+        "comparador-anatomico"
+      ]
+    },
+    {
+      "id": "locomotor",
+      "label": "Sistema locomotor",
+      "description": "Esqueleto, músculos, articulações, mão/pé e posicionamento.",
+      "moduleIds": [
+        "esqueleto",
+        "sistema-muscular",
+        "articulacoes",
+        "mao-pe",
+        "posicionamento",
+        "comparador-anatomico"
+      ]
+    },
+    {
+      "id": "cardiorrespiratorio",
+      "label": "Cardiorrespiratório",
+      "description": "Coração, vasos, respiração, sinais vitais e paciente.",
+      "moduleIds": [
+        "anatomia",
+        "sistema-cardiovascular",
+        "respiratorio",
+        "sinais-vitais",
+        "paciente-3d",
+        "comparador-anatomico"
+      ]
+    },
+    {
+      "id": "materno-infantil",
+      "label": "Materno-infantil",
+      "description": "Gestação, maternidade, recém-nascido, pediatria e ciclo da vida.",
+      "moduleIds": [
+        "materno-infantil",
+        "maternidade",
+        "recem-nascido",
+        "pediatria",
+        "ciclo-vida"
+      ]
+    },
+    {
+      "id": "ambientes-assistencia",
+      "label": "Ambientes de assistência",
+      "description": "Hospital, UBS, UPA, maternidade e pediatria.",
+      "moduleIds": [
+        "hospital-360",
+        "ubs",
+        "upa",
+        "maternidade",
+        "pediatria"
+      ]
+    },
+    {
+      "id": "seguranca-materiais",
+      "label": "Segurança e materiais",
+      "description": "Materiais, equipamentos, biossegurança, CME e medicação.",
+      "moduleIds": [
+        "materiais-hospitalares",
+        "equipamentos",
+        "biosseguranca",
+        "cme",
+        "medicamentos"
+      ]
+    }
+  ],
+  "library": {
+    "favorites": true,
+    "recent": true,
+    "maxRecent": 6,
+    "storage": "localStorage via CatalogLibraryManager",
+    "workspacePackages": true,
+    "customComparisonPresets": true,
+    "packageHistory": true,
+    "customPresetTags": true,
+    "sessionPreview": true
+  },
+  "experienceHighlights": true,
+  "clinicalOverlays": true,
+  "miniMaps": true,
+  "zoneNavigation": true,
+  "automaticTours": true,
+  "demonstrationMode": true,
+  "liveMiniMap": true
+}

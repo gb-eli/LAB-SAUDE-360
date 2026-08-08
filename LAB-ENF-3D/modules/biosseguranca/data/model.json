@@ -1,0 +1,11 @@
+{
+  "id": "biosafety-risk-room",
+  "type": "glb",
+  "variants": {
+    "eco": "./assets/models/biosafety-g2/risk-room-low.glb",
+    "medium": "./assets/models/biosafety-g2/risk-room-medium.glb",
+    "high": "./assets/models/biosafety-g2/risk-room-high.glb",
+    "ultra": "./assets/models/biosafety-g2/risk-room-high.glb"
+  },
+  "generation": "G2"
+}

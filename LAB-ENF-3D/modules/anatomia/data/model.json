@@ -1,0 +1,12 @@
+{
+  "id": "heart-g3-model",
+  "type": "glb",
+  "generation": "G3",
+  "variants": {
+    "eco": "./assets/models/heart-g3/heart-g3-low.glb",
+    "medium": "./assets/models/heart-g3/heart-g3-medium.glb",
+    "high": "./assets/models/heart-g3/heart-g3-high.glb",
+    "ultra": "./assets/models/heart-g3/heart-g3-high.glb"
+  },
+  "fallback": "procedural"
+}

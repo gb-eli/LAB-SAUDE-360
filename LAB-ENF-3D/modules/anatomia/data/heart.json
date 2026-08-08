@@ -1,0 +1,101 @@
+{
+  "structures": [
+    {
+      "id": "aorta",
+      "name": "Aorta",
+      "description": "Grande artéria que recebe o sangue que sai do ventrículo esquerdo.",
+      "position": [
+        0.28,
+        1.28,
+        0.18
+      ],
+      "meshName": "aorta"
+    },
+    {
+      "id": "atrio-direito",
+      "name": "Átrio direito",
+      "description": "Câmara superior direita que recebe o retorno venoso sistêmico.",
+      "position": [
+        -0.57,
+        0.62,
+        0.38
+      ],
+      "meshName": "right_atrium"
+    },
+    {
+      "id": "atrio-esquerdo",
+      "name": "Átrio esquerdo",
+      "description": "Câmara superior esquerda relacionada ao retorno proveniente dos pulmões.",
+      "position": [
+        0.55,
+        0.61,
+        0.27
+      ],
+      "meshName": "left_atrium"
+    },
+    {
+      "id": "ventriculo-direito",
+      "name": "Ventrículo direito",
+      "description": "Câmara inferior direita que impulsiona sangue em direção aos pulmões.",
+      "position": [
+        -0.35,
+        -0.35,
+        0.58
+      ],
+      "meshName": "right_ventricle"
+    },
+    {
+      "id": "ventriculo-esquerdo",
+      "name": "Ventrículo esquerdo",
+      "description": "Câmara inferior esquerda responsável por impulsionar sangue para a circulação sistêmica.",
+      "position": [
+        0.4,
+        -0.38,
+        0.52
+      ],
+      "meshName": "left_ventricle"
+    },
+    {
+      "id": "septo",
+      "name": "Septo interventricular — representação",
+      "description": "Parede interna representada entre os ventrículos para estudo espacial.",
+      "meshName": "interventricular_septum_proxy"
+    },
+    {
+      "id": "valva-mitral",
+      "name": "Valva mitral — representação",
+      "description": "Marcador didático da valva entre átrio e ventrículo esquerdos.",
+      "meshName": "mitral_valve_proxy"
+    },
+    {
+      "id": "valva-tricuspide",
+      "name": "Valva tricúspide — representação",
+      "description": "Marcador didático da valva entre átrio e ventrículo direitos.",
+      "meshName": "tricuspid_valve_proxy"
+    },
+    {
+      "id": "valva-aortica",
+      "name": "Valva aórtica — representação",
+      "description": "Marcador didático na saída do ventrículo esquerdo.",
+      "meshName": "aortic_valve_proxy"
+    },
+    {
+      "id": "arteria-pulmonar",
+      "name": "Artéria pulmonar",
+      "description": "Grande vaso representado na saída do ventrículo direito.",
+      "meshName": "pulmonary_artery"
+    },
+    {
+      "id": "veia-cava",
+      "name": "Veia cava",
+      "description": "Grande vaso venoso representado na chegada ao lado direito do coração.",
+      "meshName": "vena_cava"
+    },
+    {
+      "id": "coronaria",
+      "name": "Vaso coronariano — representação",
+      "description": "Pequeno vaso superficial acrescentado nos perfis G3 superiores.",
+      "meshName": "coronary_vessel_1"
+    }
+  ]
+}

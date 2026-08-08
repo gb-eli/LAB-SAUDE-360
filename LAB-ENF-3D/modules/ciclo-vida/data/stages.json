@@ -1,0 +1,55 @@
+{
+  "stages": {
+    "newborn": {
+      "label": "Recém-nascido",
+      "description": "Representação visual da fase neonatal para comparação de proporções corporais.",
+      "variants": {
+        "eco": "./assets/models/life-g3/newborn-low.glb",
+        "medium": "./assets/models/life-g3/newborn-medium.glb",
+        "high": "./assets/models/life-g3/newborn-high.glb",
+        "ultra": "./assets/models/life-g3/newborn-high.glb"
+      }
+    },
+    "child": {
+      "label": "Infância",
+      "description": "Fase infantil apresentada como referência visual e de ciclo da vida.",
+      "variants": {
+        "eco": "./assets/models/life-g3/child-low.glb",
+        "medium": "./assets/models/life-g3/child-medium.glb",
+        "high": "./assets/models/life-g3/child-high.glb",
+        "ultra": "./assets/models/life-g3/child-high.glb"
+      }
+    },
+    "adolescent": {
+      "label": "Adolescência",
+      "description": "Representação didática de uma fase de transição do desenvolvimento.",
+      "variants": {
+        "eco": "./assets/models/life-g3/adolescent-low.glb",
+        "medium": "./assets/models/life-g3/adolescent-medium.glb",
+        "high": "./assets/models/life-g3/adolescent-high.glb",
+        "ultra": "./assets/models/life-g3/adolescent-high.glb"
+      }
+    },
+    "adult": {
+      "label": "Adulto",
+      "description": "Representação corporal adulta usada como referência comparativa.",
+      "variants": {
+        "eco": "./assets/models/life-g3/adult-low.glb",
+        "medium": "./assets/models/life-g3/adult-medium.glb",
+        "high": "./assets/models/life-g3/adult-high.glb",
+        "ultra": "./assets/models/life-g3/adult-high.glb"
+      }
+    },
+    "older": {
+      "label": "Pessoa idosa",
+      "description": "Representação visual da fase idosa, sem inferência clínica individual.",
+      "variants": {
+        "eco": "./assets/models/life-g3/older-low.glb",
+        "medium": "./assets/models/life-g3/older-medium.glb",
+        "high": "./assets/models/life-g3/older-high.glb",
+        "ultra": "./assets/models/life-g3/older-high.glb"
+      }
+    }
+  },
+  "generation": "G3"
+}

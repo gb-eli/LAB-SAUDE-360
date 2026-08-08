@@ -1,0 +1,34 @@
+{
+  "generatedForVersion": "0.30.0",
+  "semanticSync": {
+    "equivalentGroups": [
+      "skull",
+      "thyroid_left",
+      "trachea"
+    ],
+    "relatedGroups": [
+      "patella",
+      "humerus-shoulder",
+      "humerus-elbow"
+    ],
+    "automaticRelation": "equivalent",
+    "explicitRelatedSearch": true
+  },
+  "comparison": {
+    "systems": 19,
+    "presets": 8,
+    "presetThemes": 4,
+    "rendererCount": 1,
+    "simultaneousModels": 2,
+    "annotations": true,
+    "embeddedLegend": true,
+    "history": "IndexedDB, até 8 capturas"
+  },
+  "catalog": {
+    "collections": 6,
+    "collectionAndFilterIntersection": true,
+    "searchTerms": 2065
+  },
+  "assetsChanged": false,
+  "glbCount": 246
+}

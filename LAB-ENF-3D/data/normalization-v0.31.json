@@ -1,0 +1,33 @@
+{
+  "generatedForVersion": "0.31.0",
+  "semantic": {
+    "equivalentGroups": 3,
+    "relatedGroups": 12,
+    "totalGroups": 15,
+    "multipleSuggestions": true,
+    "automaticOnlyEquivalent": true
+  },
+  "markers": {
+    "maxItems": 8,
+    "worldAnchor": "mesh local point converted to world each frame",
+    "systemBound": true,
+    "screenLabels": true,
+    "pngEmbedding": true,
+    "htmlReport": true
+  },
+  "exports": {
+    "customFilename": true,
+    "annotatedPng": true,
+    "standaloneHtmlReport": true
+  },
+  "catalog": {
+    "collections": 6,
+    "favoriteCollections": true,
+    "recentCollections": true,
+    "maxRecentCollections": 6,
+    "searchTerms": 2181
+  },
+  "assetsChanged": false,
+  "glbCount": 246,
+  "faces": 399712
+}

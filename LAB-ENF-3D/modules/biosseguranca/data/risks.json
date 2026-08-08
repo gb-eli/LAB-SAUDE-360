@@ -1,0 +1,40 @@
+{
+  "risks": [
+    {
+      "mesh": "risk_wet_floor",
+      "title": "Piso molhado",
+      "explanation": "Risco de queda e circulação insegura no ambiente.",
+      "zone": "Risco identificado"
+    },
+    {
+      "mesh": "risk_sharp_on_floor",
+      "title": "Perfurocortante fora do coletor",
+      "explanation": "Situação fictícia de descarte incorreto para atividade de reconhecimento de risco.",
+      "zone": "Risco identificado"
+    },
+    {
+      "mesh": "risk_sink_obstruction",
+      "title": "Ponto de higiene obstruído",
+      "explanation": "Objeto bloqueando o acesso ao ponto de higiene das mãos.",
+      "zone": "Risco identificado"
+    },
+    {
+      "mesh": "risk_unsecured_item",
+      "title": "Material mal posicionado",
+      "explanation": "Objeto em posição inadequada próximo ao leito.",
+      "zone": "Risco identificado"
+    },
+    {
+      "mesh": "risk_blocked_path",
+      "title": "Circulação obstruída",
+      "explanation": "Objeto no caminho de circulação do ambiente.",
+      "zone": "Risco identificado"
+    },
+    {
+      "mesh": "risk_unlabeled_container",
+      "title": "Recipiente sem identificação",
+      "explanation": "Representação didática de falha de identificação de material.",
+      "zone": "Risco identificado"
+    }
+  ]
+}

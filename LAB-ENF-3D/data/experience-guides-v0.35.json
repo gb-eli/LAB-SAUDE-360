@@ -1,0 +1,247 @@
+{
+  "generatedForVersion": "0.35.0",
+  "featured": [
+    "corpo-humano",
+    "sistema-cardiovascular",
+    "hospital-360",
+    "upa",
+    "maternidade",
+    "biosseguranca"
+  ],
+  "default": {
+    "code": "LAB",
+    "tone": "clinical",
+    "tagline": "Exploração interativa",
+    "steps": [
+      {
+        "title": "Observe primeiro",
+        "text": "Gire, aproxime e reconheça a organização geral antes de selecionar detalhes.",
+        "selector": ".three-host, canvas, [class$='-stage']"
+      },
+      {
+        "title": "Explore os pontos",
+        "text": "Use os controles e elementos clicáveis do laboratório para abrir informações didáticas.",
+        "selector": "button, [data-tool]"
+      },
+      {
+        "title": "Conecte conceitos",
+        "text": "Relacione o que aparece na cena com anatomia, organização do ambiente e prática profissional.",
+        "selector": "aside, [class$='-panel']"
+      }
+    ]
+  },
+  "modules": {
+    "corpo-humano": {
+      "code": "AN",
+      "tone": "anatomy",
+      "tagline": "Anatomia por camadas",
+      "headline": "Entre no corpo humano por sistemas",
+      "steps": [
+        {
+          "title": "Visão geral",
+          "text": "Comece pela visão geral e reconheça a posição relativa das estruturas.",
+          "selector": ".human-stage"
+        },
+        {
+          "title": "Ative camadas",
+          "text": "Alterne pele, esqueleto e sistemas internos. Carregue apenas o necessário para manter a experiência fluida.",
+          "selector": ".human-panel"
+        },
+        {
+          "title": "Isole uma estrutura",
+          "text": "Selecione uma estrutura e use os recursos de foco/isolamento para explicá-la com clareza.",
+          "selector": "[data-structure], .human-structure-list"
+        },
+        {
+          "title": "Compare sistemas",
+          "text": "Use os presets de camadas para visualizar relações entre sistemas sem sobrecarregar a cena.",
+          "selector": "[data-layer-preset]"
+        }
+      ]
+    },
+    "sistema-cardiovascular": {
+      "code": "CV",
+      "tone": "cardio",
+      "tagline": "Fluxo e estruturas",
+      "headline": "Explore o coração e grandes vasos",
+      "steps": [
+        {
+          "title": "Oriente a câmera",
+          "text": "Use as vistas anatômicas para estabelecer frente, lateral e superior.",
+          "selector": ".deep-stage"
+        },
+        {
+          "title": "Selecione estruturas",
+          "text": "Clique em câmaras e vasos para reconhecer relações anatômicas.",
+          "selector": ".deep-panel"
+        },
+        {
+          "title": "Pulso visual",
+          "text": "Ative o pulso visual apenas como recurso de apresentação, não como simulação fisiológica precisa.",
+          "selector": "[data-pulse]"
+        }
+      ]
+    },
+    "hospital-360": {
+      "code": "HOS",
+      "tone": "facility",
+      "tagline": "Ambiente hospitalar",
+      "headline": "Percorra o quarto e seus pontos de cuidado",
+      "steps": [
+        {
+          "title": "Leia o ambiente",
+          "text": "Observe circulação, leito, apoio, higiene e equipamentos antes de aproximar.",
+          "selector": ".room-stage, .facility-stage"
+        },
+        {
+          "title": "Reconheça equipamentos",
+          "text": "Selecione objetos do cenário para abrir a ficha didática correspondente.",
+          "selector": ".room-panel, .facility-panel"
+        },
+        {
+          "title": "Use o modo cinema",
+          "text": "Em projetor ou tela grande, esconda distrações e deixe a cena ocupar o espaço principal.",
+          "selector": "#experience-cinema"
+        }
+      ]
+    },
+    "upa": {
+      "code": "UPA",
+      "tone": "urgent",
+      "tagline": "Urgência e observação",
+      "headline": "Reconheça o fluxo espacial de uma UPA",
+      "steps": [
+        {
+          "title": "Chegada e triagem",
+          "text": "Localize a triagem e observe a relação com os demais setores.",
+          "selector": ".facility-stage"
+        },
+        {
+          "title": "Observação",
+          "text": "Selecione leito e monitor para aproximar a câmera e reconhecer a área de observação.",
+          "selector": ".facility-panel"
+        },
+        {
+          "title": "Biossegurança",
+          "text": "Encontre o ponto de higiene das mãos e relacione-o ao fluxo do ambiente.",
+          "selector": ".facility-info"
+        }
+      ]
+    },
+    "ubs": {
+      "code": "UBS",
+      "tone": "primary",
+      "tagline": "Atenção primária",
+      "headline": "Explore uma UBS por áreas funcionais",
+      "steps": [
+        {
+          "title": "Acolhimento",
+          "text": "Comece pela recepção e observe como o ambiente organiza a chegada.",
+          "selector": ".facility-stage"
+        },
+        {
+          "title": "Consulta e vacinação",
+          "text": "Selecione as áreas de consulta e vacinação para aproximar a câmera.",
+          "selector": ".facility-panel"
+        },
+        {
+          "title": "Organização e higiene",
+          "text": "Localize conservação de insumos e higiene das mãos.",
+          "selector": ".facility-info"
+        }
+      ]
+    },
+    "maternidade": {
+      "code": "MAT",
+      "tone": "maternity",
+      "tagline": "Materno-infantil",
+      "headline": "Explore o ambiente de maternidade",
+      "steps": [
+        {
+          "title": "Leito e entorno",
+          "text": "Observe o leito e a organização do espaço ao redor.",
+          "selector": ".room-stage"
+        },
+        {
+          "title": "Recém-nascido",
+          "text": "Selecione o berço para aproximar e reconhecer sua posição no ambiente.",
+          "selector": ".room-panel"
+        },
+        {
+          "title": "Apoio e higiene",
+          "text": "Explore armário, monitor e higiene das mãos como referências espaciais.",
+          "selector": ".room-info"
+        }
+      ]
+    },
+    "biosseguranca": {
+      "code": "BIO",
+      "tone": "safety",
+      "tagline": "Inspeção de riscos",
+      "headline": "Investigue o cenário antes de revelar os riscos",
+      "steps": [
+        {
+          "title": "Varredura visual",
+          "text": "Observe toda a cena antes de clicar. Procure situações que merecem investigação.",
+          "selector": ".bio-stage"
+        },
+        {
+          "title": "Identifique riscos",
+          "text": "Clique nos elementos suspeitos. A pontuação acompanha quantos pontos foram encontrados.",
+          "selector": ".risk-list"
+        },
+        {
+          "title": "Discuta a causa",
+          "text": "Após revelar um risco, use a explicação como ponto de partida para discussão, não como protocolo clínico.",
+          "selector": ".bio-info"
+        }
+      ]
+    },
+    "cme": {
+      "code": "CME",
+      "tone": "sterile",
+      "tagline": "Fluxo de processamento",
+      "headline": "Percorra o fluxo sujo → limpo → estéril",
+      "steps": [
+        {
+          "title": "Observe as zonas",
+          "text": "Antes de iniciar, reconheça a separação visual das áreas.",
+          "selector": ".cme-stage"
+        },
+        {
+          "title": "Siga a sequência",
+          "text": "Clique nas estações na ordem indicada pelo fluxo didático.",
+          "selector": ".flow-list"
+        },
+        {
+          "title": "Revise o percurso",
+          "text": "Ao concluir, volte à visão geral para explicar como as zonas se conectam.",
+          "selector": ".cme-tools"
+        }
+      ]
+    },
+    "recem-nascido": {
+      "code": "RN",
+      "tone": "maternity",
+      "tagline": "Anatomia e cuidado",
+      "headline": "Explore referências do recém-nascido",
+      "steps": [
+        {
+          "title": "Visão geral",
+          "text": "Observe proporções e referências externas antes de selecionar pontos.",
+          "selector": ".three-host"
+        },
+        {
+          "title": "Estruturas",
+          "text": "Selecione regiões e leia as informações didáticas relacionadas.",
+          "selector": "aside"
+        },
+        {
+          "title": "Apresentação",
+          "text": "Use cinema/projetor para ampliar detalhes durante a explicação.",
+          "selector": "#experience-cinema"
+        }
+      ]
+    }
+  }
+}

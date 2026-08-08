@@ -1,0 +1,34 @@
+{
+  "structures": [
+    {
+      "mesh": "skull",
+      "name": "Crânio",
+      "description": "Referência óssea da cabeça."
+    },
+    {
+      "mesh": "cervical_spine_proxy",
+      "name": "Coluna cervical — representação",
+      "description": "Eixo cervical simplificado."
+    },
+    {
+      "mesh": "trachea",
+      "name": "Traqueia",
+      "description": "Via aérea representada na região cervical."
+    },
+    {
+      "mesh": "pharynx_proxy",
+      "name": "Faringe — representação",
+      "description": "Referência didática da região faríngea."
+    },
+    {
+      "mesh": "thyroid_left",
+      "name": "Tireoide",
+      "description": "Representação esquemática da tireoide no pescoço."
+    },
+    {
+      "mesh": "left_cervical_node_proxy",
+      "name": "Linfonodo cervical — representação",
+      "description": "Estrutura G3 representada de forma didática e simplificada."
+    }
+  ]
+}

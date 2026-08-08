@@ -1,0 +1,27 @@
+{
+  "generatedForVersion": "0.24.0",
+  "skinOptimization": {
+    "strategy": "Agrupar geometrias repetidas não usadas como hotspot e preservar os meshes semânticos principais.",
+    "beforeHighDrawCallsEstimate": 41,
+    "afterHighDrawCallsEstimate": 15,
+    "beforeHighFaces": 4084,
+    "afterHighFaces": 4084,
+    "semanticMeshesPreserved": [
+      "epidermis",
+      "dermis",
+      "hypodermis",
+      "hair_1",
+      "hair_follicle_1",
+      "gland_1",
+      "sweat_duct_proxy_1",
+      "arterial_vessel_proxy",
+      "venous_vessel_proxy",
+      "cutaneous_nerve_proxy"
+    ]
+  },
+  "assetReplacement": {
+    "obsoleteG1Removed": 39,
+    "equipmentGeneration": "G2",
+    "materialsGeneration": "G2"
+  }
+}

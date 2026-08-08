@@ -1,0 +1,2308 @@
+{
+  "activities": [
+    {
+      "id": "human-systems-01",
+      "code": "ENF-CORPO-01",
+      "title": "Corpo Humano G3 — 15 Camadas Compartilhadas",
+      "moduleId": "corpo-humano",
+      "duration": "20–30 min",
+      "objectives": [
+        "Comparar quinze camadas anatômicas sob demanda.",
+        "Explorar Endócrino, Linfático, Muscular e Reprodutor no mesmo referencial.",
+        "Usar pele externa, corte ajustável e isolamento preservando lazy-load.",
+        "Localizar estruturas diretamente pela busca interna e abrir a camada correspondente."
+      ],
+      "checkpoints": [
+        "Explorou duas ou mais camadas.",
+        "Selecionou uma estrutura esquelética.",
+        "Selecionou um órgão.",
+        "Observou uma relação espacial entre sistemas."
+      ],
+      "quiz": [
+        {
+          "question": "Qual recurso ajuda a observar estruturas internas sem remover totalmente o corpo externo?",
+          "options": [
+            "Transparência da camada",
+            "Aumentar o volume",
+            "Fechar o módulo"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Qual sistema contém os pulmões?",
+          "options": [
+            "Respiratório",
+            "Esquelético",
+            "Integumentar"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O modelo 3D desta atividade deve ser tratado como:",
+          "options": [
+            "Representação didática",
+            "Exame clínico",
+            "Diagnóstico"
+          ],
+          "answer": 0
+        }
+      ],
+      "explorationPrompts": [
+        "Abra o preset Visão geral.",
+        "Compare Sistemas internos.",
+        "Ative o preset Esqueleto.",
+        "Ative o preset Cardiovascular.",
+        "Isole um órgão e depois use Resetar."
+      ]
+    },
+    {
+      "id": "respiratory-01",
+      "code": "ENF-RESP-01",
+      "title": "Respiratório G3 — Movimento, Corte e Isolamento",
+      "moduleId": "respiratorio",
+      "duration": "20 min",
+      "objectives": [
+        "Reconhecer pulmões, traqueia, brônquios e diafragma.",
+        "Comparar movimento respiratório visual e estruturas distais.",
+        "Usar isolamento e cortes gráficos como recursos de visualização.",
+        "Reconhecer o mesmo asset dentro do Corpo Humano."
+      ],
+      "checkpoints": [
+        "Selecionou a traqueia.",
+        "Selecionou um pulmão.",
+        "Localizou uma referência G3 adicional.",
+        "Comparou duas vistas."
+      ],
+      "quiz": [
+        {
+          "question": "A traqueia pertence a qual conjunto estudado aqui?",
+          "options": [
+            "Vias aéreas",
+            "Sistema esquelético",
+            "CME"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "A animação do módulo representa:",
+          "options": [
+            "Uma visualização didática",
+            "Uma medição clínica real",
+            "Uma prescrição"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O diafragma está relacionado visualmente à:",
+          "options": [
+            "Mecânica respiratória",
+            "Cor do sangue",
+            "Estrutura óssea do crânio"
+          ],
+          "answer": 0
+        }
+      ],
+      "explorationPrompts": [
+        "Selecione traqueia e os dois brônquios principais.",
+        "Compare os dois pulmões.",
+        "Ative um corte sagital.",
+        "Isole uma estrutura.",
+        "Compare o mesmo sistema no Corpo Humano."
+      ]
+    },
+    {
+      "id": "skeleton-01",
+      "code": "ENF-ESQ-01",
+      "title": "Esqueleto G3 — Regiões, Cinturas e Pivôs",
+      "moduleId": "esqueleto",
+      "duration": "20–25 min",
+      "objectives": [
+        "Explorar esqueleto axial e apendicular em G3.",
+        "Reconhecer clavículas, escápulas, pelve e patelas.",
+        "Comparar cotovelos e joelhos com pivôs posicionados nas referências articulares.",
+        "Usar filtros regionais e vistas."
+      ],
+      "checkpoints": [
+        "Visualizou região axial.",
+        "Visualizou membros superiores.",
+        "Visualizou membros inferiores.",
+        "Selecionou ao menos dois ossos."
+      ],
+      "quiz": [
+        {
+          "question": "Qual estrutura faz parte do esqueleto axial?",
+          "options": [
+            "Coluna vertebral",
+            "Fêmur",
+            "Rádio"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O fêmur é apresentado no módulo em qual região?",
+          "options": [
+            "Membro inferior",
+            "Crânio",
+            "Tórax"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Os controles articulares são:",
+          "options": [
+            "Simplificações didáticas",
+            "Simulação biomecânica clínica",
+            "Instrumento diagnóstico"
+          ],
+          "answer": 0
+        }
+      ],
+      "explorationPrompts": [
+        "Isole o esqueleto axial.",
+        "Compare clavícula e escápula.",
+        "Selecione ulna e fíbula.",
+        "Movimente os dois cotovelos.",
+        "Movimente os dois joelhos."
+      ]
+    },
+    {
+      "id": "vitals-01",
+      "code": "ENF-SV-01",
+      "title": "Sinais Vitais G3 — Paciente e Monitor",
+      "moduleId": "sinais-vitais",
+      "duration": "20 min",
+      "objectives": [
+        "Relacionar pontos visuais do Paciente G3 a sinais vitais simulados.",
+        "Comparar três cenários fictícios do monitor.",
+        "Reconhecer que valores e ondas são apenas didáticos."
+      ],
+      "checkpoints": [
+        "Comparou dois cenários.",
+        "Reconheceu FC e SpO₂.",
+        "Reconheceu PA e temperatura.",
+        "Selecionou um ponto no paciente 3D."
+      ],
+      "quiz": [
+        {
+          "question": "Qual sigla do monitor representa saturação exibida no cenário?",
+          "options": [
+            "SpO₂",
+            "CME",
+            "LOD"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Os valores apresentados no laboratório são:",
+          "options": [
+            "Fictícios",
+            "Dados de um paciente real",
+            "Resultados laboratoriais"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O objetivo principal do módulo é:",
+          "options": [
+            "Leitura visual e comparação",
+            "Diagnóstico",
+            "Prescrição"
+          ],
+          "answer": 0
+        }
+      ],
+      "explorationPrompts": [
+        "Selecione o ponto visual do braço.",
+        "Selecione o ponto visual da mão.",
+        "Alterne entre os cenários A, B e C.",
+        "Compare as ondas simuladas e as leituras."
+      ]
+    },
+    {
+      "id": "biosafety-01",
+      "code": "ENF-BIO-01",
+      "title": "Biossegurança G2 — Encontre os 6 Riscos",
+      "moduleId": "biosseguranca",
+      "duration": "15–20 min",
+      "objectives": [
+        "Identificar os seis riscos do cenário fictício.",
+        "Comparar organização, circulação, higiene e descarte.",
+        "Concluir a inspeção em qualquer perfil gráfico."
+      ],
+      "checkpoints": [
+        "Encontrou ao menos três riscos.",
+        "Identificou um risco de circulação.",
+        "Identificou um risco de descarte.",
+        "Identificou um risco relacionado à organização."
+      ],
+      "quiz": [
+        {
+          "question": "Um objeto bloqueando a circulação representa:",
+          "options": [
+            "Risco de organização/circulação",
+            "Melhoria do fluxo",
+            "Sinalização suficiente"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O cenário de riscos é:",
+          "options": [
+            "Fictício e educacional",
+            "Auditoria real",
+            "Laudo técnico"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O objetivo da inspeção é:",
+          "options": [
+            "Reconhecer situações de risco",
+            "Emitir diagnóstico",
+            "Substituir protocolo institucional"
+          ],
+          "answer": 0
+        }
+      ],
+      "explorationPrompts": [
+        "Não revele a lista de riscos antes da exploração.",
+        "Peça justificativa para cada seleção.",
+        "Compare o ambiente antes e depois da identificação.",
+        "Finalize discutindo organização e prevenção."
+      ]
+    },
+    {
+      "id": "cme-01",
+      "code": "ENF-CME-01",
+      "title": "CME G2 — Sequência e Zonas do Fluxo",
+      "moduleId": "cme",
+      "duration": "20–25 min",
+      "objectives": [
+        "Reconhecer a sequência didática do fluxo.",
+        "Diferenciar visualmente zonas suja, limpa, processamento e estéril.",
+        "Explorar o ambiente sem parâmetros clínicos de esterilização."
+      ],
+      "checkpoints": [
+        "Iniciou na recepção.",
+        "Reconheceu limpeza e inspeção.",
+        "Reconheceu preparo/embalagem.",
+        "Concluiu o fluxo no armazenamento."
+      ],
+      "quiz": [
+        {
+          "question": "Qual etapa aparece primeiro no fluxo didático?",
+          "options": [
+            "Recepção de material contaminado",
+            "Armazenamento estéril",
+            "Esterilização"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O módulo apresenta parâmetros reais de autoclave?",
+          "options": [
+            "Não",
+            "Sim, completos",
+            "Somente para diagnóstico"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Após inspeção, o fluxo didático segue para:",
+          "options": [
+            "Preparo/embalagem",
+            "Recepção",
+            "Volta ao início"
+          ],
+          "answer": 0
+        }
+      ],
+      "explorationPrompts": [
+        "Peça que a turma tente a sequência sem olhar o roteiro.",
+        "Discuta a mudança conceitual de área suja para limpa.",
+        "Mostre a esterilização sem parâmetros operacionais.",
+        "Finalize no armazenamento estéril."
+      ]
+    },
+    {
+      "id": "meds-01",
+      "code": "ENF-MED-01",
+      "title": "Medicamentos G2 — Rótulos e Organização Didática",
+      "moduleId": "medicamentos",
+      "duration": "20–30 min",
+      "objectives": [
+        "Reconhecer objetos genéricos da bancada.",
+        "Ler rótulos e identificadores fictícios.",
+        "Executar cálculos acadêmicos somente com valores simulados.",
+        "Diferenciar reconhecimento visual de orientação clínica real."
+      ],
+      "checkpoints": [
+        "Leu nome e concentração fictícios.",
+        "Conferiu lote/validade fictícios.",
+        "Concluiu checklist.",
+        "Realizou um cálculo acadêmico."
+      ],
+      "quiz": [
+        {
+          "question": "Os produtos usados nos casos são:",
+          "options": [
+            "Didáticos e fictícios",
+            "Medicamentos reais",
+            "Receitas reais"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "UD significa neste módulo:",
+          "options": [
+            "Unidade Didática",
+            "Unidade de Diagnóstico",
+            "Uso Domiciliar"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O cálculo do módulo serve para:",
+          "options": [
+            "Raciocínio acadêmico",
+            "Orientar administração real",
+            "Prescrever"
+          ],
+          "answer": 0
+        }
+      ],
+      "explorationPrompts": [
+        "Selecione frasco, ampola e seringa de treinamento.",
+        "Compare os três casos fictícios.",
+        "Observe os elementos adicionais da bancada nos perfis superiores.",
+        "Complete um cálculo acadêmico e o checklist."
+      ]
+    },
+    {
+      "id": "maternal-01",
+      "code": "ENF-MI-01",
+      "title": "Gestação G3 — Comparação por Fases",
+      "moduleId": "materno-infantil",
+      "duration": "20–25 min",
+      "objectives": [
+        "Comparar três fases gestacionais didáticas.",
+        "Reconhecer feto, placenta, cordão e útero.",
+        "Observar a ocupação espacial conforme a fase."
+      ],
+      "checkpoints": [
+        "Visualizou as três fases.",
+        "Selecionou placenta.",
+        "Selecionou cordão umbilical.",
+        "Ajustou transparência."
+      ],
+      "quiz": [
+        {
+          "question": "O modelo de gestação da plataforma é:",
+          "options": [
+            "Representação didática esquemática",
+            "Avaliação obstétrica real",
+            "Exame de imagem"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Qual estrutura conecta visualmente o feto à placenta no modelo?",
+          "options": [
+            "Cordão umbilical",
+            "Fêmur",
+            "Traqueia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "A transparência do útero é usada para:",
+          "options": [
+            "Observar relações espaciais",
+            "Determinar diagnóstico",
+            "Calcular idade gestacional real"
+          ],
+          "answer": 0
+        }
+      ],
+      "explorationPrompts": [
+        "Comece pelo primeiro trimestre.",
+        "Compare o tamanho relativo do modelo fetal nas três fases.",
+        "Selecione placenta e cordão.",
+        "Use transparência do útero para observar as relações espaciais."
+      ]
+    },
+    {
+      "id": "life-cycle-01",
+      "code": "ENF-CV-01",
+      "title": "Ciclo da Vida G3 — Proporções Corporais",
+      "moduleId": "ciclo-vida",
+      "duration": "15–20 min",
+      "objectives": [
+        "Comparar proporções corporais entre cinco fases da vida.",
+        "Observar mudanças visuais gerais sem inferência clínica.",
+        "Alternar vistas frontal e lateral."
+      ],
+      "checkpoints": [
+        "Visualizou recém-nascido.",
+        "Visualizou infância/adolescência.",
+        "Visualizou adulto.",
+        "Visualizou pessoa idosa."
+      ],
+      "quiz": [
+        {
+          "question": "As figuras do ciclo da vida representam:",
+          "options": [
+            "Modelos genéricos didáticos",
+            "Pessoas reais",
+            "Padrões diagnósticos"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "A plataforma inclui qual fase?",
+          "options": [
+            "Adolescência",
+            "Autoclave",
+            "CME"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "As proporções devem ser usadas para:",
+          "options": [
+            "Comparação visual",
+            "Diagnóstico de desenvolvimento",
+            "Prescrição"
+          ],
+          "answer": 0
+        }
+      ],
+      "explorationPrompts": [
+        "Compare recém-nascido e infância.",
+        "Compare adolescência e adulto.",
+        "Observe a representação da pessoa idosa.",
+        "Use duas vistas para cada comparação."
+      ]
+    },
+    {
+      "id": "ubs-01",
+      "code": "ENF-UBS-01",
+      "title": "UBS — Reconhecimento do Ambiente",
+      "moduleId": "ubs",
+      "duration": "15–20 min",
+      "objectives": [
+        "Reconhecer áreas genéricas de uma UBS fictícia.",
+        "Localizar recepção, consulta e vacinação.",
+        "Identificar um ponto relacionado à biossegurança."
+      ],
+      "checkpoints": [
+        "Selecionou recepção.",
+        "Selecionou consulta.",
+        "Selecionou vacinação.",
+        "Selecionou higiene das mãos."
+      ],
+      "quiz": [
+        {
+          "question": "Qual ambiente aparece na UBS 3D?",
+          "options": [
+            "Área de vacinação",
+            "Centro cirúrgico real",
+            "CME industrial"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O cenário é:",
+          "options": [
+            "Fictício e educacional",
+            "Planta oficial",
+            "Protocolo institucional"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O ponto de higiene é usado para discutir:",
+          "options": [
+            "Biossegurança",
+            "Diagnóstico",
+            "Prescrição"
+          ],
+          "answer": 0
+        }
+      ],
+      "explorationPrompts": [
+        "Comece pela recepção.",
+        "Localize a área de consulta.",
+        "Localize vacinação e conservação de insumos.",
+        "Finalize no ponto de higiene das mãos."
+      ]
+    },
+    {
+      "id": "upa-01",
+      "code": "ENF-UPA-01",
+      "title": "UPA — Triagem e Observação",
+      "moduleId": "upa",
+      "duration": "15–20 min",
+      "objectives": [
+        "Reconhecer triagem e observação no cenário fictício.",
+        "Localizar elementos de apoio do ambiente.",
+        "Diferenciar visualmente área de observação e emergência."
+      ],
+      "checkpoints": [
+        "Selecionou triagem.",
+        "Selecionou leito de observação.",
+        "Selecionou monitor.",
+        "Reconheceu área de emergência."
+      ],
+      "quiz": [
+        {
+          "question": "O primeiro ponto visual destacado no cenário é:",
+          "options": [
+            "Triagem",
+            "Autoclave",
+            "Placenta"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O cenário da UPA é:",
+          "options": [
+            "Fictício e didático",
+            "Fluxo oficial obrigatório",
+            "Laudo arquitetônico"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "A área de observação contém uma representação de:",
+          "options": [
+            "Leito",
+            "Feto",
+            "Esqueleto"
+          ],
+          "answer": 0
+        }
+      ],
+      "explorationPrompts": [
+        "Localize a triagem.",
+        "Aproxime a área de observação.",
+        "Identifique monitor e área de emergência.",
+        "Reforce que o cenário não representa fluxo oficial."
+      ]
+    },
+    {
+      "id": "newborn-01",
+      "code": "ENF-RN-01",
+      "title": "Recém-Nascido G3 — Exploração Corporal",
+      "moduleId": "recem-nascido",
+      "duration": "15–20 min",
+      "objectives": [
+        "Explorar o modelo neonatal genérico G3.",
+        "Reconhecer cabeça, tronco e membros.",
+        "Comparar vistas e proporções sem inferência clínica."
+      ],
+      "explorationPrompts": [
+        "Gire o modelo livremente.",
+        "Selecione cabeça e tronco.",
+        "Compare membros superiores e inferiores.",
+        "Alterne entre vista frontal e lateral."
+      ],
+      "checkpoints": [
+        "Selecionou cabeça.",
+        "Selecionou tronco.",
+        "Comparou duas vistas.",
+        "Reconheceu o caráter genérico do modelo."
+      ],
+      "quiz": [
+        {
+          "question": "O modelo neonatal é:",
+          "options": [
+            "Genérico e didático",
+            "Avaliação clínica real",
+            "Exame diagnóstico"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O módulo permite comparar:",
+          "options": [
+            "Vistas do modelo",
+            "Resultados laboratoriais",
+            "Prescrições"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "A finalidade principal é:",
+          "options": [
+            "Exploração espacial",
+            "Diagnóstico neonatal",
+            "Determinar crescimento"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "maternity-01",
+      "code": "ENF-MAT-01",
+      "title": "Maternidade — Reconhecimento do Ambiente",
+      "moduleId": "maternidade",
+      "duration": "15–20 min",
+      "objectives": [
+        "Reconhecer elementos do ambiente fictício.",
+        "Localizar leito e berço.",
+        "Identificar ponto de higiene."
+      ],
+      "explorationPrompts": [
+        "Comece pela visão geral.",
+        "Selecione o leito.",
+        "Localize o berço.",
+        "Finalize no ponto de higiene."
+      ],
+      "checkpoints": [
+        "Selecionou leito.",
+        "Selecionou berço.",
+        "Selecionou higiene.",
+        "Explorou o ambiente."
+      ],
+      "quiz": [
+        {
+          "question": "Qual elemento aparece no ambiente?",
+          "options": [
+            "Berço do recém-nascido",
+            "Autoclave industrial",
+            "Foguete"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O cenário é:",
+          "options": [
+            "Fictício e educacional",
+            "Planta oficial",
+            "Protocolo obrigatório"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O ponto de higiene é associado à:",
+          "options": [
+            "Biossegurança",
+            "Diagnóstico",
+            "Prescrição"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "pediatrics-01",
+      "code": "ENF-PED-01",
+      "title": "Pediatria — Exploração do Ambiente",
+      "moduleId": "pediatria",
+      "duration": "15–20 min",
+      "objectives": [
+        "Reconhecer um ambiente pediátrico fictício.",
+        "Localizar leito e área de exame.",
+        "Reconhecer elementos lúdicos e de biossegurança."
+      ],
+      "explorationPrompts": [
+        "Explore o leito pediátrico.",
+        "Localize a área de exame.",
+        "Observe a área lúdica.",
+        "Localize o ponto de higiene."
+      ],
+      "checkpoints": [
+        "Selecionou leito.",
+        "Selecionou área de exame.",
+        "Reconheceu área lúdica.",
+        "Selecionou higiene."
+      ],
+      "quiz": [
+        {
+          "question": "Qual elemento diferencia visualmente o cenário pediátrico?",
+          "options": [
+            "Área lúdica",
+            "Autoclave",
+            "Placenta"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O ambiente é:",
+          "options": [
+            "Fictício e didático",
+            "Fluxo oficial obrigatório",
+            "Laudo arquitetônico"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "A exploração serve para:",
+          "options": [
+            "Reconhecimento visual",
+            "Diagnóstico",
+            "Prescrição"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "wounds-01",
+      "code": "ENF-FER-01",
+      "title": "Integridade Cutânea G3 — Comparação Visual",
+      "moduleId": "feridas",
+      "duration": "15 min",
+      "objectives": [
+        "Comparar quatro amostras visuais estilizadas.",
+        "Observar cor, superfície e profundidade aparente.",
+        "Reconhecer camadas de referência sem classificação clínica."
+      ],
+      "explorationPrompts": [
+        "Compare as amostras A e B.",
+        "Observe a diferença de profundidade aparente na amostra C.",
+        "Compare a textura visual da amostra D.",
+        "Nos perfis superiores, observe as camadas de referência."
+      ],
+      "checkpoints": [
+        "Selecionou duas amostras.",
+        "Comparou superfície.",
+        "Comparou profundidade aparente.",
+        "Reconheceu que o módulo não diagnostica ou recomenda tratamento."
+      ],
+      "quiz": [
+        {
+          "question": "O módulo define estágio clínico de feridas?",
+          "options": [
+            "Não",
+            "Sim",
+            "Somente em modo avançado"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O módulo recomenda curativos?",
+          "options": [
+            "Não",
+            "Sim",
+            "Somente produtos genéricos"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O foco é:",
+          "options": [
+            "Comparação visual",
+            "Diagnóstico",
+            "Tratamento"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "positioning-01",
+      "code": "ENF-POS-01",
+      "title": "Posicionamento G3 — Posições e Pontos de Contato",
+      "moduleId": "posicionamento",
+      "duration": "15 min",
+      "objectives": [
+        "Comparar três orientações corporais.",
+        "Reconhecer pontos neutros de contato na superfície.",
+        "Usar vistas diferentes sem executar técnicas de mobilização."
+      ],
+      "explorationPrompts": [
+        "Abra a posição dorsal e selecione dois pontos.",
+        "Compare com a posição lateral.",
+        "Explore a posição semi-sentada.",
+        "Compare visão geral e lateral."
+      ],
+      "checkpoints": [
+        "Visualizou dorsal.",
+        "Visualizou lateral.",
+        "Visualizou semi-sentada.",
+        "Reconheceu a limitação do módulo."
+      ],
+      "quiz": [
+        {
+          "question": "O módulo ensina técnica de transferência?",
+          "options": [
+            "Não",
+            "Sim",
+            "Somente em leito"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Qual postura aparece?",
+          "options": [
+            "Lateral",
+            "Autoclave",
+            "Gestação"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "A finalidade é:",
+          "options": [
+            "Comparação visual",
+            "Treinar manobras clínicas",
+            "Avaliar paciente real"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "urinary-01",
+      "code": "ENF-URI-01",
+      "title": "Sistema Urinário G3 — Estruturas, Corte e Isolamento",
+      "moduleId": "sistema-urinario",
+      "duration": "15–20 min",
+      "objectives": [
+        "Reconhecer rins, pelves renais, ureteres e bexiga.",
+        "Localizar referências vasculares e de cálice.",
+        "Usar corte e isolamento sem finalidade clínica."
+      ],
+      "explorationPrompts": [
+        "Compare os dois rins.",
+        "Localize ureteres e bexiga.",
+        "Selecione a referência vascular.",
+        "Use corte sagital e isole uma estrutura."
+      ],
+      "checkpoints": [
+        "Selecionou um rim.",
+        "Selecionou um ureter.",
+        "Selecionou a bexiga.",
+        "Localizou uma referência G3."
+      ],
+      "quiz": [
+        {
+          "question": "Qual estrutura recebe visualmente os ureteres no modelo?",
+          "options": [
+            "Bexiga",
+            "Fígado",
+            "Pulmão"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O modelo é:",
+          "options": [
+            "Didático e esquemático",
+            "Diagnóstico",
+            "Exame clínico"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Os rins pertencem ao:",
+          "options": [
+            "Sistema urinário",
+            "Sistema respiratório",
+            "Sistema esquelético"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "digestive-01",
+      "code": "ENF-DIG-01",
+      "title": "Sistema Digestório G3 — Órgãos, Segmentos e Corte",
+      "moduleId": "sistema-digestorio",
+      "duration": "15–20 min",
+      "objectives": [
+        "Reconhecer esôfago, estômago, fígado, pâncreas e intestinos.",
+        "Comparar referências de vesícula, duodeno, sigmoide e apêndice.",
+        "Utilizar cortes e isolamento para orientação espacial."
+      ],
+      "explorationPrompts": [
+        "Selecione estômago e fígado.",
+        "Localize o pâncreas.",
+        "Procure o duodeno.",
+        "Compare dois segmentos do cólon."
+      ],
+      "checkpoints": [
+        "Selecionou estômago.",
+        "Selecionou fígado.",
+        "Selecionou pâncreas.",
+        "Selecionou um segmento intestinal."
+      ],
+      "quiz": [
+        {
+          "question": "Qual órgão aparece no módulo?",
+          "options": [
+            "Estômago",
+            "Bexiga",
+            "Pulmão"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O fígado está no:",
+          "options": [
+            "Sistema digestório",
+            "Sistema nervoso",
+            "Sistema esquelético"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "A representação é:",
+          "options": [
+            "Esquemática",
+            "Diagnóstico real",
+            "Imagem de paciente"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "nervous-01",
+      "code": "ENF-NER-01",
+      "title": "Sistema Nervoso G3 — Encéfalo, Medula e Nervos",
+      "moduleId": "sistema-nervoso",
+      "duration": "15–20 min",
+      "objectives": [
+        "Comparar hemisférios cerebrais, cerebelo e tronco encefálico.",
+        "Reconhecer medula e nervos periféricos.",
+        "Usar corte e isolamento como recursos gráficos."
+      ],
+      "explorationPrompts": [
+        "Compare os dois hemisférios.",
+        "Selecione cerebelo e medula.",
+        "Procure tronco encefálico.",
+        "No HIGH, observe uma referência de lobo cerebral."
+      ],
+      "checkpoints": [
+        "Selecionou hemisfério cerebral.",
+        "Selecionou cerebelo.",
+        "Selecionou medula.",
+        "Localizou uma referência G3."
+      ],
+      "quiz": [
+        {
+          "question": "Qual estrutura central aparece?",
+          "options": [
+            "Medula espinal",
+            "Bexiga",
+            "Estômago"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O cerebelo está associado ao:",
+          "options": [
+            "Sistema nervoso",
+            "CME",
+            "Sistema urinário"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O módulo serve para:",
+          "options": [
+            "Orientação anatômica",
+            "Diagnóstico",
+            "Prescrição"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "skin-01",
+      "code": "ENF-PELE-01",
+      "title": "Pele G3 — Corte Tegumentar Completo",
+      "moduleId": "pele",
+      "duration": "15–20 min",
+      "objectives": [
+        "Diferenciar epiderme, derme e hipoderme.",
+        "Reconhecer anexos, vasos e nervo em todos os LODs.",
+        "Utilizar corte ajustável e isolamento sem finalidade diagnóstica."
+      ],
+      "explorationPrompts": [
+        "Selecione as três camadas.",
+        "Localize o primeiro folículo e a primeira glândula.",
+        "Compare vaso arterial e venoso.",
+        "No HIGH, procure a referência nervosa."
+      ],
+      "checkpoints": [
+        "Selecionou epiderme.",
+        "Selecionou derme.",
+        "Selecionou hipoderme."
+      ],
+      "quiz": [
+        {
+          "question": "Qual camada é superficial no modelo?",
+          "options": [
+            "Epiderme",
+            "Hipoderme",
+            "Medula"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Qual camada aparece mais profunda?",
+          "options": [
+            "Hipoderme",
+            "Epiderme",
+            "Traqueia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O corte serve para:",
+          "options": [
+            "Comparação visual",
+            "Diagnóstico de pele",
+            "Tratamento"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "cardio-01",
+      "code": "ENF-CARD-01",
+      "title": "Sistema Cardiovascular G3 — Câmaras e Vasos",
+      "moduleId": "sistema-cardiovascular",
+      "duration": "15–20 min",
+      "objectives": [
+        "Reconhecer as quatro câmaras cardíacas no modelo G3.",
+        "Diferenciar grandes vasos arteriais e venosos.",
+        "Localizar referências coronárias e vasos periféricos.",
+        "Utilizar vistas e pulso visual apenas como apoio espacial."
+      ],
+      "explorationPrompts": [
+        "Selecione os dois ventrículos e os dois átrios.",
+        "Compare aorta, artéria pulmonar e veias pulmonares.",
+        "Localize as veias cavas superior e inferior.",
+        "Observe as referências coronárias.",
+        "Ative e desative o pulso visual."
+      ],
+      "checkpoints": [
+        "Selecionou uma câmara cardíaca.",
+        "Selecionou aorta.",
+        "Selecionou veia cava."
+      ],
+      "quiz": [
+        {
+          "question": "Qual vaso principal aparece saindo do coração?",
+          "options": [
+            "Aorta",
+            "Ureter",
+            "Traqueia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "A veia cava é representada como:",
+          "options": [
+            "Vaso venoso",
+            "Osso",
+            "Glândula"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O modelo é:",
+          "options": [
+            "Didático e esquemático",
+            "Exame clínico",
+            "Diagnóstico"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "endocrine-01",
+      "code": "ENF-END-01",
+      "title": "Endócrino G3 — Glândulas, Corte e Isolamento",
+      "moduleId": "sistema-endocrino",
+      "duration": "15–20 min",
+      "objectives": [
+        "Reconhecer as glândulas principais do modelo.",
+        "Comparar a distribuição corporal.",
+        "Utilizar corte ajustável e isolamento como recursos gráficos."
+      ],
+      "explorationPrompts": [
+        "Selecione a tireoide.",
+        "Localize as adrenais.",
+        "Observe a representação do pâncreas."
+      ],
+      "checkpoints": [
+        "Selecionou tireoide.",
+        "Selecionou adrenal.",
+        "Selecionou pâncreas."
+      ],
+      "quiz": [
+        {
+          "question": "Qual glândula aparece no pescoço?",
+          "options": [
+            "Tireoide",
+            "Baço",
+            "Bexiga"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "As adrenais aparecem próximas à região dos:",
+          "options": [
+            "Rins",
+            "Pulmões",
+            "Olhos"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O objetivo é:",
+          "options": [
+            "Orientação anatômica",
+            "Diagnóstico hormonal",
+            "Prescrição"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "lymphatic-01",
+      "code": "ENF-LINF-01",
+      "title": "Linfático G3 — Cadeias, Baço e Corte",
+      "moduleId": "sistema-linfatico",
+      "duration": "15–20 min",
+      "objectives": [
+        "Localizar ducto torácico, cadeias de linfonodos e baço.",
+        "Comparar regiões cervicais, axilares e inguinais.",
+        "Utilizar corte e isolamento."
+      ],
+      "explorationPrompts": [
+        "Explore região cervical.",
+        "Compare axila e região inguinal.",
+        "Selecione o baço."
+      ],
+      "checkpoints": [
+        "Selecionou linfonodo cervical.",
+        "Selecionou região axilar.",
+        "Selecionou baço."
+      ],
+      "quiz": [
+        {
+          "question": "Qual órgão está representado no módulo?",
+          "options": [
+            "Baço",
+            "Estômago",
+            "Bexiga"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Linfonodos são mostrados como:",
+          "options": [
+            "Marcadores didáticos",
+            "Resultados de exame",
+            "Diagnósticos"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O modelo é:",
+          "options": [
+            "Esquemático",
+            "Paciente real",
+            "Laudo"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "head-neck-01",
+      "code": "ENF-CP-01",
+      "title": "Cabeça e Pescoço G3 — Região Compartilhada",
+      "moduleId": "cabeca-pescoco",
+      "duration": "15–20 min",
+      "objectives": [
+        "Reconhecer referências de crânio, via aérea e pescoço.",
+        "Localizar tireoide e linfonodo cervical em todos os LODs.",
+        "Utilizar corte ajustável e isolamento."
+      ],
+      "explorationPrompts": [
+        "Selecione o crânio.",
+        "Localize a traqueia.",
+        "Selecione a tireoide."
+      ],
+      "checkpoints": [
+        "Selecionou crânio.",
+        "Selecionou traqueia.",
+        "Selecionou tireoide."
+      ],
+      "quiz": [
+        {
+          "question": "Qual estrutura da via aérea aparece?",
+          "options": [
+            "Traqueia",
+            "Ureter",
+            "Cólon"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "A coluna cervical está na região do:",
+          "options": [
+            "Pescoço",
+            "Abdome",
+            "Pé"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O modelo serve para:",
+          "options": [
+            "Orientação regional",
+            "Diagnóstico",
+            "Procedimento real"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "sense-01",
+      "code": "ENF-SENT-01",
+      "title": "Olho e Ouvido G3 — Região Compartilhada",
+      "moduleId": "olho-ouvido",
+      "duration": "15–20 min",
+      "objectives": [
+        "Reconhecer estruturas básicas do olho e ouvido.",
+        "Localizar cóclea em LOW/MEDIUM/HIGH.",
+        "Utilizar corte ajustável e isolamento."
+      ],
+      "explorationPrompts": [
+        "Selecione globo ocular e íris.",
+        "Explore o ouvido externo.",
+        "Localize o canal auditivo."
+      ],
+      "checkpoints": [
+        "Selecionou globo ocular.",
+        "Selecionou íris.",
+        "Selecionou estrutura do ouvido."
+      ],
+      "quiz": [
+        {
+          "question": "Qual estrutura está no olho?",
+          "options": [
+            "Íris",
+            "Baço",
+            "Ureter"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Qual estrutura está no ouvido?",
+          "options": [
+            "Canal auditivo",
+            "Ventrículo esquerdo",
+            "Bexiga"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "A cena serve para:",
+          "options": [
+            "Comparação didática",
+            "Teste de visão/audição",
+            "Diagnóstico"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "muscular-01",
+      "code": "ENF-MUS-01",
+      "title": "Muscular G3 — Grupos, Tendões e Fáscias",
+      "moduleId": "sistema-muscular",
+      "duration": "15–20 min",
+      "objectives": [
+        "Reconhecer grupos musculares principais.",
+        "Comparar tendões e referências fasciais.",
+        "Usar corte ajustável e isolamento sem interpretação biomecânica."
+      ],
+      "explorationPrompts": [
+        "Selecione peitoral e deltoide.",
+        "Compare bíceps e tríceps.",
+        "Localize quadríceps e panturrilha.",
+        "No HIGH, procure uma referência fascial."
+      ],
+      "checkpoints": [
+        "Selecionou músculo do tronco.",
+        "Selecionou bíceps/tríceps.",
+        "Selecionou músculo da perna.",
+        "Localizou uma referência G3."
+      ],
+      "quiz": [
+        {
+          "question": "Qual grupo aparece na região anterior da coxa?",
+          "options": [
+            "Quadríceps",
+            "Tireoide",
+            "Baço"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O deltoide aparece na região do:",
+          "options": [
+            "Ombro",
+            "Abdome",
+            "Pé"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O modelo é:",
+          "options": [
+            "Didático e esquemático",
+            "Exame clínico",
+            "Diagnóstico"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "reproductive-01",
+      "code": "ENF-REP-01",
+      "title": "Reprodutor G3 — Anatomia Interna e Corte",
+      "moduleId": "sistema-reprodutor",
+      "duration": "15–20 min",
+      "objectives": [
+        "Comparar modelos internos feminino e masculino.",
+        "Reconhecer estruturas semânticas em todos os LODs.",
+        "Utilizar corte ajustável e isolamento como apoio espacial."
+      ],
+      "explorationPrompts": [
+        "Explore útero, ovário e tuba uterina.",
+        "Nos perfis superiores, localize endométrio ou miométrio.",
+        "Alterne para o modelo masculino.",
+        "Localize próstata, testículo e ducto deferente."
+      ],
+      "checkpoints": [
+        "Visualizou o modelo feminino.",
+        "Selecionou uma estrutura G3 feminina.",
+        "Visualizou o modelo masculino.",
+        "Selecionou uma estrutura G3 masculina."
+      ],
+      "quiz": [
+        {
+          "question": "Qual estrutura aparece no modelo feminino?",
+          "options": [
+            "Útero",
+            "Aorta",
+            "Traqueia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Qual estrutura aparece no modelo masculino?",
+          "options": [
+            "Próstata — representação",
+            "Placenta",
+            "Cólon"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O módulo tem finalidade:",
+          "options": [
+            "Anatômica educacional",
+            "Diagnóstica",
+            "Prescritiva"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "joints-01",
+      "code": "ENF-ART-01",
+      "title": "Articulações G3 — Destaque e Estruturas Articulares",
+      "moduleId": "articulacoes",
+      "duration": "20 min",
+      "objectives": [
+        "Comparar Ombro, Cotovelo e Joelho.",
+        "Reconhecer superfícies, cartilagens, menisco, lábio articular e ligamentos.",
+        "Utilizar destaque, isolamento e corte ajustável."
+      ],
+      "explorationPrompts": [
+        "Destaque o lábio glenoidal no Ombro.",
+        "Destaque o ligamento anular no Cotovelo.",
+        "Destaque menisco e ligamentos no Joelho.",
+        "Compare a mesma região no Comparador."
+      ],
+      "checkpoints": [
+        "Visualizou ombro.",
+        "Visualizou cotovelo.",
+        "Visualizou joelho."
+      ],
+      "quiz": [
+        {
+          "question": "Qual osso aparece no joelho?",
+          "options": [
+            "Patela",
+            "Crânio",
+            "Ulna"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Rádio e ulna aparecem no:",
+          "options": [
+            "Cotovelo",
+            "Joelho",
+            "Ombro"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Ligamentos e cartilagens do módulo são:",
+          "options": [
+            "Simplificações didáticas",
+            "Avaliação biomecânica real",
+            "Laudo"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "hand-foot-01",
+      "code": "ENF-MP-01",
+      "title": "Mão e Pé G3 — Ossos, Tendões e Nervos",
+      "moduleId": "mao-pe",
+      "duration": "15 min",
+      "objectives": [
+        "Comparar referências ósseas da mão e do pé.",
+        "Localizar tendões e nervos em LOW/MEDIUM/HIGH.",
+        "Usar destaque, isolamento e cortes gráficos."
+      ],
+      "explorationPrompts": [
+        "Selecione um elemento do carpo e um do tarso.",
+        "Localize os tendões flexores.",
+        "Localize as referências nervosas.",
+        "Use o destaque antes do isolamento."
+      ],
+      "checkpoints": [
+        "Selecionou estrutura da mão.",
+        "Selecionou estrutura do pé.",
+        "Comparou duas vistas."
+      ],
+      "quiz": [
+        {
+          "question": "Tarso e metatarso pertencem ao:",
+          "options": [
+            "Pé",
+            "Crânio",
+            "Tórax"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O módulo compara:",
+          "options": [
+            "Mão e pé",
+            "Coração e pulmão",
+            "UBS e UPA"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "A finalidade é:",
+          "options": [
+            "Orientação regional",
+            "Diagnóstico",
+            "Tratamento"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "materials-01",
+      "code": "ENF-MAT-HOSP-01",
+      "title": "Materiais Hospitalares G2 — Reconhecimento Visual",
+      "moduleId": "materiais-hospitalares",
+      "duration": "15–20 min",
+      "objectives": [
+        "Pesquisar materiais por nome e categoria.",
+        "Comparar detalhes visuais dos modelos G2.",
+        "Reconhecer que o catálogo não orienta técnica ou indicação clínica."
+      ],
+      "explorationPrompts": [
+        "Compare máscara e gaze.",
+        "Observe o coletor de perfurocortantes.",
+        "Explore tubo, garrote e bolsa genérica."
+      ],
+      "checkpoints": [
+        "Visualizou três materiais.",
+        "Visualizou o coletor.",
+        "Reconheceu a limitação didática."
+      ],
+      "quiz": [
+        {
+          "question": "Qual item está presente na galeria?",
+          "options": [
+            "Compressa de gaze",
+            "Fêmur",
+            "Placenta"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O coletor serve no módulo para:",
+          "options": [
+            "Reconhecimento visual",
+            "Ensinar descarte real completo",
+            "Emitir protocolo"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "A galeria apresenta técnicas de uso?",
+          "options": [
+            "Não",
+            "Sim",
+            "Somente no modo avançado"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "heart-g3-01",
+      "code": "ENF-COR-G3-01",
+      "title": "Coração G3 — Câmaras e Estruturas Internas",
+      "moduleId": "anatomia",
+      "duration": "20–25 min",
+      "objectives": [
+        "Reconhecer quatro câmaras cardíacas representadas.",
+        "Localizar aorta, artéria pulmonar e veia cava.",
+        "Explorar referências internas simplificadas de septo e valvas."
+      ],
+      "explorationPrompts": [
+        "Selecione um átrio e um ventrículo.",
+        "Localize a aorta.",
+        "Procure o septo interventricular.",
+        "Selecione uma referência valvar.",
+        "Use o desafio de identificação."
+      ],
+      "checkpoints": [
+        "Selecionou uma câmara direita.",
+        "Selecionou uma câmara esquerda.",
+        "Selecionou um grande vaso.",
+        "Selecionou uma estrutura interna G3."
+      ],
+      "quiz": [
+        {
+          "question": "Qual estrutura separa visualmente os ventrículos no modelo G3?",
+          "options": [
+            "Septo interventricular — representação",
+            "Traqueia",
+            "Ureter"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Qual grande vaso está representado na saída do lado esquerdo?",
+          "options": [
+            "Aorta",
+            "Veia cava",
+            "Ducto torácico"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "As valvas do modelo são:",
+          "options": [
+            "Referências didáticas simplificadas",
+            "Exame real",
+            "Prótese clínica"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "equipment-parts-01",
+      "code": "ENF-EQP-01",
+      "title": "Equipamentos G2 — Peças, Busca e Vista Explodida",
+      "moduleId": "equipamentos",
+      "duration": "15–20 min",
+      "objectives": [
+        "Pesquisar equipamentos por categoria ou peça.",
+        "Reconhecer partes semânticas dos modelos G2.",
+        "Usar vista explodida apenas como recurso visual."
+      ],
+      "explorationPrompts": [
+        "Abra a seringa e separe as partes.",
+        "Selecione o êmbolo ou cilindro.",
+        "Compare com estetoscópio ou termômetro.",
+        "Restaure as peças antes de trocar de equipamento."
+      ],
+      "checkpoints": [
+        "Usou a vista explodida.",
+        "Selecionou uma peça cadastrada.",
+        "Comparou dois equipamentos.",
+        "Restaurou o conjunto."
+      ],
+      "quiz": [
+        {
+          "question": "A vista explodida serve para:",
+          "options": [
+            "Reconhecimento visual das partes",
+            "Ensinar manutenção",
+            "Orientar procedimento clínico"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Qual equipamento possui peça chamada êmbolo?",
+          "options": [
+            "Seringa",
+            "Oxímetro",
+            "Estetoscópio"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "A separação das peças representa:",
+          "options": [
+            "Recurso visual didático",
+            "Desmontagem técnica real",
+            "Instrução de esterilização"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "patient-g3-01",
+      "code": "ENF-PAC-01",
+      "title": "Paciente G3 — Orientação Corporal",
+      "moduleId": "paciente-3d",
+      "duration": "15–20 min",
+      "objectives": [
+        "Explorar um modelo humano genérico em 3D.",
+        "Reconhecer regiões corporais principais.",
+        "Comparar vistas frontal e lateral sem finalidade clínica."
+      ],
+      "explorationPrompts": [
+        "Selecione cabeça e tronco.",
+        "Localize um segmento do membro superior.",
+        "Localize um segmento do membro inferior.",
+        "Compare vista frontal e lateral.",
+        "Nos perfis superiores, procure uma referência adicional."
+      ],
+      "checkpoints": [
+        "Selecionou cabeça ou tronco.",
+        "Selecionou membro superior.",
+        "Selecionou membro inferior.",
+        "Comparou duas vistas."
+      ],
+      "quiz": [
+        {
+          "question": "Qual região pertence ao membro superior?",
+          "options": [
+            "Antebraço",
+            "Coxa",
+            "Perna"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Qual região pertence ao membro inferior?",
+          "options": [
+            "Coxa",
+            "Pescoço",
+            "Antebraço"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O modelo serve para:",
+          "options": [
+            "Orientação corporal didática",
+            "Diagnóstico",
+            "Exame físico real"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "code": "ENF-COMP-01",
+      "moduleId": "comparador-anatomico",
+      "title": "Comparador Anatômico G3 — Sistemas e Estruturas",
+      "duration": "20–25 min",
+      "objectives": [
+        "Comparar dois sistemas ou estruturas específicas.",
+        "Alternar entre lado a lado e sobreposição visual normalizada.",
+        "Ajustar opacidade A/B e reconhecer limites de escala/alinhamento.",
+        "Exportar uma vista PNG local para registro da exploração."
+      ],
+      "explorationPrompts": [
+        "Compare Esqueleto e Muscular.",
+        "Selecione uma estrutura específica em cada lado.",
+        "Ative Sobrepor A/B e ajuste as opacidades.",
+        "Compare Cabeça/Pescoço com Olho/Ouvido.",
+        "Exporte uma vista PNG."
+      ],
+      "checkpoints": [
+        "Selecionou dois sistemas.",
+        "Selecionou pelo menos uma estrutura específica.",
+        "Utilizou sobreposição A/B.",
+        "Ajustou opacidade.",
+        "Reconheceu o aviso de escala visual normalizada."
+      ]
+    },
+    {
+      "id": "comparison-structure-overlay-02",
+      "code": "ENF-COMP-02",
+      "title": "Comparação Estrutural A/B — Sobreposição",
+      "moduleId": "comparador-anatomico",
+      "duration": "15–20 min",
+      "objectives": [
+        "Selecionar estruturas específicas em dois modelos.",
+        "Usar sobreposição com opacidade controlada.",
+        "Distinguir comparação visual normalizada de escala anatômica real."
+      ],
+      "explorationPrompts": [
+        "Compare ventrículo esquerdo e direito.",
+        "Compare tireoide e linfonodo cervical.",
+        "Compare epiderme e derme usando o mesmo sistema quando útil.",
+        "Alterne lado a lado e sobreposição."
+      ],
+      "checkpoints": [
+        "Escolheu duas estruturas.",
+        "Ativou sobreposição.",
+        "Alterou as duas opacidades.",
+        "Retornou ao modo lado a lado."
+      ],
+      "quiz": [
+        {
+          "question": "A sobreposição do comparador preserva escala anatômica real entre sistemas diferentes?",
+          "options": [
+            "Não",
+            "Sim",
+            "Somente no modo HIGH"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "comparison-presets-history-03",
+      "code": "ENF-COMP-03",
+      "title": "Comparador G3 — Presets, Destaque, Sync e Histórico",
+      "moduleId": "comparador-anatomico",
+      "duration": "20–25 min",
+      "objectives": [
+        "Usar presets pedagógicos A/B.",
+        "Reconhecer o destaque visual das estruturas selecionadas.",
+        "Exportar uma vista PNG e localizá-la no histórico local.",
+        "Relacionar métricas do Comparador ao perfil de desempenho.",
+        "Ativar sincronização semântica entre estruturas equivalentes.",
+        "Registrar uma anotação local e exportá-la com legenda A/B embutida."
+      ],
+      "explorationPrompts": [
+        "Abra o preset Ombro — osso × músculo.",
+        "Abra o preset Joelho — osso × articulação.",
+        "Compare nervos de mão e pé.",
+        "Exporte uma imagem.",
+        "Verifique a imagem no histórico e abra o painel de diagnóstico."
+      ],
+      "checkpoints": [
+        "Usou pelo menos dois presets.",
+        "Visualizou destaque A e B.",
+        "Exportou uma vista PNG.",
+        "Visualizou o histórico local.",
+        "Abriu as métricas específicas do Comparador."
+      ],
+      "quiz": [
+        {
+          "question": "O destaque da estrutura selecionada indica uma alteração clínica?",
+          "options": [
+            "Não",
+            "Sim",
+            "Somente no HIGH"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Onde ficam as imagens do histórico?",
+          "options": [
+            "Localmente no navegador",
+            "Em servidor clínico",
+            "No prontuário"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "comparison-semantic-annotation-04",
+      "code": "ENF-COMP-04",
+      "title": "Comparador G3 — Equivalências e Anotação de Vista",
+      "moduleId": "comparador-anatomico",
+      "duration": "20–25 min",
+      "objectives": [
+        "Sincronizar estruturas semanticamente equivalentes entre dois conjuntos.",
+        "Diferenciar equivalência automática de referência regional relacionada.",
+        "Escrever uma anotação local sobre a comparação.",
+        "Exportar um PNG com legenda A/B, modo, perfil e anotação embutidos."
+      ],
+      "explorationPrompts": [
+        "Selecione Crânio no Esqueleto e observe a sincronização com Cabeça/Pescoço.",
+        "Compare Traqueia entre Respiratório e Cabeça/Pescoço.",
+        "Compare Tireoide entre Endócrino e Cabeça/Pescoço.",
+        "Use Encontrar equivalente/relacionado na Patela.",
+        "Escreva uma observação didática e exporte o PNG."
+      ],
+      "checkpoints": [
+        "Usou sincronização automática em uma equivalência exata.",
+        "Usou a busca explícita de relação regional.",
+        "Registrou anotação local.",
+        "Exportou PNG com legenda.",
+        "Identificou que relação regional não significa geometria equivalente."
+      ],
+      "quiz": [
+        {
+          "question": "Uma referência regional é sincronizada automaticamente como equivalência exata?",
+          "options": [
+            "Não",
+            "Sim",
+            "Somente no ULTRA"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "A anotação escrita no Comparador é enviada a um servidor?",
+          "options": [
+            "Não, permanece local",
+            "Sim",
+            "Somente no GitHub Pages"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "comparison-markers-report-05",
+      "code": "ENF-COMP-05",
+      "title": "Comparador G3 — Marcadores, Sugestões e Ficha HTML",
+      "moduleId": "comparador-anatomico",
+      "duration": "25–30 min",
+      "objectives": [
+        "Explorar múltiplas relações semânticas sugeridas para uma estrutura.",
+        "Diferenciar equivalência, referência regional, mesmo órgão e relação funcional.",
+        "Adicionar marcadores de texto ancorados em estruturas 3D.",
+        "Definir um nome personalizado para a exportação.",
+        "Gerar uma ficha comparativa HTML local com imagem, anotação e marcadores.",
+        "Editar texto e categoria de um marcador já criado.",
+        "Reposicionar um marcador sem recriar o registro."
+      ],
+      "explorationPrompts": [
+        "Selecione o úmero esquerdo e visualize as referências de ombro e cotovelo.",
+        "Selecione o pâncreas e compare Digestório e Endócrino.",
+        "Adicione dois marcadores diretamente sobre o modelo.",
+        "Gire a câmera e observe os marcadores acompanhando as estruturas.",
+        "Defina um nome de arquivo e exporte a ficha HTML."
+      ],
+      "checkpoints": [
+        "Visualizou pelo menos duas sugestões para uma mesma estrutura.",
+        "Aplicou uma relação não automática conscientemente.",
+        "Criou pelo menos um marcador 3D.",
+        "Usou nome personalizado.",
+        "Exportou ficha HTML local."
+      ],
+      "quiz": [
+        {
+          "question": "Um marcador da v0.31 fica preso apenas a uma posição fixa da tela?",
+          "options": [
+            "Não, ele é ancorado à mesh 3D",
+            "Sim",
+            "Somente no perfil ECO"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Uma relação funcional é tratada como equivalência automática?",
+          "options": [
+            "Não",
+            "Sim",
+            "Somente no modo sobreposição"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "comparison-editable-markers-package-06",
+      "code": "ENF-COMP-06",
+      "title": "Comparador G3 — Marcadores Editáveis e Pacote Local",
+      "moduleId": "comparador-anatomico",
+      "duration": "25–30 min",
+      "objectives": [
+        "Criar marcadores nas categorias Estrutura, Atenção, Relação e Dúvida.",
+        "Editar o texto e a categoria de um marcador existente.",
+        "Reposicionar um marcador diretamente em outra referência visível.",
+        "Ligar e desligar linhas-guia.",
+        "Filtrar presets por aula e competência.",
+        "Exportar e reimportar um pacote JSON local de anotações.",
+        "Gerar uma ficha HTML a partir de uma captura já existente no histórico."
+      ],
+      "explorationPrompts": [
+        "Crie quatro marcadores, um de cada categoria.",
+        "Edite um marcador e altere sua categoria.",
+        "Reposicione o marcador em outro ponto da mesma comparação.",
+        "Compare a leitura com e sem linhas-guia.",
+        "Filtre os presets por uma aula.",
+        "Exporte o pacote JSON, limpe os marcadores e importe o pacote novamente.",
+        "Exporte um PNG e gere uma ficha HTML pelo card do histórico."
+      ],
+      "checkpoints": [
+        "Criou marcador categorizado.",
+        "Editou um marcador.",
+        "Reposicionou um marcador.",
+        "Alternou as linhas-guia.",
+        "Usou um filtro de preset.",
+        "Exportou e importou pacote JSON.",
+        "Gerou ficha HTML a partir do histórico."
+      ],
+      "quiz": [
+        {
+          "question": "O pacote JSON da v0.32 depende de servidor para ser reutilizado?",
+          "options": [
+            "Não",
+            "Sim",
+            "Somente no GitHub Pages"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Reposicionar um marcador exige criar outro marcador?",
+          "options": [
+            "Não",
+            "Sim",
+            "Somente no modo sobreposição"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "comparison-layout-custom-presets-07",
+      "code": "ENF-COMP-07",
+      "title": "Comparador G3 — Layout, Estilos e Presets Personalizados",
+      "moduleId": "comparador-anatomico",
+      "duration": "25–35 min",
+      "objectives": [
+        "Arrastar etiquetas sem alterar a âncora anatômica.",
+        "Usar organização automática para reduzir sobreposição de marcadores.",
+        "Personalizar cor e ícone de uma categoria de marcador.",
+        "Salvar a comparação atual como preset personalizado.",
+        "Exportar e importar presets personalizados.",
+        "Analisar a compatibilidade de uma sessão JSON antes de aplicá-la.",
+        "Interpretar o histórico local de pacotes analisados."
+      ],
+      "explorationPrompts": [
+        "Crie vários marcadores próximos e use Organizar etiquetas.",
+        "Arraste manualmente uma etiqueta para outra posição.",
+        "Personalize a categoria Relação com outra cor/ícone.",
+        "Salve a comparação atual como preset personalizado.",
+        "Exporte os presets e importe-os novamente.",
+        "Importe uma sessão e leia o painel de compatibilidade antes de aplicar."
+      ],
+      "checkpoints": [
+        "Arrastou uma etiqueta.",
+        "Executou auto-layout.",
+        "Personalizou estilo de categoria.",
+        "Salvou preset personalizado.",
+        "Exportou/importou presets.",
+        "Revisou compatibilidade antes de aplicar uma sessão."
+      ],
+      "quiz": [
+        {
+          "question": "Arrastar a etiqueta altera o ponto anatômico do marcador?",
+          "options": [
+            "Não",
+            "Sim",
+            "Somente no modo sobreposição"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O painel de compatibilidade aplica automaticamente um pacote incompatível?",
+          "options": [
+            "Não",
+            "Sim",
+            "Somente no perfil ULTRA"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "comparison-session-preview-preset-library-08",
+      "code": "ENF-COMP-08",
+      "title": "Comparador G3 — Biblioteca de Presets e Prévia de Sessão",
+      "moduleId": "comparador-anatomico",
+      "duration": "25–35 min",
+      "objectives": [
+        "Editar metadados de um preset sem sobrescrever silenciosamente o estado A/B.",
+        "Duplicar um preset personalizado para criar uma variação.",
+        "Organizar presets por tags e localizar itens com busca textual.",
+        "Ocultar e reexibir categorias de marcadores sem apagá-las.",
+        "Usar o auto-layout considerando bordas e escala da câmera.",
+        "Visualizar a diferença entre a sessão atual e um pacote importado antes de aplicar."
+      ],
+      "explorationPrompts": [
+        "Crie dois presets personalizados com tags diferentes.",
+        "Pesquise um preset pelo nome, aula ou tag.",
+        "Duplique um preset e modifique a cópia.",
+        "Oculte a categoria Dúvida e confirme que os marcadores continuam armazenados.",
+        "Aproxime/afaste a câmera e use Organizar etiquetas.",
+        "Importe uma sessão e compare Atual × Sessão sem aplicar."
+      ],
+      "checkpoints": [
+        "Editou um preset.",
+        "Duplicou um preset.",
+        "Usou busca e filtro por tag.",
+        "Alternou visibilidade de categoria.",
+        "Executou auto-layout com marcadores próximos das bordas.",
+        "Revisou o diff da sessão antes da aplicação."
+      ],
+      "quiz": [
+        {
+          "question": "Ocultar uma categoria apaga seus marcadores?",
+          "options": [
+            "Não",
+            "Sim",
+            "Somente no perfil ECO"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Abrir a prévia de uma sessão importada altera imediatamente a cena 3D?",
+          "options": [
+            "Não",
+            "Sim",
+            "Somente se houver marcadores"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "immersive-experience-tour-01",
+      "code": "ENF-EXP-01",
+      "title": "Experiência Imersiva — Ambiente, Foco e Exploração Guiada",
+      "moduleId": "hospital-360",
+      "duration": "25–35 min",
+      "objectives": [
+        "Usar o modo Cinema para ampliar a área visual.",
+        "Percorrer um roteiro guiado sem separar professor e aluno.",
+        "Selecionar objetos e observar o foco automático de câmera.",
+        "Alternar o modo Foco para ocultar painéis durante apresentação.",
+        "Relacionar organização espacial, equipamentos e biossegurança."
+      ],
+      "explorationPrompts": [
+        "Abra o Hospital 3D e ative Cinema.",
+        "Inicie o Guia e percorra todos os passos.",
+        "Selecione três objetos e observe a aproximação automática.",
+        "Ative Foco para deixar a cena ocupar a maior área possível.",
+        "Volte à visão geral e explique o ambiente a partir das referências observadas."
+      ],
+      "checkpoints": [
+        "Ativou modo Cinema.",
+        "Percorreu o Guia.",
+        "Usou foco automático em objetos.",
+        "Testou o modo Foco.",
+        "Retornou à visão geral."
+      ],
+      "quiz": [
+        {
+          "question": "O modo Foco remove os dados do laboratório?",
+          "options": [
+            "Não, apenas oculta painéis visualmente",
+            "Sim",
+            "Somente no modo ECO"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Selecionar um objeto em ambientes aprimorados pode aproximar a câmera automaticamente?",
+          "options": [
+            "Sim",
+            "Não",
+            "Somente no Comparador"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "clinical-hotspots-minimap-realism-02",
+      "code": "ENF-EXP-02",
+      "title": "Experiência Clínica — Hotspots, Mini Mapa e Leitura Espacial",
+      "moduleId": "hospital-360",
+      "duration": "25–35 min",
+      "objectives": [
+        "Usar hotspots 3D como referência visual sem perder liberdade de câmera.",
+        "Interpretar o mini mapa como apoio espacial simplificado.",
+        "Relacionar pontos do mini mapa aos objetos da cena.",
+        "Comparar atmosferas visuais entre Hospital, UPA, UBS, Maternidade, Biossegurança e CME.",
+        "Reconhecer que o mini mapa é uma referência didática e não uma planta técnica."
+      ],
+      "explorationPrompts": [
+        "Ative e desative os hotspots no Hospital 3D.",
+        "Selecione um ponto pelo mini mapa e observe a câmera aproximar.",
+        "Compare a iluminação do Hospital com a UPA e a Maternidade.",
+        "Na Biossegurança, encontre um risco e confirme que ele passa a aparecer no mini mapa.",
+        "Na CME, use o mini mapa para retornar a uma estação já estudada."
+      ],
+      "checkpoints": [
+        "Alternou hotspots.",
+        "Alternou mini mapa.",
+        "Selecionou ponto pelo mapa.",
+        "Comparou duas atmosferas clínicas.",
+        "Observou o comportamento especial da Biossegurança."
+      ],
+      "quiz": [
+        {
+          "question": "O mini mapa representa uma planta arquitetônica oficial?",
+          "options": [
+            "Não, é referência espacial simplificada",
+            "Sim",
+            "Somente no modo Ultra"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Na Biossegurança, riscos ainda não descobertos aparecem no mini mapa?",
+          "options": [
+            "Não",
+            "Sim",
+            "Apenas no perfil High"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "projector-tour-zones-clusters-03",
+      "code": "ENF-EXP-03",
+      "title": "Experiência Imersiva — Tour Automático, Zonas e Hotspots Agrupados",
+      "moduleId": "hospital-360",
+      "duration": "30–40 min",
+      "objectives": [
+        "Usar o tour automático como recurso de apresentação.",
+        "Navegar por zonas do ambiente usando a legenda do mini mapa.",
+        "Interpretar agrupamentos de hotspots sem poluir a cena.",
+        "Usar a trilha de sequência em ambientes com fluxo ordenado.",
+        "Comparar o passeio automático clínico com o tour anatômico."
+      ],
+      "explorationPrompts": [
+        "Ative o Tour no Hospital e deixe a câmera percorrer os pontos.",
+        "Clique em uma zona do mini mapa para ir ao primeiro ponto daquele setor.",
+        "Aproxime a câmera até alguns hotspots se agruparem.",
+        "Na CME, observe a trilha numerada do fluxo.",
+        "Abra Coração ou Pulmões e execute o Tour anatômico."
+      ],
+      "checkpoints": [
+        "Executou Tour.",
+        "Pausou e retomou.",
+        "Usou Próximo manualmente.",
+        "Navegou por uma zona.",
+        "Abriu um cluster de hotspots.",
+        "Testou tour anatômico."
+      ],
+      "quiz": [
+        {
+          "question": "O agrupamento de hotspots remove pontos da atividade?",
+          "options": [
+            "Não, apenas reduz a poluição visual",
+            "Sim",
+            "Somente em celular"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "No modo projetor o tour permanece mais tempo em cada ponto?",
+          "options": [
+            "Sim",
+            "Não",
+            "Somente na CME"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "smart-tour-live-map-demo-04",
+      "code": "ENF-EXP-04",
+      "title": "Experiência Imersiva — Tour Inteligente, Mini Mapa Vivo e Demonstração",
+      "moduleId": "hospital-360",
+      "duration": "30–45 min",
+      "objectives": [
+        "Executar um Tour e assumir manualmente o controle da câmera.",
+        "Observar a pausa automática do Tour após interação.",
+        "Usar o marcador aproximado da câmera no mini mapa.",
+        "Abrir um cluster radial e escolher um ponto específico.",
+        "Executar uma sequência do Modo Demonstração."
+      ],
+      "explorationPrompts": [
+        "Inicie o Tour no Hospital e gire manualmente a cena.",
+        "Confirme que o botão passa a oferecer Retomar.",
+        "Aproxime pontos até formar um cluster e abra-o radialmente.",
+        "Observe o marcador da câmera e a zona ativa no mini mapa.",
+        "Abra Demonstração e execute parte do Tour Clínico."
+      ],
+      "checkpoints": [
+        "Tour iniciou.",
+        "Interação manual pausou o Tour.",
+        "Tour foi retomado.",
+        "Cluster radial foi aberto.",
+        "Mini mapa mostrou zona ativa.",
+        "Modo Demonstração foi executado."
+      ],
+      "quiz": [
+        {
+          "question": "O Tour continua avançando enquanto o usuário gira manualmente a cena?",
+          "options": [
+            "Não, ele pausa para devolver o controle",
+            "Sim",
+            "Somente no modo Projetor"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O marcador da câmera no mini mapa representa uma localização arquitetônica precisa?",
+          "options": [
+            "Não, é uma referência aproximada baseada no alvo da câmera",
+            "Sim",
+            "É GPS interno"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}

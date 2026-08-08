@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#06111d">
+<title>Laboratório Virtual de Enfermagem</title>
+<script>
+(() => {
+  if (
+    location.protocol === "file:" &&
+    !location.pathname.endsWith("/index-standalone.html") &&
+    !location.pathname.endsWith("\\index-standalone.html")
+  ) {
+    location.replace(
+      new URL("./index-standalone.html", location.href).href
+    );
+  }
+})();
+</script>
+
+<link rel="stylesheet" href="./ui/app.css">
+</head>
+<body>
+<div class="app-shell">
+
+<header class="topbar">
+<button id="home-button" class="brand reset" type="button">
+<span class="brand-mark">+</span>
+<span>
+<strong>Lab Enfermagem</strong>
+<small id="version-label">carregando…</small>
+</span>
+</button>
+
+<div class="actions">
+<label>Qualidade
+<select id="graphics-profile">
+<option value="auto">Automático</option>
+<option value="eco">Econômico</option>
+<option value="medium">Médio</option>
+<option value="high">Alto</option>
+<option value="ultra">Ultra</option>
+</select>
+</label>
+<button id="tools-toggle" class="button secondary">Ferramentas</button>
+<button id="projector-toggle" class="button secondary">Projetor</button>
+<button id="demonstration-toggle" class="button secondary">Demonstração</button>
+<button id="progress-toggle" class="button secondary">Progresso</button>
+<button id="diagnostics-toggle" class="button secondary">Diagnóstico</button>
+</div>
+</header>
+
+<main class="main">
+
+<section id="dashboard-view" class="view active">
+
+<section class="hero hero-v35">
+<div class="hero-copy">
+<span class="eyebrow">Laboratório virtual de Enfermagem</span>
+<h1>Explore, aproxime e <em>entenda visualmente</em>.</h1>
+<p>
+Anatomia 3D, ambientes clínicos, inspeções e simulações em uma plataforma única
+para exploração livre, apresentação em projetor e jornadas guiadas.
+</p>
+<div class="hero-actions">
+<button class="button hero-primary" type="button" data-scroll-featured>Ver experiências</button>
+<button class="button secondary" type="button" data-scroll-catalog>Explorar catálogo</button>
+</div>
+<div class="hero-stats" aria-label="Resumo da plataforma">
+<div><strong id="hero-module-count">—</strong><span>laboratórios</span></div>
+<div><strong id="hero-model-count">246</strong><span>modelos 3D</span></div>
+<div><strong id="hero-journey-count">—</strong><span>jornadas</span></div>
+</div>
+</div>
+<div class="hero-visual" aria-hidden="true">
+<div class="hero-orbit hero-orbit-a"></div>
+<div class="hero-orbit hero-orbit-b"></div>
+<div class="hero-orbit hero-orbit-c"></div>
+<div class="hero-medical-core"><span>+</span><b>ENF</b></div>
+<div class="hero-float hero-float-a"><b>3D</b><span>Anatomia</span></div>
+<div class="hero-float hero-float-b"><b>360</b><span>Ambientes</span></div>
+<div class="hero-float hero-float-c"><b>SIM</b><span>Experiências</span></div>
+</div>
+</section>
+
+<section id="featured-experiences" class="featured-experiences">
+<div class="section-head">
+<div>
+<span class="eyebrow">Experiências em destaque</span>
+<h2>Entre direto nos laboratórios mais visuais</h2>
+</div>
+<span class="badge">Modo imersivo + guia</span>
+</div>
+<div id="featured-experience-grid" class="featured-experience-grid"></div>
+</section>
+
+<section class="journey-entry">
+<div>
+<span class="eyebrow">Jornada</span>
+<h2>Sequência entre laboratórios</h2>
+<p>Digite um código de jornada ou escolha uma nas Ferramentas.</p>
+</div>
+<form id="journey-code-form">
+<input id="journey-code-input" autocomplete="off" placeholder="ENF-JORNADA-01" aria-label="Código da jornada">
+<button class="button" type="submit">Iniciar jornada</button>
+</form>
+<div id="active-journey-card" class="active-journey-card" hidden></div>
+</section>
+
+<section class="activity-entry">
+<div>
+<span class="eyebrow">Roteiro de exploração</span>
+<h2>Abrir por código</h2>
+<p>Exemplo: <strong>ENF-RESP-01</strong>. O roteiro usa as mesmas ferramentas do laboratório.</p>
+</div>
+<form id="activity-code-form">
+<input id="activity-code-input" autocomplete="off" placeholder="ENF-XXXX-00" aria-label="Código do roteiro">
+<button class="button" type="submit">Abrir roteiro</button>
+</form>
+<div id="active-activity-card" class="active-activity-card" hidden></div>
+</section>
+
+
+<section class="collection-hub">
+<div class="section-head">
+<div>
+<span class="eyebrow">Coleções temáticas</span>
+<h2>Explorar por tema de aula</h2>
+</div>
+<button id="collection-clear" class="button secondary" type="button" hidden>Mostrar todos</button>
+</div>
+<div id="collection-quick" class="collection-quick" aria-label="Coleções favoritas e recentes"></div>
+<div id="collection-hub-grid" class="collection-hub-grid"></div>
+</section>
+<section class="area-hub"><div class="section-head"><div><span class="eyebrow">Explorar por área</span><h2>Grandes áreas do laboratório</h2></div></div><div id="area-hub-grid" class="area-hub-grid"></div></section>
+<section class="quick-access" aria-label="Acesso rápido">
+<div class="quick-access-head">
+<div>
+<span class="eyebrow">Acesso rápido</span>
+<h2>Favoritos e recentes</h2>
+</div>
+</div>
+<div class="quick-access-grid">
+<section class="quick-panel">
+<div class="quick-panel-head">
+<strong>★ Favoritos</strong>
+<span id="favorite-count" class="badge">0</span>
+</div>
+<div id="favorite-list" class="quick-list"></div>
+</section>
+<section class="quick-panel">
+<div class="quick-panel-head">
+<strong>Recentes</strong>
+<span id="recent-count" class="badge">0</span>
+</div>
+<div id="recent-list" class="quick-list"></div>
+</section>
+</div>
+</section>
+
+<section class="catalog-tools" aria-label="Busca e filtros dos laboratórios">
+<div class="catalog-search-box">
+<label for="catalog-search">
+<span class="eyebrow">Busca global</span>
+<span>Estrutura, material, ambiente ou laboratório</span>
+</label>
+<div class="catalog-search-row">
+<input id="catalog-search" type="search" autocomplete="off" placeholder="Ex.: coração, rim, gaze, UPA, pele…">
+<button id="catalog-clear" class="button secondary" type="button">Limpar</button>
+</div>
+</div>
+
+<label class="catalog-filter">
+<span class="eyebrow">Área</span>
+<select id="catalog-category">
+<option value="all">Todas as áreas</option>
+</select>
+</label>
+
+<label class="catalog-filter">
+<span class="eyebrow">Geração</span>
+<select id="catalog-generation">
+<option value="all">Todas</option>
+</select>
+</label>
+
+<label class="catalog-filter">
+<span class="eyebrow">Ordenar</span>
+<select id="catalog-sort">
+<option value="catalog">Ordem do catálogo</option>
+<option value="az">Nome A–Z</option>
+<option value="area">Área + nome</option>
+</select>
+</label>
+</section>
+
+<div class="section-head">
+<div>
+<span class="eyebrow">Catálogo</span>
+<h2>Laboratórios</h2>
+</div>
+<span id="module-count" class="badge">0 módulos</span>
+</div>
+
+<div id="catalog-empty" class="catalog-empty" hidden>
+<strong>Nenhum laboratório encontrado.</strong>
+<span>Tente outra palavra ou volte para “Todas as áreas”.</span>
+</div>
+
+<div id="module-grid" class="module-grid"></div>
+</section>
+
+<section id="module-view" class="view">
+<div class="module-toolbar">
+<button id="back-button" class="button secondary">← Voltar</button>
+<div class="grow">
+<span id="module-category" class="eyebrow"></span>
+<h1 id="module-title">Módulo</h1>
+<div id="module-activity-context" class="module-activity-context" hidden></div>
+</div>
+
+<div id="journey-toolbar" class="journey-toolbar" hidden>
+<button id="journey-prev" class="button secondary">← Etapa anterior</button>
+<span id="journey-step-label" class="badge">—</span>
+<button id="journey-next" class="button">Próxima etapa →</button>
+</div>
+
+<div class="experience-toolbar" aria-label="Experiência">
+<span data-experience-badge class="experience-badge">Experiência</span>
+<button id="experience-guide" class="button secondary" type="button">Guia</button>
+<button id="experience-cinema" class="button secondary" type="button" aria-pressed="false">Cinema</button>
+<button id="experience-hud" class="button secondary" type="button" aria-pressed="false">Foco</button>
+</div>
+<button id="assessment-open" class="button secondary" hidden>Revisão</button>
+<span id="module-status" class="badge">inativo</span>
+</div>
+
+<div id="module-host" class="module-host"></div>
+
+<aside class="experience-guide-shell" data-experience-guide hidden aria-live="polite">
+<div class="experience-guide-panel" data-experience-guide-panel></div>
+</aside>
+</section>
+
+</main>
+
+<aside id="tools-panel" class="side-panel" aria-hidden="true">
+<div class="side-panel-head">
+<div>
+<span class="eyebrow">Ferramentas gerais</span>
+<h2>Exploração e sessão</h2>
+</div>
+<button id="tools-close" class="icon-button">×</button>
+</div>
+
+<div id="session-state"></div>
+
+<div class="session-form-grid">
+<label class="field-label">Nome/apelido opcional
+<input id="session-name" placeholder="Ex.: Ana">
+</label>
+
+<label class="field-label">Turma/grupo opcional
+<input id="session-group" placeholder="Ex.: Técnico em Enfermagem">
+</label>
+</div>
+
+<label class="field-label">Jornada
+<select id="journey-select"></select>
+</label>
+
+<label class="field-label">Roteiro
+<select id="activity-select"></select>
+</label>
+
+<div id="activity-detail"></div>
+
+<div class="panel-actions">
+<button id="session-start" class="button">Iniciar sessão</button>
+<button id="open-selected-journey" class="button secondary">Abrir jornada</button>
+<button id="open-selected-activity" class="button secondary">Abrir roteiro</button>
+<button id="session-finish" class="button secondary">Encerrar sessão</button>
+<button id="export-html" class="button secondary">Evidência HTML</button>
+<button id="export-json" class="button secondary">Dados JSON</button>
+<button id="fullscreen-toggle" class="button secondary">Tela cheia</button>
+</div>
+
+<div class="tool-card">
+<span class="eyebrow">Acessibilidade e apresentação</span>
+<div class="accessibility-options">
+<label><input type="checkbox" data-accessibility="reducedMotion"> Reduzir animações</label>
+<label><input type="checkbox" data-accessibility="highContrast"> Alto contraste</label>
+<label><input type="checkbox" data-accessibility="largeText"> Texto ampliado</label>
+<label><input type="checkbox" data-accessibility="projector"> Modo projetor</label>
+</div>
+</div>
+</aside>
+
+<aside id="demonstration-panel" class="side-panel demonstration-panel" aria-hidden="true">
+<div class="side-panel-head">
+<div>
+<span class="eyebrow">Modo apresentação</span>
+<h2 data-demo-title>Demonstração</h2>
+</div>
+<button class="icon-button" type="button" data-demo-close>×</button>
+</div>
+
+<p data-demo-description class="demo-description">
+Escolha uma sequência para apresentação automática.
+</p>
+
+<label class="field-label">
+Sequência
+<select data-demo-sequence></select>
+</label>
+
+<label class="demo-cinema-option">
+<input type="checkbox" data-demo-cinema checked>
+<span>
+<strong>Usar modo Cinema</strong>
+<small>Maximiza o laboratório durante a demonstração.</small>
+</span>
+</label>
+
+<div class="demo-status" data-demo-status>
+<strong>—</strong>
+<span>Pronto para iniciar</span>
+</div>
+
+<div class="demo-actions">
+<button class="button" type="button" data-demo-play>▶ Iniciar</button>
+<button class="button secondary" type="button" data-demo-prev>← Anterior</button>
+<button class="button secondary" type="button" data-demo-next>Próximo →</button>
+<button class="button secondary" type="button" data-demo-stop>Encerrar</button>
+</div>
+
+<div class="demo-list" data-demo-list></div>
+
+<div class="tool-card">
+<span class="eyebrow">Como funciona</span>
+<p>
+A plataforma abre os laboratórios em sequência e mantém cada experiência visível
+por alguns segundos. Você pode pausar, avançar manualmente ou assumir o controle
+a qualquer momento.
+</p>
+</div>
+</aside>
+
+<aside id="progress-panel" class="side-panel" aria-hidden="true">
+<div class="side-panel-head">
+<div>
+<span class="eyebrow">Painel local</span>
+<h2>Progresso</h2>
+</div>
+<button id="progress-close" class="icon-button">×</button>
+</div>
+<div id="progress-summary"></div>
+</aside>
+
+<aside id="diagnostics-panel" class="diagnostics" aria-hidden="true">
+<div class="diag-head">
+<div>
+<span class="eyebrow">Painel técnico</span>
+<h2>Diagnóstico</h2>
+</div>
+<button id="diagnostics-close" class="icon-button">×</button>
+</div>
+<dl class="metrics">
+<div><dt>FPS</dt><dd id="metric-fps">—</dd></div>
+<div><dt>Frame</dt><dd id="metric-frame">—</dd></div>
+<div><dt>Perfil</dt><dd id="metric-profile">—</dd></div>
+<div><dt>Módulo</dt><dd id="metric-module">—</dd></div>
+</dl>
+</aside>
+
+<div id="assessment-modal" class="modal-backdrop" hidden>
+<section class="assessment-modal" role="dialog" aria-modal="true" aria-labelledby="assessment-title">
+<div class="assessment-head">
+<div>
+<span class="eyebrow">Revisão do roteiro</span>
+<h2 id="assessment-title">Atividade</h2>
+</div>
+<button id="assessment-close" class="icon-button">×</button>
+</div>
+<form id="assessment-form"></form>
+</section>
+</div>
+
+<div id="toast-region" class="toast-region"></div>
+</div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.185.1/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.185.1/examples/jsm/"
+  }
+}
+</script>
+<script type="module" src="./app/bootstrap.js"></script>
+</body>
+</html>

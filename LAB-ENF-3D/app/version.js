@@ -1,0 +1,3 @@
+export const APP_VERSION = "0.38.0";
+export const APP_STAGE = "ROTA SUAVE + TOUR INTELIGENTE + MINI MAPA VIVO + DEMONSTRAÇÃO";
+export const LAB_API_VERSION = 1;

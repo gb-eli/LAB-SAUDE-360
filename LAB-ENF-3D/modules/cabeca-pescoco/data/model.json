@@ -1,0 +1,10 @@
+{
+  "id": "cabeca-pescoco",
+  "generation": "G3",
+  "variants": {
+    "eco": "./assets/models/head-neck-g3/head-neck-g3-low.glb",
+    "medium": "./assets/models/head-neck-g3/head-neck-g3-medium.glb",
+    "high": "./assets/models/head-neck-g3/head-neck-g3-high.glb",
+    "ultra": "./assets/models/head-neck-g3/head-neck-g3-high.glb"
+  }
+}

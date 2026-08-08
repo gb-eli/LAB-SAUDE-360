@@ -1,0 +1,29 @@
+{
+  "generatedForVersion": "0.35.0",
+  "immersiveManager": true,
+  "sceneFocusManager": true,
+  "featuredExperiences": 6,
+  "specificGuides": 9,
+  "globalModes": [
+    "guide",
+    "cinema",
+    "focus"
+  ],
+  "sceneFocusModules": [
+    "hospital-360",
+    "upa",
+    "ubs",
+    "maternidade",
+    "biosseguranca",
+    "cme"
+  ],
+  "standalone": {
+    "entry": "index-standalone.html",
+    "embeddedJsModules": 88,
+    "embeddedCssFiles": 37,
+    "embeddedResources": 344
+  },
+  "assetsChanged": false,
+  "glbCount": 246,
+  "faces": 399712
+}

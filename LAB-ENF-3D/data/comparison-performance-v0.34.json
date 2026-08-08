@@ -1,0 +1,101 @@
+{
+  "generatedForVersion": "0.34.0",
+  "rendererCount": 1,
+  "simultaneousModels": 2,
+  "systemsAvailable": 19,
+  "presets": 8,
+  "highlight": "emissive + Box3Helper",
+  "historyStorage": "IndexedDB Blob, máximo 8 itens",
+  "profileRules": {
+    "eco": "eco",
+    "medium": "medium",
+    "high_desktop": "high",
+    "ultra_desktop": "high",
+    "high_or_ultra_constrained": "medium"
+  },
+  "renderScaleFactors": {
+    "eco": 0.72,
+    "medium": 0.86,
+    "high": 1.0
+  },
+  "highStaticWorstCase": {
+    "maxSingleAssetDrawCalls": 40,
+    "maxConcurrentDrawCalls": 80,
+    "maxConcurrentFaces": 23776,
+    "classification": "moderado"
+  },
+  "semanticSync": {
+    "automaticRelation": "equivalent",
+    "equivalentGroups": 3,
+    "relatedGroups": 12,
+    "multipleSuggestions": true
+  },
+  "annotations": {
+    "draftStorage": "localStorage via StorageManager",
+    "maxLength": 420,
+    "embeddedInPng": true
+  },
+  "exportLegend": true,
+  "markers": {
+    "enabled": true,
+    "maxItems": 8,
+    "anchor": "mesh local coordinates",
+    "storage": "localStorage via StorageManager",
+    "embeddedInPng": true,
+    "includedInHtmlReport": true,
+    "editable": true,
+    "repositionable": true,
+    "categories": 4,
+    "leaderLinesOptional": true,
+    "draggableLabels": true,
+    "automaticLayout": true,
+    "persistentScreenOffset": true,
+    "configurableCategoryStyles": true,
+    "categoryVisibility": true,
+    "zoomAwareLayout": true,
+    "borderAwareLayout": true
+  },
+  "htmlReport": true,
+  "customFilename": true,
+  "presetFilters": {
+    "lesson": true,
+    "competency": true
+  },
+  "historyHtmlExport": true,
+  "workspacePackage": {
+    "format": "JSON",
+    "schema": "lab-enfermagem-comparison-workspace",
+    "packageVersion": 1,
+    "import": true,
+    "export": true,
+    "sessionExtras": [
+      "markerStyles",
+      "customPresets",
+      "presetFilters",
+      "markerVisibility"
+    ],
+    "backwardCompatibleWithV032": true
+  },
+  "customPresets": {
+    "enabled": true,
+    "maxItems": 20,
+    "import": true,
+    "export": true,
+    "editable": true,
+    "duplicable": true,
+    "tags": true,
+    "search": true,
+    "tagFilter": true
+  },
+  "packageCompatibilityPreview": true,
+  "packageHistory": {
+    "enabled": true,
+    "maxItems": 8
+  },
+  "sessionPreview": {
+    "enabled": true,
+    "readOnlyBeforeApply": true,
+    "comparesCurrentVsIncoming": true,
+    "fieldsCompared": 9
+  }
+}

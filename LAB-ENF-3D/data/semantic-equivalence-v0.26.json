@@ -1,0 +1,97 @@
+{
+  "generatedForVersion": "0.26.0",
+  "systems": {
+    "respiratorio": {
+      "low": {
+        "required": 10,
+        "present": 10,
+        "missing": [],
+        "geometries": 10,
+        "faces": 680
+      },
+      "medium": {
+        "required": 10,
+        "present": 10,
+        "missing": [],
+        "geometries": 20,
+        "faces": 3208
+      },
+      "high": {
+        "required": 10,
+        "present": 10,
+        "missing": [],
+        "geometries": 25,
+        "faces": 9064
+      }
+    },
+    "sistema-urinario": {
+      "low": {
+        "required": 9,
+        "present": 9,
+        "missing": [],
+        "geometries": 11,
+        "faces": 760
+      },
+      "medium": {
+        "required": 9,
+        "present": 9,
+        "missing": [],
+        "geometries": 13,
+        "faces": 1704
+      },
+      "high": {
+        "required": 9,
+        "present": 9,
+        "missing": [],
+        "geometries": 18,
+        "faces": 5936
+      }
+    },
+    "sistema-digestorio": {
+      "low": {
+        "required": 10,
+        "present": 10,
+        "missing": [],
+        "geometries": 15,
+        "faces": 2080
+      },
+      "medium": {
+        "required": 10,
+        "present": 10,
+        "missing": [],
+        "geometries": 15,
+        "faces": 3920
+      },
+      "high": {
+        "required": 10,
+        "present": 10,
+        "missing": [],
+        "geometries": 16,
+        "faces": 10960
+      }
+    },
+    "sistema-nervoso": {
+      "low": {
+        "required": 8,
+        "present": 8,
+        "missing": [],
+        "geometries": 10,
+        "faces": 560
+      },
+      "medium": {
+        "required": 8,
+        "present": 8,
+        "missing": [],
+        "geometries": 20,
+        "faces": 2192
+      },
+      "high": {
+        "required": 8,
+        "present": 8,
+        "missing": [],
+        "geometries": 23,
+        "faces": 5952
+      }
+    }
+  }
+}

@@ -1,0 +1,1098 @@
+{
+  "journeys": [
+    {
+      "id": "journey-foundations",
+      "code": "ENF-JORNADA-01",
+      "title": "Jornada 01 — Corpo, Respiração e Sinais Vitais",
+      "description": "Sequência introdutória que conecta anatomia, sistema respiratório, monitorização fictícia e biossegurança.",
+      "duration": "60–80 min",
+      "steps": [
+        {
+          "moduleId": "corpo-humano",
+          "title": "Corpo Humano 3D",
+          "instruction": "Explore ao menos duas camadas e selecione uma estrutura.",
+          "activityCode": "ENF-CORPO-01"
+        },
+        {
+          "moduleId": "respiratorio",
+          "title": "Laboratório Respiratório",
+          "instruction": "Observe traqueia, pulmões, diafragma e compare duas vistas.",
+          "activityCode": "ENF-RESP-01"
+        },
+        {
+          "moduleId": "sinais-vitais",
+          "title": "Paciente + Monitor",
+          "instruction": "Compare dois cenários fictícios e selecione um ponto no paciente 3D.",
+          "activityCode": "ENF-SV-01"
+        },
+        {
+          "moduleId": "biosseguranca",
+          "title": "Encontre os Riscos",
+          "instruction": "Localize riscos fictícios e discuta organização e circulação.",
+          "activityCode": "ENF-BIO-01"
+        }
+      ]
+    },
+    {
+      "id": "journey-hospital",
+      "code": "ENF-JORNADA-02",
+      "title": "Jornada 02 — Ambiente Hospitalar e Materiais",
+      "description": "Percurso por ambientes hospitalares, equipamentos, riscos e fluxo de CME.",
+      "duration": "70–90 min",
+      "steps": [
+        {
+          "moduleId": "hospital-360",
+          "title": "Hospital 3D",
+          "instruction": "Explore os três ambientes e selecione elementos do cenário."
+        },
+        {
+          "moduleId": "equipamentos",
+          "title": "Galeria de Equipamentos",
+          "instruction": "Compare pelo menos três equipamentos 3D."
+        },
+        {
+          "moduleId": "biosseguranca",
+          "title": "Biossegurança",
+          "instruction": "Complete uma inspeção visual do ambiente.",
+          "activityCode": "ENF-BIO-01"
+        },
+        {
+          "moduleId": "cme",
+          "title": "CME 3D",
+          "instruction": "Percorra o fluxo do material até o armazenamento.",
+          "activityCode": "ENF-CME-01"
+        }
+      ]
+    },
+    {
+      "id": "journey-review",
+      "code": "ENF-JORNADA-03",
+      "title": "Jornada 03 — Revisão Integrada",
+      "description": "Sequência curta de revisão envolvendo esqueleto, respiratório, medicamentos fictícios e CME.",
+      "duration": "50–70 min",
+      "steps": [
+        {
+          "moduleId": "esqueleto",
+          "title": "Esqueleto 3D",
+          "instruction": "Isole uma região e identifique dois ossos.",
+          "activityCode": "ENF-ESQ-01"
+        },
+        {
+          "moduleId": "respiratorio",
+          "title": "Respiratório",
+          "instruction": "Selecione uma via aérea e um pulmão.",
+          "activityCode": "ENF-RESP-01"
+        },
+        {
+          "moduleId": "medicamentos",
+          "title": "Rótulos e Conferência",
+          "instruction": "Conclua um caso acadêmico fictício.",
+          "activityCode": "ENF-MED-01"
+        },
+        {
+          "moduleId": "cme",
+          "title": "CME",
+          "instruction": "Reconheça a sequência do fluxo didático.",
+          "activityCode": "ENF-CME-01"
+        }
+      ]
+    },
+    {
+      "id": "journey-maternal-community",
+      "code": "ENF-JORNADA-04",
+      "title": "Jornada 04 — Materno-Infantil e Atenção à Comunidade",
+      "description": "Percurso didático que conecta gestação, ciclo da vida, UBS e UPA.",
+      "duration": "60–80 min",
+      "steps": [
+        {
+          "moduleId": "materno-infantil",
+          "title": "Gestação por fases",
+          "instruction": "Compare três fases e selecione placenta ou cordão.",
+          "activityCode": "ENF-MI-01"
+        },
+        {
+          "moduleId": "ciclo-vida",
+          "title": "Ciclo da Vida",
+          "instruction": "Compare ao menos três fases da vida.",
+          "activityCode": "ENF-CV-01"
+        },
+        {
+          "moduleId": "ubs",
+          "title": "UBS 3D",
+          "instruction": "Reconheça recepção, consulta e vacinação.",
+          "activityCode": "ENF-UBS-01"
+        },
+        {
+          "moduleId": "upa",
+          "title": "UPA 3D",
+          "instruction": "Reconheça triagem, observação e área de emergência.",
+          "activityCode": "ENF-UPA-01"
+        }
+      ]
+    },
+    {
+      "id": "journey-maternity-pediatrics",
+      "code": "ENF-JORNADA-05",
+      "title": "Jornada 05 — Gestação, Recém-Nascido e Pediatria",
+      "description": "Sequência de exploração do período gestacional a ambientes materno-infantis.",
+      "duration": "60–80 min",
+      "steps": [
+        {
+          "moduleId": "materno-infantil",
+          "title": "Gestação por fases",
+          "instruction": "Compare fases e estruturas do modelo didático.",
+          "activityCode": "ENF-MI-01"
+        },
+        {
+          "moduleId": "recem-nascido",
+          "title": "Recém-Nascido 3D",
+          "instruction": "Explore regiões corporais básicas.",
+          "activityCode": "ENF-RN-01"
+        },
+        {
+          "moduleId": "maternidade",
+          "title": "Maternidade 3D",
+          "instruction": "Reconheça leito, berço e higiene.",
+          "activityCode": "ENF-MAT-01"
+        },
+        {
+          "moduleId": "pediatria",
+          "title": "Pediatria 3D",
+          "instruction": "Explore leito, exame, área lúdica e higiene.",
+          "activityCode": "ENF-PED-01"
+        }
+      ]
+    },
+    {
+      "id": "journey-safety-care",
+      "code": "ENF-JORNADA-06",
+      "title": "Jornada 06 — Observação, Segurança e Cuidados",
+      "description": "Percurso visual por posicionamento, pele, ambiente hospitalar e biossegurança.",
+      "duration": "50–70 min",
+      "steps": [
+        {
+          "moduleId": "posicionamento",
+          "title": "Comparação de posições",
+          "instruction": "Compare três orientações corporais.",
+          "activityCode": "ENF-POS-01"
+        },
+        {
+          "moduleId": "feridas",
+          "title": "Comparação visual de feridas",
+          "instruction": "Compare as quatro amostras sem atribuir diagnóstico.",
+          "activityCode": "ENF-FER-01"
+        },
+        {
+          "moduleId": "hospital-360",
+          "title": "Hospital 3D",
+          "instruction": "Explore um ambiente hospitalar e seus elementos."
+        },
+        {
+          "moduleId": "biosseguranca",
+          "title": "Biossegurança",
+          "instruction": "Complete uma inspeção visual de riscos.",
+          "activityCode": "ENF-BIO-01"
+        }
+      ]
+    },
+    {
+      "id": "journey-anatomy-systems",
+      "code": "ENF-JORNADA-07",
+      "title": "Jornada 07 — Sistemas do Corpo",
+      "description": "Percurso de exploração por sistemas urinário, digestório, nervoso e pele.",
+      "duration": "60–80 min",
+      "steps": [
+        {
+          "moduleId": "sistema-urinario",
+          "title": "Sistema Urinário",
+          "instruction": "Reconheça rins, ureteres e bexiga.",
+          "activityCode": "ENF-URI-01"
+        },
+        {
+          "moduleId": "sistema-digestorio",
+          "title": "Sistema Digestório",
+          "instruction": "Explore estômago, fígado e segmentos intestinais.",
+          "activityCode": "ENF-DIG-01"
+        },
+        {
+          "moduleId": "sistema-nervoso",
+          "title": "Sistema Nervoso",
+          "instruction": "Explore encéfalo, medula e nervos periféricos.",
+          "activityCode": "ENF-NER-01"
+        },
+        {
+          "moduleId": "pele",
+          "title": "Pele",
+          "instruction": "Compare epiderme, derme, hipoderme e anexos.",
+          "activityCode": "ENF-PELE-01"
+        }
+      ]
+    },
+    {
+      "id": "journey-integrated-anatomy",
+      "code": "ENF-JORNADA-08",
+      "title": "Jornada 08 — Anatomia Integrada",
+      "description": "Percurso por sistemas cardiovascular, endócrino, linfático, cabeça/pescoço e órgãos dos sentidos.",
+      "duration": "75–100 min",
+      "steps": [
+        {
+          "moduleId": "sistema-cardiovascular",
+          "title": "Sistema Cardiovascular",
+          "instruction": "Explore coração e grandes vasos.",
+          "activityCode": "ENF-CARD-01"
+        },
+        {
+          "moduleId": "sistema-endocrino",
+          "title": "Sistema Endócrino",
+          "instruction": "Localize glândulas em diferentes regiões.",
+          "activityCode": "ENF-END-01"
+        },
+        {
+          "moduleId": "sistema-linfatico",
+          "title": "Sistema Linfático",
+          "instruction": "Compare cadeias linfonodais e baço.",
+          "activityCode": "ENF-LINF-01"
+        },
+        {
+          "moduleId": "cabeca-pescoco",
+          "title": "Cabeça e Pescoço",
+          "instruction": "Explore crânio, via aérea e tireoide.",
+          "activityCode": "ENF-CP-01"
+        },
+        {
+          "moduleId": "olho-ouvido",
+          "title": "Olho e Ouvido",
+          "instruction": "Compare estruturas sensoriais básicas.",
+          "activityCode": "ENF-SENT-01"
+        }
+      ]
+    },
+    {
+      "id": "journey-locomotor",
+      "code": "ENF-JORNADA-09",
+      "title": "Jornada 09 — Sistema Locomotor",
+      "description": "Percurso integrado por esqueleto, músculos, articulações e anatomia regional de mão/pé.",
+      "duration": "70–90 min",
+      "steps": [
+        {
+          "moduleId": "esqueleto",
+          "title": "Esqueleto",
+          "instruction": "Revise regiões ósseas principais.",
+          "activityCode": "ENF-ESQ-01"
+        },
+        {
+          "moduleId": "sistema-muscular",
+          "title": "Sistema Muscular",
+          "instruction": "Compare grupos musculares do tronco e membros.",
+          "activityCode": "ENF-MUS-01"
+        },
+        {
+          "moduleId": "articulacoes",
+          "title": "Articulações",
+          "instruction": "Compare ombro, cotovelo e joelho.",
+          "activityCode": "ENF-ART-01"
+        },
+        {
+          "moduleId": "mao-pe",
+          "title": "Mão e Pé",
+          "instruction": "Explore a anatomia regional simplificada.",
+          "activityCode": "ENF-MP-01"
+        }
+      ]
+    },
+    {
+      "id": "journey-g3-exploration",
+      "code": "ENF-JORNADA-10",
+      "title": "Jornada 10 — Exploração G3",
+      "description": "Percurso pelos módulos que receberam aprofundamento gráfico e semântico na geração G3.",
+      "duration": "70–90 min",
+      "steps": [
+        {
+          "moduleId": "anatomia",
+          "title": "Coração G3",
+          "instruction": "Explore câmaras, grandes vasos e uma referência interna.",
+          "activityCode": "ENF-COR-G3-01"
+        },
+        {
+          "moduleId": "respiratorio",
+          "title": "Respiratório G3",
+          "instruction": "Explore via aérea, pulmões e referências brônquicas adicionais.",
+          "activityCode": "ENF-RESP-01"
+        },
+        {
+          "moduleId": "pele",
+          "title": "Pele G3",
+          "instruction": "Compare camadas, anexos e referências vasculares.",
+          "activityCode": "ENF-PELE-01"
+        },
+        {
+          "moduleId": "equipamentos",
+          "title": "Equipamentos com Partes",
+          "instruction": "Use a vista explodida em pelo menos dois equipamentos.",
+          "activityCode": "ENF-EQP-01"
+        }
+      ]
+    },
+    {
+      "id": "journey-g3-systems",
+      "code": "ENF-JORNADA-11",
+      "title": "Jornada 11 — Sistemas G3",
+      "description": "Percurso de aprofundamento visual por sistemas que receberam novos assets G3.",
+      "duration": "75–100 min",
+      "steps": [
+        {
+          "moduleId": "sistema-urinario",
+          "title": "Sistema Urinário G3",
+          "instruction": "Explore rins, vias urinárias e referências internas.",
+          "activityCode": "ENF-URI-01"
+        },
+        {
+          "moduleId": "sistema-digestorio",
+          "title": "Sistema Digestório G3",
+          "instruction": "Explore órgãos e segmentos digestórios adicionais.",
+          "activityCode": "ENF-DIG-01"
+        },
+        {
+          "moduleId": "sistema-nervoso",
+          "title": "Cérebro e Medula G3",
+          "instruction": "Compare hemisférios, medula e nervos.",
+          "activityCode": "ENF-NER-01"
+        },
+        {
+          "moduleId": "sistema-muscular",
+          "title": "Sistema Muscular G3",
+          "instruction": "Compare músculos, tendões e referências fasciais.",
+          "activityCode": "ENF-MUS-01"
+        }
+      ]
+    },
+    {
+      "id": "journey-g3-regional",
+      "code": "ENF-JORNADA-12",
+      "title": "Jornada 12 — Anatomia G3 Regional e Sistemas",
+      "description": "Percurso pelos quatro laboratórios aprofundados na v0.19.",
+      "duration": "70–90 min",
+      "steps": [
+        {
+          "moduleId": "sistema-endocrino",
+          "title": "Endócrino G3",
+          "instruction": "Explore glândulas e referências regionais.",
+          "activityCode": "ENF-END-01"
+        },
+        {
+          "moduleId": "sistema-linfatico",
+          "title": "Linfático G3",
+          "instruction": "Compare cadeias linfonodais, vasos e baço.",
+          "activityCode": "ENF-LINF-01"
+        },
+        {
+          "moduleId": "cabeca-pescoco",
+          "title": "Cabeça e Pescoço G3",
+          "instruction": "Explore crânio, via aérea e referências cervicais.",
+          "activityCode": "ENF-CP-01"
+        },
+        {
+          "moduleId": "olho-ouvido",
+          "title": "Olho e Ouvido G3",
+          "instruction": "Compare olho e ouvido em profundidade visual.",
+          "activityCode": "ENF-SENT-01"
+        }
+      ]
+    },
+    {
+      "id": "journey-g3-regional-care",
+      "code": "ENF-JORNADA-13",
+      "title": "Jornada 13 — Anatomia Regional G3",
+      "description": "Percurso por anatomia reprodutiva, articulações, mão/pé e materiais de reconhecimento visual.",
+      "duration": "70–90 min",
+      "steps": [
+        {
+          "moduleId": "sistema-reprodutor",
+          "title": "Sistema Reprodutor G3",
+          "instruction": "Compare os dois modelos anatômicos internos.",
+          "activityCode": "ENF-REP-01"
+        },
+        {
+          "moduleId": "articulacoes",
+          "title": "Articulações G3",
+          "instruction": "Compare ombro, cotovelo e joelho.",
+          "activityCode": "ENF-ART-01"
+        },
+        {
+          "moduleId": "mao-pe",
+          "title": "Mão e Pé G3",
+          "instruction": "Explore anatomia regional e referências G3.",
+          "activityCode": "ENF-MP-01"
+        },
+        {
+          "moduleId": "materiais-hospitalares",
+          "title": "Materiais Hospitalares",
+          "instruction": "Finalize com reconhecimento visual de materiais.",
+          "activityCode": "ENF-MAT-HOSP-01"
+        }
+      ]
+    },
+    {
+      "id": "journey-materno-life-g3",
+      "code": "ENF-JORNADA-14",
+      "title": "Jornada 14 — Materno-Infantil e Ciclo da Vida G3",
+      "description": "Percurso de exploração visual da gestação ao ciclo da vida e aos ambientes materno-infantis.",
+      "duration": "80–105 min",
+      "steps": [
+        {
+          "moduleId": "materno-infantil",
+          "title": "Gestação G3",
+          "instruction": "Compare as três fases gestacionais.",
+          "activityCode": "ENF-MI-01"
+        },
+        {
+          "moduleId": "recem-nascido",
+          "title": "Recém-Nascido G3",
+          "instruction": "Explore proporções e regiões corporais.",
+          "activityCode": "ENF-RN-01"
+        },
+        {
+          "moduleId": "ciclo-vida",
+          "title": "Ciclo da Vida G3",
+          "instruction": "Compare cinco fases da vida.",
+          "activityCode": "ENF-CV-01"
+        },
+        {
+          "moduleId": "maternidade",
+          "title": "Maternidade G2",
+          "instruction": "Reconheça os principais pontos do ambiente.",
+          "activityCode": "ENF-MAT-01"
+        },
+        {
+          "moduleId": "pediatria",
+          "title": "Pediatria G2",
+          "instruction": "Explore o ambiente pediátrico.",
+          "activityCode": "ENF-PED-01"
+        }
+      ]
+    },
+    {
+      "id": "journey-patient-safety",
+      "code": "ENF-JORNADA-15",
+      "title": "Jornada 15 — Paciente, Monitor e Segurança",
+      "description": "Percurso por orientação corporal, sinais vitais simulados, biossegurança e fluxo CME.",
+      "duration": "75–100 min",
+      "steps": [
+        {
+          "moduleId": "paciente-3d",
+          "title": "Paciente G3",
+          "instruction": "Explore regiões corporais e vistas.",
+          "activityCode": "ENF-PAC-01"
+        },
+        {
+          "moduleId": "sinais-vitais",
+          "title": "Sinais Vitais G3",
+          "instruction": "Compare pontos de referência e cenários fictícios.",
+          "activityCode": "ENF-SV-01"
+        },
+        {
+          "moduleId": "biosseguranca",
+          "title": "Biossegurança G2",
+          "instruction": "Encontre os seis riscos do ambiente.",
+          "activityCode": "ENF-BIO-01"
+        },
+        {
+          "moduleId": "cme",
+          "title": "CME G2",
+          "instruction": "Percorra as etapas didáticas do fluxo.",
+          "activityCode": "ENF-CME-01"
+        },
+        {
+          "moduleId": "equipamentos",
+          "title": "Equipamentos 3D",
+          "instruction": "Pesquise um equipamento e explore suas peças.",
+          "activityCode": "ENF-EQP-01"
+        }
+      ]
+    },
+    {
+      "id": "journey-integrity-position-medication",
+      "code": "ENF-JORNADA-16",
+      "title": "Jornada 16 — Integridade, Posicionamento e Organização Segura",
+      "description": "Percurso por integridade cutânea, comparação postural, medicamentos didáticos e biossegurança.",
+      "duration": "70–95 min",
+      "steps": [
+        {
+          "moduleId": "feridas",
+          "title": "Integridade Cutânea G3",
+          "instruction": "Compare as quatro amostras visuais.",
+          "activityCode": "ENF-FER-01"
+        },
+        {
+          "moduleId": "posicionamento",
+          "title": "Posicionamento G3",
+          "instruction": "Compare posições e pontos de contato.",
+          "activityCode": "ENF-POS-01"
+        },
+        {
+          "moduleId": "medicamentos",
+          "title": "Medicamentos G2",
+          "instruction": "Explore rótulos e objetos fictícios da bancada.",
+          "activityCode": "ENF-MED-01"
+        },
+        {
+          "moduleId": "biosseguranca",
+          "title": "Biossegurança G2",
+          "instruction": "Finalize identificando os seis riscos.",
+          "activityCode": "ENF-BIO-01"
+        }
+      ]
+    },
+    {
+      "id": "journey-optimized-structure-materials",
+      "code": "ENF-JORNADA-17",
+      "title": "Jornada 17 — Estruturas e Materiais Otimizados",
+      "description": "Percurso pela Pele otimizada, Esqueleto com pivôs e catálogos G2 de equipamentos e materiais.",
+      "duration": "70–95 min",
+      "steps": [
+        {
+          "moduleId": "pele",
+          "title": "Pele G3 Otimizada",
+          "instruction": "Explore camadas e anexos preservados após a otimização.",
+          "activityCode": "ENF-PELE-01"
+        },
+        {
+          "moduleId": "esqueleto",
+          "title": "Esqueleto com Pivôs",
+          "instruction": "Compare os movimentos de cotovelos e joelhos.",
+          "activityCode": "ENF-ESQ-01"
+        },
+        {
+          "moduleId": "equipamentos",
+          "title": "Equipamentos G2",
+          "instruction": "Pesquise e explore peças de dois equipamentos.",
+          "activityCode": "ENF-EQP-01"
+        },
+        {
+          "moduleId": "materiais-hospitalares",
+          "title": "Materiais Hospitalares G2",
+          "instruction": "Compare materiais de duas categorias.",
+          "activityCode": "ENF-MAT-HOSP-01"
+        }
+      ]
+    },
+    {
+      "id": "journey-anatomy-g3-integrated",
+      "code": "ENF-JORNADA-18",
+      "title": "Jornada 18 — Anatomia G3 Integrada",
+      "description": "Percurso pela anatomia compartilhada G3, do cardiovascular ao corpo integrado, esqueleto e pele.",
+      "duration": "80–105 min",
+      "steps": [
+        {
+          "moduleId": "sistema-cardiovascular",
+          "title": "Cardiovascular G3",
+          "instruction": "Explore câmaras, grandes vasos e referências coronárias.",
+          "activityCode": "ENF-CARD-01"
+        },
+        {
+          "moduleId": "corpo-humano",
+          "title": "Corpo Humano G3",
+          "instruction": "Compare sistemas compartilhados no mesmo referencial espacial.",
+          "activityCode": "ENF-CORPO-01"
+        },
+        {
+          "moduleId": "esqueleto",
+          "title": "Esqueleto G3",
+          "instruction": "Explore segmentação e pivôs articulares.",
+          "activityCode": "ENF-ESQ-01"
+        },
+        {
+          "moduleId": "pele",
+          "title": "Pele G3",
+          "instruction": "Finalize comparando camadas e anexos.",
+          "activityCode": "ENF-PELE-01"
+        }
+      ]
+    },
+    {
+      "id": "journey-shared-internal-systems",
+      "code": "ENF-JORNADA-19",
+      "title": "Jornada 19 — Sistemas Internos G3 Compartilhados",
+      "description": "Percurso pelo Respiratório, Urinário, Digestório e Nervoso, finalizando no Corpo Humano integrado.",
+      "duration": "95–125 min",
+      "steps": [
+        {
+          "moduleId": "respiratorio",
+          "title": "Respiratório G3",
+          "instruction": "Explore movimento, corte e isolamento.",
+          "activityCode": "ENF-RESP-01"
+        },
+        {
+          "moduleId": "sistema-urinario",
+          "title": "Urinário G3",
+          "instruction": "Explore rins, vias e referências internas.",
+          "activityCode": "ENF-URI-01"
+        },
+        {
+          "moduleId": "sistema-digestorio",
+          "title": "Digestório G3",
+          "instruction": "Compare órgãos e segmentos.",
+          "activityCode": "ENF-DIG-01"
+        },
+        {
+          "moduleId": "sistema-nervoso",
+          "title": "Nervoso G3",
+          "instruction": "Explore encéfalo, medula e nervos.",
+          "activityCode": "ENF-NER-01"
+        },
+        {
+          "moduleId": "corpo-humano",
+          "title": "Corpo Humano G3",
+          "instruction": "Compare os mesmos sistemas como camadas compartilhadas.",
+          "activityCode": "ENF-CORPO-01"
+        }
+      ]
+    },
+    {
+      "id": "journey-expanded-shared-anatomy",
+      "code": "ENF-JORNADA-20",
+      "title": "Jornada 20 — Anatomia G3 Expandida",
+      "description": "Endócrino, Linfático, Muscular, Reprodutor, Pele e comparação lado a lado, finalizando no Corpo Humano de 15 camadas.",
+      "duration": "105–140 min",
+      "steps": [
+        {
+          "moduleId": "sistema-endocrino",
+          "title": "Endócrino G3",
+          "instruction": "Explore glândulas, corte e isolamento.",
+          "activityCode": "ENF-END-01"
+        },
+        {
+          "moduleId": "sistema-linfatico",
+          "title": "Linfático G3",
+          "instruction": "Compare cadeias e baço.",
+          "activityCode": "ENF-LINF-01"
+        },
+        {
+          "moduleId": "sistema-muscular",
+          "title": "Muscular G3",
+          "instruction": "Explore grupos, tendões e fáscias.",
+          "activityCode": "ENF-MUS-01"
+        },
+        {
+          "moduleId": "sistema-reprodutor",
+          "title": "Reprodutor G3",
+          "instruction": "Compare anatomia interna feminina e masculina.",
+          "activityCode": "ENF-REP-01"
+        },
+        {
+          "moduleId": "pele",
+          "title": "Pele G3",
+          "instruction": "Explore o corte tegumentar.",
+          "activityCode": "ENF-PELE-01"
+        },
+        {
+          "moduleId": "comparador-anatomico",
+          "title": "Comparador Anatômico",
+          "instruction": "Compare dois sistemas lado a lado.",
+          "activityCode": "ENF-COMP-01"
+        },
+        {
+          "moduleId": "corpo-humano",
+          "title": "Corpo Humano G3",
+          "instruction": "Finalize explorando as 15 camadas.",
+          "activityCode": "ENF-CORPO-01"
+        }
+      ]
+    },
+    {
+      "id": "journey-regional-comparison-search",
+      "code": "ENF-JORNADA-21",
+      "title": "Jornada 21 — Estruturas, Regiões e Comparação",
+      "description": "Percurso por Cabeça/Pescoço, Olho/Ouvido, busca no Corpo Humano e comparação estrutural A/B.",
+      "duration": "70–95 min",
+      "steps": [
+        {
+          "moduleId": "cabeca-pescoco",
+          "title": "Cabeça e Pescoço G3",
+          "instruction": "Explore referências regionais e cortes.",
+          "activityCode": "ENF-CP-01"
+        },
+        {
+          "moduleId": "olho-ouvido",
+          "title": "Olho e Ouvido G3",
+          "instruction": "Compare estruturas sensoriais.",
+          "activityCode": "ENF-SENT-01"
+        },
+        {
+          "moduleId": "corpo-humano",
+          "title": "Busca no Corpo Humano",
+          "instruction": "Use a busca interna para localizar estruturas e abrir camadas.",
+          "activityCode": "ENF-CORPO-01"
+        },
+        {
+          "moduleId": "comparador-anatomico",
+          "title": "Comparação estrutural A/B",
+          "instruction": "Selecione estruturas e utilize sobreposição/opacidade.",
+          "activityCode": "ENF-COMP-02"
+        }
+      ]
+    },
+    {
+      "id": "journey-locomotor-comparison-history",
+      "code": "ENF-JORNADA-22",
+      "title": "Jornada 22 — Locomotor, Destaque e Comparação",
+      "description": "Mão/Pé, Articulações e Comparador com presets, destaque estrutural e histórico local.",
+      "duration": "70–95 min",
+      "steps": [
+        {
+          "moduleId": "mao-pe",
+          "title": "Mão e Pé G3",
+          "instruction": "Compare ossos, tendões e nervos usando destaque.",
+          "activityCode": "ENF-MP-01"
+        },
+        {
+          "moduleId": "articulacoes",
+          "title": "Articulações G3",
+          "instruction": "Explore Ombro, Cotovelo e Joelho.",
+          "activityCode": "ENF-ART-01"
+        },
+        {
+          "moduleId": "comparador-anatomico",
+          "title": "Presets e histórico",
+          "instruction": "Utilize comparações prontas, exporte uma vista e consulte o histórico local.",
+          "activityCode": "ENF-COMP-03"
+        }
+      ]
+    },
+    {
+      "id": "journey-semantic-comparison-collections",
+      "code": "ENF-JORNADA-23",
+      "title": "Jornada 23 — Equivalências Anatômicas e Registro Visual",
+      "description": "Percurso por sistemas com estruturas equivalentes, comparação semântica e exportação anotada.",
+      "duration": "70–100 min",
+      "steps": [
+        {
+          "moduleId": "esqueleto",
+          "title": "Esqueleto G3",
+          "instruction": "Localize crânio e patela para preparar comparações regionais."
+        },
+        {
+          "moduleId": "cabeca-pescoco",
+          "title": "Cabeça e Pescoço G3",
+          "instruction": "Localize crânio, traqueia e tireoide.",
+          "activityCode": "ENF-CP-01"
+        },
+        {
+          "moduleId": "respiratorio",
+          "title": "Respiratório G3",
+          "instruction": "Localize a traqueia no sistema respiratório."
+        },
+        {
+          "moduleId": "sistema-endocrino",
+          "title": "Endócrino G3",
+          "instruction": "Localize a tireoide."
+        },
+        {
+          "moduleId": "comparador-anatomico",
+          "title": "Equivalências A/B",
+          "instruction": "Use sincronização semântica, anote e exporte a comparação.",
+          "activityCode": "ENF-COMP-04"
+        }
+      ]
+    },
+    {
+      "id": "journey-markers-semantic-report",
+      "code": "ENF-JORNADA-24",
+      "title": "Jornada 24 — Relações Anatômicas e Ficha Comparativa",
+      "description": "Exploração locomotora e multissistêmica com sugestões semânticas, marcadores e ficha HTML.",
+      "duration": "80–110 min",
+      "steps": [
+        {
+          "moduleId": "esqueleto",
+          "title": "Esqueleto G3",
+          "instruction": "Localize úmero, escápula, rádio, ulna, fêmur, tíbia e patela."
+        },
+        {
+          "moduleId": "articulacoes",
+          "title": "Articulações G3",
+          "instruction": "Compare referências regionais de ombro, cotovelo e joelho.",
+          "activityCode": "ENF-ART-01"
+        },
+        {
+          "moduleId": "sistema-digestorio",
+          "title": "Digestório G3",
+          "instruction": "Localize o pâncreas no contexto digestório."
+        },
+        {
+          "moduleId": "sistema-endocrino",
+          "title": "Endócrino G3",
+          "instruction": "Compare a referência pancreática no contexto endócrino.",
+          "activityCode": "ENF-END-01"
+        },
+        {
+          "moduleId": "comparador-anatomico",
+          "title": "Marcadores e ficha comparativa",
+          "instruction": "Explore sugestões múltiplas, marque a cena e exporte a ficha HTML.",
+          "activityCode": "ENF-COMP-05"
+        }
+      ]
+    },
+    {
+      "id": "journey-reusable-annotated-comparison",
+      "code": "ENF-JORNADA-25",
+      "title": "Jornada 25 — Comparação Anotada Reutilizável",
+      "description": "Exploração com marcadores categorizados, reposicionamento, exportação local e restauração por pacote JSON.",
+      "duration": "75–105 min",
+      "steps": [
+        {
+          "moduleId": "articulacoes",
+          "title": "Articulações G3",
+          "instruction": "Escolha uma articulação e identifique estruturas de referência.",
+          "activityCode": "ENF-ART-01"
+        },
+        {
+          "moduleId": "mao-pe",
+          "title": "Mão e Pé G3",
+          "instruction": "Compare referências regionais e nervosas.",
+          "activityCode": "ENF-MP-01"
+        },
+        {
+          "moduleId": "comparador-anatomico",
+          "title": "Marcadores editáveis",
+          "instruction": "Crie, edite, categorize e reposicione marcadores.",
+          "activityCode": "ENF-COMP-06"
+        },
+        {
+          "moduleId": "comparador-anatomico",
+          "title": "Pacote local e histórico",
+          "instruction": "Exporte/importa o pacote JSON e gere uma ficha a partir do histórico.",
+          "activityCode": "ENF-COMP-06"
+        }
+      ]
+    },
+    {
+      "id": "journey-comparison-layout-reuse",
+      "code": "ENF-JORNADA-26",
+      "title": "Jornada 26 — Comparação, Organização Visual e Reuso",
+      "description": "Criação de uma comparação anotada, organização visual, preset personalizado e sessão portátil.",
+      "duration": "80–110 min",
+      "steps": [
+        {
+          "moduleId": "sistema-cardiovascular",
+          "title": "Cardiovascular G3",
+          "instruction": "Explore estruturas cardiovasculares para preparar uma comparação."
+        },
+        {
+          "moduleId": "cabeca-pescoco",
+          "title": "Cabeça e Pescoço G3",
+          "instruction": "Explore referências regionais e equivalências.",
+          "activityCode": "ENF-CP-01"
+        },
+        {
+          "moduleId": "comparador-anatomico",
+          "title": "Organização visual",
+          "instruction": "Crie marcadores, arraste etiquetas e use o layout automático.",
+          "activityCode": "ENF-COMP-07"
+        },
+        {
+          "moduleId": "comparador-anatomico",
+          "title": "Preset e sessão portátil",
+          "instruction": "Salve preset local, exporte presets e revise a compatibilidade de uma sessão JSON.",
+          "activityCode": "ENF-COMP-07"
+        }
+      ]
+    },
+    {
+      "id": "journey-preset-library-session-preview",
+      "code": "ENF-JORNADA-27",
+      "title": "Jornada 27 — Biblioteca de Comparações e Prévia Segura",
+      "description": "Organização de comparações reutilizáveis e inspeção de sessão importada antes de alterar a cena.",
+      "duration": "75–105 min",
+      "steps": [
+        {
+          "moduleId": "esqueleto",
+          "title": "Esqueleto G3",
+          "instruction": "Escolha duas referências para preparar uma comparação."
+        },
+        {
+          "moduleId": "articulacoes",
+          "title": "Articulações G3",
+          "instruction": "Relacione uma referência regional ao esqueleto.",
+          "activityCode": "ENF-ART-01"
+        },
+        {
+          "moduleId": "comparador-anatomico",
+          "title": "Biblioteca local",
+          "instruction": "Crie, edite, duplique, etiquete e pesquise presets.",
+          "activityCode": "ENF-COMP-08"
+        },
+        {
+          "moduleId": "comparador-anatomico",
+          "title": "Prévia segura de sessão",
+          "instruction": "Importe uma sessão, revise o diff Atual × Sessão e só então decida aplicar.",
+          "activityCode": "ENF-COMP-08"
+        }
+      ]
+    },
+    {
+      "id": "journey-immersive-clinical-tour",
+      "code": "ENF-JORNADA-28",
+      "title": "Jornada 28 — Tour Imersivo de Enfermagem",
+      "description": "Percurso visual entre anatomia, hospital, UPA, maternidade, biossegurança e CME.",
+      "duration": "95–130 min",
+      "steps": [
+        {
+          "moduleId": "corpo-humano",
+          "title": "Corpo Humano",
+          "instruction": "Use guia e cinema para explorar camadas."
+        },
+        {
+          "moduleId": "hospital-360",
+          "title": "Hospital 3D",
+          "instruction": "Explore objetos com aproximação automática.",
+          "activityCode": "ENF-EXP-01"
+        },
+        {
+          "moduleId": "upa",
+          "title": "UPA 3D",
+          "instruction": "Reconheça triagem, observação e higiene."
+        },
+        {
+          "moduleId": "maternidade",
+          "title": "Maternidade 3D",
+          "instruction": "Explore leito, berço e pontos de apoio."
+        },
+        {
+          "moduleId": "biosseguranca",
+          "title": "Biossegurança",
+          "instruction": "Investigue riscos com foco automático."
+        },
+        {
+          "moduleId": "cme",
+          "title": "CME",
+          "instruction": "Percorra o fluxo sujo → limpo → estéril."
+        }
+      ]
+    },
+    {
+      "id": "journey-clinical-spatial-realism",
+      "code": "ENF-JORNADA-29",
+      "title": "Jornada 29 — Realismo e Leitura Espacial Clínica",
+      "description": "Percurso pelos principais ambientes com hotspots, mini mapa, materiais PBR e iluminação contextual.",
+      "duration": "95–130 min",
+      "steps": [
+        {
+          "moduleId": "hospital-360",
+          "title": "Hospital",
+          "instruction": "Explore hotspots e mini mapa.",
+          "activityCode": "ENF-EXP-02"
+        },
+        {
+          "moduleId": "upa",
+          "title": "UPA",
+          "instruction": "Compare a atmosfera de urgência e navegação espacial."
+        },
+        {
+          "moduleId": "ubs",
+          "title": "UBS",
+          "instruction": "Observe organização e iluminação da atenção primária."
+        },
+        {
+          "moduleId": "maternidade",
+          "title": "Maternidade",
+          "instruction": "Explore a ambientação materno-infantil."
+        },
+        {
+          "moduleId": "biosseguranca",
+          "title": "Biossegurança",
+          "instruction": "Descubra riscos antes que apareçam no mapa."
+        },
+        {
+          "moduleId": "cme",
+          "title": "CME",
+          "instruction": "Use o mapa para revisar o fluxo entre zonas."
+        }
+      ]
+    },
+    {
+      "id": "journey-guided-projector-tour",
+      "code": "ENF-JORNADA-30",
+      "title": "Jornada 30 — Apresentação Automática e Navegação por Setores",
+      "description": "Percurso para usar Tour, zonas, clusters e macros anatômicos em apresentação e exploração individual.",
+      "duration": "100–135 min",
+      "steps": [
+        {
+          "moduleId": "hospital-360",
+          "title": "Hospital em Tour",
+          "instruction": "Ative Tour e navegue também pelas zonas.",
+          "activityCode": "ENF-EXP-03"
+        },
+        {
+          "moduleId": "upa",
+          "title": "UPA por setores",
+          "instruction": "Use Triagem, Observação e Emergência na legenda."
+        },
+        {
+          "moduleId": "ubs",
+          "title": "UBS por setores",
+          "instruction": "Navegue entre Acolhimento, Consulta e Vacinação."
+        },
+        {
+          "moduleId": "cme",
+          "title": "CME em sequência",
+          "instruction": "Observe a trilha no mini mapa e use o Tour."
+        },
+        {
+          "moduleId": "sistema-cardiovascular",
+          "title": "Macro cardiovascular",
+          "instruction": "Use Macro câmaras, Macro vasos e Tour."
+        },
+        {
+          "moduleId": "respiratorio",
+          "title": "Macro respiratório",
+          "instruction": "Use Macro pulmões, Macro vias aéreas e Tour."
+        },
+        {
+          "moduleId": "corpo-humano",
+          "title": "Corpo Humano",
+          "instruction": "Selecione estruturas e observe o foco automático."
+        }
+      ]
+    },
+    {
+      "id": "journey-smart-tour-demonstration",
+      "code": "ENF-JORNADA-31",
+      "title": "Jornada 31 — Tour Inteligente e Demonstração em Projetor",
+      "description": "Uso integrado de Tour, controle manual, mini mapa vivo e apresentação automática entre laboratórios.",
+      "duration": "105–145 min",
+      "steps": [
+        {
+          "moduleId": "hospital-360",
+          "title": "Hospital inteligente",
+          "instruction": "Inicie Tour, interrompa manualmente e retome.",
+          "activityCode": "ENF-EXP-04"
+        },
+        {
+          "moduleId": "upa",
+          "title": "UPA e zona ativa",
+          "instruction": "Use o mini mapa enquanto a câmera muda de setor."
+        },
+        {
+          "moduleId": "cme",
+          "title": "CME com mapa vivo",
+          "instruction": "Acompanhe a trilha, zona ativa e posição aproximada da câmera."
+        },
+        {
+          "moduleId": "sistema-cardiovascular",
+          "title": "Coração em apresentação",
+          "instruction": "Use Tour e depois assuma o controle manual."
+        },
+        {
+          "moduleId": "respiratorio",
+          "title": "Pulmões em apresentação",
+          "instruction": "Compare Tour automático e macros anatômicos."
+        },
+        {
+          "moduleId": "corpo-humano",
+          "title": "Corpo Humano",
+          "instruction": "Use foco suave entre estruturas."
+        }
+      ]
+    }
+  ]
+}

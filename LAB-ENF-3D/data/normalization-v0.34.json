@@ -1,0 +1,43 @@
+{
+  "generatedForVersion": "0.34.0",
+  "markers": {
+    "maxItems": 8,
+    "categories": 4,
+    "categoryVisibility": true,
+    "draggableLabels": true,
+    "automaticLayout": true,
+    "zoomAwareLayout": true,
+    "borderAwareLayout": true,
+    "persistentScreenOffset": true
+  },
+  "customPresets": {
+    "maxItems": 20,
+    "editable": true,
+    "duplicable": true,
+    "tags": true,
+    "maxTags": 8,
+    "search": true,
+    "tagFilter": true,
+    "importExport": true
+  },
+  "workspace": {
+    "packageVersion": 1,
+    "previewBeforeApply": true,
+    "compareCurrentVsIncoming": true,
+    "compatibilityManagerSystemsResolved": true,
+    "backwardCompatibleWithV032": true,
+    "optionalSessionFields": 4
+  },
+  "semantic": {
+    "equivalentGroups": 3,
+    "relatedGroups": 12,
+    "totalGroups": 15
+  },
+  "catalog": {
+    "collections": 6,
+    "searchTerms": 2399
+  },
+  "assetsChanged": false,
+  "glbCount": 246,
+  "faces": 399712
+}

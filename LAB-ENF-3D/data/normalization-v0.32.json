@@ -1,0 +1,45 @@
+{
+  "generatedForVersion": "0.32.0",
+  "semantic": {
+    "equivalentGroups": 3,
+    "relatedGroups": 12,
+    "multipleSuggestions": true,
+    "automaticOnlyEquivalent": true
+  },
+  "markers": {
+    "maxItems": 8,
+    "categories": [
+      "structure",
+      "attention",
+      "relation",
+      "question"
+    ],
+    "editable": true,
+    "repositionable": true,
+    "leaderLinesOptional": true,
+    "lodNormalizedAnchor": true,
+    "systemBound": true
+  },
+  "exports": {
+    "customFilename": true,
+    "annotatedPng": true,
+    "standaloneHtmlReport": true,
+    "htmlFromHistory": true,
+    "workspacePackage": "JSON v1"
+  },
+  "presets": {
+    "count": 8,
+    "themes": 4,
+    "lessonFilter": true,
+    "competencyFilter": true
+  },
+  "catalog": {
+    "collections": 6,
+    "favoriteCollections": true,
+    "recentCollections": true,
+    "searchTerms": 2335
+  },
+  "assetsChanged": false,
+  "glbCount": 246,
+  "faces": 399712
+}

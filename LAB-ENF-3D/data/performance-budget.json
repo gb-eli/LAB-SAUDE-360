@@ -1,0 +1,4168 @@
+{
+  "generatedForVersion": "0.38.0",
+  "method": "Estimativa estática por geometria GLB. Comparador: um renderer, dois roots simultâneos; o pior caso soma as duas seleções.",
+  "profiles": {
+    "eco": {
+      "modulesWithGLB": 35,
+      "modulesLight": 34,
+      "modulesModerate": 1,
+      "modulesHigh": 0,
+      "largestSingleAssetBytes": 49100,
+      "largestSingleAssetFaces": 2732,
+      "largestSingleAssetDrawCallsEstimate": 36
+    },
+    "medium": {
+      "modulesWithGLB": 35,
+      "modulesLight": 34,
+      "modulesModerate": 1,
+      "modulesHigh": 0,
+      "largestSingleAssetBytes": 57360,
+      "largestSingleAssetFaces": 6912,
+      "largestSingleAssetDrawCallsEstimate": 39
+    },
+    "high": {
+      "modulesWithGLB": 35,
+      "modulesLight": 34,
+      "modulesModerate": 1,
+      "modulesHigh": 0,
+      "largestSingleAssetBytes": 100592,
+      "largestSingleAssetFaces": 11888,
+      "largestSingleAssetDrawCallsEstimate": 40
+    },
+    "ultra": {
+      "modulesWithGLB": 35,
+      "modulesLight": 34,
+      "modulesModerate": 1,
+      "modulesHigh": 0,
+      "largestSingleAssetBytes": 100592,
+      "largestSingleAssetFaces": 11888,
+      "largestSingleAssetDrawCallsEstimate": 40
+    }
+  },
+  "modules": {
+    "materiais-hospitalares": {
+      "profiles": {
+        "eco": {
+          "assetCount": 6,
+          "totalReferencedBytes": 20708,
+          "totalReferencedFaces": 464,
+          "totalReferencedDrawCallsEstimate": 15,
+          "maxSingleAssetBytes": 7200,
+          "maxSingleAssetFaces": 252,
+          "maxSingleAssetDrawCallsEstimate": 3,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/materials-g2/collection-tube-low.glb",
+              "bytes": 4200,
+              "faces": 92,
+              "drawCallsEstimate": 3
+            },
+            {
+              "path": "./assets/models/materials-g2/gauze-low.glb",
+              "bytes": 1940,
+              "faces": 36,
+              "drawCallsEstimate": 3
+            },
+            {
+              "path": "./assets/models/materials-g2/iv-bag-low.glb",
+              "bytes": 3024,
+              "faces": 36,
+              "drawCallsEstimate": 3
+            },
+            {
+              "path": "./assets/models/materials-g2/sharps-container-low.glb",
+              "bytes": 3048,
+              "faces": 36,
+              "drawCallsEstimate": 3
+            },
+            {
+              "path": "./assets/models/materials-g2/surgical-mask-low.glb",
+              "bytes": 1296,
+              "faces": 12,
+              "drawCallsEstimate": 1
+            },
+            {
+              "path": "./assets/models/materials-g2/tourniquet-low.glb",
+              "bytes": 7200,
+              "faces": 252,
+              "drawCallsEstimate": 2
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 6,
+          "totalReferencedBytes": 46480,
+          "totalReferencedFaces": 1336,
+          "totalReferencedDrawCallsEstimate": 41,
+          "maxSingleAssetBytes": 17080,
+          "maxSingleAssetFaces": 684,
+          "maxSingleAssetDrawCallsEstimate": 12,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/materials-g2/collection-tube-medium.glb",
+              "bytes": 6600,
+              "faces": 164,
+              "drawCallsEstimate": 5
+            },
+            {
+              "path": "./assets/models/materials-g2/gauze-medium.glb",
+              "bytes": 5740,
+              "faces": 144,
+              "drawCallsEstimate": 12
+            },
+            {
+              "path": "./assets/models/materials-g2/iv-bag-medium.glb",
+              "bytes": 7252,
+              "faces": 188,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/materials-g2/sharps-container-medium.glb",
+              "bytes": 4760,
+              "faces": 60,
+              "drawCallsEstimate": 5
+            },
+            {
+              "path": "./assets/models/materials-g2/surgical-mask-medium.glb",
+              "bytes": 5048,
+              "faces": 96,
+              "drawCallsEstimate": 8
+            },
+            {
+              "path": "./assets/models/materials-g2/tourniquet-medium.glb",
+              "bytes": 17080,
+              "faces": 684,
+              "drawCallsEstimate": 4
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 6,
+          "totalReferencedBytes": 72884,
+          "totalReferencedFaces": 2476,
+          "totalReferencedDrawCallsEstimate": 54,
+          "maxSingleAssetBytes": 36348,
+          "maxSingleAssetFaces": 1616,
+          "maxSingleAssetDrawCallsEstimate": 20,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/materials-g2/collection-tube-high.glb",
+              "bytes": 8364,
+              "faces": 240,
+              "drawCallsEstimate": 6
+            },
+            {
+              "path": "./assets/models/materials-g2/gauze-high.glb",
+              "bytes": 8516,
+              "faces": 240,
+              "drawCallsEstimate": 20
+            },
+            {
+              "path": "./assets/models/materials-g2/iv-bag-high.glb",
+              "bytes": 8120,
+              "faces": 200,
+              "drawCallsEstimate": 8
+            },
+            {
+              "path": "./assets/models/materials-g2/sharps-container-high.glb",
+              "bytes": 5628,
+              "faces": 72,
+              "drawCallsEstimate": 6
+            },
+            {
+              "path": "./assets/models/materials-g2/surgical-mask-high.glb",
+              "bytes": 5908,
+              "faces": 108,
+              "drawCallsEstimate": 9
+            },
+            {
+              "path": "./assets/models/materials-g2/tourniquet-high.glb",
+              "bytes": 36348,
+              "faces": 1616,
+              "drawCallsEstimate": 5
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 6,
+          "totalReferencedBytes": 72884,
+          "totalReferencedFaces": 2476,
+          "totalReferencedDrawCallsEstimate": 54,
+          "maxSingleAssetBytes": 36348,
+          "maxSingleAssetFaces": 1616,
+          "maxSingleAssetDrawCallsEstimate": 20,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/materials-g2/collection-tube-high.glb",
+              "bytes": 8364,
+              "faces": 240,
+              "drawCallsEstimate": 6
+            },
+            {
+              "path": "./assets/models/materials-g2/gauze-high.glb",
+              "bytes": 8516,
+              "faces": 240,
+              "drawCallsEstimate": 20
+            },
+            {
+              "path": "./assets/models/materials-g2/iv-bag-high.glb",
+              "bytes": 8120,
+              "faces": 200,
+              "drawCallsEstimate": 8
+            },
+            {
+              "path": "./assets/models/materials-g2/sharps-container-high.glb",
+              "bytes": 5628,
+              "faces": 72,
+              "drawCallsEstimate": 6
+            },
+            {
+              "path": "./assets/models/materials-g2/surgical-mask-high.glb",
+              "bytes": 5908,
+              "faces": 108,
+              "drawCallsEstimate": 9
+            },
+            {
+              "path": "./assets/models/materials-g2/tourniquet-high.glb",
+              "bytes": 36348,
+              "faces": 1616,
+              "drawCallsEstimate": 5
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 140072,
+      "assetCatalogCount": 18
+    },
+    "mao-pe": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 18992,
+          "totalReferencedFaces": 1840,
+          "totalReferencedDrawCallsEstimate": 33,
+          "maxSingleAssetBytes": 18992,
+          "maxSingleAssetFaces": 1840,
+          "maxSingleAssetDrawCallsEstimate": 33,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/hand-foot-g3/hand-foot-low.glb",
+              "bytes": 18992,
+              "faces": 1840,
+              "drawCallsEstimate": 33
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 29228,
+          "totalReferencedFaces": 4928,
+          "totalReferencedDrawCallsEstimate": 39,
+          "maxSingleAssetBytes": 29228,
+          "maxSingleAssetFaces": 4928,
+          "maxSingleAssetDrawCallsEstimate": 39,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/hand-foot-g3/hand-foot-medium.glb",
+              "bytes": 29228,
+              "faces": 4928,
+              "drawCallsEstimate": 39
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 29688,
+          "totalReferencedFaces": 5664,
+          "totalReferencedDrawCallsEstimate": 39,
+          "maxSingleAssetBytes": 29688,
+          "maxSingleAssetFaces": 5664,
+          "maxSingleAssetDrawCallsEstimate": 39,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/hand-foot-g3/hand-foot-high.glb",
+              "bytes": 29688,
+              "faces": 5664,
+              "drawCallsEstimate": 39
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 29688,
+          "totalReferencedFaces": 5664,
+          "totalReferencedDrawCallsEstimate": 39,
+          "maxSingleAssetBytes": 29688,
+          "maxSingleAssetFaces": 5664,
+          "maxSingleAssetDrawCallsEstimate": 39,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/hand-foot-g3/hand-foot-high.glb",
+              "bytes": 29688,
+              "faces": 5664,
+              "drawCallsEstimate": 39
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 77908,
+      "assetCatalogCount": 3
+    },
+    "articulacoes": {
+      "profiles": {
+        "eco": {
+          "assetCount": 3,
+          "totalReferencedBytes": 29828,
+          "totalReferencedFaces": 1648,
+          "totalReferencedDrawCallsEstimate": 23,
+          "maxSingleAssetBytes": 11324,
+          "maxSingleAssetFaces": 656,
+          "maxSingleAssetDrawCallsEstimate": 9,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/joints-g3/elbow-low.glb",
+              "bytes": 9704,
+              "faces": 464,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/joints-g3/knee-low.glb",
+              "bytes": 11324,
+              "faces": 656,
+              "drawCallsEstimate": 9
+            },
+            {
+              "path": "./assets/models/joints-g3/shoulder-low.glb",
+              "bytes": 8800,
+              "faces": 528,
+              "drawCallsEstimate": 7
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 3,
+          "totalReferencedBytes": 71080,
+          "totalReferencedFaces": 3840,
+          "totalReferencedDrawCallsEstimate": 23,
+          "maxSingleAssetBytes": 28220,
+          "maxSingleAssetFaces": 1600,
+          "maxSingleAssetDrawCallsEstimate": 9,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/joints-g3/elbow-medium.glb",
+              "bytes": 16664,
+              "faces": 800,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/joints-g3/knee-medium.glb",
+              "bytes": 28220,
+              "faces": 1600,
+              "drawCallsEstimate": 9
+            },
+            {
+              "path": "./assets/models/joints-g3/shoulder-medium.glb",
+              "bytes": 26196,
+              "faces": 1440,
+              "drawCallsEstimate": 7
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 3,
+          "totalReferencedBytes": 188416,
+          "totalReferencedFaces": 12000,
+          "totalReferencedDrawCallsEstimate": 23,
+          "maxSingleAssetBytes": 65520,
+          "maxSingleAssetFaces": 4480,
+          "maxSingleAssetDrawCallsEstimate": 9,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/joints-g3/elbow-high.glb",
+              "bytes": 59740,
+              "faces": 3080,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/joints-g3/knee-high.glb",
+              "bytes": 63156,
+              "faces": 4480,
+              "drawCallsEstimate": 9
+            },
+            {
+              "path": "./assets/models/joints-g3/shoulder-high.glb",
+              "bytes": 65520,
+              "faces": 4440,
+              "drawCallsEstimate": 7
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 3,
+          "totalReferencedBytes": 188416,
+          "totalReferencedFaces": 12000,
+          "totalReferencedDrawCallsEstimate": 23,
+          "maxSingleAssetBytes": 65520,
+          "maxSingleAssetFaces": 4480,
+          "maxSingleAssetDrawCallsEstimate": 9,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/joints-g3/elbow-high.glb",
+              "bytes": 59740,
+              "faces": 3080,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/joints-g3/knee-high.glb",
+              "bytes": 63156,
+              "faces": 4480,
+              "drawCallsEstimate": 9
+            },
+            {
+              "path": "./assets/models/joints-g3/shoulder-high.glb",
+              "bytes": 65520,
+              "faces": 4440,
+              "drawCallsEstimate": 7
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 289324,
+      "assetCatalogCount": 9
+    },
+    "sistema-reprodutor": {
+      "profiles": {
+        "eco": {
+          "assetCount": 2,
+          "totalReferencedBytes": 22024,
+          "totalReferencedFaces": 1488,
+          "totalReferencedDrawCallsEstimate": 21,
+          "maxSingleAssetBytes": 11408,
+          "maxSingleAssetFaces": 784,
+          "maxSingleAssetDrawCallsEstimate": 11,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/reproductive-g3/female-low.glb",
+              "bytes": 11408,
+              "faces": 704,
+              "drawCallsEstimate": 10
+            },
+            {
+              "path": "./assets/models/reproductive-g3/male-low.glb",
+              "bytes": 10616,
+              "faces": 784,
+              "drawCallsEstimate": 11
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 2,
+          "totalReferencedBytes": 40220,
+          "totalReferencedFaces": 3520,
+          "totalReferencedDrawCallsEstimate": 23,
+          "maxSingleAssetBytes": 20364,
+          "maxSingleAssetFaces": 1920,
+          "maxSingleAssetDrawCallsEstimate": 12,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/reproductive-g3/female-medium.glb",
+              "bytes": 19856,
+              "faces": 1600,
+              "drawCallsEstimate": 11
+            },
+            {
+              "path": "./assets/models/reproductive-g3/male-medium.glb",
+              "bytes": 20364,
+              "faces": 1920,
+              "drawCallsEstimate": 12
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 2,
+          "totalReferencedBytes": 99300,
+          "totalReferencedFaces": 12040,
+          "totalReferencedDrawCallsEstimate": 28,
+          "maxSingleAssetBytes": 49772,
+          "maxSingleAssetFaces": 6480,
+          "maxSingleAssetDrawCallsEstimate": 16,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/reproductive-g3/female-high.glb",
+              "bytes": 49772,
+              "faces": 5560,
+              "drawCallsEstimate": 16
+            },
+            {
+              "path": "./assets/models/reproductive-g3/male-high.glb",
+              "bytes": 49528,
+              "faces": 6480,
+              "drawCallsEstimate": 12
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 2,
+          "totalReferencedBytes": 99300,
+          "totalReferencedFaces": 12040,
+          "totalReferencedDrawCallsEstimate": 28,
+          "maxSingleAssetBytes": 49772,
+          "maxSingleAssetFaces": 6480,
+          "maxSingleAssetDrawCallsEstimate": 16,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/reproductive-g3/female-high.glb",
+              "bytes": 49772,
+              "faces": 5560,
+              "drawCallsEstimate": 16
+            },
+            {
+              "path": "./assets/models/reproductive-g3/male-high.glb",
+              "bytes": 49528,
+              "faces": 6480,
+              "drawCallsEstimate": 12
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 161544,
+      "assetCatalogCount": 6
+    },
+    "sistema-muscular": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 12836,
+          "totalReferencedFaces": 960,
+          "totalReferencedDrawCallsEstimate": 16,
+          "maxSingleAssetBytes": 12836,
+          "maxSingleAssetFaces": 960,
+          "maxSingleAssetDrawCallsEstimate": 16,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/muscular-g3/muscular-g3-low.glb",
+              "bytes": 12836,
+              "faces": 960,
+              "drawCallsEstimate": 16
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 22856,
+          "totalReferencedFaces": 2864,
+          "totalReferencedDrawCallsEstimate": 19,
+          "maxSingleAssetBytes": 22856,
+          "maxSingleAssetFaces": 2864,
+          "maxSingleAssetDrawCallsEstimate": 19,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/muscular-g3/muscular-g3-medium.glb",
+              "bytes": 22856,
+              "faces": 2864,
+              "drawCallsEstimate": 19
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 45996,
+          "totalReferencedFaces": 9344,
+          "totalReferencedDrawCallsEstimate": 22,
+          "maxSingleAssetBytes": 45996,
+          "maxSingleAssetFaces": 9344,
+          "maxSingleAssetDrawCallsEstimate": 22,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/muscular-g3/muscular-g3-high.glb",
+              "bytes": 45996,
+              "faces": 9344,
+              "drawCallsEstimate": 22
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 45996,
+          "totalReferencedFaces": 9344,
+          "totalReferencedDrawCallsEstimate": 22,
+          "maxSingleAssetBytes": 45996,
+          "maxSingleAssetFaces": 9344,
+          "maxSingleAssetDrawCallsEstimate": 22,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/muscular-g3/muscular-g3-high.glb",
+              "bytes": 45996,
+              "faces": 9344,
+              "drawCallsEstimate": 22
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 81688,
+      "assetCatalogCount": 3
+    },
+    "olho-ouvido": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 17028,
+          "totalReferencedFaces": 720,
+          "totalReferencedDrawCallsEstimate": 8,
+          "maxSingleAssetBytes": 17028,
+          "maxSingleAssetFaces": 720,
+          "maxSingleAssetDrawCallsEstimate": 8,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/eye-ear-g3/eye-ear-g3-low.glb",
+              "bytes": 17028,
+              "faces": 720,
+              "drawCallsEstimate": 8
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 37720,
+          "totalReferencedFaces": 2160,
+          "totalReferencedDrawCallsEstimate": 12,
+          "maxSingleAssetBytes": 37720,
+          "maxSingleAssetFaces": 2160,
+          "maxSingleAssetDrawCallsEstimate": 12,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/eye-ear-g3/eye-ear-g3-medium.glb",
+              "bytes": 37720,
+              "faces": 2160,
+              "drawCallsEstimate": 12
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 100592,
+          "totalReferencedFaces": 7200,
+          "totalReferencedDrawCallsEstimate": 12,
+          "maxSingleAssetBytes": 100592,
+          "maxSingleAssetFaces": 7200,
+          "maxSingleAssetDrawCallsEstimate": 12,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/eye-ear-g3/eye-ear-g3-high.glb",
+              "bytes": 100592,
+              "faces": 7200,
+              "drawCallsEstimate": 12
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 100592,
+          "totalReferencedFaces": 7200,
+          "totalReferencedDrawCallsEstimate": 12,
+          "maxSingleAssetBytes": 100592,
+          "maxSingleAssetFaces": 7200,
+          "maxSingleAssetDrawCallsEstimate": 12,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/eye-ear-g3/eye-ear-g3-high.glb",
+              "bytes": 100592,
+              "faces": 7200,
+              "drawCallsEstimate": 12
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 155340,
+      "assetCatalogCount": 3
+    },
+    "cabeca-pescoco": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 8996,
+          "totalReferencedFaces": 440,
+          "totalReferencedDrawCallsEstimate": 7,
+          "maxSingleAssetBytes": 8996,
+          "maxSingleAssetFaces": 440,
+          "maxSingleAssetDrawCallsEstimate": 7,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/head-neck-g3/head-neck-g3-low.glb",
+              "bytes": 8996,
+              "faces": 440,
+              "drawCallsEstimate": 7
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 18376,
+          "totalReferencedFaces": 1480,
+          "totalReferencedDrawCallsEstimate": 10,
+          "maxSingleAssetBytes": 18376,
+          "maxSingleAssetFaces": 1480,
+          "maxSingleAssetDrawCallsEstimate": 10,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/head-neck-g3/head-neck-g3-medium.glb",
+              "bytes": 18376,
+              "faces": 1480,
+              "drawCallsEstimate": 10
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 41904,
+          "totalReferencedFaces": 4640,
+          "totalReferencedDrawCallsEstimate": 11,
+          "maxSingleAssetBytes": 41904,
+          "maxSingleAssetFaces": 4640,
+          "maxSingleAssetDrawCallsEstimate": 11,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/head-neck-g3/head-neck-g3-high.glb",
+              "bytes": 41904,
+              "faces": 4640,
+              "drawCallsEstimate": 11
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 41904,
+          "totalReferencedFaces": 4640,
+          "totalReferencedDrawCallsEstimate": 11,
+          "maxSingleAssetBytes": 41904,
+          "maxSingleAssetFaces": 4640,
+          "maxSingleAssetDrawCallsEstimate": 11,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/head-neck-g3/head-neck-g3-high.glb",
+              "bytes": 41904,
+              "faces": 4640,
+              "drawCallsEstimate": 11
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 69276,
+      "assetCatalogCount": 3
+    },
+    "sistema-linfatico": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 7512,
+          "totalReferencedFaces": 920,
+          "totalReferencedDrawCallsEstimate": 12,
+          "maxSingleAssetBytes": 7512,
+          "maxSingleAssetFaces": 920,
+          "maxSingleAssetDrawCallsEstimate": 12,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/lymphatic-g3/lymphatic-g3-low.glb",
+              "bytes": 7512,
+              "faces": 920,
+              "drawCallsEstimate": 12
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 17488,
+          "totalReferencedFaces": 6912,
+          "totalReferencedDrawCallsEstimate": 24,
+          "maxSingleAssetBytes": 17488,
+          "maxSingleAssetFaces": 6912,
+          "maxSingleAssetDrawCallsEstimate": 24,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/lymphatic-g3/lymphatic-g3-medium.glb",
+              "bytes": 17488,
+              "faces": 6912,
+              "drawCallsEstimate": 24
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 25000,
+          "totalReferencedFaces": 11888,
+          "totalReferencedDrawCallsEstimate": 40,
+          "maxSingleAssetBytes": 25000,
+          "maxSingleAssetFaces": 11888,
+          "maxSingleAssetDrawCallsEstimate": 40,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/lymphatic-g3/lymphatic-g3-high.glb",
+              "bytes": 25000,
+              "faces": 11888,
+              "drawCallsEstimate": 40
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 25000,
+          "totalReferencedFaces": 11888,
+          "totalReferencedDrawCallsEstimate": 40,
+          "maxSingleAssetBytes": 25000,
+          "maxSingleAssetFaces": 11888,
+          "maxSingleAssetDrawCallsEstimate": 40,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/lymphatic-g3/lymphatic-g3-high.glb",
+              "bytes": 25000,
+              "faces": 11888,
+              "drawCallsEstimate": 40
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 50000,
+      "assetCatalogCount": 3
+    },
+    "sistema-endocrino": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 8024,
+          "totalReferencedFaces": 600,
+          "totalReferencedDrawCallsEstimate": 8,
+          "maxSingleAssetBytes": 8024,
+          "maxSingleAssetFaces": 600,
+          "maxSingleAssetDrawCallsEstimate": 8,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/endocrine-g3/endocrine-g3-low.glb",
+              "bytes": 8024,
+              "faces": 600,
+              "drawCallsEstimate": 8
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 15848,
+          "totalReferencedFaces": 2152,
+          "totalReferencedDrawCallsEstimate": 9,
+          "maxSingleAssetBytes": 15848,
+          "maxSingleAssetFaces": 2152,
+          "maxSingleAssetDrawCallsEstimate": 9,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/endocrine-g3/endocrine-g3-medium.glb",
+              "bytes": 15848,
+              "faces": 2152,
+              "drawCallsEstimate": 9
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 40632,
+          "totalReferencedFaces": 8112,
+          "totalReferencedDrawCallsEstimate": 11,
+          "maxSingleAssetBytes": 40632,
+          "maxSingleAssetFaces": 8112,
+          "maxSingleAssetDrawCallsEstimate": 11,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/endocrine-g3/endocrine-g3-high.glb",
+              "bytes": 40632,
+              "faces": 8112,
+              "drawCallsEstimate": 11
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 40632,
+          "totalReferencedFaces": 8112,
+          "totalReferencedDrawCallsEstimate": 11,
+          "maxSingleAssetBytes": 40632,
+          "maxSingleAssetFaces": 8112,
+          "maxSingleAssetDrawCallsEstimate": 11,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/endocrine-g3/endocrine-g3-high.glb",
+              "bytes": 40632,
+              "faces": 8112,
+              "drawCallsEstimate": 11
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 64504,
+      "assetCatalogCount": 3
+    },
+    "sistema-cardiovascular": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 16936,
+          "totalReferencedFaces": 972,
+          "totalReferencedDrawCallsEstimate": 21,
+          "maxSingleAssetBytes": 16936,
+          "maxSingleAssetFaces": 972,
+          "maxSingleAssetDrawCallsEstimate": 21,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/cardiovascular-g3/cardiovascular-g3-low.glb",
+              "bytes": 16936,
+              "faces": 972,
+              "drawCallsEstimate": 21
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 27764,
+          "totalReferencedFaces": 2108,
+          "totalReferencedDrawCallsEstimate": 23,
+          "maxSingleAssetBytes": 27764,
+          "maxSingleAssetFaces": 2108,
+          "maxSingleAssetDrawCallsEstimate": 23,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/cardiovascular-g3/cardiovascular-g3-medium.glb",
+              "bytes": 27764,
+              "faces": 2108,
+              "drawCallsEstimate": 23
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 31144,
+          "totalReferencedFaces": 2844,
+          "totalReferencedDrawCallsEstimate": 25,
+          "maxSingleAssetBytes": 31144,
+          "maxSingleAssetFaces": 2844,
+          "maxSingleAssetDrawCallsEstimate": 25,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/cardiovascular-g3/cardiovascular-g3-high.glb",
+              "bytes": 31144,
+              "faces": 2844,
+              "drawCallsEstimate": 25
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 31144,
+          "totalReferencedFaces": 2844,
+          "totalReferencedDrawCallsEstimate": 25,
+          "maxSingleAssetBytes": 31144,
+          "maxSingleAssetFaces": 2844,
+          "maxSingleAssetDrawCallsEstimate": 25,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/cardiovascular-g3/cardiovascular-g3-high.glb",
+              "bytes": 31144,
+              "faces": 2844,
+              "drawCallsEstimate": 25
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 75844,
+      "assetCatalogCount": 3
+    },
+    "pele": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 15572,
+          "totalReferencedFaces": 708,
+          "totalReferencedDrawCallsEstimate": 11,
+          "maxSingleAssetBytes": 15572,
+          "maxSingleAssetFaces": 708,
+          "maxSingleAssetDrawCallsEstimate": 11,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/skin-g3/skin-g3-low.glb",
+              "bytes": 15572,
+              "faces": 708,
+              "drawCallsEstimate": 11
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 48904,
+          "totalReferencedFaces": 2140,
+          "totalReferencedDrawCallsEstimate": 14,
+          "maxSingleAssetBytes": 48904,
+          "maxSingleAssetFaces": 2140,
+          "maxSingleAssetDrawCallsEstimate": 14,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/skin-g3/skin-g3-medium.glb",
+              "bytes": 48904,
+              "faces": 2140,
+              "drawCallsEstimate": 14
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 86484,
+          "totalReferencedFaces": 4084,
+          "totalReferencedDrawCallsEstimate": 15,
+          "maxSingleAssetBytes": 86484,
+          "maxSingleAssetFaces": 4084,
+          "maxSingleAssetDrawCallsEstimate": 15,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/skin-g3/skin-g3-high.glb",
+              "bytes": 86484,
+              "faces": 4084,
+              "drawCallsEstimate": 15
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 86484,
+          "totalReferencedFaces": 4084,
+          "totalReferencedDrawCallsEstimate": 15,
+          "maxSingleAssetBytes": 86484,
+          "maxSingleAssetFaces": 4084,
+          "maxSingleAssetDrawCallsEstimate": 15,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/skin-g3/skin-g3-high.glb",
+              "bytes": 86484,
+              "faces": 4084,
+              "drawCallsEstimate": 15
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 150960,
+      "assetCatalogCount": 3
+    },
+    "sistema-nervoso": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 10848,
+          "totalReferencedFaces": 560,
+          "totalReferencedDrawCallsEstimate": 10,
+          "maxSingleAssetBytes": 10848,
+          "maxSingleAssetFaces": 560,
+          "maxSingleAssetDrawCallsEstimate": 10,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/nervous-g3/nervous-g3-low.glb",
+              "bytes": 10848,
+              "faces": 560,
+              "drawCallsEstimate": 10
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 23488,
+          "totalReferencedFaces": 2192,
+          "totalReferencedDrawCallsEstimate": 20,
+          "maxSingleAssetBytes": 23488,
+          "maxSingleAssetFaces": 2192,
+          "maxSingleAssetDrawCallsEstimate": 20,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/nervous-g3/nervous-g3-medium.glb",
+              "bytes": 23488,
+              "faces": 2192,
+              "drawCallsEstimate": 20
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 46912,
+          "totalReferencedFaces": 5952,
+          "totalReferencedDrawCallsEstimate": 23,
+          "maxSingleAssetBytes": 46912,
+          "maxSingleAssetFaces": 5952,
+          "maxSingleAssetDrawCallsEstimate": 23,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/nervous-g3/nervous-g3-high.glb",
+              "bytes": 46912,
+              "faces": 5952,
+              "drawCallsEstimate": 23
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 46912,
+          "totalReferencedFaces": 5952,
+          "totalReferencedDrawCallsEstimate": 23,
+          "maxSingleAssetBytes": 46912,
+          "maxSingleAssetFaces": 5952,
+          "maxSingleAssetDrawCallsEstimate": 23,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/nervous-g3/nervous-g3-high.glb",
+              "bytes": 46912,
+              "faces": 5952,
+              "drawCallsEstimate": 23
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 81248,
+      "assetCatalogCount": 3
+    },
+    "sistema-digestorio": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 22312,
+          "totalReferencedFaces": 2080,
+          "totalReferencedDrawCallsEstimate": 15,
+          "maxSingleAssetBytes": 22312,
+          "maxSingleAssetFaces": 2080,
+          "maxSingleAssetDrawCallsEstimate": 15,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/digestive-g3/digestive-g3-low.glb",
+              "bytes": 22312,
+              "faces": 2080,
+              "drawCallsEstimate": 15
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 35576,
+          "totalReferencedFaces": 3920,
+          "totalReferencedDrawCallsEstimate": 15,
+          "maxSingleAssetBytes": 35576,
+          "maxSingleAssetFaces": 3920,
+          "maxSingleAssetDrawCallsEstimate": 15,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/digestive-g3/digestive-g3-medium.glb",
+              "bytes": 35576,
+              "faces": 3920,
+              "drawCallsEstimate": 15
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 86036,
+          "totalReferencedFaces": 10960,
+          "totalReferencedDrawCallsEstimate": 16,
+          "maxSingleAssetBytes": 86036,
+          "maxSingleAssetFaces": 10960,
+          "maxSingleAssetDrawCallsEstimate": 16,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/digestive-g3/digestive-g3-high.glb",
+              "bytes": 86036,
+              "faces": 10960,
+              "drawCallsEstimate": 16
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 86036,
+          "totalReferencedFaces": 10960,
+          "totalReferencedDrawCallsEstimate": 16,
+          "maxSingleAssetBytes": 86036,
+          "maxSingleAssetFaces": 10960,
+          "maxSingleAssetDrawCallsEstimate": 16,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/digestive-g3/digestive-g3-high.glb",
+              "bytes": 86036,
+              "faces": 10960,
+              "drawCallsEstimate": 16
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 143924,
+      "assetCatalogCount": 3
+    },
+    "sistema-urinario": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 10952,
+          "totalReferencedFaces": 760,
+          "totalReferencedDrawCallsEstimate": 11,
+          "maxSingleAssetBytes": 10952,
+          "maxSingleAssetFaces": 760,
+          "maxSingleAssetDrawCallsEstimate": 11,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/urinary-g3/urinary-g3-low.glb",
+              "bytes": 10952,
+              "faces": 760,
+              "drawCallsEstimate": 11
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 20720,
+          "totalReferencedFaces": 1704,
+          "totalReferencedDrawCallsEstimate": 13,
+          "maxSingleAssetBytes": 20720,
+          "maxSingleAssetFaces": 1704,
+          "maxSingleAssetDrawCallsEstimate": 13,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/urinary-g3/urinary-g3-medium.glb",
+              "bytes": 20720,
+              "faces": 1704,
+              "drawCallsEstimate": 13
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 50080,
+          "totalReferencedFaces": 5936,
+          "totalReferencedDrawCallsEstimate": 18,
+          "maxSingleAssetBytes": 50080,
+          "maxSingleAssetFaces": 5936,
+          "maxSingleAssetDrawCallsEstimate": 18,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/urinary-g3/urinary-g3-high.glb",
+              "bytes": 50080,
+              "faces": 5936,
+              "drawCallsEstimate": 18
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 50080,
+          "totalReferencedFaces": 5936,
+          "totalReferencedDrawCallsEstimate": 18,
+          "maxSingleAssetBytes": 50080,
+          "maxSingleAssetFaces": 5936,
+          "maxSingleAssetDrawCallsEstimate": 18,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/urinary-g3/urinary-g3-high.glb",
+              "bytes": 50080,
+              "faces": 5936,
+              "drawCallsEstimate": 18
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 81752,
+      "assetCatalogCount": 3
+    },
+    "posicionamento": {
+      "profiles": {
+        "eco": {
+          "assetCount": 3,
+          "totalReferencedBytes": 32408,
+          "totalReferencedFaces": 2368,
+          "totalReferencedDrawCallsEstimate": 39,
+          "maxSingleAssetBytes": 11264,
+          "maxSingleAssetFaces": 892,
+          "maxSingleAssetDrawCallsEstimate": 14,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/positioning-g3/dorsal-low.glb",
+              "bytes": 10880,
+              "faces": 892,
+              "drawCallsEstimate": 14
+            },
+            {
+              "path": "./assets/models/positioning-g3/lateral-low.glb",
+              "bytes": 10264,
+              "faces": 732,
+              "drawCallsEstimate": 12
+            },
+            {
+              "path": "./assets/models/positioning-g3/semi-seated-low.glb",
+              "bytes": 11264,
+              "faces": 744,
+              "drawCallsEstimate": 13
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 3,
+          "totalReferencedBytes": 59224,
+          "totalReferencedFaces": 4948,
+          "totalReferencedDrawCallsEstimate": 42,
+          "maxSingleAssetBytes": 20172,
+          "maxSingleAssetFaces": 1752,
+          "maxSingleAssetDrawCallsEstimate": 15,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/positioning-g3/dorsal-medium.glb",
+              "bytes": 19836,
+              "faces": 1752,
+              "drawCallsEstimate": 15
+            },
+            {
+              "path": "./assets/models/positioning-g3/lateral-medium.glb",
+              "bytes": 19216,
+              "faces": 1592,
+              "drawCallsEstimate": 13
+            },
+            {
+              "path": "./assets/models/positioning-g3/semi-seated-medium.glb",
+              "bytes": 20172,
+              "faces": 1604,
+              "drawCallsEstimate": 14
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 3,
+          "totalReferencedBytes": 136972,
+          "totalReferencedFaces": 14404,
+          "totalReferencedDrawCallsEstimate": 45,
+          "maxSingleAssetBytes": 46088,
+          "maxSingleAssetFaces": 4904,
+          "maxSingleAssetDrawCallsEstimate": 16,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/positioning-g3/dorsal-high.glb",
+              "bytes": 45752,
+              "faces": 4904,
+              "drawCallsEstimate": 16
+            },
+            {
+              "path": "./assets/models/positioning-g3/lateral-high.glb",
+              "bytes": 45132,
+              "faces": 4744,
+              "drawCallsEstimate": 14
+            },
+            {
+              "path": "./assets/models/positioning-g3/semi-seated-high.glb",
+              "bytes": 46088,
+              "faces": 4756,
+              "drawCallsEstimate": 15
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 3,
+          "totalReferencedBytes": 136972,
+          "totalReferencedFaces": 14404,
+          "totalReferencedDrawCallsEstimate": 45,
+          "maxSingleAssetBytes": 46088,
+          "maxSingleAssetFaces": 4904,
+          "maxSingleAssetDrawCallsEstimate": 16,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/positioning-g3/dorsal-high.glb",
+              "bytes": 45752,
+              "faces": 4904,
+              "drawCallsEstimate": 16
+            },
+            {
+              "path": "./assets/models/positioning-g3/lateral-high.glb",
+              "bytes": 45132,
+              "faces": 4744,
+              "drawCallsEstimate": 14
+            },
+            {
+              "path": "./assets/models/positioning-g3/semi-seated-high.glb",
+              "bytes": 46088,
+              "faces": 4756,
+              "drawCallsEstimate": 15
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 228604,
+      "assetCatalogCount": 9
+    },
+    "feridas": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 10008,
+          "totalReferencedFaces": 540,
+          "totalReferencedDrawCallsEstimate": 13,
+          "maxSingleAssetBytes": 10008,
+          "maxSingleAssetFaces": 540,
+          "maxSingleAssetDrawCallsEstimate": 13,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/wounds-g3/wound-samples-low.glb",
+              "bytes": 10008,
+              "faces": 540,
+              "drawCallsEstimate": 13
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 23536,
+          "totalReferencedFaces": 2044,
+          "totalReferencedDrawCallsEstimate": 25,
+          "maxSingleAssetBytes": 23536,
+          "maxSingleAssetFaces": 2044,
+          "maxSingleAssetDrawCallsEstimate": 25,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/wounds-g3/wound-samples-medium.glb",
+              "bytes": 23536,
+              "faces": 2044,
+              "drawCallsEstimate": 25
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 28104,
+          "totalReferencedFaces": 3132,
+          "totalReferencedDrawCallsEstimate": 37,
+          "maxSingleAssetBytes": 28104,
+          "maxSingleAssetFaces": 3132,
+          "maxSingleAssetDrawCallsEstimate": 37,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/wounds-g3/wound-samples-high.glb",
+              "bytes": 28104,
+              "faces": 3132,
+              "drawCallsEstimate": 37
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 28104,
+          "totalReferencedFaces": 3132,
+          "totalReferencedDrawCallsEstimate": 37,
+          "maxSingleAssetBytes": 28104,
+          "maxSingleAssetFaces": 3132,
+          "maxSingleAssetDrawCallsEstimate": 37,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/wounds-g3/wound-samples-high.glb",
+              "bytes": 28104,
+              "faces": 3132,
+              "drawCallsEstimate": 37
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 61648,
+      "assetCatalogCount": 3
+    },
+    "pediatria": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 7600,
+          "totalReferencedFaces": 108,
+          "totalReferencedDrawCallsEstimate": 9,
+          "maxSingleAssetBytes": 7600,
+          "maxSingleAssetFaces": 108,
+          "maxSingleAssetDrawCallsEstimate": 9,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/pediatrics-g2/pediatrics-room-low.glb",
+              "bytes": 7600,
+              "faces": 108,
+              "drawCallsEstimate": 9
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 14416,
+          "totalReferencedFaces": 408,
+          "totalReferencedDrawCallsEstimate": 17,
+          "maxSingleAssetBytes": 14416,
+          "maxSingleAssetFaces": 408,
+          "maxSingleAssetDrawCallsEstimate": 17,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/pediatrics-g2/pediatrics-room-medium.glb",
+              "bytes": 14416,
+              "faces": 408,
+              "drawCallsEstimate": 17
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 18520,
+          "totalReferencedFaces": 468,
+          "totalReferencedDrawCallsEstimate": 22,
+          "maxSingleAssetBytes": 18520,
+          "maxSingleAssetFaces": 468,
+          "maxSingleAssetDrawCallsEstimate": 22,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/pediatrics-g2/pediatrics-room-high.glb",
+              "bytes": 18520,
+              "faces": 468,
+              "drawCallsEstimate": 22
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 18520,
+          "totalReferencedFaces": 468,
+          "totalReferencedDrawCallsEstimate": 22,
+          "maxSingleAssetBytes": 18520,
+          "maxSingleAssetFaces": 468,
+          "maxSingleAssetDrawCallsEstimate": 22,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/pediatrics-g2/pediatrics-room-high.glb",
+              "bytes": 18520,
+              "faces": 468,
+              "drawCallsEstimate": 22
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 40536,
+      "assetCatalogCount": 3
+    },
+    "maternidade": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 12212,
+          "totalReferencedFaces": 220,
+          "totalReferencedDrawCallsEstimate": 15,
+          "maxSingleAssetBytes": 12212,
+          "maxSingleAssetFaces": 220,
+          "maxSingleAssetDrawCallsEstimate": 15,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/maternity-g2/maternity-room-low.glb",
+              "bytes": 12212,
+              "faces": 220,
+              "drawCallsEstimate": 15
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 17376,
+          "totalReferencedFaces": 372,
+          "totalReferencedDrawCallsEstimate": 22,
+          "maxSingleAssetBytes": 17376,
+          "maxSingleAssetFaces": 372,
+          "maxSingleAssetDrawCallsEstimate": 22,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/maternity-g2/maternity-room-medium.glb",
+              "bytes": 17376,
+              "faces": 372,
+              "drawCallsEstimate": 22
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 21260,
+          "totalReferencedFaces": 492,
+          "totalReferencedDrawCallsEstimate": 26,
+          "maxSingleAssetBytes": 21260,
+          "maxSingleAssetFaces": 492,
+          "maxSingleAssetDrawCallsEstimate": 26,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/maternity-g2/maternity-room-high.glb",
+              "bytes": 21260,
+              "faces": 492,
+              "drawCallsEstimate": 26
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 21260,
+          "totalReferencedFaces": 492,
+          "totalReferencedDrawCallsEstimate": 26,
+          "maxSingleAssetBytes": 21260,
+          "maxSingleAssetFaces": 492,
+          "maxSingleAssetDrawCallsEstimate": 26,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/maternity-g2/maternity-room-high.glb",
+              "bytes": 21260,
+              "faces": 492,
+              "drawCallsEstimate": 26
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 50848,
+      "assetCatalogCount": 3
+    },
+    "recem-nascido": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 9944,
+          "totalReferencedFaces": 880,
+          "totalReferencedDrawCallsEstimate": 15,
+          "maxSingleAssetBytes": 9944,
+          "maxSingleAssetFaces": 880,
+          "maxSingleAssetDrawCallsEstimate": 15,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/newborn-g3/newborn-low.glb",
+              "bytes": 9944,
+              "faces": 880,
+              "drawCallsEstimate": 15
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 19876,
+          "totalReferencedFaces": 1776,
+          "totalReferencedDrawCallsEstimate": 17,
+          "maxSingleAssetBytes": 19876,
+          "maxSingleAssetFaces": 1776,
+          "maxSingleAssetDrawCallsEstimate": 17,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/newborn-g3/newborn-medium.glb",
+              "bytes": 19876,
+              "faces": 1776,
+              "drawCallsEstimate": 17
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 50024,
+          "totalReferencedFaces": 4416,
+          "totalReferencedDrawCallsEstimate": 19,
+          "maxSingleAssetBytes": 50024,
+          "maxSingleAssetFaces": 4416,
+          "maxSingleAssetDrawCallsEstimate": 19,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/newborn-g3/newborn-high.glb",
+              "bytes": 50024,
+              "faces": 4416,
+              "drawCallsEstimate": 19
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 50024,
+          "totalReferencedFaces": 4416,
+          "totalReferencedDrawCallsEstimate": 19,
+          "maxSingleAssetBytes": 50024,
+          "maxSingleAssetFaces": 4416,
+          "maxSingleAssetDrawCallsEstimate": 19,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/newborn-g3/newborn-high.glb",
+              "bytes": 50024,
+              "faces": 4416,
+              "drawCallsEstimate": 19
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 79844,
+      "assetCatalogCount": 3
+    },
+    "upa": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 7844,
+          "totalReferencedFaces": 108,
+          "totalReferencedDrawCallsEstimate": 9,
+          "maxSingleAssetBytes": 7844,
+          "maxSingleAssetFaces": 108,
+          "maxSingleAssetDrawCallsEstimate": 9,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/facilities-g2/upa-low.glb",
+              "bytes": 7844,
+              "faces": 108,
+              "drawCallsEstimate": 9
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 11604,
+          "totalReferencedFaces": 180,
+          "totalReferencedDrawCallsEstimate": 15,
+          "maxSingleAssetBytes": 11604,
+          "maxSingleAssetFaces": 180,
+          "maxSingleAssetDrawCallsEstimate": 15,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/facilities-g2/upa-medium.glb",
+              "bytes": 11604,
+              "faces": 180,
+              "drawCallsEstimate": 15
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 13992,
+          "totalReferencedFaces": 216,
+          "totalReferencedDrawCallsEstimate": 18,
+          "maxSingleAssetBytes": 13992,
+          "maxSingleAssetFaces": 216,
+          "maxSingleAssetDrawCallsEstimate": 18,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/facilities-g2/upa-high.glb",
+              "bytes": 13992,
+              "faces": 216,
+              "drawCallsEstimate": 18
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 13992,
+          "totalReferencedFaces": 216,
+          "totalReferencedDrawCallsEstimate": 18,
+          "maxSingleAssetBytes": 13992,
+          "maxSingleAssetFaces": 216,
+          "maxSingleAssetDrawCallsEstimate": 18,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/facilities-g2/upa-high.glb",
+              "bytes": 13992,
+              "faces": 216,
+              "drawCallsEstimate": 18
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 33440,
+      "assetCatalogCount": 3
+    },
+    "ubs": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 7584,
+          "totalReferencedFaces": 108,
+          "totalReferencedDrawCallsEstimate": 9,
+          "maxSingleAssetBytes": 7584,
+          "maxSingleAssetFaces": 108,
+          "maxSingleAssetDrawCallsEstimate": 9,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/facilities-g2/ubs-low.glb",
+              "bytes": 7584,
+              "faces": 108,
+              "drawCallsEstimate": 9
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 11340,
+          "totalReferencedFaces": 180,
+          "totalReferencedDrawCallsEstimate": 15,
+          "maxSingleAssetBytes": 11340,
+          "maxSingleAssetFaces": 180,
+          "maxSingleAssetDrawCallsEstimate": 15,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/facilities-g2/ubs-medium.glb",
+              "bytes": 11340,
+              "faces": 180,
+              "drawCallsEstimate": 15
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 12880,
+          "totalReferencedFaces": 204,
+          "totalReferencedDrawCallsEstimate": 17,
+          "maxSingleAssetBytes": 12880,
+          "maxSingleAssetFaces": 204,
+          "maxSingleAssetDrawCallsEstimate": 17,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/facilities-g2/ubs-high.glb",
+              "bytes": 12880,
+              "faces": 204,
+              "drawCallsEstimate": 17
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 12880,
+          "totalReferencedFaces": 204,
+          "totalReferencedDrawCallsEstimate": 17,
+          "maxSingleAssetBytes": 12880,
+          "maxSingleAssetFaces": 204,
+          "maxSingleAssetDrawCallsEstimate": 17,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/facilities-g2/ubs-high.glb",
+              "bytes": 12880,
+              "faces": 204,
+              "drawCallsEstimate": 17
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 31804,
+      "assetCatalogCount": 3
+    },
+    "ciclo-vida": {
+      "profiles": {
+        "eco": {
+          "assetCount": 5,
+          "totalReferencedBytes": 48340,
+          "totalReferencedFaces": 2840,
+          "totalReferencedDrawCallsEstimate": 56,
+          "maxSingleAssetBytes": 10496,
+          "maxSingleAssetFaces": 600,
+          "maxSingleAssetDrawCallsEstimate": 12,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/life-g3/adolescent-low.glb",
+              "bytes": 9500,
+              "faces": 560,
+              "drawCallsEstimate": 11
+            },
+            {
+              "path": "./assets/models/life-g3/adult-low.glb",
+              "bytes": 9304,
+              "faces": 560,
+              "drawCallsEstimate": 11
+            },
+            {
+              "path": "./assets/models/life-g3/child-low.glb",
+              "bytes": 9564,
+              "faces": 560,
+              "drawCallsEstimate": 11
+            },
+            {
+              "path": "./assets/models/life-g3/newborn-low.glb",
+              "bytes": 9476,
+              "faces": 560,
+              "drawCallsEstimate": 11
+            },
+            {
+              "path": "./assets/models/life-g3/older-low.glb",
+              "bytes": 10496,
+              "faces": 600,
+              "drawCallsEstimate": 12
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 5,
+          "totalReferencedBytes": 92168,
+          "totalReferencedFaces": 6552,
+          "totalReferencedDrawCallsEstimate": 56,
+          "maxSingleAssetBytes": 19468,
+          "maxSingleAssetFaces": 1368,
+          "maxSingleAssetDrawCallsEstimate": 12,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/life-g3/adolescent-medium.glb",
+              "bytes": 18212,
+              "faces": 1296,
+              "drawCallsEstimate": 11
+            },
+            {
+              "path": "./assets/models/life-g3/adult-medium.glb",
+              "bytes": 18020,
+              "faces": 1296,
+              "drawCallsEstimate": 11
+            },
+            {
+              "path": "./assets/models/life-g3/child-medium.glb",
+              "bytes": 18280,
+              "faces": 1296,
+              "drawCallsEstimate": 11
+            },
+            {
+              "path": "./assets/models/life-g3/newborn-medium.glb",
+              "bytes": 18188,
+              "faces": 1296,
+              "drawCallsEstimate": 11
+            },
+            {
+              "path": "./assets/models/life-g3/older-medium.glb",
+              "bytes": 19468,
+              "faces": 1368,
+              "drawCallsEstimate": 12
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 5,
+          "totalReferencedBytes": 239556,
+          "totalReferencedFaces": 19192,
+          "totalReferencedDrawCallsEstimate": 67,
+          "maxSingleAssetBytes": 51140,
+          "maxSingleAssetFaces": 3992,
+          "maxSingleAssetDrawCallsEstimate": 15,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/life-g3/adolescent-high.glb",
+              "bytes": 47140,
+              "faces": 3800,
+              "drawCallsEstimate": 13
+            },
+            {
+              "path": "./assets/models/life-g3/adult-high.glb",
+              "bytes": 46948,
+              "faces": 3800,
+              "drawCallsEstimate": 13
+            },
+            {
+              "path": "./assets/models/life-g3/child-high.glb",
+              "bytes": 47208,
+              "faces": 3800,
+              "drawCallsEstimate": 13
+            },
+            {
+              "path": "./assets/models/life-g3/newborn-high.glb",
+              "bytes": 47120,
+              "faces": 3800,
+              "drawCallsEstimate": 13
+            },
+            {
+              "path": "./assets/models/life-g3/older-high.glb",
+              "bytes": 51140,
+              "faces": 3992,
+              "drawCallsEstimate": 15
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 5,
+          "totalReferencedBytes": 239556,
+          "totalReferencedFaces": 19192,
+          "totalReferencedDrawCallsEstimate": 67,
+          "maxSingleAssetBytes": 51140,
+          "maxSingleAssetFaces": 3992,
+          "maxSingleAssetDrawCallsEstimate": 15,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/life-g3/adolescent-high.glb",
+              "bytes": 47140,
+              "faces": 3800,
+              "drawCallsEstimate": 13
+            },
+            {
+              "path": "./assets/models/life-g3/adult-high.glb",
+              "bytes": 46948,
+              "faces": 3800,
+              "drawCallsEstimate": 13
+            },
+            {
+              "path": "./assets/models/life-g3/child-high.glb",
+              "bytes": 47208,
+              "faces": 3800,
+              "drawCallsEstimate": 13
+            },
+            {
+              "path": "./assets/models/life-g3/newborn-high.glb",
+              "bytes": 47120,
+              "faces": 3800,
+              "drawCallsEstimate": 13
+            },
+            {
+              "path": "./assets/models/life-g3/older-high.glb",
+              "bytes": 51140,
+              "faces": 3992,
+              "drawCallsEstimate": 15
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 380064,
+      "assetCatalogCount": 15
+    },
+    "materno-infantil": {
+      "profiles": {
+        "eco": {
+          "assetCount": 3,
+          "totalReferencedBytes": 27980,
+          "totalReferencedFaces": 1800,
+          "totalReferencedDrawCallsEstimate": 30,
+          "maxSingleAssetBytes": 9348,
+          "maxSingleAssetFaces": 600,
+          "maxSingleAssetDrawCallsEstimate": 10,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/maternal-g3/pregnancy-t1-low.glb",
+              "bytes": 9320,
+              "faces": 600,
+              "drawCallsEstimate": 10
+            },
+            {
+              "path": "./assets/models/maternal-g3/pregnancy-t2-low.glb",
+              "bytes": 9348,
+              "faces": 600,
+              "drawCallsEstimate": 10
+            },
+            {
+              "path": "./assets/models/maternal-g3/pregnancy-t3-low.glb",
+              "bytes": 9312,
+              "faces": 600,
+              "drawCallsEstimate": 10
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 3,
+          "totalReferencedBytes": 59956,
+          "totalReferencedFaces": 5616,
+          "totalReferencedDrawCallsEstimate": 36,
+          "maxSingleAssetBytes": 20004,
+          "maxSingleAssetFaces": 1872,
+          "maxSingleAssetDrawCallsEstimate": 12,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/maternal-g3/pregnancy-t1-medium.glb",
+              "bytes": 19980,
+              "faces": 1872,
+              "drawCallsEstimate": 12
+            },
+            {
+              "path": "./assets/models/maternal-g3/pregnancy-t2-medium.glb",
+              "bytes": 20004,
+              "faces": 1872,
+              "drawCallsEstimate": 12
+            },
+            {
+              "path": "./assets/models/maternal-g3/pregnancy-t3-medium.glb",
+              "bytes": 19972,
+              "faces": 1872,
+              "drawCallsEstimate": 12
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 3,
+          "totalReferencedBytes": 157488,
+          "totalReferencedFaces": 19296,
+          "totalReferencedDrawCallsEstimate": 45,
+          "maxSingleAssetBytes": 52516,
+          "maxSingleAssetFaces": 6432,
+          "maxSingleAssetDrawCallsEstimate": 15,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/maternal-g3/pregnancy-t1-high.glb",
+              "bytes": 52488,
+              "faces": 6432,
+              "drawCallsEstimate": 15
+            },
+            {
+              "path": "./assets/models/maternal-g3/pregnancy-t2-high.glb",
+              "bytes": 52516,
+              "faces": 6432,
+              "drawCallsEstimate": 15
+            },
+            {
+              "path": "./assets/models/maternal-g3/pregnancy-t3-high.glb",
+              "bytes": 52484,
+              "faces": 6432,
+              "drawCallsEstimate": 15
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 3,
+          "totalReferencedBytes": 157488,
+          "totalReferencedFaces": 19296,
+          "totalReferencedDrawCallsEstimate": 45,
+          "maxSingleAssetBytes": 52516,
+          "maxSingleAssetFaces": 6432,
+          "maxSingleAssetDrawCallsEstimate": 15,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/maternal-g3/pregnancy-t1-high.glb",
+              "bytes": 52488,
+              "faces": 6432,
+              "drawCallsEstimate": 15
+            },
+            {
+              "path": "./assets/models/maternal-g3/pregnancy-t2-high.glb",
+              "bytes": 52516,
+              "faces": 6432,
+              "drawCallsEstimate": 15
+            },
+            {
+              "path": "./assets/models/maternal-g3/pregnancy-t3-high.glb",
+              "bytes": 52484,
+              "faces": 6432,
+              "drawCallsEstimate": 15
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 245424,
+      "assetCatalogCount": 9
+    },
+    "cme": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 8224,
+          "totalReferencedFaces": 144,
+          "totalReferencedDrawCallsEstimate": 12,
+          "maxSingleAssetBytes": 8224,
+          "maxSingleAssetFaces": 144,
+          "maxSingleAssetDrawCallsEstimate": 12,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/cme-g2/cme-room-low.glb",
+              "bytes": 8224,
+              "faces": 144,
+              "drawCallsEstimate": 12
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 12616,
+          "totalReferencedFaces": 252,
+          "totalReferencedDrawCallsEstimate": 21,
+          "maxSingleAssetBytes": 12616,
+          "maxSingleAssetFaces": 252,
+          "maxSingleAssetDrawCallsEstimate": 21,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/cme-g2/cme-room-medium.glb",
+              "bytes": 12616,
+              "faces": 252,
+              "drawCallsEstimate": 21
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 15208,
+          "totalReferencedFaces": 288,
+          "totalReferencedDrawCallsEstimate": 24,
+          "maxSingleAssetBytes": 15208,
+          "maxSingleAssetFaces": 288,
+          "maxSingleAssetDrawCallsEstimate": 24,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/cme-g2/cme-room-high.glb",
+              "bytes": 15208,
+              "faces": 288,
+              "drawCallsEstimate": 24
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 15208,
+          "totalReferencedFaces": 288,
+          "totalReferencedDrawCallsEstimate": 24,
+          "maxSingleAssetBytes": 15208,
+          "maxSingleAssetFaces": 288,
+          "maxSingleAssetDrawCallsEstimate": 24,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/cme-g2/cme-room-high.glb",
+              "bytes": 15208,
+              "faces": 288,
+              "drawCallsEstimate": 24
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 36048,
+      "assetCatalogCount": 3
+    },
+    "medicamentos": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 15448,
+          "totalReferencedFaces": 632,
+          "totalReferencedDrawCallsEstimate": 16,
+          "maxSingleAssetBytes": 15448,
+          "maxSingleAssetFaces": 632,
+          "maxSingleAssetDrawCallsEstimate": 16,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/medication-g2/medication-bench-low.glb",
+              "bytes": 15448,
+              "faces": 632,
+              "drawCallsEstimate": 16
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 20696,
+          "totalReferencedFaces": 872,
+          "totalReferencedDrawCallsEstimate": 20,
+          "maxSingleAssetBytes": 20696,
+          "maxSingleAssetFaces": 872,
+          "maxSingleAssetDrawCallsEstimate": 20,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/medication-g2/medication-bench-medium.glb",
+              "bytes": 20696,
+              "faces": 872,
+              "drawCallsEstimate": 20
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 25532,
+          "totalReferencedFaces": 1172,
+          "totalReferencedDrawCallsEstimate": 25,
+          "maxSingleAssetBytes": 25532,
+          "maxSingleAssetFaces": 1172,
+          "maxSingleAssetDrawCallsEstimate": 25,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/medication-g2/medication-bench-high.glb",
+              "bytes": 25532,
+              "faces": 1172,
+              "drawCallsEstimate": 25
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 25532,
+          "totalReferencedFaces": 1172,
+          "totalReferencedDrawCallsEstimate": 25,
+          "maxSingleAssetBytes": 25532,
+          "maxSingleAssetFaces": 1172,
+          "maxSingleAssetDrawCallsEstimate": 25,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/medication-g2/medication-bench-high.glb",
+              "bytes": 25532,
+              "faces": 1172,
+              "drawCallsEstimate": 25
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 61676,
+      "assetCatalogCount": 3
+    },
+    "biosseguranca": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 12448,
+          "totalReferencedFaces": 208,
+          "totalReferencedDrawCallsEstimate": 14,
+          "maxSingleAssetBytes": 12448,
+          "maxSingleAssetFaces": 208,
+          "maxSingleAssetDrawCallsEstimate": 14,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/biosafety-g2/risk-room-low.glb",
+              "bytes": 12448,
+              "faces": 208,
+              "drawCallsEstimate": 14
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 15680,
+          "totalReferencedFaces": 292,
+          "totalReferencedDrawCallsEstimate": 17,
+          "maxSingleAssetBytes": 15680,
+          "maxSingleAssetFaces": 292,
+          "maxSingleAssetDrawCallsEstimate": 17,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/biosafety-g2/risk-room-medium.glb",
+              "bytes": 15680,
+              "faces": 292,
+              "drawCallsEstimate": 17
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 18280,
+          "totalReferencedFaces": 380,
+          "totalReferencedDrawCallsEstimate": 19,
+          "maxSingleAssetBytes": 18280,
+          "maxSingleAssetFaces": 380,
+          "maxSingleAssetDrawCallsEstimate": 19,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/biosafety-g2/risk-room-high.glb",
+              "bytes": 18280,
+              "faces": 380,
+              "drawCallsEstimate": 19
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 18280,
+          "totalReferencedFaces": 380,
+          "totalReferencedDrawCallsEstimate": 19,
+          "maxSingleAssetBytes": 18280,
+          "maxSingleAssetFaces": 380,
+          "maxSingleAssetDrawCallsEstimate": 19,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/biosafety-g2/risk-room-high.glb",
+              "bytes": 18280,
+              "faces": 380,
+              "drawCallsEstimate": 19
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 46408,
+      "assetCatalogCount": 3
+    },
+    "esqueleto": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 49100,
+          "totalReferencedFaces": 2732,
+          "totalReferencedDrawCallsEstimate": 36,
+          "maxSingleAssetBytes": 49100,
+          "maxSingleAssetFaces": 2732,
+          "maxSingleAssetDrawCallsEstimate": 36,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/skeleton-g3/skeleton-g3-low.glb",
+              "bytes": 49100,
+              "faces": 2732,
+              "drawCallsEstimate": 36
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 57360,
+          "totalReferencedFaces": 3380,
+          "totalReferencedDrawCallsEstimate": 36,
+          "maxSingleAssetBytes": 57360,
+          "maxSingleAssetFaces": 3380,
+          "maxSingleAssetDrawCallsEstimate": 36,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/skeleton-g3/skeleton-g3-medium.glb",
+              "bytes": 57360,
+              "faces": 3380,
+              "drawCallsEstimate": 36
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 88844,
+          "totalReferencedFaces": 6812,
+          "totalReferencedDrawCallsEstimate": 36,
+          "maxSingleAssetBytes": 88844,
+          "maxSingleAssetFaces": 6812,
+          "maxSingleAssetDrawCallsEstimate": 36,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/skeleton-g3/skeleton-g3-high.glb",
+              "bytes": 88844,
+              "faces": 6812,
+              "drawCallsEstimate": 36
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 88844,
+          "totalReferencedFaces": 6812,
+          "totalReferencedDrawCallsEstimate": 36,
+          "maxSingleAssetBytes": 88844,
+          "maxSingleAssetFaces": 6812,
+          "maxSingleAssetDrawCallsEstimate": 36,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/skeleton-g3/skeleton-g3-high.glb",
+              "bytes": 88844,
+              "faces": 6812,
+              "drawCallsEstimate": 36
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 195304,
+      "assetCatalogCount": 3
+    },
+    "respiratorio": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 11192,
+          "totalReferencedFaces": 680,
+          "totalReferencedDrawCallsEstimate": 10,
+          "maxSingleAssetBytes": 11192,
+          "maxSingleAssetFaces": 680,
+          "maxSingleAssetDrawCallsEstimate": 10,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/respiratory-g3/respiratory-g3-low.glb",
+              "bytes": 11192,
+              "faces": 680,
+              "drawCallsEstimate": 10
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 27884,
+          "totalReferencedFaces": 3208,
+          "totalReferencedDrawCallsEstimate": 20,
+          "maxSingleAssetBytes": 27884,
+          "maxSingleAssetFaces": 3208,
+          "maxSingleAssetDrawCallsEstimate": 20,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/respiratory-g3/respiratory-g3-medium.glb",
+              "bytes": 27884,
+              "faces": 3208,
+              "drawCallsEstimate": 20
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 62812,
+          "totalReferencedFaces": 9064,
+          "totalReferencedDrawCallsEstimate": 25,
+          "maxSingleAssetBytes": 62812,
+          "maxSingleAssetFaces": 9064,
+          "maxSingleAssetDrawCallsEstimate": 25,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/respiratory-g3/respiratory-g3-high.glb",
+              "bytes": 62812,
+              "faces": 9064,
+              "drawCallsEstimate": 25
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 62812,
+          "totalReferencedFaces": 9064,
+          "totalReferencedDrawCallsEstimate": 25,
+          "maxSingleAssetBytes": 62812,
+          "maxSingleAssetFaces": 9064,
+          "maxSingleAssetDrawCallsEstimate": 25,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/respiratory-g3/respiratory-g3-high.glb",
+              "bytes": 62812,
+              "faces": 9064,
+              "drawCallsEstimate": 25
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 101888,
+      "assetCatalogCount": 3
+    },
+    "corpo-humano": {
+      "profiles": {
+        "eco": {
+          "assetCount": 14,
+          "totalReferencedBytes": 198632,
+          "totalReferencedFaces": 14096,
+          "totalReferencedDrawCallsEstimate": 195,
+          "maxSingleAssetBytes": 49100,
+          "maxSingleAssetFaces": 2732,
+          "maxSingleAssetDrawCallsEstimate": 36,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/cardiovascular-g3/cardiovascular-g3-low.glb",
+              "bytes": 16936,
+              "faces": 972,
+              "drawCallsEstimate": 21
+            },
+            {
+              "path": "./assets/models/digestive-g3/digestive-g3-low.glb",
+              "bytes": 22312,
+              "faces": 2080,
+              "drawCallsEstimate": 15
+            },
+            {
+              "path": "./assets/models/endocrine-g3/endocrine-g3-low.glb",
+              "bytes": 8024,
+              "faces": 600,
+              "drawCallsEstimate": 8
+            },
+            {
+              "path": "./assets/models/heart-low.glb",
+              "bytes": 8820,
+              "faces": 464,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/human-g3/body/body-g3-low.glb",
+              "bytes": 11544,
+              "faces": 1240,
+              "drawCallsEstimate": 20
+            },
+            {
+              "path": "./assets/models/human-g3/organs/organs-g3-low.glb",
+              "bytes": 6532,
+              "faces": 640,
+              "drawCallsEstimate": 8
+            },
+            {
+              "path": "./assets/models/lymphatic-g3/lymphatic-g3-low.glb",
+              "bytes": 7512,
+              "faces": 920,
+              "drawCallsEstimate": 12
+            },
+            {
+              "path": "./assets/models/muscular-g3/muscular-g3-low.glb",
+              "bytes": 12836,
+              "faces": 960,
+              "drawCallsEstimate": 16
+            },
+            {
+              "path": "./assets/models/nervous-g3/nervous-g3-low.glb",
+              "bytes": 10848,
+              "faces": 560,
+              "drawCallsEstimate": 10
+            },
+            {
+              "path": "./assets/models/reproductive-g3/female-low.glb",
+              "bytes": 11408,
+              "faces": 704,
+              "drawCallsEstimate": 10
+            },
+            {
+              "path": "./assets/models/reproductive-g3/male-low.glb",
+              "bytes": 10616,
+              "faces": 784,
+              "drawCallsEstimate": 11
+            },
+            {
+              "path": "./assets/models/respiratory-g3/respiratory-g3-low.glb",
+              "bytes": 11192,
+              "faces": 680,
+              "drawCallsEstimate": 10
+            },
+            {
+              "path": "./assets/models/skeleton-g3/skeleton-g3-low.glb",
+              "bytes": 49100,
+              "faces": 2732,
+              "drawCallsEstimate": 36
+            },
+            {
+              "path": "./assets/models/urinary-g3/urinary-g3-low.glb",
+              "bytes": 10952,
+              "faces": 760,
+              "drawCallsEstimate": 11
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 14,
+          "totalReferencedBytes": 340020,
+          "totalReferencedFaces": 37736,
+          "totalReferencedDrawCallsEstimate": 237,
+          "maxSingleAssetBytes": 57360,
+          "maxSingleAssetFaces": 6912,
+          "maxSingleAssetDrawCallsEstimate": 36,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/cardiovascular-g3/cardiovascular-g3-medium.glb",
+              "bytes": 27764,
+              "faces": 2108,
+              "drawCallsEstimate": 23
+            },
+            {
+              "path": "./assets/models/digestive-g3/digestive-g3-medium.glb",
+              "bytes": 35576,
+              "faces": 3920,
+              "drawCallsEstimate": 15
+            },
+            {
+              "path": "./assets/models/endocrine-g3/endocrine-g3-medium.glb",
+              "bytes": 15848,
+              "faces": 2152,
+              "drawCallsEstimate": 9
+            },
+            {
+              "path": "./assets/models/heart-medium.glb",
+              "bytes": 17036,
+              "faces": 1040,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/human-g3/body/body-g3-medium.glb",
+              "bytes": 19552,
+              "faces": 2176,
+              "drawCallsEstimate": 20
+            },
+            {
+              "path": "./assets/models/human-g3/organs/organs-g3-medium.glb",
+              "bytes": 14228,
+              "faces": 2560,
+              "drawCallsEstimate": 8
+            },
+            {
+              "path": "./assets/models/lymphatic-g3/lymphatic-g3-medium.glb",
+              "bytes": 17488,
+              "faces": 6912,
+              "drawCallsEstimate": 24
+            },
+            {
+              "path": "./assets/models/muscular-g3/muscular-g3-medium.glb",
+              "bytes": 22856,
+              "faces": 2864,
+              "drawCallsEstimate": 19
+            },
+            {
+              "path": "./assets/models/nervous-g3/nervous-g3-medium.glb",
+              "bytes": 23488,
+              "faces": 2192,
+              "drawCallsEstimate": 20
+            },
+            {
+              "path": "./assets/models/reproductive-g3/female-medium.glb",
+              "bytes": 19856,
+              "faces": 1600,
+              "drawCallsEstimate": 11
+            },
+            {
+              "path": "./assets/models/reproductive-g3/male-medium.glb",
+              "bytes": 20364,
+              "faces": 1920,
+              "drawCallsEstimate": 12
+            },
+            {
+              "path": "./assets/models/respiratory-g3/respiratory-g3-medium.glb",
+              "bytes": 27884,
+              "faces": 3208,
+              "drawCallsEstimate": 20
+            },
+            {
+              "path": "./assets/models/skeleton-g3/skeleton-g3-medium.glb",
+              "bytes": 57360,
+              "faces": 3380,
+              "drawCallsEstimate": 36
+            },
+            {
+              "path": "./assets/models/urinary-g3/urinary-g3-medium.glb",
+              "bytes": 20720,
+              "faces": 1704,
+              "drawCallsEstimate": 13
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 14,
+          "totalReferencedBytes": 657128,
+          "totalReferencedFaces": 91560,
+          "totalReferencedDrawCallsEstimate": 279,
+          "maxSingleAssetBytes": 88844,
+          "maxSingleAssetFaces": 11888,
+          "maxSingleAssetDrawCallsEstimate": 40,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/cardiovascular-g3/cardiovascular-g3-high.glb",
+              "bytes": 31144,
+              "faces": 2844,
+              "drawCallsEstimate": 25
+            },
+            {
+              "path": "./assets/models/digestive-g3/digestive-g3-high.glb",
+              "bytes": 86036,
+              "faces": 10960,
+              "drawCallsEstimate": 16
+            },
+            {
+              "path": "./assets/models/endocrine-g3/endocrine-g3-high.glb",
+              "bytes": 40632,
+              "faces": 8112,
+              "drawCallsEstimate": 11
+            },
+            {
+              "path": "./assets/models/heart-high.glb",
+              "bytes": 45184,
+              "faces": 3584,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/human-g3/body/body-g3-high.glb",
+              "bytes": 20960,
+              "faces": 2464,
+              "drawCallsEstimate": 20
+            },
+            {
+              "path": "./assets/models/human-g3/organs/organs-g3-high.glb",
+              "bytes": 14228,
+              "faces": 2560,
+              "drawCallsEstimate": 8
+            },
+            {
+              "path": "./assets/models/lymphatic-g3/lymphatic-g3-high.glb",
+              "bytes": 25000,
+              "faces": 11888,
+              "drawCallsEstimate": 40
+            },
+            {
+              "path": "./assets/models/muscular-g3/muscular-g3-high.glb",
+              "bytes": 45996,
+              "faces": 9344,
+              "drawCallsEstimate": 22
+            },
+            {
+              "path": "./assets/models/nervous-g3/nervous-g3-high.glb",
+              "bytes": 46912,
+              "faces": 5952,
+              "drawCallsEstimate": 23
+            },
+            {
+              "path": "./assets/models/reproductive-g3/female-high.glb",
+              "bytes": 49772,
+              "faces": 5560,
+              "drawCallsEstimate": 16
+            },
+            {
+              "path": "./assets/models/reproductive-g3/male-high.glb",
+              "bytes": 49528,
+              "faces": 6480,
+              "drawCallsEstimate": 12
+            },
+            {
+              "path": "./assets/models/respiratory-g3/respiratory-g3-high.glb",
+              "bytes": 62812,
+              "faces": 9064,
+              "drawCallsEstimate": 25
+            },
+            {
+              "path": "./assets/models/skeleton-g3/skeleton-g3-high.glb",
+              "bytes": 88844,
+              "faces": 6812,
+              "drawCallsEstimate": 36
+            },
+            {
+              "path": "./assets/models/urinary-g3/urinary-g3-high.glb",
+              "bytes": 50080,
+              "faces": 5936,
+              "drawCallsEstimate": 18
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 14,
+          "totalReferencedBytes": 657128,
+          "totalReferencedFaces": 91560,
+          "totalReferencedDrawCallsEstimate": 279,
+          "maxSingleAssetBytes": 88844,
+          "maxSingleAssetFaces": 11888,
+          "maxSingleAssetDrawCallsEstimate": 40,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/cardiovascular-g3/cardiovascular-g3-high.glb",
+              "bytes": 31144,
+              "faces": 2844,
+              "drawCallsEstimate": 25
+            },
+            {
+              "path": "./assets/models/digestive-g3/digestive-g3-high.glb",
+              "bytes": 86036,
+              "faces": 10960,
+              "drawCallsEstimate": 16
+            },
+            {
+              "path": "./assets/models/endocrine-g3/endocrine-g3-high.glb",
+              "bytes": 40632,
+              "faces": 8112,
+              "drawCallsEstimate": 11
+            },
+            {
+              "path": "./assets/models/heart-high.glb",
+              "bytes": 45184,
+              "faces": 3584,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/human-g3/body/body-g3-high.glb",
+              "bytes": 20960,
+              "faces": 2464,
+              "drawCallsEstimate": 20
+            },
+            {
+              "path": "./assets/models/human-g3/organs/organs-g3-high.glb",
+              "bytes": 14228,
+              "faces": 2560,
+              "drawCallsEstimate": 8
+            },
+            {
+              "path": "./assets/models/lymphatic-g3/lymphatic-g3-high.glb",
+              "bytes": 25000,
+              "faces": 11888,
+              "drawCallsEstimate": 40
+            },
+            {
+              "path": "./assets/models/muscular-g3/muscular-g3-high.glb",
+              "bytes": 45996,
+              "faces": 9344,
+              "drawCallsEstimate": 22
+            },
+            {
+              "path": "./assets/models/nervous-g3/nervous-g3-high.glb",
+              "bytes": 46912,
+              "faces": 5952,
+              "drawCallsEstimate": 23
+            },
+            {
+              "path": "./assets/models/reproductive-g3/female-high.glb",
+              "bytes": 49772,
+              "faces": 5560,
+              "drawCallsEstimate": 16
+            },
+            {
+              "path": "./assets/models/reproductive-g3/male-high.glb",
+              "bytes": 49528,
+              "faces": 6480,
+              "drawCallsEstimate": 12
+            },
+            {
+              "path": "./assets/models/respiratory-g3/respiratory-g3-high.glb",
+              "bytes": 62812,
+              "faces": 9064,
+              "drawCallsEstimate": 25
+            },
+            {
+              "path": "./assets/models/skeleton-g3/skeleton-g3-high.glb",
+              "bytes": 88844,
+              "faces": 6812,
+              "drawCallsEstimate": 36
+            },
+            {
+              "path": "./assets/models/urinary-g3/urinary-g3-high.glb",
+              "bytes": 50080,
+              "faces": 5936,
+              "drawCallsEstimate": 18
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 1195780,
+      "assetCatalogCount": 42
+    },
+    "anatomia": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 12352,
+          "totalReferencedFaces": 612,
+          "totalReferencedDrawCallsEstimate": 12,
+          "maxSingleAssetBytes": 12352,
+          "maxSingleAssetFaces": 612,
+          "maxSingleAssetDrawCallsEstimate": 12,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/heart-g3/heart-g3-low.glb",
+              "bytes": 12352,
+              "faces": 612,
+              "drawCallsEstimate": 12
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 23912,
+          "totalReferencedFaces": 2156,
+          "totalReferencedDrawCallsEstimate": 17,
+          "maxSingleAssetBytes": 23912,
+          "maxSingleAssetFaces": 2156,
+          "maxSingleAssetDrawCallsEstimate": 17,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/heart-g3/heart-g3-medium.glb",
+              "bytes": 23912,
+              "faces": 2156,
+              "drawCallsEstimate": 17
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 57784,
+          "totalReferencedFaces": 7308,
+          "totalReferencedDrawCallsEstimate": 25,
+          "maxSingleAssetBytes": 57784,
+          "maxSingleAssetFaces": 7308,
+          "maxSingleAssetDrawCallsEstimate": 25,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/heart-g3/heart-g3-high.glb",
+              "bytes": 57784,
+              "faces": 7308,
+              "drawCallsEstimate": 25
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 57784,
+          "totalReferencedFaces": 7308,
+          "totalReferencedDrawCallsEstimate": 25,
+          "maxSingleAssetBytes": 57784,
+          "maxSingleAssetFaces": 7308,
+          "maxSingleAssetDrawCallsEstimate": 25,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/heart-g3/heart-g3-high.glb",
+              "bytes": 57784,
+              "faces": 7308,
+              "drawCallsEstimate": 25
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 94048,
+      "assetCatalogCount": 3
+    },
+    "equipamentos": {
+      "profiles": {
+        "eco": {
+          "assetCount": 7,
+          "totalReferencedBytes": 37228,
+          "totalReferencedFaces": 868,
+          "totalReferencedDrawCallsEstimate": 32,
+          "maxSingleAssetBytes": 9752,
+          "maxSingleAssetFaces": 320,
+          "maxSingleAssetDrawCallsEstimate": 7,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/equipment-g2/bp-cuff-low.glb",
+              "bytes": 4004,
+              "faces": 76,
+              "drawCallsEstimate": 3
+            },
+            {
+              "path": "./assets/models/equipment-g2/glucose-meter-low.glb",
+              "bytes": 3932,
+              "faces": 48,
+              "drawCallsEstimate": 4
+            },
+            {
+              "path": "./assets/models/equipment-g2/infusion-pump-low.glb",
+              "bytes": 4556,
+              "faces": 60,
+              "drawCallsEstimate": 5
+            },
+            {
+              "path": "./assets/models/equipment-g2/oximeter-low.glb",
+              "bytes": 3088,
+              "faces": 36,
+              "drawCallsEstimate": 3
+            },
+            {
+              "path": "./assets/models/equipment-g2/stethoscope-low.glb",
+              "bytes": 7152,
+              "faces": 320,
+              "drawCallsEstimate": 6
+            },
+            {
+              "path": "./assets/models/equipment-g2/syringe-low.glb",
+              "bytes": 9752,
+              "faces": 260,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/equipment-g2/thermometer-low.glb",
+              "bytes": 4744,
+              "faces": 68,
+              "drawCallsEstimate": 4
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 7,
+          "totalReferencedBytes": 56180,
+          "totalReferencedFaces": 1484,
+          "totalReferencedDrawCallsEstimate": 51,
+          "maxSingleAssetBytes": 14648,
+          "maxSingleAssetFaces": 524,
+          "maxSingleAssetDrawCallsEstimate": 14,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/equipment-g2/bp-cuff-medium.glb",
+              "bytes": 6148,
+              "faces": 132,
+              "drawCallsEstimate": 5
+            },
+            {
+              "path": "./assets/models/equipment-g2/glucose-meter-medium.glb",
+              "bytes": 5636,
+              "faces": 72,
+              "drawCallsEstimate": 6
+            },
+            {
+              "path": "./assets/models/equipment-g2/infusion-pump-medium.glb",
+              "bytes": 6028,
+              "faces": 84,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/equipment-g2/oximeter-medium.glb",
+              "bytes": 4768,
+              "faces": 60,
+              "drawCallsEstimate": 5
+            },
+            {
+              "path": "./assets/models/equipment-g2/stethoscope-medium.glb",
+              "bytes": 11936,
+              "faces": 524,
+              "drawCallsEstimate": 8
+            },
+            {
+              "path": "./assets/models/equipment-g2/syringe-medium.glb",
+              "bytes": 14648,
+              "faces": 496,
+              "drawCallsEstimate": 14
+            },
+            {
+              "path": "./assets/models/equipment-g2/thermometer-medium.glb",
+              "bytes": 7016,
+              "faces": 116,
+              "drawCallsEstimate": 6
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 7,
+          "totalReferencedBytes": 70708,
+          "totalReferencedFaces": 2292,
+          "totalReferencedDrawCallsEstimate": 64,
+          "maxSingleAssetBytes": 19996,
+          "maxSingleAssetFaces": 808,
+          "maxSingleAssetDrawCallsEstimate": 15,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/equipment-g2/bp-cuff-high.glb",
+              "bytes": 8724,
+              "faces": 356,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/equipment-g2/glucose-meter-high.glb",
+              "bytes": 6500,
+              "faces": 84,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/equipment-g2/infusion-pump-high.glb",
+              "bytes": 7476,
+              "faces": 120,
+              "drawCallsEstimate": 10
+            },
+            {
+              "path": "./assets/models/equipment-g2/oximeter-high.glb",
+              "bytes": 7184,
+              "faces": 108,
+              "drawCallsEstimate": 9
+            },
+            {
+              "path": "./assets/models/equipment-g2/stethoscope-high.glb",
+              "bytes": 12600,
+              "faces": 664,
+              "drawCallsEstimate": 9
+            },
+            {
+              "path": "./assets/models/equipment-g2/syringe-high.glb",
+              "bytes": 19996,
+              "faces": 808,
+              "drawCallsEstimate": 15
+            },
+            {
+              "path": "./assets/models/equipment-g2/thermometer-high.glb",
+              "bytes": 8228,
+              "faces": 152,
+              "drawCallsEstimate": 7
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 7,
+          "totalReferencedBytes": 70708,
+          "totalReferencedFaces": 2292,
+          "totalReferencedDrawCallsEstimate": 64,
+          "maxSingleAssetBytes": 19996,
+          "maxSingleAssetFaces": 808,
+          "maxSingleAssetDrawCallsEstimate": 15,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/equipment-g2/bp-cuff-high.glb",
+              "bytes": 8724,
+              "faces": 356,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/equipment-g2/glucose-meter-high.glb",
+              "bytes": 6500,
+              "faces": 84,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/equipment-g2/infusion-pump-high.glb",
+              "bytes": 7476,
+              "faces": 120,
+              "drawCallsEstimate": 10
+            },
+            {
+              "path": "./assets/models/equipment-g2/oximeter-high.glb",
+              "bytes": 7184,
+              "faces": 108,
+              "drawCallsEstimate": 9
+            },
+            {
+              "path": "./assets/models/equipment-g2/stethoscope-high.glb",
+              "bytes": 12600,
+              "faces": 664,
+              "drawCallsEstimate": 9
+            },
+            {
+              "path": "./assets/models/equipment-g2/syringe-high.glb",
+              "bytes": 19996,
+              "faces": 808,
+              "drawCallsEstimate": 15
+            },
+            {
+              "path": "./assets/models/equipment-g2/thermometer-high.glb",
+              "bytes": 8228,
+              "faces": 152,
+              "drawCallsEstimate": 7
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 164116,
+      "assetCatalogCount": 21
+    },
+    "paciente-3d": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 16220,
+          "totalReferencedFaces": 1424,
+          "totalReferencedDrawCallsEstimate": 24,
+          "maxSingleAssetBytes": 16220,
+          "maxSingleAssetFaces": 1424,
+          "maxSingleAssetDrawCallsEstimate": 24,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/patient-g3/patient-vitals-low.glb",
+              "bytes": 16220,
+              "faces": 1424,
+              "drawCallsEstimate": 24
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 27448,
+          "totalReferencedFaces": 2424,
+          "totalReferencedDrawCallsEstimate": 27,
+          "maxSingleAssetBytes": 27448,
+          "maxSingleAssetFaces": 2424,
+          "maxSingleAssetDrawCallsEstimate": 27,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/patient-g3/patient-vitals-medium.glb",
+              "bytes": 27448,
+              "faces": 2424,
+              "drawCallsEstimate": 27
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 61440,
+          "totalReferencedFaces": 5768,
+          "totalReferencedDrawCallsEstimate": 30,
+          "maxSingleAssetBytes": 61440,
+          "maxSingleAssetFaces": 5768,
+          "maxSingleAssetDrawCallsEstimate": 30,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/patient-g3/patient-vitals-high.glb",
+              "bytes": 61440,
+              "faces": 5768,
+              "drawCallsEstimate": 30
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 61440,
+          "totalReferencedFaces": 5768,
+          "totalReferencedDrawCallsEstimate": 30,
+          "maxSingleAssetBytes": 61440,
+          "maxSingleAssetFaces": 5768,
+          "maxSingleAssetDrawCallsEstimate": 30,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/patient-g3/patient-vitals-high.glb",
+              "bytes": 61440,
+              "faces": 5768,
+              "drawCallsEstimate": 30
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 105108,
+      "assetCatalogCount": 3
+    },
+    "sinais-vitais": {
+      "profiles": {
+        "eco": {
+          "assetCount": 1,
+          "totalReferencedBytes": 16220,
+          "totalReferencedFaces": 1424,
+          "totalReferencedDrawCallsEstimate": 24,
+          "maxSingleAssetBytes": 16220,
+          "maxSingleAssetFaces": 1424,
+          "maxSingleAssetDrawCallsEstimate": 24,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/patient-g3/patient-vitals-low.glb",
+              "bytes": 16220,
+              "faces": 1424,
+              "drawCallsEstimate": 24
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 1,
+          "totalReferencedBytes": 27448,
+          "totalReferencedFaces": 2424,
+          "totalReferencedDrawCallsEstimate": 27,
+          "maxSingleAssetBytes": 27448,
+          "maxSingleAssetFaces": 2424,
+          "maxSingleAssetDrawCallsEstimate": 27,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/patient-g3/patient-vitals-medium.glb",
+              "bytes": 27448,
+              "faces": 2424,
+              "drawCallsEstimate": 27
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 1,
+          "totalReferencedBytes": 61440,
+          "totalReferencedFaces": 5768,
+          "totalReferencedDrawCallsEstimate": 30,
+          "maxSingleAssetBytes": 61440,
+          "maxSingleAssetFaces": 5768,
+          "maxSingleAssetDrawCallsEstimate": 30,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/patient-g3/patient-vitals-high.glb",
+              "bytes": 61440,
+              "faces": 5768,
+              "drawCallsEstimate": 30
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 1,
+          "totalReferencedBytes": 61440,
+          "totalReferencedFaces": 5768,
+          "totalReferencedDrawCallsEstimate": 30,
+          "maxSingleAssetBytes": 61440,
+          "maxSingleAssetFaces": 5768,
+          "maxSingleAssetDrawCallsEstimate": 30,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/patient-g3/patient-vitals-high.glb",
+              "bytes": 61440,
+              "faces": 5768,
+              "drawCallsEstimate": 30
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 105108,
+      "assetCatalogCount": 3
+    },
+    "hospital-360": {
+      "profiles": {
+        "eco": {
+          "assetCount": 3,
+          "totalReferencedBytes": 37256,
+          "totalReferencedFaces": 724,
+          "totalReferencedDrawCallsEstimate": 43,
+          "maxSingleAssetBytes": 13272,
+          "maxSingleAssetFaces": 264,
+          "maxSingleAssetDrawCallsEstimate": 15,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/hospital-g2/nursing-station-low.glb",
+              "bytes": 10928,
+              "faces": 240,
+              "drawCallsEstimate": 15
+            },
+            {
+              "path": "./assets/models/hospital-g2/patient-room-low.glb",
+              "bytes": 13272,
+              "faces": 220,
+              "drawCallsEstimate": 15
+            },
+            {
+              "path": "./assets/models/hospital-g2/procedure-room-low.glb",
+              "bytes": 13056,
+              "faces": 264,
+              "drawCallsEstimate": 13
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 3,
+          "totalReferencedBytes": 48964,
+          "totalReferencedFaces": 1052,
+          "totalReferencedDrawCallsEstimate": 61,
+          "maxSingleAssetBytes": 18076,
+          "maxSingleAssetFaces": 356,
+          "maxSingleAssetDrawCallsEstimate": 23,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/hospital-g2/nursing-station-medium.glb",
+              "bytes": 14332,
+              "faces": 348,
+              "drawCallsEstimate": 20
+            },
+            {
+              "path": "./assets/models/hospital-g2/patient-room-medium.glb",
+              "bytes": 18076,
+              "faces": 348,
+              "drawCallsEstimate": 23
+            },
+            {
+              "path": "./assets/models/hospital-g2/procedure-room-medium.glb",
+              "bytes": 16556,
+              "faces": 356,
+              "drawCallsEstimate": 18
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 3,
+          "totalReferencedBytes": 63240,
+          "totalReferencedFaces": 1588,
+          "totalReferencedDrawCallsEstimate": 79,
+          "maxSingleAssetBytes": 24348,
+          "maxSingleAssetFaces": 632,
+          "maxSingleAssetDrawCallsEstimate": 30,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/hospital-g2/nursing-station-high.glb",
+              "bytes": 19136,
+              "faces": 516,
+              "drawCallsEstimate": 28
+            },
+            {
+              "path": "./assets/models/hospital-g2/patient-room-high.glb",
+              "bytes": 24348,
+              "faces": 632,
+              "drawCallsEstimate": 30
+            },
+            {
+              "path": "./assets/models/hospital-g2/procedure-room-high.glb",
+              "bytes": 19756,
+              "faces": 440,
+              "drawCallsEstimate": 21
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 3,
+          "totalReferencedBytes": 63240,
+          "totalReferencedFaces": 1588,
+          "totalReferencedDrawCallsEstimate": 79,
+          "maxSingleAssetBytes": 24348,
+          "maxSingleAssetFaces": 632,
+          "maxSingleAssetDrawCallsEstimate": 30,
+          "level": "leve",
+          "assets": [
+            {
+              "path": "./assets/models/hospital-g2/nursing-station-high.glb",
+              "bytes": 19136,
+              "faces": 516,
+              "drawCallsEstimate": 28
+            },
+            {
+              "path": "./assets/models/hospital-g2/patient-room-high.glb",
+              "bytes": 24348,
+              "faces": 632,
+              "drawCallsEstimate": 30
+            },
+            {
+              "path": "./assets/models/hospital-g2/procedure-room-high.glb",
+              "bytes": 19756,
+              "faces": 440,
+              "drawCallsEstimate": 21
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 149460,
+      "assetCatalogCount": 9
+    },
+    "demo": {
+      "profiles": {
+        "eco": {
+          "assetCount": 0,
+          "totalReferencedBytes": 0,
+          "totalReferencedFaces": 0,
+          "totalReferencedDrawCallsEstimate": 0,
+          "maxSingleAssetBytes": 0,
+          "maxSingleAssetFaces": 0,
+          "maxSingleAssetDrawCallsEstimate": 0,
+          "level": "leve",
+          "assets": []
+        },
+        "medium": {
+          "assetCount": 0,
+          "totalReferencedBytes": 0,
+          "totalReferencedFaces": 0,
+          "totalReferencedDrawCallsEstimate": 0,
+          "maxSingleAssetBytes": 0,
+          "maxSingleAssetFaces": 0,
+          "maxSingleAssetDrawCallsEstimate": 0,
+          "level": "leve",
+          "assets": []
+        },
+        "high": {
+          "assetCount": 0,
+          "totalReferencedBytes": 0,
+          "totalReferencedFaces": 0,
+          "totalReferencedDrawCallsEstimate": 0,
+          "maxSingleAssetBytes": 0,
+          "maxSingleAssetFaces": 0,
+          "maxSingleAssetDrawCallsEstimate": 0,
+          "level": "leve",
+          "assets": []
+        },
+        "ultra": {
+          "assetCount": 0,
+          "totalReferencedBytes": 0,
+          "totalReferencedFaces": 0,
+          "totalReferencedDrawCallsEstimate": 0,
+          "maxSingleAssetBytes": 0,
+          "maxSingleAssetFaces": 0,
+          "maxSingleAssetDrawCallsEstimate": 0,
+          "level": "leve",
+          "assets": []
+        }
+      },
+      "assetCatalogBytes": 0,
+      "assetCatalogCount": 0
+    },
+    "comparador-anatomico": {
+      "profiles": {
+        "eco": {
+          "assetCount": 19,
+          "totalReferencedBytes": 273696,
+          "totalReferencedFaces": 18348,
+          "totalReferencedDrawCallsEstimate": 262,
+          "maxSingleAssetBytes": 49100,
+          "maxSingleAssetFaces": 2732,
+          "maxSingleAssetDrawCallsEstimate": 36,
+          "rendererCount": 1,
+          "simultaneousModels": 2,
+          "maxConcurrentBytesEstimate": 98200,
+          "maxConcurrentFacesEstimate": 5464,
+          "maxConcurrentDrawCallsEstimate": 72,
+          "adaptiveConstrainedFallback": "eco",
+          "level": "moderado",
+          "assets": [
+            {
+              "path": "./assets/models/cardiovascular-g3/cardiovascular-g3-low.glb",
+              "bytes": 16936,
+              "faces": 972,
+              "drawCallsEstimate": 21
+            },
+            {
+              "path": "./assets/models/digestive-g3/digestive-g3-low.glb",
+              "bytes": 22312,
+              "faces": 2080,
+              "drawCallsEstimate": 15
+            },
+            {
+              "path": "./assets/models/endocrine-g3/endocrine-g3-low.glb",
+              "bytes": 8024,
+              "faces": 600,
+              "drawCallsEstimate": 8
+            },
+            {
+              "path": "./assets/models/eye-ear-g3/eye-ear-g3-low.glb",
+              "bytes": 17028,
+              "faces": 720,
+              "drawCallsEstimate": 8
+            },
+            {
+              "path": "./assets/models/hand-foot-g3/hand-foot-low.glb",
+              "bytes": 18992,
+              "faces": 1840,
+              "drawCallsEstimate": 33
+            },
+            {
+              "path": "./assets/models/head-neck-g3/head-neck-g3-low.glb",
+              "bytes": 8996,
+              "faces": 440,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/human-g3/body/body-g3-low.glb",
+              "bytes": 11544,
+              "faces": 1240,
+              "drawCallsEstimate": 20
+            },
+            {
+              "path": "./assets/models/joints-g3/elbow-low.glb",
+              "bytes": 9704,
+              "faces": 464,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/joints-g3/knee-low.glb",
+              "bytes": 11324,
+              "faces": 656,
+              "drawCallsEstimate": 9
+            },
+            {
+              "path": "./assets/models/joints-g3/shoulder-low.glb",
+              "bytes": 8800,
+              "faces": 528,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/lymphatic-g3/lymphatic-g3-low.glb",
+              "bytes": 7512,
+              "faces": 920,
+              "drawCallsEstimate": 12
+            },
+            {
+              "path": "./assets/models/muscular-g3/muscular-g3-low.glb",
+              "bytes": 12836,
+              "faces": 960,
+              "drawCallsEstimate": 16
+            },
+            {
+              "path": "./assets/models/nervous-g3/nervous-g3-low.glb",
+              "bytes": 10848,
+              "faces": 560,
+              "drawCallsEstimate": 10
+            },
+            {
+              "path": "./assets/models/reproductive-g3/female-low.glb",
+              "bytes": 11408,
+              "faces": 704,
+              "drawCallsEstimate": 10
+            },
+            {
+              "path": "./assets/models/reproductive-g3/male-low.glb",
+              "bytes": 10616,
+              "faces": 784,
+              "drawCallsEstimate": 11
+            },
+            {
+              "path": "./assets/models/respiratory-g3/respiratory-g3-low.glb",
+              "bytes": 11192,
+              "faces": 680,
+              "drawCallsEstimate": 10
+            },
+            {
+              "path": "./assets/models/skeleton-g3/skeleton-g3-low.glb",
+              "bytes": 49100,
+              "faces": 2732,
+              "drawCallsEstimate": 36
+            },
+            {
+              "path": "./assets/models/skin-g3/skin-g3-low.glb",
+              "bytes": 15572,
+              "faces": 708,
+              "drawCallsEstimate": 11
+            },
+            {
+              "path": "./assets/models/urinary-g3/urinary-g3-low.glb",
+              "bytes": 10952,
+              "faces": 760,
+              "drawCallsEstimate": 11
+            }
+          ]
+        },
+        "medium": {
+          "assetCount": 19,
+          "totalReferencedBytes": 514064,
+          "totalReferencedFaces": 48684,
+          "totalReferencedDrawCallsEstimate": 320,
+          "maxSingleAssetBytes": 57360,
+          "maxSingleAssetFaces": 6912,
+          "maxSingleAssetDrawCallsEstimate": 39,
+          "rendererCount": 1,
+          "simultaneousModels": 2,
+          "maxConcurrentBytesEstimate": 114720,
+          "maxConcurrentFacesEstimate": 13824,
+          "maxConcurrentDrawCallsEstimate": 78,
+          "adaptiveConstrainedFallback": "medium",
+          "level": "moderado",
+          "assets": [
+            {
+              "path": "./assets/models/cardiovascular-g3/cardiovascular-g3-medium.glb",
+              "bytes": 27764,
+              "faces": 2108,
+              "drawCallsEstimate": 23
+            },
+            {
+              "path": "./assets/models/digestive-g3/digestive-g3-medium.glb",
+              "bytes": 35576,
+              "faces": 3920,
+              "drawCallsEstimate": 15
+            },
+            {
+              "path": "./assets/models/endocrine-g3/endocrine-g3-medium.glb",
+              "bytes": 15848,
+              "faces": 2152,
+              "drawCallsEstimate": 9
+            },
+            {
+              "path": "./assets/models/eye-ear-g3/eye-ear-g3-medium.glb",
+              "bytes": 37720,
+              "faces": 2160,
+              "drawCallsEstimate": 12
+            },
+            {
+              "path": "./assets/models/hand-foot-g3/hand-foot-medium.glb",
+              "bytes": 29228,
+              "faces": 4928,
+              "drawCallsEstimate": 39
+            },
+            {
+              "path": "./assets/models/head-neck-g3/head-neck-g3-medium.glb",
+              "bytes": 18376,
+              "faces": 1480,
+              "drawCallsEstimate": 10
+            },
+            {
+              "path": "./assets/models/human-g3/body/body-g3-medium.glb",
+              "bytes": 19552,
+              "faces": 2176,
+              "drawCallsEstimate": 20
+            },
+            {
+              "path": "./assets/models/joints-g3/elbow-medium.glb",
+              "bytes": 16664,
+              "faces": 800,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/joints-g3/knee-medium.glb",
+              "bytes": 28220,
+              "faces": 1600,
+              "drawCallsEstimate": 9
+            },
+            {
+              "path": "./assets/models/joints-g3/shoulder-medium.glb",
+              "bytes": 26196,
+              "faces": 1440,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/lymphatic-g3/lymphatic-g3-medium.glb",
+              "bytes": 17488,
+              "faces": 6912,
+              "drawCallsEstimate": 24
+            },
+            {
+              "path": "./assets/models/muscular-g3/muscular-g3-medium.glb",
+              "bytes": 22856,
+              "faces": 2864,
+              "drawCallsEstimate": 19
+            },
+            {
+              "path": "./assets/models/nervous-g3/nervous-g3-medium.glb",
+              "bytes": 23488,
+              "faces": 2192,
+              "drawCallsEstimate": 20
+            },
+            {
+              "path": "./assets/models/reproductive-g3/female-medium.glb",
+              "bytes": 19856,
+              "faces": 1600,
+              "drawCallsEstimate": 11
+            },
+            {
+              "path": "./assets/models/reproductive-g3/male-medium.glb",
+              "bytes": 20364,
+              "faces": 1920,
+              "drawCallsEstimate": 12
+            },
+            {
+              "path": "./assets/models/respiratory-g3/respiratory-g3-medium.glb",
+              "bytes": 27884,
+              "faces": 3208,
+              "drawCallsEstimate": 20
+            },
+            {
+              "path": "./assets/models/skeleton-g3/skeleton-g3-medium.glb",
+              "bytes": 57360,
+              "faces": 3380,
+              "drawCallsEstimate": 36
+            },
+            {
+              "path": "./assets/models/skin-g3/skin-g3-medium.glb",
+              "bytes": 48904,
+              "faces": 2140,
+              "drawCallsEstimate": 14
+            },
+            {
+              "path": "./assets/models/urinary-g3/urinary-g3-medium.glb",
+              "bytes": 20720,
+              "faces": 1704,
+              "drawCallsEstimate": 13
+            }
+          ]
+        },
+        "high": {
+          "assetCount": 19,
+          "totalReferencedBytes": 1044800,
+          "totalReferencedFaces": 119004,
+          "totalReferencedDrawCallsEstimate": 364,
+          "maxSingleAssetBytes": 100592,
+          "maxSingleAssetFaces": 11888,
+          "maxSingleAssetDrawCallsEstimate": 40,
+          "rendererCount": 1,
+          "simultaneousModels": 2,
+          "maxConcurrentBytesEstimate": 201184,
+          "maxConcurrentFacesEstimate": 23776,
+          "maxConcurrentDrawCallsEstimate": 80,
+          "adaptiveConstrainedFallback": "medium",
+          "level": "moderado",
+          "assets": [
+            {
+              "path": "./assets/models/cardiovascular-g3/cardiovascular-g3-high.glb",
+              "bytes": 31144,
+              "faces": 2844,
+              "drawCallsEstimate": 25
+            },
+            {
+              "path": "./assets/models/digestive-g3/digestive-g3-high.glb",
+              "bytes": 86036,
+              "faces": 10960,
+              "drawCallsEstimate": 16
+            },
+            {
+              "path": "./assets/models/endocrine-g3/endocrine-g3-high.glb",
+              "bytes": 40632,
+              "faces": 8112,
+              "drawCallsEstimate": 11
+            },
+            {
+              "path": "./assets/models/eye-ear-g3/eye-ear-g3-high.glb",
+              "bytes": 100592,
+              "faces": 7200,
+              "drawCallsEstimate": 12
+            },
+            {
+              "path": "./assets/models/hand-foot-g3/hand-foot-high.glb",
+              "bytes": 29688,
+              "faces": 5664,
+              "drawCallsEstimate": 39
+            },
+            {
+              "path": "./assets/models/head-neck-g3/head-neck-g3-high.glb",
+              "bytes": 41904,
+              "faces": 4640,
+              "drawCallsEstimate": 11
+            },
+            {
+              "path": "./assets/models/human-g3/body/body-g3-high.glb",
+              "bytes": 20960,
+              "faces": 2464,
+              "drawCallsEstimate": 20
+            },
+            {
+              "path": "./assets/models/joints-g3/elbow-high.glb",
+              "bytes": 59740,
+              "faces": 3080,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/joints-g3/knee-high.glb",
+              "bytes": 63156,
+              "faces": 4480,
+              "drawCallsEstimate": 9
+            },
+            {
+              "path": "./assets/models/joints-g3/shoulder-high.glb",
+              "bytes": 65520,
+              "faces": 4440,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/lymphatic-g3/lymphatic-g3-high.glb",
+              "bytes": 25000,
+              "faces": 11888,
+              "drawCallsEstimate": 40
+            },
+            {
+              "path": "./assets/models/muscular-g3/muscular-g3-high.glb",
+              "bytes": 45996,
+              "faces": 9344,
+              "drawCallsEstimate": 22
+            },
+            {
+              "path": "./assets/models/nervous-g3/nervous-g3-high.glb",
+              "bytes": 46912,
+              "faces": 5952,
+              "drawCallsEstimate": 23
+            },
+            {
+              "path": "./assets/models/reproductive-g3/female-high.glb",
+              "bytes": 49772,
+              "faces": 5560,
+              "drawCallsEstimate": 16
+            },
+            {
+              "path": "./assets/models/reproductive-g3/male-high.glb",
+              "bytes": 49528,
+              "faces": 6480,
+              "drawCallsEstimate": 12
+            },
+            {
+              "path": "./assets/models/respiratory-g3/respiratory-g3-high.glb",
+              "bytes": 62812,
+              "faces": 9064,
+              "drawCallsEstimate": 25
+            },
+            {
+              "path": "./assets/models/skeleton-g3/skeleton-g3-high.glb",
+              "bytes": 88844,
+              "faces": 6812,
+              "drawCallsEstimate": 36
+            },
+            {
+              "path": "./assets/models/skin-g3/skin-g3-high.glb",
+              "bytes": 86484,
+              "faces": 4084,
+              "drawCallsEstimate": 15
+            },
+            {
+              "path": "./assets/models/urinary-g3/urinary-g3-high.glb",
+              "bytes": 50080,
+              "faces": 5936,
+              "drawCallsEstimate": 18
+            }
+          ]
+        },
+        "ultra": {
+          "assetCount": 19,
+          "totalReferencedBytes": 1044800,
+          "totalReferencedFaces": 119004,
+          "totalReferencedDrawCallsEstimate": 364,
+          "maxSingleAssetBytes": 100592,
+          "maxSingleAssetFaces": 11888,
+          "maxSingleAssetDrawCallsEstimate": 40,
+          "rendererCount": 1,
+          "simultaneousModels": 2,
+          "maxConcurrentBytesEstimate": 201184,
+          "maxConcurrentFacesEstimate": 23776,
+          "maxConcurrentDrawCallsEstimate": 80,
+          "adaptiveConstrainedFallback": "medium",
+          "level": "moderado",
+          "assets": [
+            {
+              "path": "./assets/models/cardiovascular-g3/cardiovascular-g3-high.glb",
+              "bytes": 31144,
+              "faces": 2844,
+              "drawCallsEstimate": 25
+            },
+            {
+              "path": "./assets/models/digestive-g3/digestive-g3-high.glb",
+              "bytes": 86036,
+              "faces": 10960,
+              "drawCallsEstimate": 16
+            },
+            {
+              "path": "./assets/models/endocrine-g3/endocrine-g3-high.glb",
+              "bytes": 40632,
+              "faces": 8112,
+              "drawCallsEstimate": 11
+            },
+            {
+              "path": "./assets/models/eye-ear-g3/eye-ear-g3-high.glb",
+              "bytes": 100592,
+              "faces": 7200,
+              "drawCallsEstimate": 12
+            },
+            {
+              "path": "./assets/models/hand-foot-g3/hand-foot-high.glb",
+              "bytes": 29688,
+              "faces": 5664,
+              "drawCallsEstimate": 39
+            },
+            {
+              "path": "./assets/models/head-neck-g3/head-neck-g3-high.glb",
+              "bytes": 41904,
+              "faces": 4640,
+              "drawCallsEstimate": 11
+            },
+            {
+              "path": "./assets/models/human-g3/body/body-g3-high.glb",
+              "bytes": 20960,
+              "faces": 2464,
+              "drawCallsEstimate": 20
+            },
+            {
+              "path": "./assets/models/joints-g3/elbow-high.glb",
+              "bytes": 59740,
+              "faces": 3080,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/joints-g3/knee-high.glb",
+              "bytes": 63156,
+              "faces": 4480,
+              "drawCallsEstimate": 9
+            },
+            {
+              "path": "./assets/models/joints-g3/shoulder-high.glb",
+              "bytes": 65520,
+              "faces": 4440,
+              "drawCallsEstimate": 7
+            },
+            {
+              "path": "./assets/models/lymphatic-g3/lymphatic-g3-high.glb",
+              "bytes": 25000,
+              "faces": 11888,
+              "drawCallsEstimate": 40
+            },
+            {
+              "path": "./assets/models/muscular-g3/muscular-g3-high.glb",
+              "bytes": 45996,
+              "faces": 9344,
+              "drawCallsEstimate": 22
+            },
+            {
+              "path": "./assets/models/nervous-g3/nervous-g3-high.glb",
+              "bytes": 46912,
+              "faces": 5952,
+              "drawCallsEstimate": 23
+            },
+            {
+              "path": "./assets/models/reproductive-g3/female-high.glb",
+              "bytes": 49772,
+              "faces": 5560,
+              "drawCallsEstimate": 16
+            },
+            {
+              "path": "./assets/models/reproductive-g3/male-high.glb",
+              "bytes": 49528,
+              "faces": 6480,
+              "drawCallsEstimate": 12
+            },
+            {
+              "path": "./assets/models/respiratory-g3/respiratory-g3-high.glb",
+              "bytes": 62812,
+              "faces": 9064,
+              "drawCallsEstimate": 25
+            },
+            {
+              "path": "./assets/models/skeleton-g3/skeleton-g3-high.glb",
+              "bytes": 88844,
+              "faces": 6812,
+              "drawCallsEstimate": 36
+            },
+            {
+              "path": "./assets/models/skin-g3/skin-g3-high.glb",
+              "bytes": 86484,
+              "faces": 4084,
+              "drawCallsEstimate": 15
+            },
+            {
+              "path": "./assets/models/urinary-g3/urinary-g3-high.glb",
+              "bytes": 50080,
+              "faces": 5936,
+              "drawCallsEstimate": 18
+            }
+          ]
+        }
+      },
+      "assetCatalogBytes": 1832560,
+      "assetCatalogCount": 57
+    }
+  }
+}

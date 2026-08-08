@@ -1,0 +1,24 @@
+{
+  "version": "0.34.1",
+  "type": "hotfix",
+  "fixes": [
+    "suporte para abertura direta via index-standalone.html",
+    "redirecionamento automático de index.html para standalone em file://",
+    "módulos JavaScript embutidos via Blob URLs",
+    "JSONs embutidos e servidos por fetch virtual",
+    "GLBs embutidos e resolvidos por Blob URLs",
+    "CSS de módulos embutido no modo standalone",
+    "preload desativado no standalone porque assets já estão incorporados"
+  ],
+  "standalone": {
+    "entry": "index-standalone.html",
+    "embeddedJsModules": 86,
+    "embeddedCssFiles": 37,
+    "embeddedDataAnd3dAssets": 342,
+    "threeJs": "CDN externo; conexão com internet necessária ao abrir experiências 3D"
+  },
+  "normal": {
+    "entry": "index.html",
+    "target": "GitHub Pages ou qualquer servidor HTTP/HTTPS"
+  }
+}

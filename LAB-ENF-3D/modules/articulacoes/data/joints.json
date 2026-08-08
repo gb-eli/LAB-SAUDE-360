@@ -1,0 +1,126 @@
+{
+  "joints": {
+    "shoulder": {
+      "label": "Ombro",
+      "variants": {
+        "eco": "./assets/models/joints-g3/shoulder-low.glb",
+        "medium": "./assets/models/joints-g3/shoulder-medium.glb",
+        "high": "./assets/models/joints-g3/shoulder-high.glb",
+        "ultra": "./assets/models/joints-g3/shoulder-high.glb"
+      },
+      "structures": [
+        {
+          "mesh": "humeral_head",
+          "name": "Cabeça do úmero"
+        },
+        {
+          "mesh": "scapula_proxy",
+          "name": "Escápula — representação"
+        },
+        {
+          "mesh": "shoulder_cartilage_proxy",
+          "name": "Superfície articular — representação"
+        },
+        {
+          "mesh": "glenoid_labrum_proxy",
+          "name": "Lábio glenoidal — representação"
+        },
+        {
+          "mesh": "shoulder_ligament_proxy",
+          "name": "Ligamento do ombro — representação"
+        },
+        {
+          "mesh": "biceps_tendon_proxy",
+          "name": "Tendão do bíceps — representação"
+        }
+      ]
+    },
+    "elbow": {
+      "label": "Cotovelo",
+      "variants": {
+        "eco": "./assets/models/joints-g3/elbow-low.glb",
+        "medium": "./assets/models/joints-g3/elbow-medium.glb",
+        "high": "./assets/models/joints-g3/elbow-high.glb",
+        "ultra": "./assets/models/joints-g3/elbow-high.glb"
+      },
+      "structures": [
+        {
+          "mesh": "humerus_distal",
+          "name": "Úmero distal"
+        },
+        {
+          "mesh": "ulna",
+          "name": "Ulna"
+        },
+        {
+          "mesh": "radius",
+          "name": "Rádio"
+        },
+        {
+          "mesh": "elbow_joint_surface",
+          "name": "Superfície articular — representação"
+        },
+        {
+          "mesh": "radial_collateral_ligament_proxy",
+          "name": "Ligamento colateral radial — representação"
+        },
+        {
+          "mesh": "ulnar_collateral_ligament_proxy",
+          "name": "Ligamento colateral ulnar — representação"
+        },
+        {
+          "mesh": "annular_ligament_proxy",
+          "name": "Ligamento anular — representação"
+        }
+      ]
+    },
+    "knee": {
+      "label": "Joelho",
+      "variants": {
+        "eco": "./assets/models/joints-g3/knee-low.glb",
+        "medium": "./assets/models/joints-g3/knee-medium.glb",
+        "high": "./assets/models/joints-g3/knee-high.glb",
+        "ultra": "./assets/models/joints-g3/knee-high.glb"
+      },
+      "structures": [
+        {
+          "mesh": "femur_distal",
+          "name": "Fêmur distal"
+        },
+        {
+          "mesh": "tibia",
+          "name": "Tíbia"
+        },
+        {
+          "mesh": "patella",
+          "name": "Patela"
+        },
+        {
+          "mesh": "knee_cartilage_proxy",
+          "name": "Cartilagem — representação"
+        },
+        {
+          "mesh": "meniscus_proxy",
+          "name": "Menisco — representação"
+        },
+        {
+          "mesh": "acl_proxy",
+          "name": "Ligamento cruzado anterior — representação"
+        },
+        {
+          "mesh": "pcl_proxy",
+          "name": "Ligamento cruzado posterior — representação"
+        },
+        {
+          "mesh": "medial_collateral_ligament_proxy",
+          "name": "Ligamento colateral medial — representação"
+        },
+        {
+          "mesh": "lateral_collateral_ligament_proxy",
+          "name": "Ligamento colateral lateral — representação"
+        }
+      ]
+    }
+  },
+  "generation": "G3"
+}

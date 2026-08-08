@@ -1,0 +1,173 @@
+{
+  "generatedForVersion": "0.27.0",
+  "systems": {
+    "sistema-endocrino": {
+      "low": {
+        "required": 6,
+        "present": 6,
+        "added": [
+          "thymus_proxy"
+        ],
+        "geometries": 8,
+        "faces": 600
+      },
+      "medium": {
+        "required": 6,
+        "present": 6,
+        "added": [],
+        "geometries": 9,
+        "faces": 2152
+      },
+      "high": {
+        "required": 6,
+        "present": 6,
+        "added": [],
+        "geometries": 11,
+        "faces": 8112
+      }
+    },
+    "sistema-linfatico": {
+      "low": {
+        "required": 5,
+        "present": 5,
+        "added": [],
+        "geometries": 12,
+        "faces": 920
+      },
+      "medium": {
+        "required": 5,
+        "present": 5,
+        "added": [],
+        "geometries": 24,
+        "faces": 6912
+      },
+      "high": {
+        "required": 5,
+        "present": 5,
+        "added": [],
+        "geometries": 40,
+        "faces": 11888
+      }
+    },
+    "sistema-muscular": {
+      "low": {
+        "required": 9,
+        "present": 9,
+        "added": [
+          "left_achilles_tendon_proxy",
+          "left_pectoral_fascia_proxy"
+        ],
+        "geometries": 16,
+        "faces": 960
+      },
+      "medium": {
+        "required": 9,
+        "present": 9,
+        "added": [
+          "left_pectoral_fascia_proxy"
+        ],
+        "geometries": 19,
+        "faces": 2864
+      },
+      "high": {
+        "required": 9,
+        "present": 9,
+        "added": [],
+        "geometries": 22,
+        "faces": 9344
+      }
+    },
+    "pele": {
+      "low": {
+        "required": 10,
+        "present": 10,
+        "added": [
+          "arterial_vessel_proxy",
+          "cutaneous_nerve_proxy",
+          "gland_1",
+          "hair_follicle_1",
+          "sweat_duct_proxy_1",
+          "venous_vessel_proxy"
+        ],
+        "geometries": 11,
+        "faces": 708
+      },
+      "medium": {
+        "required": 10,
+        "present": 10,
+        "added": [
+          "cutaneous_nerve_proxy"
+        ],
+        "geometries": 14,
+        "faces": 2140
+      },
+      "high": {
+        "required": 10,
+        "present": 10,
+        "added": [],
+        "geometries": 15,
+        "faces": 4084
+      }
+    },
+    "sistema-reprodutor": {
+      "female": {
+        "low": {
+          "required": 8,
+          "present": 8,
+          "added": [
+            "endometrium_proxy",
+            "left_fimbria_proxy_1",
+            "left_round_ligament_proxy",
+            "myometrium_proxy"
+          ],
+          "geometries": 10,
+          "faces": 704
+        },
+        "medium": {
+          "required": 8,
+          "present": 8,
+          "added": [
+            "left_fimbria_proxy_1"
+          ],
+          "geometries": 11,
+          "faces": 1600
+        },
+        "high": {
+          "required": 8,
+          "present": 8,
+          "added": [],
+          "geometries": 16,
+          "faces": 5560
+        }
+      },
+      "male": {
+        "low": {
+          "required": 7,
+          "present": 7,
+          "added": [
+            "erectile_tissue_proxy",
+            "left_epididymis_proxy"
+          ],
+          "geometries": 11,
+          "faces": 784
+        },
+        "medium": {
+          "required": 7,
+          "present": 7,
+          "added": [
+            "erectile_tissue_proxy"
+          ],
+          "geometries": 12,
+          "faces": 1920
+        },
+        "high": {
+          "required": 7,
+          "present": 7,
+          "added": [],
+          "geometries": 12,
+          "faces": 6480
+        }
+      }
+    }
+  }
+}

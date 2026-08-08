@@ -1,0 +1,7 @@
+{
+  "generatedForVersion": "0.23.0",
+  "policy": "Conservative normalization audit only. A second GLB re-export increased size, so the original generated binaries were retained.",
+  "compactionApplied": false,
+  "reason": "The new assets are already small and preserve semantic meshes; no destructive mesh merging/compression was applied.",
+  "assetCount": 15
+}

@@ -1,0 +1,31 @@
+{
+  "generatedForVersion": "0.29.0",
+  "sharedRegionalSystems": [
+    "handFoot",
+    "shoulderJoint",
+    "elbowJoint",
+    "kneeJoint"
+  ],
+  "semanticEquivalence": {
+    "mao-pe": "10/10 LOW/MEDIUM/HIGH",
+    "ombro": "6/6 LOW/MEDIUM/HIGH",
+    "cotovelo": "7/7 LOW/MEDIUM/HIGH",
+    "joelho": "9/9 LOW/MEDIUM/HIGH"
+  },
+  "highlight": {
+    "manager": "engines/AnatomyHighlightManager.js",
+    "method": "emissive + Box3Helper",
+    "sharedController": true,
+    "comparator": true,
+    "articulations": true
+  },
+  "comparison": {
+    "systems": 19,
+    "presets": 6,
+    "rendererCount": 1,
+    "simultaneousModels": 2,
+    "history": "IndexedDB, até 8 capturas",
+    "diagnostics": "comparison:metrics"
+  },
+  "legacyGlbsRemoved": 12
+}

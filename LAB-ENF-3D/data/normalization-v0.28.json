@@ -1,0 +1,34 @@
+{
+  "generatedForVersion": "0.28.0",
+  "sharedRegionalSystems": [
+    "headNeck",
+    "sensory"
+  ],
+  "semanticEquivalence": {
+    "cabeca-pescoco": "6/6 LOW/MEDIUM/HIGH",
+    "olho-ouvido": "6/6 LOW/MEDIUM/HIGH"
+  },
+  "comparator": {
+    "rendererCount": 1,
+    "simultaneousModels": 2,
+    "systemOptions": 15,
+    "modes": [
+      "side-by-side",
+      "overlay"
+    ],
+    "structureSelection": true,
+    "opacityAB": true,
+    "pngExport": true
+  },
+  "search": {
+    "catalogModulesIndexed": 36,
+    "bodyLocalSearch": true,
+    "generationFilter": true,
+    "sortOptions": [
+      "catalog",
+      "az",
+      "area"
+    ]
+  },
+  "legacyGlbsRemoved": 6
+}

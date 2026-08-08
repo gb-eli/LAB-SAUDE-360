@@ -1,0 +1,38 @@
+{
+  "generatedForVersion": "0.33.0",
+  "markers": {
+    "maxItems": 8,
+    "draggableLabels": true,
+    "automaticLayout": true,
+    "screenOffsetPersisted": true,
+    "layoutCandidates": 10,
+    "categories": 4,
+    "configurableColorsAndIcons": true,
+    "leaderLinesOptional": true
+  },
+  "customPresets": {
+    "enabled": true,
+    "maxItems": 20,
+    "importExport": true,
+    "lessonCompetencyMetadata": true
+  },
+  "workspace": {
+    "packageVersion": 1,
+    "compatibilityPreview": true,
+    "historyMaxItems": 8,
+    "sessionExtras": 3,
+    "backwardCompatibleWithV032": true
+  },
+  "semantic": {
+    "equivalentGroups": 3,
+    "relatedGroups": 12,
+    "totalGroups": 15
+  },
+  "catalog": {
+    "collections": 6,
+    "searchTerms": 2350
+  },
+  "assetsChanged": false,
+  "glbCount": 246,
+  "faces": 399712
+}
