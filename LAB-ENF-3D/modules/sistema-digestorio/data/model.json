@@ -1,0 +1,10 @@
+{
+  "id": "sistema-digestorio",
+  "variants": {
+    "eco": "./assets/models/digestive-g3/digestive-g3-low.glb",
+    "medium": "./assets/models/digestive-g3/digestive-g3-medium.glb",
+    "high": "./assets/models/digestive-g3/digestive-g3-high.glb",
+    "ultra": "./assets/models/digestive-g3/digestive-g3-high.glb"
+  },
+  "generation": "G3"
+}

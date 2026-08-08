@@ -1,0 +1,54 @@
+{
+  "structures": [
+    {
+      "mesh": "esophagus",
+      "name": "Esôfago",
+      "description": "Via representada entre região superior e estômago."
+    },
+    {
+      "mesh": "stomach",
+      "name": "Estômago",
+      "description": "Representação esquemática do estômago."
+    },
+    {
+      "mesh": "liver",
+      "name": "Fígado",
+      "description": "Representação didática do fígado."
+    },
+    {
+      "mesh": "ascending_colon",
+      "name": "Cólon ascendente",
+      "description": "Segmento representado do intestino grosso."
+    },
+    {
+      "mesh": "transverse_colon",
+      "name": "Cólon transverso",
+      "description": "Segmento horizontal representado do intestino grosso."
+    },
+    {
+      "mesh": "pancreas",
+      "name": "Pâncreas",
+      "description": "Representação didática do pâncreas."
+    },
+    {
+      "mesh": "gallbladder_proxy",
+      "name": "Vesícula biliar — representação",
+      "description": "Referência didática junto ao fígado."
+    },
+    {
+      "mesh": "duodenum_proxy",
+      "name": "Duodeno — representação",
+      "description": "Primeiro segmento intestinal representado."
+    },
+    {
+      "mesh": "sigmoid_colon_proxy",
+      "name": "Cólon sigmoide — representação",
+      "description": "Segmento distal simplificado."
+    },
+    {
+      "mesh": "appendix_proxy",
+      "name": "Apêndice — representação",
+      "description": "Marcador disponível no HIGH."
+    }
+  ]
+}
