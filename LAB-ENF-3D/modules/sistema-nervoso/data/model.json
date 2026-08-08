@@ -1,0 +1,10 @@
+{
+  "id": "sistema-nervoso",
+  "variants": {
+    "eco": "./assets/models/nervous-g3/nervous-g3-low.glb",
+    "medium": "./assets/models/nervous-g3/nervous-g3-medium.glb",
+    "high": "./assets/models/nervous-g3/nervous-g3-high.glb",
+    "ultra": "./assets/models/nervous-g3/nervous-g3-high.glb"
+  },
+  "generation": "G3"
+}

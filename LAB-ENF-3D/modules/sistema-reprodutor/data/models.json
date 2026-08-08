@@ -1,0 +1,23 @@
+{
+  "views": {
+    "female": {
+      "label": "Sistema reprodutor feminino",
+      "variants": {
+        "eco": "./assets/models/reproductive-g3/female-low.glb",
+        "medium": "./assets/models/reproductive-g3/female-medium.glb",
+        "high": "./assets/models/reproductive-g3/female-high.glb",
+        "ultra": "./assets/models/reproductive-g3/female-high.glb"
+      }
+    },
+    "male": {
+      "label": "Sistema reprodutor masculino",
+      "variants": {
+        "eco": "./assets/models/reproductive-g3/male-low.glb",
+        "medium": "./assets/models/reproductive-g3/male-medium.glb",
+        "high": "./assets/models/reproductive-g3/male-high.glb",
+        "ultra": "./assets/models/reproductive-g3/male-high.glb"
+      }
+    }
+  },
+  "generation": "G3"
+}

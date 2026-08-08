@@ -1,0 +1,44 @@
+{
+  "structures": [
+    {
+      "mesh": "cerebellum",
+      "name": "Cerebelo",
+      "description": "Estrutura representada para orientação espacial."
+    },
+    {
+      "mesh": "spinal_cord",
+      "name": "Medula espinal",
+      "description": "Eixo central representado do sistema nervoso."
+    },
+    {
+      "mesh": "left_brachial_nerve",
+      "name": "Nervo periférico superior",
+      "description": "Ramo periférico visual no membro superior."
+    },
+    {
+      "mesh": "left_sciatic_nerve",
+      "name": "Nervo periférico inferior",
+      "description": "Ramo periférico visual no membro inferior."
+    },
+    {
+      "mesh": "left_cerebral_hemisphere",
+      "name": "Hemisfério cerebral esquerdo",
+      "description": "Representação separada para comparação visual."
+    },
+    {
+      "mesh": "right_cerebral_hemisphere",
+      "name": "Hemisfério cerebral direito",
+      "description": "Representação separada para comparação visual."
+    },
+    {
+      "mesh": "brainstem_proxy",
+      "name": "Tronco encefálico — representação",
+      "description": "Eixo entre encéfalo e medula."
+    },
+    {
+      "mesh": "left_frontal_lobe_proxy",
+      "name": "Lobo frontal — representação",
+      "description": "Marcador regional disponível no HIGH."
+    }
+  ]
+}

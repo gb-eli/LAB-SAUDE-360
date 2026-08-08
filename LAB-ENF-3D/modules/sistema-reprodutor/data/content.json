@@ -1,0 +1,81 @@
+{
+  "female": [
+    {
+      "mesh": "uterus",
+      "name": "Útero",
+      "description": "Representação esquemática do útero."
+    },
+    {
+      "mesh": "left_ovary",
+      "name": "Ovário esquerdo",
+      "description": "Representação didática do ovário."
+    },
+    {
+      "mesh": "left_fallopian_tube",
+      "name": "Tuba uterina esquerda",
+      "description": "Estrutura tubular representada de forma simplificada."
+    },
+    {
+      "mesh": "cervix_vaginal_canal_proxy",
+      "name": "Região cervical/canal — representação",
+      "description": "Marcador anatômico simplificado."
+    },
+    {
+      "mesh": "endometrium_proxy",
+      "name": "Endométrio — representação",
+      "description": "Camada interna didática visível nos perfis G3 superiores."
+    },
+    {
+      "mesh": "myometrium_proxy",
+      "name": "Miométrio — representação",
+      "description": "Camada muscular uterina simplificada para comparação visual."
+    },
+    {
+      "mesh": "left_round_ligament_proxy",
+      "name": "Ligamento redondo — representação",
+      "description": "Referência de sustentação disponível nos perfis superiores."
+    },
+    {
+      "mesh": "left_fimbria_proxy_1",
+      "name": "Fímbrias — representação",
+      "description": "Marcadores didáticos adicionais no perfil HIGH."
+    }
+  ],
+  "male": [
+    {
+      "mesh": "prostate_proxy",
+      "name": "Próstata — representação",
+      "description": "Marcador didático da próstata."
+    },
+    {
+      "mesh": "left_testis",
+      "name": "Testículo esquerdo",
+      "description": "Representação anatômica simplificada."
+    },
+    {
+      "mesh": "left_vas_deferens_proxy",
+      "name": "Ducto deferente — representação",
+      "description": "Percurso tubular didático."
+    },
+    {
+      "mesh": "left_seminal_vesicle_proxy",
+      "name": "Vesícula seminal — representação",
+      "description": "Marcador visual simplificado."
+    },
+    {
+      "mesh": "left_epididymis_proxy",
+      "name": "Epidídimo — representação",
+      "description": "Estrutura didática adicional nos perfis superiores."
+    },
+    {
+      "mesh": "urethral_path_proxy",
+      "name": "Trajeto uretral — representação",
+      "description": "Percurso simplificado para orientação espacial."
+    },
+    {
+      "mesh": "erectile_tissue_proxy",
+      "name": "Tecido erétil — representação",
+      "description": "Referência anatômica interna simplificada disponível no HIGH."
+    }
+  ]
+}
