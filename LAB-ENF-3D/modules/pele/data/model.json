@@ -1,0 +1,10 @@
+{
+  "id": "skin-g3",
+  "generation": "G3",
+  "variants": {
+    "eco": "./assets/models/skin-g3/skin-g3-low.glb",
+    "medium": "./assets/models/skin-g3/skin-g3-medium.glb",
+    "high": "./assets/models/skin-g3/skin-g3-high.glb",
+    "ultra": "./assets/models/skin-g3/skin-g3-high.glb"
+  }
+}

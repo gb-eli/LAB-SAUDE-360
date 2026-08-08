@@ -1,0 +1,54 @@
+{
+  "structures": [
+    {
+      "mesh": "epidermis",
+      "name": "Epiderme",
+      "description": "Camada superficial representada no corte didático."
+    },
+    {
+      "mesh": "dermis",
+      "name": "Derme",
+      "description": "Camada intermediária representada no modelo."
+    },
+    {
+      "mesh": "hypodermis",
+      "name": "Hipoderme",
+      "description": "Camada profunda representada de forma esquemática."
+    },
+    {
+      "mesh": "hair_1",
+      "name": "Haste/folículo piloso",
+      "description": "Elemento visual de anexo cutâneo."
+    },
+    {
+      "mesh": "gland_1",
+      "name": "Glândula didática",
+      "description": "Representação simplificada de anexo cutâneo nos perfis superiores."
+    },
+    {
+      "mesh": "hair_follicle_1",
+      "name": "Folículo piloso — representação",
+      "description": "Estrutura aprofundada acrescentada nos perfis G3 superiores."
+    },
+    {
+      "mesh": "sweat_duct_proxy_1",
+      "name": "Ducto sudoríparo — representação",
+      "description": "Percurso didático simplificado entre glândula e superfície."
+    },
+    {
+      "mesh": "arterial_vessel_proxy",
+      "name": "Vaso arterial cutâneo — representação",
+      "description": "Referência vascular esquemática na derme/hipoderme."
+    },
+    {
+      "mesh": "venous_vessel_proxy",
+      "name": "Vaso venoso cutâneo — representação",
+      "description": "Referência vascular esquemática para comparação visual."
+    },
+    {
+      "mesh": "cutaneous_nerve_proxy",
+      "name": "Nervo cutâneo — representação",
+      "description": "Referência nervosa disponível no perfil G3 HIGH."
+    }
+  ]
+}
