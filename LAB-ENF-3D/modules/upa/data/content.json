@@ -1,0 +1,34 @@
+{
+  "objects": [
+    {
+      "mesh": "triage_desk",
+      "name": "Triagem",
+      "description": "Área visual de triagem para contextualização do fluxo de chegada.",
+      "zone": "Triagem"
+    },
+    {
+      "mesh": "observation_bed",
+      "name": "Leito de observação",
+      "description": "Leito fictício usado para reconhecimento espacial do ambiente.",
+      "zone": "Observação"
+    },
+    {
+      "mesh": "patient_monitor",
+      "name": "Monitor",
+      "description": "Equipamento representado de forma didática na área de observação.",
+      "zone": "Observação"
+    },
+    {
+      "mesh": "emergency_zone",
+      "name": "Área de emergência",
+      "description": "Marcador visual de uma área de emergência no cenário fictício.",
+      "zone": "Emergência"
+    },
+    {
+      "mesh": "handwash_sink",
+      "name": "Higiene das mãos",
+      "description": "Ponto visual associado à biossegurança e organização.",
+      "zone": "Apoio e biossegurança"
+    }
+  ]
+}

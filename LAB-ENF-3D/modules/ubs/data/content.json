@@ -1,0 +1,34 @@
+{
+  "objects": [
+    {
+      "mesh": "reception_desk",
+      "name": "Recepção / acolhimento",
+      "description": "Área representada para contextualizar chegada e organização inicial do atendimento.",
+      "zone": "Acolhimento"
+    },
+    {
+      "mesh": "exam_table",
+      "name": "Sala de consulta",
+      "description": "Representação visual genérica de espaço de consulta.",
+      "zone": "Consulta"
+    },
+    {
+      "mesh": "vaccination_table",
+      "name": "Área de vacinação",
+      "description": "Ponto didático para reconhecer uma área de vacinação no ambiente.",
+      "zone": "Vacinação"
+    },
+    {
+      "mesh": "vaccine_cooler",
+      "name": "Conservação de insumos",
+      "description": "Representação genérica de equipamento de conservação no ambiente.",
+      "zone": "Vacinação"
+    },
+    {
+      "mesh": "handwash_sink",
+      "name": "Higiene das mãos",
+      "description": "Ponto visual para discutir organização e biossegurança.",
+      "zone": "Apoio e biossegurança"
+    }
+  ]
+}

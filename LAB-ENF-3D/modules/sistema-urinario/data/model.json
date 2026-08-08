@@ -1,0 +1,10 @@
+{
+  "id": "sistema-urinario",
+  "variants": {
+    "eco": "./assets/models/urinary-g3/urinary-g3-low.glb",
+    "medium": "./assets/models/urinary-g3/urinary-g3-medium.glb",
+    "high": "./assets/models/urinary-g3/urinary-g3-high.glb",
+    "ultra": "./assets/models/urinary-g3/urinary-g3-high.glb"
+  },
+  "generation": "G3"
+}

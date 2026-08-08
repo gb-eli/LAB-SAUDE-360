@@ -1,0 +1,10 @@
+{
+  "id": "ubs",
+  "variants": {
+    "eco": "./assets/models/facilities-g2/ubs-low.glb",
+    "medium": "./assets/models/facilities-g2/ubs-medium.glb",
+    "high": "./assets/models/facilities-g2/ubs-high.glb",
+    "ultra": "./assets/models/facilities-g2/ubs-high.glb"
+  },
+  "generation": "G2"
+}

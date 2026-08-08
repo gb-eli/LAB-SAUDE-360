@@ -1,0 +1,10 @@
+{
+  "id": "upa",
+  "variants": {
+    "eco": "./assets/models/facilities-g2/upa-low.glb",
+    "medium": "./assets/models/facilities-g2/upa-medium.glb",
+    "high": "./assets/models/facilities-g2/upa-high.glb",
+    "ultra": "./assets/models/facilities-g2/upa-high.glb"
+  },
+  "generation": "G2"
+}

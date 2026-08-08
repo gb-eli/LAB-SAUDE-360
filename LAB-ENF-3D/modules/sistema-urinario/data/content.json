@@ -1,0 +1,49 @@
+{
+  "structures": [
+    {
+      "mesh": "left_kidney",
+      "name": "Rim esquerdo",
+      "description": "Representação didática do rim esquerdo."
+    },
+    {
+      "mesh": "right_kidney",
+      "name": "Rim direito",
+      "description": "Representação didática do rim direito."
+    },
+    {
+      "mesh": "left_ureter",
+      "name": "Ureter esquerdo",
+      "description": "Conexão visual entre rim e bexiga."
+    },
+    {
+      "mesh": "right_ureter",
+      "name": "Ureter direito",
+      "description": "Conexão visual entre rim e bexiga."
+    },
+    {
+      "mesh": "bladder",
+      "name": "Bexiga",
+      "description": "Representação esquemática da bexiga urinária."
+    },
+    {
+      "mesh": "left_renal_pelvis",
+      "name": "Pelve renal esquerda — representação",
+      "description": "Região coletora interna simplificada."
+    },
+    {
+      "mesh": "left_renal_artery_proxy",
+      "name": "Artéria renal esquerda — representação",
+      "description": "Referência vascular G3."
+    },
+    {
+      "mesh": "left_renal_vein_proxy",
+      "name": "Veia renal esquerda — representação",
+      "description": "Referência vascular G3."
+    },
+    {
+      "mesh": "left_calyx_proxy_1",
+      "name": "Cálice renal — representação",
+      "description": "Marcador interno disponível no HIGH."
+    }
+  ]
+}
