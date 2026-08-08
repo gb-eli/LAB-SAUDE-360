@@ -1,0 +1,11 @@
+{
+  "id": "respiratory-g3-model",
+  "type": "glb",
+  "generation": "G3",
+  "variants": {
+    "eco": "./assets/models/respiratory-g3/respiratory-g3-low.glb",
+    "medium": "./assets/models/respiratory-g3/respiratory-g3-medium.glb",
+    "high": "./assets/models/respiratory-g3/respiratory-g3-high.glb",
+    "ultra": "./assets/models/respiratory-g3/respiratory-g3-high.glb"
+  }
+}

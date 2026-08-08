@@ -1,0 +1,54 @@
+{
+  "structures": [
+    {
+      "mesh": "trachea",
+      "name": "Traqueia",
+      "description": "Via aérea que conduz o ar em direção aos brônquios."
+    },
+    {
+      "mesh": "left_main_bronchus",
+      "name": "Brônquio principal esquerdo",
+      "description": "Ramo principal que conduz o ar ao pulmão esquerdo."
+    },
+    {
+      "mesh": "right_main_bronchus",
+      "name": "Brônquio principal direito",
+      "description": "Ramo principal que conduz o ar ao pulmão direito."
+    },
+    {
+      "mesh": "left_lung",
+      "name": "Pulmão esquerdo",
+      "description": "Representação didática do pulmão esquerdo."
+    },
+    {
+      "mesh": "right_lung",
+      "name": "Pulmão direito",
+      "description": "Representação didática do pulmão direito."
+    },
+    {
+      "mesh": "diaphragm",
+      "name": "Diafragma",
+      "description": "Estrutura muscular essencial à mecânica ventilatória, representada aqui de forma simplificada."
+    },
+    {
+      "mesh": "larynx_proxy",
+      "name": "Laringe — representação",
+      "description": "Referência didática simplificada acima da traqueia."
+    },
+    {
+      "mesh": "left_lobar_bronchus_upper",
+      "name": "Brônquio lobar esquerdo — representação",
+      "description": "Ramificação interna acrescentada no perfil G3."
+    },
+    {
+      "mesh": "right_lobar_bronchus_upper",
+      "name": "Brônquio lobar direito superior — representação",
+      "description": "Ramificação interna acrescentada no perfil G3."
+    },
+    {
+      "mesh": "right_alveolar_cluster_proxy_1",
+      "name": "Conjunto alveolar — representação",
+      "description": "Marcador distal de alvéolos disponível no perfil G3 HIGH."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "patient-vitals",
+  "type": "glb",
+  "variants": {
+    "eco": "./assets/models/patient-g3/patient-vitals-low.glb",
+    "medium": "./assets/models/patient-g3/patient-vitals-medium.glb",
+    "high": "./assets/models/patient-g3/patient-vitals-high.glb",
+    "ultra": "./assets/models/patient-g3/patient-vitals-high.glb"
+  },
+  "generation": "G3"
+}

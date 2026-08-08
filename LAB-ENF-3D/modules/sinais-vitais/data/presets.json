@@ -1,0 +1,40 @@
+{
+  "presets": [
+    {
+      "id": "stable",
+      "name": "Cenário A",
+      "label": "Valores simulados estáveis",
+      "hr": 76,
+      "spo2": 98,
+      "sys": 118,
+      "dia": 76,
+      "temp": 36.6,
+      "rate": 1.0,
+      "note": "Cenário didático de referência."
+    },
+    {
+      "id": "attention",
+      "name": "Cenário B",
+      "label": "Valores simulados para observação",
+      "hr": 104,
+      "spo2": 93,
+      "sys": 142,
+      "dia": 88,
+      "temp": 37.8,
+      "rate": 1.35,
+      "note": "Cenário fictício para comparação visual e discussão orientada."
+    },
+    {
+      "id": "exercise",
+      "name": "Cenário C",
+      "label": "Após esforço fictício",
+      "hr": 122,
+      "spo2": 96,
+      "sys": 134,
+      "dia": 82,
+      "temp": 37.1,
+      "rate": 1.6,
+      "note": "Cenário fictício após esforço, usado apenas para comparação."
+    }
+  ]
+}
