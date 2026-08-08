@@ -1,0 +1,10 @@
+{
+  "id": "sistema-endocrino",
+  "generation": "G3",
+  "variants": {
+    "eco": "./assets/models/endocrine-g3/endocrine-g3-low.glb",
+    "medium": "./assets/models/endocrine-g3/endocrine-g3-medium.glb",
+    "high": "./assets/models/endocrine-g3/endocrine-g3-high.glb",
+    "ultra": "./assets/models/endocrine-g3/endocrine-g3-high.glb"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "structures": [
+    {
+      "mesh": "pituitary_proxy",
+      "name": "Hipófise — representação",
+      "description": "Marcador didático aproximado da hipófise."
+    },
+    {
+      "mesh": "thyroid_left",
+      "name": "Tireoide — lobo esquerdo",
+      "description": "Representação esquemática de um lobo da tireoide."
+    },
+    {
+      "mesh": "left_adrenal",
+      "name": "Adrenal esquerda",
+      "description": "Glândula representada sobre a região renal."
+    },
+    {
+      "mesh": "right_adrenal",
+      "name": "Adrenal direita",
+      "description": "Glândula representada sobre a região renal."
+    },
+    {
+      "mesh": "pancreas_proxy",
+      "name": "Pâncreas — representação",
+      "description": "Marcador visual simplificado no conjunto endócrino."
+    },
+    {
+      "mesh": "thymus_proxy",
+      "name": "Timo — representação",
+      "description": "Estrutura G3 representada de forma didática e simplificada."
+    }
+  ]
+}
