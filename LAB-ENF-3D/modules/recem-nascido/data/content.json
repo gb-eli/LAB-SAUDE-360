@@ -1,0 +1,24 @@
+{
+  "structures": [
+    {
+      "mesh": "head",
+      "name": "Cabeça",
+      "description": "Região visual para orientação anatômica geral no modelo neonatal."
+    },
+    {
+      "mesh": "torso",
+      "name": "Tronco",
+      "description": "Região central da representação genérica do recém-nascido."
+    },
+    {
+      "mesh": "left_arm",
+      "name": "Membro superior esquerdo",
+      "description": "Representação genérica de membro superior."
+    },
+    {
+      "mesh": "right_leg",
+      "name": "Membro inferior direito",
+      "description": "Representação genérica de membro inferior."
+    }
+  ]
+}

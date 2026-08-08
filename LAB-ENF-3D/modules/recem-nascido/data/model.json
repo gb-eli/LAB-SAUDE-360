@@ -1,0 +1,10 @@
+{
+  "id": "newborn",
+  "variants": {
+    "eco": "./assets/models/newborn-g3/newborn-low.glb",
+    "medium": "./assets/models/newborn-g3/newborn-medium.glb",
+    "high": "./assets/models/newborn-g3/newborn-high.glb",
+    "ultra": "./assets/models/newborn-g3/newborn-high.glb"
+  },
+  "generation": "G3"
+}
