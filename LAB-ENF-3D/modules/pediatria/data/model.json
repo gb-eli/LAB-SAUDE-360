@@ -1,0 +1,10 @@
+{
+  "id": "pediatria",
+  "variants": {
+    "eco": "./assets/models/pediatrics-g2/pediatrics-room-low.glb",
+    "medium": "./assets/models/pediatrics-g2/pediatrics-room-medium.glb",
+    "high": "./assets/models/pediatrics-g2/pediatrics-room-high.glb",
+    "ultra": "./assets/models/pediatrics-g2/pediatrics-room-high.glb"
+  },
+  "generation": "G2"
+}

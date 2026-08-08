@@ -1,0 +1,29 @@
+{
+  "objects": [
+    {
+      "mesh": "pediatric_bed",
+      "name": "Leito pediátrico",
+      "description": "Leito genérico de um cenário pediátrico fictício."
+    },
+    {
+      "mesh": "exam_table",
+      "name": "Área de exame",
+      "description": "Superfície genérica para contextualização espacial."
+    },
+    {
+      "mesh": "handwash_sink",
+      "name": "Higiene das mãos",
+      "description": "Ponto visual relacionado à biossegurança."
+    },
+    {
+      "mesh": "play_shelf",
+      "name": "Área lúdica",
+      "description": "Elemento visual para diferenciar o cenário pediátrico."
+    },
+    {
+      "mesh": "supplies_cabinet",
+      "name": "Armário de apoio",
+      "description": "Área genérica de armazenamento."
+    }
+  ]
+}

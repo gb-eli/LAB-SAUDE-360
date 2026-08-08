@@ -1,0 +1,44 @@
+{
+  "structures": [
+    {
+      "mesh": "head",
+      "name": "Cabeça",
+      "description": "Região corporal representada no paciente genérico."
+    },
+    {
+      "mesh": "torso",
+      "name": "Tronco",
+      "description": "Região central do modelo para orientação espacial."
+    },
+    {
+      "mesh": "left_upper_arm",
+      "name": "Braço esquerdo",
+      "description": "Segmento proximal do membro superior."
+    },
+    {
+      "mesh": "right_forearm",
+      "name": "Antebraço direito",
+      "description": "Segmento distal do membro superior."
+    },
+    {
+      "mesh": "left_thigh",
+      "name": "Coxa esquerda",
+      "description": "Segmento proximal do membro inferior."
+    },
+    {
+      "mesh": "right_lower_leg",
+      "name": "Perna direita",
+      "description": "Segmento distal do membro inferior."
+    },
+    {
+      "mesh": "spine_reference_proxy",
+      "name": "Referência posterior da coluna",
+      "description": "Marcador didático disponível nos perfis superiores."
+    },
+    {
+      "mesh": "chest_motion_reference_proxy",
+      "name": "Referência de movimento torácico",
+      "description": "Marcador visual disponível no perfil HIGH."
+    }
+  ]
+}
