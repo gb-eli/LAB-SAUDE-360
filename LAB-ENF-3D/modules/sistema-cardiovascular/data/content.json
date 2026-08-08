@@ -1,0 +1,69 @@
+{
+  "structures": [
+    {
+      "mesh": "left_ventricle",
+      "name": "Ventrículo esquerdo",
+      "description": "Câmara cardíaca representada de forma esquemática."
+    },
+    {
+      "mesh": "right_ventricle",
+      "name": "Ventrículo direito",
+      "description": "Câmara cardíaca representada de forma esquemática."
+    },
+    {
+      "mesh": "left_atrium",
+      "name": "Átrio esquerdo",
+      "description": "Câmara superior esquerda representada de forma didática."
+    },
+    {
+      "mesh": "right_atrium",
+      "name": "Átrio direito",
+      "description": "Câmara superior direita representada de forma didática."
+    },
+    {
+      "mesh": "cardiac_septum_proxy",
+      "name": "Septo cardíaco — representação",
+      "description": "Referência interna simplificada entre câmaras ventriculares."
+    },
+    {
+      "mesh": "aorta",
+      "name": "Aorta",
+      "description": "Grande vaso arterial sistêmico representado no modelo."
+    },
+    {
+      "mesh": "pulmonary_artery",
+      "name": "Artéria pulmonar",
+      "description": "Grande vaso da circulação pulmonar representado de forma esquemática."
+    },
+    {
+      "mesh": "left_pulmonary_vein",
+      "name": "Veia pulmonar esquerda",
+      "description": "Referência venosa pulmonar esquerda."
+    },
+    {
+      "mesh": "right_pulmonary_vein",
+      "name": "Veia pulmonar direita",
+      "description": "Referência venosa pulmonar direita."
+    },
+    {
+      "mesh": "superior_vena_cava",
+      "name": "Veia cava superior",
+      "description": "Grande vaso venoso de retorno superior representado no modelo."
+    },
+    {
+      "mesh": "inferior_vena_cava",
+      "name": "Veia cava inferior",
+      "description": "Grande vaso venoso de retorno inferior representado no modelo."
+    },
+    {
+      "mesh": "left_coronary_artery_proxy",
+      "name": "Coronária esquerda — representação",
+      "description": "Referência arterial superficial didática."
+    },
+    {
+      "mesh": "right_coronary_artery_proxy",
+      "name": "Coronária direita — representação",
+      "description": "Referência arterial superficial didática."
+    }
+  ]
+}

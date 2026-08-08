@@ -1,0 +1,10 @@
+{
+  "id": "sistema-cardiovascular",
+  "variants": {
+    "eco": "./assets/models/cardiovascular-g3/cardiovascular-g3-low.glb",
+    "medium": "./assets/models/cardiovascular-g3/cardiovascular-g3-medium.glb",
+    "high": "./assets/models/cardiovascular-g3/cardiovascular-g3-high.glb",
+    "ultra": "./assets/models/cardiovascular-g3/cardiovascular-g3-high.glb"
+  },
+  "generation": "G3"
+}
