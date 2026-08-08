@@ -1,0 +1,32 @@
+{
+  "scenes": {
+    "patient-room": {
+      "label": "Quarto de internação",
+      "variants": {
+        "eco": "./assets/models/hospital-g2/patient-room-low.glb",
+        "medium": "./assets/models/hospital-g2/patient-room-medium.glb",
+        "high": "./assets/models/hospital-g2/patient-room-high.glb",
+        "ultra": "./assets/models/hospital-g2/patient-room-high.glb"
+      }
+    },
+    "nursing-station": {
+      "label": "Posto de enfermagem",
+      "variants": {
+        "eco": "./assets/models/hospital-g2/nursing-station-low.glb",
+        "medium": "./assets/models/hospital-g2/nursing-station-medium.glb",
+        "high": "./assets/models/hospital-g2/nursing-station-high.glb",
+        "ultra": "./assets/models/hospital-g2/nursing-station-high.glb"
+      }
+    },
+    "procedure-room": {
+      "label": "Sala de procedimentos",
+      "variants": {
+        "eco": "./assets/models/hospital-g2/procedure-room-low.glb",
+        "medium": "./assets/models/hospital-g2/procedure-room-medium.glb",
+        "high": "./assets/models/hospital-g2/procedure-room-high.glb",
+        "ultra": "./assets/models/hospital-g2/procedure-room-high.glb"
+      }
+    }
+  },
+  "generation": "G2"
+}

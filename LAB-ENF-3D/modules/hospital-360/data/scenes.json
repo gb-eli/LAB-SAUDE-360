@@ -1,0 +1,79 @@
+{
+  "scenes": [
+    {
+      "id": "posto",
+      "name": "Posto de Enfermagem",
+      "subtitle": "Organização e comunicação",
+      "hotspots": [
+        {
+          "x": 25,
+          "y": 42,
+          "title": "Bancada de trabalho",
+          "text": "Área representativa de organização de registros e materiais."
+        },
+        {
+          "x": 70,
+          "y": 34,
+          "title": "Monitorização",
+          "text": "Ponto didático para reconhecer equipamentos de acompanhamento."
+        },
+        {
+          "x": 53,
+          "y": 70,
+          "title": "Circulação",
+          "text": "Espaço que deve permanecer organizado para deslocamento seguro."
+        }
+      ]
+    },
+    {
+      "id": "leito",
+      "name": "Leito de Internação",
+      "subtitle": "Segurança do paciente",
+      "hotspots": [
+        {
+          "x": 28,
+          "y": 55,
+          "title": "Cama hospitalar",
+          "text": "Elemento central do ambiente de internação."
+        },
+        {
+          "x": 74,
+          "y": 41,
+          "title": "Suporte de soro",
+          "text": "Equipamento de apoio presente em diferentes contextos hospitalares."
+        },
+        {
+          "x": 51,
+          "y": 77,
+          "title": "Área livre",
+          "text": "Observe riscos relacionados à circulação e organização do espaço."
+        }
+      ]
+    },
+    {
+      "id": "procedimentos",
+      "name": "Sala de Procedimentos",
+      "subtitle": "Preparo e biossegurança",
+      "hotspots": [
+        {
+          "x": 30,
+          "y": 40,
+          "title": "Bancada",
+          "text": "Área de preparo representada para discussão de organização e limpeza."
+        },
+        {
+          "x": 68,
+          "y": 52,
+          "title": "Maca",
+          "text": "Superfície de atendimento dentro do cenário simulado."
+        },
+        {
+          "x": 82,
+          "y": 25,
+          "title": "Descarte",
+          "text": "Ponto para discutir segregação e descarte seguro de materiais."
+        }
+      ]
+    }
+  ]
+}

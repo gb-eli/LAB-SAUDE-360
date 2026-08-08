@@ -1,0 +1,108 @@
+{
+  "objects": {
+    "patient-room": [
+      {
+        "mesh": "bed",
+        "name": "Leito hospitalar",
+        "category": "Ambiente",
+        "description": "Elemento central do quarto de internação.",
+        "zone": "Ambiente"
+      },
+      {
+        "mesh": "iv_stand",
+        "name": "Suporte de soro",
+        "category": "Equipamento",
+        "description": "Suporte de apoio para reconhecimento visual.",
+        "zone": "Equipamento"
+      },
+      {
+        "mesh": "handwash_sink",
+        "name": "Ponto de higiene das mãos",
+        "category": "Biossegurança",
+        "description": "Ponto do ambiente destinado à discussão de higiene das mãos.",
+        "zone": "Biossegurança"
+      },
+      {
+        "mesh": "sharps_bin",
+        "name": "Coletor de perfurocortantes",
+        "category": "Biossegurança",
+        "description": "Recipiente representado para discussão de descarte seguro.",
+        "zone": "Biossegurança"
+      },
+      {
+        "mesh": "monitor",
+        "name": "Monitor",
+        "category": "Equipamento",
+        "description": "Equipamento de monitorização representado de forma didática.",
+        "zone": "Equipamento"
+      }
+    ],
+    "nursing-station": [
+      {
+        "mesh": "central_desk",
+        "name": "Balcão central",
+        "category": "Organização",
+        "description": "Área central do posto de enfermagem.",
+        "zone": "Organização"
+      },
+      {
+        "mesh": "medication_trolley",
+        "name": "Carrinho de medicação",
+        "category": "Equipamento",
+        "description": "Representação visual de carrinho de apoio.",
+        "zone": "Equipamento"
+      },
+      {
+        "mesh": "communication_board",
+        "name": "Quadro de comunicação",
+        "category": "Comunicação",
+        "description": "Ponto visual para discutir organização e comunicação da equipe.",
+        "zone": "Comunicação"
+      },
+      {
+        "mesh": "storage_left",
+        "name": "Armário de armazenamento",
+        "category": "Organização",
+        "description": "Área destinada ao armazenamento de materiais.",
+        "zone": "Organização"
+      }
+    ],
+    "procedure-room": [
+      {
+        "mesh": "procedure_table",
+        "name": "Mesa de procedimentos",
+        "category": "Ambiente",
+        "description": "Superfície central do cenário didático.",
+        "zone": "Ambiente"
+      },
+      {
+        "mesh": "instrument_tray",
+        "name": "Bandeja de instrumentos",
+        "category": "Materiais",
+        "description": "Bandeja de apoio representada para identificação visual.",
+        "zone": "Materiais"
+      },
+      {
+        "mesh": "handwash_sink",
+        "name": "Ponto de higiene das mãos",
+        "category": "Biossegurança",
+        "description": "Ponto de higiene das mãos do ambiente.",
+        "zone": "Biossegurança"
+      },
+      {
+        "mesh": "sharps_bin",
+        "name": "Coletor de perfurocortantes",
+        "category": "Biossegurança",
+        "description": "Ponto de descarte representado no cenário.",
+        "zone": "Biossegurança"
+      },
+      {
+        "mesh": "supplies_cabinet",
+        "name": "Armário de materiais",
+        "category": "Organização",
+        "description": "Área de armazenamento de suprimentos.",
+        "zone": "Organização"
+      }
+    ]
+  }
+}
