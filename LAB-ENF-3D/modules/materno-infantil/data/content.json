@@ -1,0 +1,39 @@
+{
+  "structures": [
+    {
+      "mesh": "uterus",
+      "name": "Útero",
+      "description": "Representação didática simplificada do útero durante a gestação."
+    },
+    {
+      "mesh": "fetal_head",
+      "name": "Cabeça fetal",
+      "description": "Parte da representação fetal usada apenas para orientação espacial."
+    },
+    {
+      "mesh": "fetal_torso",
+      "name": "Tronco fetal",
+      "description": "Representação simplificada do tronco fetal."
+    },
+    {
+      "mesh": "placenta",
+      "name": "Placenta",
+      "description": "Estrutura representada de forma esquemática para estudo visual."
+    },
+    {
+      "mesh": "umbilical_cord",
+      "name": "Cordão umbilical",
+      "description": "Representação esquemática da conexão entre feto e placenta."
+    },
+    {
+      "mesh": "amniotic_space",
+      "name": "Espaço amniótico",
+      "description": "Volume didático transparente para contextualizar o ambiente intrauterino."
+    }
+  ],
+  "timeline": {
+    "t1": "Primeira fase da linha do tempo didática. O modelo enfatiza relações espaciais gerais.",
+    "t2": "Segunda fase da linha do tempo, com representação fetal ampliada.",
+    "t3": "Terceira fase da linha do tempo, usada para comparação visual de ocupação do espaço uterino."
+  }
+}

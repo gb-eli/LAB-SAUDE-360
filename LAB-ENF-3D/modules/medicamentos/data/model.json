@@ -1,0 +1,11 @@
+{
+  "id": "medication-bench",
+  "type": "glb",
+  "variants": {
+    "eco": "./assets/models/medication-g2/medication-bench-low.glb",
+    "medium": "./assets/models/medication-g2/medication-bench-medium.glb",
+    "high": "./assets/models/medication-g2/medication-bench-high.glb",
+    "ultra": "./assets/models/medication-g2/medication-bench-high.glb"
+  },
+  "generation": "G2"
+}

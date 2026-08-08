@@ -1,0 +1,82 @@
+{
+  "cases": [
+    {
+      "id": "case-a",
+      "title": "Caso A — Rótulo e identificação",
+      "prescription": "Paciente fictício: código P-101 · Produto didático ALFA · 250 UD",
+      "label": {
+        "name": "Produto didático ALFA",
+        "concentration": "500 UD em 2 mL simulados",
+        "lot": "LOT-A1",
+        "expiry": "12/2028",
+        "route": "ROTA-EDU"
+      },
+      "checks": [
+        "Identificação do paciente fictício",
+        "Nome do produto didático",
+        "Concentração",
+        "Validade",
+        "Registro do caso"
+      ],
+      "calc": {
+        "requested": 250,
+        "available": 500,
+        "presentation": 2,
+        "unit": "mL simulados",
+        "answer": 1
+      }
+    },
+    {
+      "id": "case-b",
+      "title": "Caso B — Conferência de concentração",
+      "prescription": "Paciente fictício: código P-202 · Produto didático BETA · 300 UD",
+      "label": {
+        "name": "Produto didático BETA",
+        "concentration": "600 UD em 3 mL simulados",
+        "lot": "LOT-B7",
+        "expiry": "08/2029",
+        "route": "ROTA-EDU"
+      },
+      "checks": [
+        "Paciente fictício",
+        "Produto didático",
+        "Dose acadêmica",
+        "Concentração",
+        "Validade"
+      ],
+      "calc": {
+        "requested": 300,
+        "available": 600,
+        "presentation": 3,
+        "unit": "mL simulados",
+        "answer": 1.5
+      }
+    },
+    {
+      "id": "case-c",
+      "title": "Caso C — Leitura de rótulo",
+      "prescription": "Paciente fictício: código P-303 · Produto didático GAMA · 120 UD",
+      "label": {
+        "name": "Produto didático GAMA",
+        "concentration": "240 UD em 4 mL simulados",
+        "lot": "LOT-G3",
+        "expiry": "03/2030",
+        "route": "ROTA-EDU"
+      },
+      "checks": [
+        "Paciente fictício",
+        "Nome",
+        "Concentração",
+        "Lote/validade",
+        "Conferência final"
+      ],
+      "calc": {
+        "requested": 120,
+        "available": 240,
+        "presentation": 4,
+        "unit": "mL simulados",
+        "answer": 2
+      }
+    }
+  ]
+}

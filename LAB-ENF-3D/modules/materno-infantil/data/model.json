@@ -1,0 +1,32 @@
+{
+  "stages": {
+    "t1": {
+      "label": "1º trimestre",
+      "variants": {
+        "eco": "./assets/models/maternal-g3/pregnancy-t1-low.glb",
+        "medium": "./assets/models/maternal-g3/pregnancy-t1-medium.glb",
+        "high": "./assets/models/maternal-g3/pregnancy-t1-high.glb",
+        "ultra": "./assets/models/maternal-g3/pregnancy-t1-high.glb"
+      }
+    },
+    "t2": {
+      "label": "2º trimestre",
+      "variants": {
+        "eco": "./assets/models/maternal-g3/pregnancy-t2-low.glb",
+        "medium": "./assets/models/maternal-g3/pregnancy-t2-medium.glb",
+        "high": "./assets/models/maternal-g3/pregnancy-t2-high.glb",
+        "ultra": "./assets/models/maternal-g3/pregnancy-t2-high.glb"
+      }
+    },
+    "t3": {
+      "label": "3º trimestre",
+      "variants": {
+        "eco": "./assets/models/maternal-g3/pregnancy-t3-low.glb",
+        "medium": "./assets/models/maternal-g3/pregnancy-t3-medium.glb",
+        "high": "./assets/models/maternal-g3/pregnancy-t3-high.glb",
+        "ultra": "./assets/models/maternal-g3/pregnancy-t3-high.glb"
+      }
+    }
+  },
+  "generation": "G3"
+}
