@@ -1,0 +1,262 @@
+{
+  "models": {
+    "syringe": {
+      "label": "Seringa",
+      "variants": {
+        "eco": "./assets/models/equipment-g2/syringe-low.glb",
+        "medium": "./assets/models/equipment-g2/syringe-medium.glb",
+        "high": "./assets/models/equipment-g2/syringe-high.glb",
+        "ultra": "./assets/models/equipment-g2/syringe-high.glb"
+      },
+      "description": "Modelo didático de seringa para reconhecimento visual de suas partes.",
+      "parts": [
+        {
+          "id": "barrel",
+          "label": "Cilindro"
+        },
+        {
+          "id": "plunger",
+          "label": "Êmbolo"
+        },
+        {
+          "id": "plunger_disc",
+          "label": "Apoio do êmbolo"
+        },
+        {
+          "id": "stopper",
+          "label": "Vedação"
+        },
+        {
+          "id": "tip",
+          "label": "Bico"
+        },
+        {
+          "id": "needle",
+          "label": "Agulha"
+        },
+        {
+          "id": "scale",
+          "label": "Graduação"
+        }
+      ],
+      "category": "Dispositivos",
+      "tags": [
+        "seringa",
+        "êmbolo",
+        "agulha",
+        "cilindro"
+      ]
+    },
+    "oximeter": {
+      "label": "Oxímetro",
+      "variants": {
+        "eco": "./assets/models/equipment-g2/oximeter-low.glb",
+        "medium": "./assets/models/equipment-g2/oximeter-medium.glb",
+        "high": "./assets/models/equipment-g2/oximeter-high.glb",
+        "ultra": "./assets/models/equipment-g2/oximeter-high.glb"
+      },
+      "description": "Modelo didático de oxímetro para reconhecimento visual do equipamento.",
+      "parts": [
+        {
+          "id": "oximeter_body",
+          "label": "Corpo"
+        },
+        {
+          "id": "oximeter_clip",
+          "label": "Clipe"
+        },
+        {
+          "id": "oximeter_screen",
+          "label": "Tela"
+        }
+      ],
+      "category": "Monitorização",
+      "tags": [
+        "oxímetro",
+        "oximetria",
+        "tela",
+        "clipe"
+      ]
+    },
+    "bp-cuff": {
+      "label": "Manguito de pressão",
+      "variants": {
+        "eco": "./assets/models/equipment-g2/bp-cuff-low.glb",
+        "medium": "./assets/models/equipment-g2/bp-cuff-medium.glb",
+        "high": "./assets/models/equipment-g2/bp-cuff-high.glb",
+        "ultra": "./assets/models/equipment-g2/bp-cuff-high.glb"
+      },
+      "description": "Modelo didático de manguito e manômetro para reconhecimento visual.",
+      "parts": [
+        {
+          "id": "bp_cuff",
+          "label": "Manguito"
+        },
+        {
+          "id": "bp_tube",
+          "label": "Tubo"
+        },
+        {
+          "id": "bp_gauge",
+          "label": "Manômetro"
+        }
+      ],
+      "category": "Monitorização",
+      "tags": [
+        "manguito",
+        "pressão",
+        "manômetro"
+      ]
+    },
+    "infusion-pump": {
+      "label": "Bomba de infusão",
+      "variants": {
+        "eco": "./assets/models/equipment-g2/infusion-pump-low.glb",
+        "medium": "./assets/models/equipment-g2/infusion-pump-medium.glb",
+        "high": "./assets/models/equipment-g2/infusion-pump-high.glb",
+        "ultra": "./assets/models/equipment-g2/infusion-pump-high.glb"
+      },
+      "description": "Modelo didático de bomba de infusão para reconhecimento de painel e controles.",
+      "parts": [
+        {
+          "id": "pump_body",
+          "label": "Corpo"
+        },
+        {
+          "id": "pump_screen",
+          "label": "Tela"
+        },
+        {
+          "id": "pump_button_start",
+          "label": "Botão iniciar"
+        },
+        {
+          "id": "pump_button_stop",
+          "label": "Botão parar"
+        },
+        {
+          "id": "pump_button_menu",
+          "label": "Botão menu"
+        }
+      ],
+      "category": "Infusão",
+      "tags": [
+        "bomba",
+        "infusão",
+        "painel",
+        "controle"
+      ]
+    },
+    "stethoscope": {
+      "label": "Estetoscópio",
+      "description": "Modelo didático para reconhecimento visual do estetoscópio.",
+      "variants": {
+        "eco": "./assets/models/equipment-g2/stethoscope-low.glb",
+        "medium": "./assets/models/equipment-g2/stethoscope-medium.glb",
+        "high": "./assets/models/equipment-g2/stethoscope-high.glb",
+        "ultra": "./assets/models/equipment-g2/stethoscope-high.glb"
+      },
+      "parts": [
+        {
+          "id": "chestpiece",
+          "label": "Peça auscultatória"
+        },
+        {
+          "id": "main_tube",
+          "label": "Tubo principal"
+        },
+        {
+          "id": "left_tube",
+          "label": "Tubo esquerdo"
+        },
+        {
+          "id": "right_tube",
+          "label": "Tubo direito"
+        },
+        {
+          "id": "left_earpiece",
+          "label": "Oliva esquerda"
+        },
+        {
+          "id": "right_earpiece",
+          "label": "Oliva direita"
+        }
+      ],
+      "category": "Avaliação",
+      "tags": [
+        "estetoscópio",
+        "auscultação",
+        "olivas"
+      ]
+    },
+    "thermometer": {
+      "label": "Termômetro digital",
+      "description": "Modelo didático de termômetro para reconhecimento visual.",
+      "variants": {
+        "eco": "./assets/models/equipment-g2/thermometer-low.glb",
+        "medium": "./assets/models/equipment-g2/thermometer-medium.glb",
+        "high": "./assets/models/equipment-g2/thermometer-high.glb",
+        "ultra": "./assets/models/equipment-g2/thermometer-high.glb"
+      },
+      "parts": [
+        {
+          "id": "thermometer_body",
+          "label": "Corpo"
+        },
+        {
+          "id": "thermometer_screen",
+          "label": "Tela"
+        },
+        {
+          "id": "sensor_tip",
+          "label": "Ponta sensora"
+        },
+        {
+          "id": "button",
+          "label": "Botão"
+        }
+      ],
+      "category": "Monitorização",
+      "tags": [
+        "termômetro",
+        "temperatura",
+        "sensor"
+      ]
+    },
+    "glucose-meter": {
+      "label": "Medidor de glicose",
+      "description": "Modelo didático para reconhecimento visual do equipamento e tira de teste.",
+      "variants": {
+        "eco": "./assets/models/equipment-g2/glucose-meter-low.glb",
+        "medium": "./assets/models/equipment-g2/glucose-meter-medium.glb",
+        "high": "./assets/models/equipment-g2/glucose-meter-high.glb",
+        "ultra": "./assets/models/equipment-g2/glucose-meter-high.glb"
+      },
+      "parts": [
+        {
+          "id": "meter_body",
+          "label": "Corpo"
+        },
+        {
+          "id": "meter_screen",
+          "label": "Tela"
+        },
+        {
+          "id": "meter_button",
+          "label": "Botão"
+        },
+        {
+          "id": "test_strip",
+          "label": "Tira de teste"
+        }
+      ],
+      "category": "Monitorização",
+      "tags": [
+        "glicose",
+        "medidor",
+        "tira de teste"
+      ]
+    }
+  },
+  "generation": "G2"
+}

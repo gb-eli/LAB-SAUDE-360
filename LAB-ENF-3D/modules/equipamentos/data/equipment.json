@@ -1,0 +1,86 @@
+{
+  "syringeParts": [
+    {
+      "id": "plunger",
+      "name": "Êmbolo",
+      "description": "Peça móvel usada para deslocar o conteúdo dentro do cilindro.",
+      "position": [
+        -1.6,
+        0.16,
+        0.18
+      ],
+      "meshName": "plunger"
+    },
+    {
+      "id": "barrel",
+      "name": "Cilindro",
+      "description": "Corpo transparente que contém a escala de graduação.",
+      "position": [
+        -0.15,
+        0.22,
+        0.28
+      ],
+      "meshName": "barrel"
+    },
+    {
+      "id": "tip",
+      "name": "Bico",
+      "description": "Extremidade de conexão da seringa.",
+      "position": [
+        1.44,
+        0.18,
+        0.15
+      ],
+      "meshName": "tip"
+    },
+    {
+      "id": "scale",
+      "name": "Graduação",
+      "description": "Marcas de referência visual de volume.",
+      "position": [
+        0.48,
+        0.43,
+        0.33
+      ],
+      "meshName": "scale"
+    }
+  ],
+  "items": [
+    {
+      "name": "Estetoscópio",
+      "group": "Avaliação",
+      "icon": "◉",
+      "description": "Instrumento utilizado para ausculta em contextos de avaliação clínica."
+    },
+    {
+      "name": "Oxímetro",
+      "group": "Monitorização",
+      "icon": "▣",
+      "description": "Equipamento que exibe parâmetros de oximetria e pulso."
+    },
+    {
+      "name": "Esfigmomanômetro",
+      "group": "Sinais vitais",
+      "icon": "◌",
+      "description": "Equipamento relacionado à aferição da pressão arterial."
+    },
+    {
+      "name": "Bomba de infusão",
+      "group": "Equipamento",
+      "icon": "▤",
+      "description": "Equipamento hospitalar para controle programado de infusão."
+    },
+    {
+      "name": "Coletor perfurocortante",
+      "group": "Biossegurança",
+      "icon": "△",
+      "description": "Recipiente apropriado para descarte de materiais perfurocortantes."
+    },
+    {
+      "name": "Luva de procedimento",
+      "group": "EPI",
+      "icon": "◇",
+      "description": "Barreira de proteção usada conforme indicação e protocolo."
+    }
+  ]
+}

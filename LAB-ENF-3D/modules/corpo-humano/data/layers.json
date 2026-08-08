@@ -1,0 +1,186 @@
+{
+  "layers": {
+    "body": {
+      "label": "Corpo externo",
+      "visible": true,
+      "opacity": 0.22,
+      "variants": {
+        "eco": "./assets/models/human-g3/body/body-g3-low.glb",
+        "medium": "./assets/models/human-g3/body/body-g3-medium.glb",
+        "high": "./assets/models/human-g3/body/body-g3-high.glb",
+        "ultra": "./assets/models/human-g3/body/body-g3-high.glb"
+      }
+    },
+    "skeleton": {
+      "label": "Esqueleto",
+      "visible": true,
+      "opacity": 1,
+      "variants": {
+        "eco": "./assets/models/skeleton-g3/skeleton-g3-low.glb",
+        "medium": "./assets/models/skeleton-g3/skeleton-g3-medium.glb",
+        "high": "./assets/models/skeleton-g3/skeleton-g3-high.glb",
+        "ultra": "./assets/models/skeleton-g3/skeleton-g3-high.glb"
+      }
+    },
+    "respiratory": {
+      "label": "Respiratório G3 compartilhado",
+      "visible": false,
+      "opacity": 1,
+      "variants": {
+        "eco": "./assets/models/respiratory-g3/respiratory-g3-low.glb",
+        "medium": "./assets/models/respiratory-g3/respiratory-g3-medium.glb",
+        "high": "./assets/models/respiratory-g3/respiratory-g3-high.glb",
+        "ultra": "./assets/models/respiratory-g3/respiratory-g3-high.glb"
+      }
+    },
+    "cardiovascular": {
+      "label": "Cardiovascular",
+      "visible": false,
+      "opacity": 1,
+      "variants": {
+        "eco": "./assets/models/cardiovascular-g3/cardiovascular-g3-low.glb",
+        "medium": "./assets/models/cardiovascular-g3/cardiovascular-g3-medium.glb",
+        "high": "./assets/models/cardiovascular-g3/cardiovascular-g3-high.glb",
+        "ultra": "./assets/models/cardiovascular-g3/cardiovascular-g3-high.glb"
+      }
+    },
+    "organs": {
+      "label": "Órgãos gerais G3",
+      "visible": false,
+      "opacity": 1,
+      "variants": {
+        "eco": "./assets/models/human-g3/organs/organs-g3-low.glb",
+        "medium": "./assets/models/human-g3/organs/organs-g3-medium.glb",
+        "high": "./assets/models/human-g3/organs/organs-g3-high.glb",
+        "ultra": "./assets/models/human-g3/organs/organs-g3-high.glb"
+      }
+    },
+    "heart-detail": {
+      "label": "Coração detalhado",
+      "visible": false,
+      "opacity": 1,
+      "transform": {
+        "scale": 0.36,
+        "position": [
+          0.08,
+          -0.05,
+          1.35
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "variants": {
+        "eco": "./assets/models/heart-low.glb",
+        "medium": "./assets/models/heart-medium.glb",
+        "high": "./assets/models/heart-high.glb",
+        "ultra": "./assets/models/heart-high.glb"
+      }
+    },
+    "urinary": {
+      "label": "Urinário G3 compartilhado",
+      "visible": false,
+      "opacity": 1,
+      "variants": {
+        "eco": "./assets/models/urinary-g3/urinary-g3-low.glb",
+        "medium": "./assets/models/urinary-g3/urinary-g3-medium.glb",
+        "high": "./assets/models/urinary-g3/urinary-g3-high.glb",
+        "ultra": "./assets/models/urinary-g3/urinary-g3-high.glb"
+      }
+    },
+    "digestive": {
+      "label": "Digestório G3 compartilhado",
+      "visible": false,
+      "opacity": 1,
+      "variants": {
+        "eco": "./assets/models/digestive-g3/digestive-g3-low.glb",
+        "medium": "./assets/models/digestive-g3/digestive-g3-medium.glb",
+        "high": "./assets/models/digestive-g3/digestive-g3-high.glb",
+        "ultra": "./assets/models/digestive-g3/digestive-g3-high.glb"
+      }
+    },
+    "nervous": {
+      "label": "Nervoso G3 compartilhado",
+      "visible": false,
+      "opacity": 1,
+      "variants": {
+        "eco": "./assets/models/nervous-g3/nervous-g3-low.glb",
+        "medium": "./assets/models/nervous-g3/nervous-g3-medium.glb",
+        "high": "./assets/models/nervous-g3/nervous-g3-high.glb",
+        "ultra": "./assets/models/nervous-g3/nervous-g3-high.glb"
+      }
+    },
+    "endocrine": {
+      "label": "Endócrino G3 compartilhado",
+      "visible": false,
+      "opacity": 1,
+      "variants": {
+        "eco": "./assets/models/endocrine-g3/endocrine-g3-low.glb",
+        "medium": "./assets/models/endocrine-g3/endocrine-g3-medium.glb",
+        "high": "./assets/models/endocrine-g3/endocrine-g3-high.glb",
+        "ultra": "./assets/models/endocrine-g3/endocrine-g3-high.glb"
+      }
+    },
+    "lymphatic": {
+      "label": "Linfático G3 compartilhado",
+      "visible": false,
+      "opacity": 1,
+      "variants": {
+        "eco": "./assets/models/lymphatic-g3/lymphatic-g3-low.glb",
+        "medium": "./assets/models/lymphatic-g3/lymphatic-g3-medium.glb",
+        "high": "./assets/models/lymphatic-g3/lymphatic-g3-high.glb",
+        "ultra": "./assets/models/lymphatic-g3/lymphatic-g3-high.glb"
+      }
+    },
+    "muscular": {
+      "label": "Muscular G3 compartilhado",
+      "visible": false,
+      "opacity": 0.92,
+      "variants": {
+        "eco": "./assets/models/muscular-g3/muscular-g3-low.glb",
+        "medium": "./assets/models/muscular-g3/muscular-g3-medium.glb",
+        "high": "./assets/models/muscular-g3/muscular-g3-high.glb",
+        "ultra": "./assets/models/muscular-g3/muscular-g3-high.glb"
+      }
+    },
+    "reproductive-female": {
+      "label": "Reprodutor feminino G3",
+      "visible": false,
+      "opacity": 1,
+      "variants": {
+        "eco": "./assets/models/reproductive-g3/female-low.glb",
+        "medium": "./assets/models/reproductive-g3/female-medium.glb",
+        "high": "./assets/models/reproductive-g3/female-high.glb",
+        "ultra": "./assets/models/reproductive-g3/female-high.glb"
+      }
+    },
+    "reproductive-male": {
+      "label": "Reprodutor masculino G3",
+      "visible": false,
+      "opacity": 1,
+      "variants": {
+        "eco": "./assets/models/reproductive-g3/male-low.glb",
+        "medium": "./assets/models/reproductive-g3/male-medium.glb",
+        "high": "./assets/models/reproductive-g3/male-high.glb",
+        "ultra": "./assets/models/reproductive-g3/male-high.glb"
+      }
+    },
+    "skin-shell": {
+      "label": "Pele externa — casca corporal",
+      "visible": false,
+      "opacity": 0.34,
+      "transform": {
+        "scale": 1.012
+      },
+      "variants": {
+        "eco": "./assets/models/human-g3/body/body-g3-low.glb",
+        "medium": "./assets/models/human-g3/body/body-g3-medium.glb",
+        "high": "./assets/models/human-g3/body/body-g3-high.glb",
+        "ultra": "./assets/models/human-g3/body/body-g3-high.glb"
+      }
+    }
+  },
+  "generation": "G3"
+}

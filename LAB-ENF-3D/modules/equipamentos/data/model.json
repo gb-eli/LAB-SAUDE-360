@@ -1,0 +1,12 @@
+{
+  "id": "syringe-model",
+  "type": "glb",
+  "variants": {
+    "eco": "./assets/models/equipment-g2/syringe-low.glb",
+    "medium": "./assets/models/equipment-g2/syringe-medium.glb",
+    "high": "./assets/models/equipment-g2/syringe-high.glb",
+    "ultra": "./assets/models/equipment-g2/syringe-high.glb"
+  },
+  "fallback": "light",
+  "generation": "G2"
+}

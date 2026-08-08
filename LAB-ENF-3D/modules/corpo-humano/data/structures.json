@@ -1,0 +1,544 @@
+{
+  "structures": [
+    {
+      "mesh": "skull",
+      "name": "Crânio",
+      "system": "Esqueleto",
+      "description": "Estrutura óssea da cabeça."
+    },
+    {
+      "mesh": "spine",
+      "name": "Coluna vertebral",
+      "system": "Esqueleto",
+      "description": "Eixo ósseo central do tronco."
+    },
+    {
+      "mesh": "sternum",
+      "name": "Esterno",
+      "system": "Esqueleto",
+      "description": "Referência óssea anterior do tórax."
+    },
+    {
+      "mesh": "left_clavicle",
+      "name": "Clavícula esquerda",
+      "system": "Esqueleto — Cintura escapular",
+      "description": "Referência da cintura escapular esquerda."
+    },
+    {
+      "mesh": "right_clavicle",
+      "name": "Clavícula direita",
+      "system": "Esqueleto — Cintura escapular",
+      "description": "Referência da cintura escapular direita."
+    },
+    {
+      "mesh": "left_scapula",
+      "name": "Escápula esquerda",
+      "system": "Esqueleto — Cintura escapular",
+      "description": "Referência posterior da cintura escapular."
+    },
+    {
+      "mesh": "right_scapula",
+      "name": "Escápula direita",
+      "system": "Esqueleto — Cintura escapular",
+      "description": "Referência posterior da cintura escapular."
+    },
+    {
+      "mesh": "left_humerus",
+      "name": "Úmero esquerdo",
+      "system": "Esqueleto — Membro superior",
+      "description": "Osso longo do braço esquerdo."
+    },
+    {
+      "mesh": "right_humerus",
+      "name": "Úmero direito",
+      "system": "Esqueleto — Membro superior",
+      "description": "Osso longo do braço direito."
+    },
+    {
+      "mesh": "left_femur",
+      "name": "Fêmur esquerdo",
+      "system": "Esqueleto — Membro inferior",
+      "description": "Osso longo da coxa esquerda."
+    },
+    {
+      "mesh": "right_femur",
+      "name": "Fêmur direito",
+      "system": "Esqueleto — Membro inferior",
+      "description": "Osso longo da coxa direita."
+    },
+    {
+      "mesh": "left_lung",
+      "name": "Pulmão esquerdo",
+      "system": "Respiratório G3",
+      "description": "Representação didática do pulmão esquerdo."
+    },
+    {
+      "mesh": "right_lung",
+      "name": "Pulmão direito",
+      "system": "Respiratório G3",
+      "description": "Representação didática do pulmão direito."
+    },
+    {
+      "mesh": "trachea",
+      "name": "Traqueia",
+      "system": "Respiratório G3",
+      "description": "Via aérea que conduz o ar em direção aos brônquios."
+    },
+    {
+      "mesh": "diaphragm_proxy",
+      "name": "Diafragma — representação",
+      "system": "Respiratório",
+      "description": "Referência inferior simplificada do sistema respiratório."
+    },
+    {
+      "mesh": "left_ventricle",
+      "name": "Ventrículo esquerdo",
+      "system": "Cardiovascular",
+      "description": "Câmara cardíaca representada didaticamente."
+    },
+    {
+      "mesh": "right_ventricle",
+      "name": "Ventrículo direito",
+      "system": "Cardiovascular",
+      "description": "Câmara cardíaca representada didaticamente."
+    },
+    {
+      "mesh": "aorta",
+      "name": "Aorta",
+      "system": "Cardiovascular",
+      "description": "Grande vaso arterial representado no modelo compartilhado."
+    },
+    {
+      "mesh": "superior_vena_cava",
+      "name": "Veia cava superior",
+      "system": "Cardiovascular",
+      "description": "Grande vaso venoso representado no modelo compartilhado."
+    },
+    {
+      "mesh": "inferior_vena_cava",
+      "name": "Veia cava inferior",
+      "system": "Cardiovascular",
+      "description": "Grande vaso venoso representado no modelo compartilhado."
+    },
+    {
+      "mesh": "liver",
+      "name": "Fígado",
+      "system": "Digestório G3",
+      "description": "Representação didática do fígado."
+    },
+    {
+      "mesh": "left_kidney",
+      "name": "Rim esquerdo",
+      "system": "Urinário G3",
+      "description": "Representação didática do rim esquerdo."
+    },
+    {
+      "mesh": "right_kidney",
+      "name": "Rim direito",
+      "system": "Urinário G3",
+      "description": "Representação didática do rim direito."
+    },
+    {
+      "mesh": "stomach",
+      "name": "Estômago",
+      "system": "Digestório G3",
+      "description": "Representação esquemática do estômago."
+    },
+    {
+      "mesh": "brain",
+      "name": "Encéfalo",
+      "system": "Órgãos",
+      "description": "Representação simplificada do encéfalo."
+    },
+    {
+      "mesh": "spleen",
+      "name": "Baço",
+      "system": "Linfático G3",
+      "description": "Representação didática do baço."
+    },
+    {
+      "mesh": "bladder",
+      "name": "Bexiga",
+      "system": "Urinário G3",
+      "description": "Representação esquemática da bexiga urinária."
+    },
+    {
+      "mesh": "pancreas_proxy",
+      "name": "Pâncreas — representação",
+      "system": "Endócrino G3",
+      "description": "Marcador visual simplificado no conjunto endócrino."
+    },
+    {
+      "mesh": "left_main_bronchus",
+      "name": "Brônquio principal esquerdo",
+      "system": "Respiratório G3",
+      "description": "Ramo principal que conduz o ar ao pulmão esquerdo."
+    },
+    {
+      "mesh": "right_main_bronchus",
+      "name": "Brônquio principal direito",
+      "system": "Respiratório G3",
+      "description": "Ramo principal que conduz o ar ao pulmão direito."
+    },
+    {
+      "mesh": "diaphragm",
+      "name": "Diafragma",
+      "system": "Respiratório G3",
+      "description": "Estrutura muscular essencial à mecânica ventilatória, representada aqui de forma simplificada."
+    },
+    {
+      "mesh": "larynx_proxy",
+      "name": "Laringe — representação",
+      "system": "Respiratório G3",
+      "description": "Referência didática simplificada acima da traqueia."
+    },
+    {
+      "mesh": "left_lobar_bronchus_upper",
+      "name": "Brônquio lobar esquerdo — representação",
+      "system": "Respiratório G3",
+      "description": "Ramificação interna acrescentada no perfil G3."
+    },
+    {
+      "mesh": "right_lobar_bronchus_upper",
+      "name": "Brônquio lobar direito superior — representação",
+      "system": "Respiratório G3",
+      "description": "Ramificação interna acrescentada no perfil G3."
+    },
+    {
+      "mesh": "right_alveolar_cluster_proxy_1",
+      "name": "Conjunto alveolar — representação",
+      "system": "Respiratório G3",
+      "description": "Marcador distal de alvéolos disponível no perfil G3 HIGH."
+    },
+    {
+      "mesh": "left_ureter",
+      "name": "Ureter esquerdo",
+      "system": "Urinário G3",
+      "description": "Conexão visual entre rim e bexiga."
+    },
+    {
+      "mesh": "right_ureter",
+      "name": "Ureter direito",
+      "system": "Urinário G3",
+      "description": "Conexão visual entre rim e bexiga."
+    },
+    {
+      "mesh": "left_renal_pelvis",
+      "name": "Pelve renal esquerda — representação",
+      "system": "Urinário G3",
+      "description": "Região coletora interna simplificada."
+    },
+    {
+      "mesh": "left_renal_artery_proxy",
+      "name": "Artéria renal esquerda — representação",
+      "system": "Urinário G3",
+      "description": "Referência vascular G3."
+    },
+    {
+      "mesh": "left_renal_vein_proxy",
+      "name": "Veia renal esquerda — representação",
+      "system": "Urinário G3",
+      "description": "Referência vascular G3."
+    },
+    {
+      "mesh": "left_calyx_proxy_1",
+      "name": "Cálice renal — representação",
+      "system": "Urinário G3",
+      "description": "Marcador interno disponível no HIGH."
+    },
+    {
+      "mesh": "esophagus",
+      "name": "Esôfago",
+      "system": "Digestório G3",
+      "description": "Via representada entre região superior e estômago."
+    },
+    {
+      "mesh": "ascending_colon",
+      "name": "Cólon ascendente",
+      "system": "Digestório G3",
+      "description": "Segmento representado do intestino grosso."
+    },
+    {
+      "mesh": "transverse_colon",
+      "name": "Cólon transverso",
+      "system": "Digestório G3",
+      "description": "Segmento horizontal representado do intestino grosso."
+    },
+    {
+      "mesh": "pancreas",
+      "name": "Pâncreas",
+      "system": "Digestório G3",
+      "description": "Representação didática do pâncreas."
+    },
+    {
+      "mesh": "gallbladder_proxy",
+      "name": "Vesícula biliar — representação",
+      "system": "Digestório G3",
+      "description": "Referência didática junto ao fígado."
+    },
+    {
+      "mesh": "duodenum_proxy",
+      "name": "Duodeno — representação",
+      "system": "Digestório G3",
+      "description": "Primeiro segmento intestinal representado."
+    },
+    {
+      "mesh": "sigmoid_colon_proxy",
+      "name": "Cólon sigmoide — representação",
+      "system": "Digestório G3",
+      "description": "Segmento distal simplificado."
+    },
+    {
+      "mesh": "appendix_proxy",
+      "name": "Apêndice — representação",
+      "system": "Digestório G3",
+      "description": "Marcador disponível no HIGH."
+    },
+    {
+      "mesh": "cerebellum",
+      "name": "Cerebelo",
+      "system": "Nervoso G3",
+      "description": "Estrutura representada para orientação espacial."
+    },
+    {
+      "mesh": "spinal_cord",
+      "name": "Medula espinal",
+      "system": "Nervoso G3",
+      "description": "Eixo central representado do sistema nervoso."
+    },
+    {
+      "mesh": "left_brachial_nerve",
+      "name": "Nervo periférico superior",
+      "system": "Nervoso G3",
+      "description": "Ramo periférico visual no membro superior."
+    },
+    {
+      "mesh": "left_sciatic_nerve",
+      "name": "Nervo periférico inferior",
+      "system": "Nervoso G3",
+      "description": "Ramo periférico visual no membro inferior."
+    },
+    {
+      "mesh": "left_cerebral_hemisphere",
+      "name": "Hemisfério cerebral esquerdo",
+      "system": "Nervoso G3",
+      "description": "Representação separada para comparação visual."
+    },
+    {
+      "mesh": "right_cerebral_hemisphere",
+      "name": "Hemisfério cerebral direito",
+      "system": "Nervoso G3",
+      "description": "Representação separada para comparação visual."
+    },
+    {
+      "mesh": "brainstem_proxy",
+      "name": "Tronco encefálico — representação",
+      "system": "Nervoso G3",
+      "description": "Eixo entre encéfalo e medula."
+    },
+    {
+      "mesh": "left_frontal_lobe_proxy",
+      "name": "Lobo frontal — representação",
+      "system": "Nervoso G3",
+      "description": "Marcador regional disponível no HIGH."
+    },
+    {
+      "mesh": "pituitary_proxy",
+      "name": "Hipófise — representação",
+      "system": "Endócrino G3",
+      "description": "Marcador didático aproximado da hipófise."
+    },
+    {
+      "mesh": "thyroid_left",
+      "name": "Tireoide — lobo esquerdo",
+      "system": "Endócrino G3",
+      "description": "Representação esquemática de um lobo da tireoide."
+    },
+    {
+      "mesh": "left_adrenal",
+      "name": "Adrenal esquerda",
+      "system": "Endócrino G3",
+      "description": "Glândula representada sobre a região renal."
+    },
+    {
+      "mesh": "right_adrenal",
+      "name": "Adrenal direita",
+      "system": "Endócrino G3",
+      "description": "Glândula representada sobre a região renal."
+    },
+    {
+      "mesh": "thymus_proxy",
+      "name": "Timo — representação",
+      "system": "Endócrino G3",
+      "description": "Estrutura G3 representada de forma didática e simplificada."
+    },
+    {
+      "mesh": "thoracic_duct_proxy",
+      "name": "Ducto torácico — representação",
+      "system": "Linfático G3",
+      "description": "Eixo linfático central simplificado."
+    },
+    {
+      "mesh": "cervical_node_1",
+      "name": "Linfonodos cervicais",
+      "system": "Linfático G3",
+      "description": "Exemplo de cadeia de linfonodos na região cervical."
+    },
+    {
+      "mesh": "axillary_left_node_1",
+      "name": "Linfonodos axilares",
+      "system": "Linfático G3",
+      "description": "Exemplo de cadeia linfonodal axilar."
+    },
+    {
+      "mesh": "inguinal_left_node_1",
+      "name": "Linfonodos inguinais",
+      "system": "Linfático G3",
+      "description": "Exemplo de cadeia linfonodal inguinal."
+    },
+    {
+      "mesh": "left_pectoralis",
+      "name": "Peitoral esquerdo",
+      "system": "Muscular G3",
+      "description": "Massa muscular anterior representada de forma simplificada."
+    },
+    {
+      "mesh": "left_deltoid",
+      "name": "Deltoide esquerdo",
+      "system": "Muscular G3",
+      "description": "Representação esquemática da região do ombro."
+    },
+    {
+      "mesh": "left_biceps",
+      "name": "Bíceps esquerdo",
+      "system": "Muscular G3",
+      "description": "Grupo muscular anterior do braço representado didaticamente."
+    },
+    {
+      "mesh": "left_quadriceps",
+      "name": "Quadríceps esquerdo",
+      "system": "Muscular G3",
+      "description": "Grupo muscular anterior da coxa em representação simplificada."
+    },
+    {
+      "mesh": "left_calf",
+      "name": "Panturrilha esquerda",
+      "system": "Muscular G3",
+      "description": "Representação visual dos músculos posteriores da perna."
+    },
+    {
+      "mesh": "rectus_abdominis_proxy",
+      "name": "Região abdominal",
+      "system": "Muscular G3",
+      "description": "Marcador didático da musculatura anterior do abdome."
+    },
+    {
+      "mesh": "left_triceps_proxy",
+      "name": "Tríceps esquerdo — representação",
+      "system": "Muscular G3",
+      "description": "Grupo muscular posterior do braço."
+    },
+    {
+      "mesh": "left_achilles_tendon_proxy",
+      "name": "Tendão calcâneo — representação",
+      "system": "Muscular G3",
+      "description": "Referência tendínea G3."
+    },
+    {
+      "mesh": "left_pectoral_fascia_proxy",
+      "name": "Fáscia peitoral — representação",
+      "system": "Muscular G3",
+      "description": "Overlay superficial disponível no HIGH."
+    },
+    {
+      "mesh": "uterus",
+      "name": "Útero",
+      "system": "Reprodutor feminino G3",
+      "description": "Representação esquemática do útero."
+    },
+    {
+      "mesh": "left_ovary",
+      "name": "Ovário esquerdo",
+      "system": "Reprodutor feminino G3",
+      "description": "Representação didática do ovário."
+    },
+    {
+      "mesh": "left_fallopian_tube",
+      "name": "Tuba uterina esquerda",
+      "system": "Reprodutor feminino G3",
+      "description": "Estrutura tubular representada de forma simplificada."
+    },
+    {
+      "mesh": "cervix_vaginal_canal_proxy",
+      "name": "Região cervical/canal — representação",
+      "system": "Reprodutor feminino G3",
+      "description": "Marcador anatômico simplificado."
+    },
+    {
+      "mesh": "endometrium_proxy",
+      "name": "Endométrio — representação",
+      "system": "Reprodutor feminino G3",
+      "description": "Camada interna didática visível nos perfis G3 superiores."
+    },
+    {
+      "mesh": "myometrium_proxy",
+      "name": "Miométrio — representação",
+      "system": "Reprodutor feminino G3",
+      "description": "Camada muscular uterina simplificada para comparação visual."
+    },
+    {
+      "mesh": "left_round_ligament_proxy",
+      "name": "Ligamento redondo — representação",
+      "system": "Reprodutor feminino G3",
+      "description": "Referência de sustentação disponível nos perfis superiores."
+    },
+    {
+      "mesh": "left_fimbria_proxy_1",
+      "name": "Fímbrias — representação",
+      "system": "Reprodutor feminino G3",
+      "description": "Marcadores didáticos adicionais no perfil HIGH."
+    },
+    {
+      "mesh": "prostate_proxy",
+      "name": "Próstata — representação",
+      "system": "Reprodutor masculino G3",
+      "description": "Marcador didático da próstata."
+    },
+    {
+      "mesh": "left_testis",
+      "name": "Testículo esquerdo",
+      "system": "Reprodutor masculino G3",
+      "description": "Representação anatômica simplificada."
+    },
+    {
+      "mesh": "left_vas_deferens_proxy",
+      "name": "Ducto deferente — representação",
+      "system": "Reprodutor masculino G3",
+      "description": "Percurso tubular didático."
+    },
+    {
+      "mesh": "left_seminal_vesicle_proxy",
+      "name": "Vesícula seminal — representação",
+      "system": "Reprodutor masculino G3",
+      "description": "Marcador visual simplificado."
+    },
+    {
+      "mesh": "left_epididymis_proxy",
+      "name": "Epidídimo — representação",
+      "system": "Reprodutor masculino G3",
+      "description": "Estrutura didática adicional nos perfis superiores."
+    },
+    {
+      "mesh": "urethral_path_proxy",
+      "name": "Trajeto uretral — representação",
+      "system": "Reprodutor masculino G3",
+      "description": "Percurso simplificado para orientação espacial."
+    },
+    {
+      "mesh": "erectile_tissue_proxy",
+      "name": "Tecido erétil — representação",
+      "system": "Reprodutor masculino G3",
+      "description": "Referência anatômica interna simplificada disponível no HIGH."
+    }
+  ]
+}
