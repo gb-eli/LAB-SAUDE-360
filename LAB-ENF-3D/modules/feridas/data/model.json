@@ -1,0 +1,10 @@
+{
+  "id": "wound-samples",
+  "variants": {
+    "eco": "./assets/models/wounds-g3/wound-samples-low.glb",
+    "medium": "./assets/models/wounds-g3/wound-samples-medium.glb",
+    "high": "./assets/models/wounds-g3/wound-samples-high.glb",
+    "ultra": "./assets/models/wounds-g3/wound-samples-high.glb"
+  },
+  "generation": "G3"
+}

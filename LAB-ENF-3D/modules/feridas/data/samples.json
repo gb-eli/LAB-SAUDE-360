@@ -1,0 +1,44 @@
+{
+  "samples": [
+    {
+      "mesh": "visual_change_1",
+      "name": "Amostra A",
+      "description": "Alteração superficial de cor, com superfície visualmente contínua.",
+      "features": [
+        "cor alterada",
+        "superfície contínua",
+        "sem profundidade aparente"
+      ]
+    },
+    {
+      "mesh": "visual_change_2",
+      "name": "Amostra B",
+      "description": "Descontinuidade superficial estilizada para comparação visual.",
+      "features": [
+        "abertura superficial",
+        "bordas visíveis",
+        "profundidade aparente baixa"
+      ]
+    },
+    {
+      "mesh": "visual_change_3",
+      "name": "Amostra C",
+      "description": "Representação didática com maior profundidade visual relativa.",
+      "features": [
+        "abertura visível",
+        "profundidade aparente maior",
+        "camadas de referência"
+      ]
+    },
+    {
+      "mesh": "visual_change_4",
+      "name": "Amostra D",
+      "description": "Superfície seca/crostosa estilizada para comparação de textura.",
+      "features": [
+        "textura seca",
+        "superfície irregular",
+        "coloração escurecida"
+      ]
+    }
+  ]
+}
